@@ -1,0 +1,11 @@
+services:
+  docusaurus:
+    build: .
+    tty: true
+    stdin_open: true
+    ports:
+      - "3003:3003"
+    volumes:
+      - ./programming_navi:/app
+    working_dir: /app
+    command: yarn start --host 0.0.0.0 --port 3003
