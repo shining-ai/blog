@@ -59,10 +59,10 @@ const config: Config = {
       },
       // メニューバー
       items: [
-        { to: '/docs/intro', label: '基礎', position: 'left', },
+        // { to: '/docs/intro', label: '基礎', position: 'left', },
         { to: '/docs/data-structure', label: 'データ構造', position: 'left', },
-        { to: '/docs/advanced', label: 'アルゴリズム', position: 'left', },
-        { to: '/docs/advanced', label: '環境構築', position: 'left', },
+        // { to: '/docs/advanced', label: 'アルゴリズム', position: 'left', },
+        // { to: '/docs/advanced', label: '環境構築', position: 'left', },
       ],
     },
     footer: {
