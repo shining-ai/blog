@@ -1,0 +1,9 @@
+{
+  "label": "データ構造",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "データ構造は、データを整理して保存する方法を提供します。",
+    "slug": "/data-structure"
+  }
+}
