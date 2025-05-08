@@ -3,7 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "データ構造は、データを整理して保存する方法を提供します。",
-    "slug": "/data-structure"
+    "description": "データ構造は、データを整理して効率的に扱い事ができます。"
   }
 }
