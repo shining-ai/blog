@@ -1,5 +1,5 @@
 services:
-  docusaurus:
+  programming_navi:
     build: .
     tty: true
     stdin_open: true
@@ -9,3 +9,14 @@ services:
       - ./programming_navi:/app
     working_dir: /app
     command: yarn start --host 0.0.0.0 --port 3003
+
+  computer_navi:
+    build: .
+    tty: true
+    stdin_open: true
+    ports:
+      - "3004:3004"
+    volumes:
+      - ./computer_navi:/app
+    working_dir: /app
+    command: yarn start --host 0.0.0.0 --port 3004
