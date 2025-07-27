@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-font-family-base: 
+  --ifm-font-family-base:
     "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo",
     -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", sans-serif;
   --ifm-font-size-base: 18px;
@@ -17,23 +17,14 @@
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* --ifm-color-primary-lighter: #359962; */
+  /* --ifm-color-primary-lightest: #3cad6e; */
+  --ifm-color-primary-lighter: #bde4fc;
+  --ifm-color-primary-lightest: #f3faff;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-color-primary-contrast: #ffffff;
 }
-
-.markdown h2 {
-  font-size: 1.375rem;
-  background-color: var(--ifm-color-primary);
-  color: var(--ifm-color-primary-contrast);
-  padding: 1rem 1rem;
-  margin-top: 3em;
-  margin-bottom: 1em;
-}
-
-
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
@@ -48,6 +39,113 @@
   --ifm-color-primary-contrast: #333333;
 }
 
+.markdown h2 {
+  font-size: 1.375rem;
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-contrast);
+  padding: 1rem 1rem;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+/* > を使ったときの表示 */
+.markdown blockquote {
+  background-color: var(--ifm-color-primary-lightest);
+  padding: 0.8em 1em;
+  margin: 1.5em 0;
+}
+
+/* unordered list (ul) 用のスタイル */
+.markdown ul {
+  background-color: var(--ifm-color-primary-lightest);
+  border: 1px solid var(--ifm-color-primary-lighter);
+  border-radius: 6px;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+}
+
+/* ordered list (ol) にも同じスタイルを適用 */
+.markdown ol {
+  background-color: var(--ifm-color-primary-lightest);
+  border: 1px solid var(--ifm-color-primary-lighter);
+  border-radius: 6px;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+}
+
+.markdown img {
+  border: 1px solid #ccc;      /* 薄い灰色の枠 */
+  border-radius: 4px;          /* 任意：角丸 */
+  padding: 2px;                /* 任意：枠と画像の間に余白 */
+  background-color: white;     /* 任意：画像の背景色 */
+}
+
+/* 全コードブロックの背景をダーク風に強制する */
+.markdown pre {
+  background-color: #1e1e1e !important;
+  border-radius: 6px;
+  padding: 1em;
+  overflow-x: auto;
+}
+
+/* Prism の token クラス（すべて白に） */
+.markdown code span.token {
+  color: #ffffff !important;
+}
+
+
+/* Prism token の代表的な色設定（VSCode風） */
+.markdown code span.token.comment {
+  color: #6a9955 !important;
+  font-style: italic;
+}
+
+.markdown code span.token.keyword {
+  color: #c586c0 !important;
+}
+
+.markdown code span.token.string {
+  color: #ce9178 !important;
+}
+
+.markdown code span.token.function {
+  color: #dcdcaa !important;
+}
+
+.markdown code span.token.number {
+  color: #b5cea8 !important;
+}
+
+.markdown code span.token.operator {
+  color: #d4d4d4 !important;
+}
+
+
+.markdown table {
+  display: table;
+  width: 100% !important;
+  table-layout: auto;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+/* 親が縮めようとするのを防ぐ */
+.markdown {
+  overflow-x: auto;
+}
+
+/* 表のセルにスタイル */
+.markdown table th,
+.markdown table td {
+  border: 1px solid #ddd;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+
+
+
+
+
 article {
   font-size: 1rem;
   line-height: 2.0;
@@ -55,7 +153,9 @@ article {
 }
 
 /* 見出しの余白調整 */
-article h1, article h2, article h3 {
+article h1,
+article h2,
+article h3 {
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 1rem;
