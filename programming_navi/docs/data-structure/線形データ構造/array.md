@@ -24,15 +24,17 @@
 まとめると、配列には以下の特徴があります。
 
 - **同じデータ型**
-
+  
     配列に格納できる値は全て同じデータ型でなければなりません
     (整数、浮動小数点数、文字列など)。
+
 - **連続したメモリ領域**
     
     配列の要素は連続したメモリ上に格納されています。
     そのため、任意の要素にランダムアクセスが可能です。
 
 - **インデックスによるアクセス**
+  
     配列の各要素にはインデックス番号(通常は0から始まる)が割り当てられており、そのインデックスを指定して要素にアクセスします。
 
 
@@ -47,10 +49,9 @@
 | 要素の削除 | remove   | O(n)       |
 | ソート     | sort     | O(n log n) |
 
+<br/>
+配列では要素を追加する場合、追加したい場所以降の**要素をずらす**必要があります。
 
-:::caution
-配列では要素を追加する場合、追加したい場所以降の要素をずらす必要があります。
-:::
 
 ![](https://res.cloudinary.com/dtilrevrm/image/upload/%E9%85%8D%E5%88%97%E3%81%B8%E3%81%AE%E8%A6%81%E7%B4%A0%E3%81%AE%E8%BF%BD%E5%8A%A0_on0nkx.jpg)
 
@@ -60,7 +61,7 @@
 listオブジェクトは配列と似たもので、要素の型が異なっていても格納できるなど、より高機能になっています。
 
 
-``` python title="list"
+``` python title="listの使用例"
 mylist = ["apple", "orange"] 
 mylist.append("banana") 
 mylist.insert(0, "grape")
@@ -70,7 +71,7 @@ print(mylist)  # ['grape', 'apple', 'orange', 'banana']
 
 <br/>
 同じ型のみを格納したい場合は、標準で**arrayモジュール**をimportして使うこともできます。
-``` python title="array"
+``` python title="arrayの使用例"
 import array
 
 myarray = array.array('i', [1, 2, 3]) 
@@ -80,7 +81,10 @@ print(myarray)
 ```
 
 ## 参考文献
-1. [競技プログラミングの鉄則](https://af.moshimo.com/af/c/click?a_id=1001869&p_id=170&pc_id=185&pl_id=4062&url=https%3A%2F%2Fwww.amazon.co.jp%2Fdp%2F483997750X)
-2. [5.データ構造 — Python 3.12.3 ドキュメント](https://docs.python.org/ja/3/tutorial/datastructures.html)
-3. [array --- Efficient arrays of numeric values — Python 3.12.3 ドキュメント](https://docs.python.org/ja/3/library/array.html)
-4. [TimeComplexity - Python Wiki](https://wiki.python.org/moin/TimeComplexity)
+[競技プログラミングの鉄則](https://af.moshimo.com/af/c/click?a_id=1001869&p_id=170&pc_id=185&pl_id=4062&url=https%3A%2F%2Fwww.amazon.co.jp%2Fdp%2F483997750X)
+
+[5.データ構造 — Python 3.12.3 ドキュメント](https://docs.python.org/ja/3/tutorial/datastructures.html)
+
+[array --- Efficient arrays of numeric values — Python 3.12.3 ドキュメント](https://docs.python.org/ja/3/library/array.html)
+
+[TimeComplexity - Python Wiki](https://wiki.python.org/moin/TimeComplexity)
