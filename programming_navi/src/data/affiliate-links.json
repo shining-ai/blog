@@ -1,0 +1,30 @@
+{
+    "tessoku": {
+        "title": "競技プログラミングの鉄則",
+        "urlAmazon": "https://www.amazon.co.jp/dp/483997750X?tag=maftracking178691-22&linkCode=ure&creative=6339",
+        "urlRakuten": "https://product.rakuten.co.jp/product/-/7b3e9c932c9efe8cbbb765ce10808f45/",
+        "urlYahoo": "https://shopping.yahoo.co.jp/search?p=%E7%AB%B6%E6%8A%80%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%81%AE%E9%89%84%E5%89%87",
+        "image": "https://m.media-amazon.com/images/I/61aXZjSfgLL._SL1165_.jpg"
+    },
+    "antbook": {
+        "title": "蟻本",
+        "urlAmazon": "https://www.amazon.co.jp/dp/4839941068?tag=maftracking178691-22&linkCode=ure&creative=6339",
+        "urlRakuten": "https://product.rakuten.co.jp/product/-/037b8aa1d09c7eea4ec0548e33d91ece/?scid=af_pc_etc&sc2id=af_103_0_10000645",
+        "urlYahoo": "https://shopping.yahoo.co.jp/search?p=%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8&sc_e=afvc_shp_2749380",
+        "image": "https://m.media-amazon.com/images/I/41bHxtpurqL.jpg"
+    },
+    "rasen": {
+        "title": "プログラミングコンテスト攻略のためのアルゴリズムとデータ構造",
+        "urlAmazon": "https://www.amazon.co.jp/dp/4839952957?tag=maftracking178691-22&linkCode=ure&creative=6339",
+        "urlRakuten": "https://product.rakuten.co.jp/product/-/2d2ba5f490e7bf51db2a7031ade66a0f/?scid=af_pc_etc&sc2id=af_103_0_10000645",
+        "urlYahoo": "https://shopping.yahoo.co.jp/search?p=%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88&sc_e=afvc_shp_2749380",
+        "image": "https://m.media-amazon.com/images/I/71p2o8tHthL._SL1000_.jpg"
+    },
+    "algorithm-zukan": {
+        "title": "アルゴリズム図鑑",
+        "urlAmazon": "https://www.amazon.co.jp/dp/4798149772?tag=maftracking178691-22&linkCode=ure&creative=6339",
+        "urlRakuten": "https://product.rakuten.co.jp/product/-/c03266e546e4de4795a946456706be4f/?scid=af_pc_etc&sc2id=af_103_0_10000645",
+        "urlYahoo": "https://shopping.yahoo.co.jp/search?p=%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E5%9B%B3%E9%91%91&sc_e=afvc_shp_2749380",
+        "image": "https://m.media-amazon.com/images/I/91l+X56-VWL._SL1500_.jpg"
+    }
+}
