@@ -1,3 +1,5 @@
+import AffiliateBanner from '@site/src/components/AffiliateBanner';
+
 # 配列(Array)
 
 ## 配列 (Array)とは
@@ -81,7 +83,7 @@ print(myarray)
 ```
 
 ## 参考文献
-[競技プログラミングの鉄則](https://af.moshimo.com/af/c/click?a_id=1001869&p_id=170&pc_id=185&pl_id=4062&url=https%3A%2F%2Fwww.amazon.co.jp%2Fdp%2F483997750X)
+<AffiliateBanner site="tessoku" />
 
 [5.データ構造 — Python 3.12.3 ドキュメント](https://docs.python.org/ja/3/tutorial/datastructures.html)
 
