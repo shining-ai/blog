@@ -122,11 +122,14 @@
 
 
 .markdown table {
-  display: table;
+  /* display: table; */
+  display: block;
   width: 100% !important;
   table-layout: auto;
   border-collapse: collapse;
   white-space: nowrap;
+  /* white-space: pre; */
+  overflow-x: auto;
 }
 
 /* 親が縮めようとするのを防ぐ */
