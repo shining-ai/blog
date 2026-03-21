@@ -74,7 +74,7 @@ myarray.append(4)
 myarray.insert(0, 0) 
 print(myarray)
 
-```
+
 ## 参考文献
 <AffiliateBanner site="tessoku" />
 
@@ -83,4 +83,3 @@ print(myarray)
 [array --- Efficient arrays of numeric values — Python 3.12.3 ドキュメント](https://docs.python.org/ja/3/library/array.html)
 
 [TimeComplexity - Python Wiki](https://wiki.python.org/moin/TimeComplexity)
-```
