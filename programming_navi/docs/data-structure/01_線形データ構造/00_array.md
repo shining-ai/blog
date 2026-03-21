@@ -1,6 +1,7 @@
+---
+title: 配列(Array)
+---
 import AffiliateBanner from '@site/src/components/AffiliateBanner';
-
-# 配列(Array)
 
 ## 配列 (Array)とは
 
@@ -10,60 +11,54 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
 です。<br/><br/>
 
-
 配列には同じ型の複数のデータを入れ、添え字でアクセスします。
 
 ![配列の概要](https://res.cloudinary.com/dtilrevrm/image/upload/v1753353745/%E9%85%8D%E5%88%97%E3%81%AE%E6%A6%82%E8%A6%81_gwaega.jpg)
-<br/><br/>
 
+<br/><br/>
 
 配列のデータはメモリ上の連続した領域に格納されます。
 
 そのため、メモリのアドレスは添え字を使って計算でき、各データにランダムアクセスすることができます。<br/><br/>
 
-
-
 まとめると、配列には以下の特徴があります。
 
-- **同じデータ型**
-  
+* **同じデータ型**
+
     配列に格納できる値は全て同じデータ型でなければなりません
     (整数、浮動小数点数、文字列など)。
+* **連続したメモリ領域**
 
-- **連続したメモリ領域**
-    
     配列の要素は連続したメモリ上に格納されています。
     そのため、任意の要素にランダムアクセスが可能です。
+* **インデックスによるアクセス**
 
-- **インデックスによるアクセス**
-  
     配列の各要素にはインデックス番号(通常は0から始まる)が割り当てられており、そのインデックスを指定して要素にアクセスします。
 
-
 ## 配列 (Array)の計算量
+
 配列(Array)における各操作の計算量は以下のようになります。
 
-| 操作       | 記述方法 | 計算量     |
-| ---------- | -------- | ---------- |
-| 要素の参照 | list[k]  | O(1)       |
+| 操作    | 記述方法     | 計算量        |
+| ----- | -------- | ---------- |
+| 要素の参照 | list\[k] | O(1)       |
 | 先頭に追加 | insert   | O(n)       |
 | 末尾に追加 | append   | O(1)       |
 | 要素の削除 | remove   | O(n)       |
-| ソート     | sort     | O(n log n) |
+| ソート   | sort     | O(n log n) |
 
 <br/>
-配列では要素を追加する場合、追加したい場所以降の**要素をずらす**必要があります。
-
+配列では要素を追加する場合、追加したい場所以降の\*\*要素をずらす\*\*必要があります。
 
 ![](https://res.cloudinary.com/dtilrevrm/image/upload/%E9%85%8D%E5%88%97%E3%81%B8%E3%81%AE%E8%A6%81%E7%B4%A0%E3%81%AE%E8%BF%BD%E5%8A%A0_on0nkx.jpg)
 
 ## 実装方法
+
 正確には配列とは異なりますが、pythonではListを使うことが一般的なためそちらの実装方法を記載しておきます。
 
 listオブジェクトは配列と似たもので、要素の型が異なっていても格納できるなど、より高機能になっています。
 
-
-``` python title="listの使用例"
+```python
 mylist = ["apple", "orange"] 
 mylist.append("banana") 
 mylist.insert(0, "grape")
@@ -72,16 +67,16 @@ print(mylist)  # ['grape', 'apple', 'orange', 'banana']
 ```
 
 <br/>
-同じ型のみを格納したい場合は、標準で**arrayモジュール**をimportして使うこともできます。
-``` python title="arrayの使用例"
+同じ型のみを格納したい場合は、標準で\*\*arrayモジュール\*\*をimportして使うこともできます。
+\`\`` python title="arrayの使用例"
 import array
 
-myarray = array.array('i', [1, 2, 3]) 
+myarray = array.array('i', \[1, 2, 3]) 
 myarray.append(4) 
 myarray.insert(0, 0) 
 print(myarray)
-```
 
+```
 ## 参考文献
 <AffiliateBanner site="tessoku" />
 
@@ -90,3 +85,4 @@ print(myarray)
 [array --- Efficient arrays of numeric values — Python 3.12.3 ドキュメント](https://docs.python.org/ja/3/library/array.html)
 
 [TimeComplexity - Python Wiki](https://wiki.python.org/moin/TimeComplexity)
+```
