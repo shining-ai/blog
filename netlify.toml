@@ -1,0 +1,4 @@
+[build]
+  base    = "programming_navi"
+  command = "yarn build"
+  publish = "build"

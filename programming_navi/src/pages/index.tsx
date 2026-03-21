@@ -1,4 +1,5 @@
 import type {ReactNode} from 'react';
+import {useEffect} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -31,6 +32,19 @@ function HomepageHeader() {
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
+
+  useEffect(() => {
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', user => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    }
+  }, []);
+
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}

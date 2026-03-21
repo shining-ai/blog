@@ -1,0 +1,47 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: static/img
+public_folder: /img
+
+locale: ja
+
+collections:
+  - name: data-structure-linear
+    label: データ構造 / 線形データ構造
+    folder: programming_navi/docs/data-structure/01_線形データ構造
+    create: true
+    fields:
+      - { label: タイトル, name: title, widget: string }
+      - { label: 表示順, name: sidebar_position, widget: number, required: false }
+      - { label: 本文, name: body, widget: markdown }
+
+  - name: data-structure-tree
+    label: データ構造 / ツリー構造
+    folder: programming_navi/docs/data-structure/ツリー構造
+    create: true
+    fields:
+      - { label: タイトル, name: title, widget: string }
+      - { label: 表示順, name: sidebar_position, widget: number, required: false }
+      - { label: 本文, name: body, widget: markdown }
+
+  - name: algorithm
+    label: アルゴリズム
+    folder: programming_navi/docs/algorithm
+    create: true
+    filter: { field: displayed_sidebar, value: null }
+    fields:
+      - { label: タイトル, name: title, widget: string }
+      - { label: 表示順, name: sidebar_position, widget: number, required: false }
+      - { label: 本文, name: body, widget: markdown }
+
+  - name: books
+    label: 書籍
+    folder: programming_navi/docs/books
+    create: true
+    filter: { field: displayed_sidebar, value: null }
+    fields:
+      - { label: タイトル, name: title, widget: string }
+      - { label: 表示順, name: sidebar_position, widget: number, required: false }
+      - { label: 本文, name: body, widget: markdown }
