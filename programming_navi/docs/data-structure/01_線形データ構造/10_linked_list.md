@@ -1,7 +1,6 @@
-import AffiliateBanner from '@site/src/components/AffiliateBanner';
-
-# 連結リスト（Linked List）
-
+---
+title: 連結リスト（Linked List）
+---
 ## 連結リスト（Linked List）とは
 
 連結リスト（Linked List）とは、
