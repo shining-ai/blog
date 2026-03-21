@@ -1,8 +1,6 @@
 ---
 title: 配列(Array)
 ---
-import AffiliateBanner from '@site/src/components/AffiliateBanner';
-
 ## 配列 (Array)とは
 
 配列 (Array)とは、
@@ -48,7 +46,7 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 | ソート   | sort     | O(n log n) |
 
 <br/>
-配列では要素を追加する場合、追加したい場所以降の\*\*要素をずらす\*\*必要があります。
+配列では要素を追加する場合、追加したい場所以降の\\*\\*要素をずらす\\*\\*必要があります。
 
 ![](https://res.cloudinary.com/dtilrevrm/image/upload/%E9%85%8D%E5%88%97%E3%81%B8%E3%81%AE%E8%A6%81%E7%B4%A0%E3%81%AE%E8%BF%BD%E5%8A%A0_on0nkx.jpg)
 
@@ -67,8 +65,8 @@ print(mylist)  # ['grape', 'apple', 'orange', 'banana']
 ```
 
 <br/>
-同じ型のみを格納したい場合は、標準で\*\*arrayモジュール\*\*をimportして使うこともできます。
-\`\`` python title="arrayの使用例"
+同じ型のみを格納したい場合は、標準で\\*\\*arrayモジュール\\*\\*をimportして使うこともできます。
+\\`\\`` python title="arrayの使用例"
 import array
 
 myarray = array.array('i', \[1, 2, 3]) 
