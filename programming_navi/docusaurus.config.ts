@@ -60,9 +60,9 @@ const config: Config = {
       // メニューバー
       items: [
         // { to: '/docs/intro', label: '基礎', position: 'left', },
-        { to: '/docs/data-structure/intro', label: 'データ構造', position: 'left', },
-        { to: '/docs/algorithm/intro', label: 'アルゴリズム', position: 'left', },
-        { to: '/docs/books/intro', label: '書籍', position: 'left', },
+        { type: 'docSidebar', sidebarId: 'datastructureSidebar', label: 'データ構造', position: 'left' },
+        { type: 'docSidebar', sidebarId: 'algorithmSidebar', label: 'アルゴリズム', position: 'left' },
+        { type: 'docSidebar', sidebarId: 'booksmSidebar', label: '書籍', position: 'left' },
       ],
     },
     footer: {

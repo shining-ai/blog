@@ -1,13 +1,7 @@
-FROM node:18
+FROM node:20
 
 WORKDIR /app
 
-RUN corepack enable
-
-# プロジェクトを作成
-RUN corepack enable
-RUN yarn create docusaurus my-website classic --typescript
-
-WORKDIR /app/my-website
+RUN corepack enable && corepack prepare yarn@1.22.22 --activate
 
 CMD ["/bin/bash"]

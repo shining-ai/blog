@@ -149,6 +149,10 @@
 
 
 
+.sidebar-category-hidden-header > .menu__list-item-collapsible {
+  display: none;
+}
+
 article {
   font-size: 1rem;
   line-height: 2.0;
