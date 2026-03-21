@@ -30,6 +30,13 @@ const config: Config = {
     locales: ['en'],
   },
 
+  scripts: [
+    {
+      src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
+      defer: true,
+    },
+  ],
+
   presets: [
     [
       'classic',
