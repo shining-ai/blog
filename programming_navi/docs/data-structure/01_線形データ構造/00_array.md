@@ -1,6 +1,7 @@
 ---
 title: 配列(Array)
 ---
+
 ## 配列 (Array)とは
 
 配列 (Array)とは、
