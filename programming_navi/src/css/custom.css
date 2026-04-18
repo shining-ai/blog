@@ -11,51 +11,119 @@
     -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", sans-serif;
   --ifm-font-size-base: 18px;
   --ifm-line-height-base: 1.8;
-  /* --ifm-color-primary: #2e8555; */
+
+  /* ブルーテーマのカラーパレット（統一） */
   --ifm-color-primary: #013CA6;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  /* --ifm-color-primary-lighter: #359962; */
-  /* --ifm-color-primary-lightest: #3cad6e; */
-  --ifm-color-primary-lighter: #bde4fc;
-  --ifm-color-primary-lightest: #f3faff;
+  --ifm-color-primary-dark: #012E8A;
+  --ifm-color-primary-darker: #022777;
+  --ifm-color-primary-darkest: #01195C;
+  --ifm-color-primary-light: #1A52C0;
+  --ifm-color-primary-lighter: #C8DCF9;
+  --ifm-color-primary-lightest: #EBF2FF;
+
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(1, 60, 166, 0.08);
   --ifm-color-primary-contrast: #ffffff;
+
+  /* ページ全体の背景 */
+  --ifm-background-color: #FAFBFF;
+
+  /* リンクの色 */
+  --ifm-link-color: #0146C2;
+  --ifm-link-hover-color: #013CA6;
+
+  /* ナビバー */
+  --ifm-navbar-background-color: #013CA6;
+  --ifm-navbar-link-color: rgba(255, 255, 255, 0.9);
+  --ifm-navbar-link-hover-color: #ffffff;
+
+  /* サイドバー */
+  --ifm-menu-color-active: #013CA6;
+
+  /* カード・ボーダー */
+  --custom-card-border: #C8DCF9;
+  --custom-card-shadow: 0 2px 8px rgba(1, 60, 166, 0.08);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #4DA6FF;
+  --ifm-color-primary-dark: #2E96FF;
+  --ifm-color-primary-darker: #1A8BFF;
+  --ifm-color-primary-darkest: #006FE6;
+  --ifm-color-primary-light: #70BAFF;
+  --ifm-color-primary-lighter: #3D7FBB;
+  --ifm-color-primary-lightest: #1A3A5C;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-color-primary-contrast: #333333;
+  --ifm-color-primary-contrast: #1a1a2e;
+  --ifm-background-color: #0f1117;
 }
 
+/* ============================
+   ナビバー
+   ============================ */
+.navbar {
+  box-shadow: 0 2px 8px rgba(1, 60, 166, 0.2);
+}
+
+.navbar__title {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* ============================
+   ヒーローバナー（トップページ）
+   ============================ */
+.hero--primary {
+  background: linear-gradient(135deg, #013CA6 0%, #0146C2 60%, #1A52C0 100%);
+}
+
+/* ============================
+   見出し
+   ============================ */
 .markdown h2 {
   font-size: 1.375rem;
   background-color: var(--ifm-color-primary);
   color: var(--ifm-color-primary-contrast);
-  padding: 1rem 1rem;
+  padding: 0.7rem 1rem;
   margin-top: 3em;
   margin-bottom: 1em;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
 }
 
-/* > を使ったときの表示 */
+.markdown h3 {
+  font-size: 1.125rem;
+  border-left: 4px solid var(--ifm-color-primary);
+  padding-left: 0.75rem;
+  margin-top: 2.5em;
+  margin-bottom: 0.75em;
+  color: var(--ifm-color-primary-dark);
+}
+
+.markdown h4 {
+  font-size: 1rem;
+  border-bottom: 1px solid var(--ifm-color-primary-lighter);
+  padding-bottom: 0.3em;
+  margin-top: 2em;
+  color: var(--ifm-color-primary-darker);
+}
+
+/* ============================
+   引用（blockquote）
+   ============================ */
 .markdown blockquote {
   background-color: var(--ifm-color-primary-lightest);
-  padding: 0.8em 1em;
+  border-left: 4px solid var(--ifm-color-primary-light);
+  border-radius: 0 6px 6px 0;
+  padding: 0.8em 1.2em;
   margin: 1.5em 0;
+  color: var(--ifm-color-primary-darker);
 }
 
-/* unordered list (ul) 用のスタイル */
+/* ============================
+   リスト
+   ============================ */
 .markdown ul {
   background-color: var(--ifm-color-primary-lightest);
   border: 1px solid var(--ifm-color-primary-lighter);
@@ -64,7 +132,6 @@
   margin: 1.5em 0;
 }
 
-/* ordered list (ol) にも同じスタイルを適用 */
 .markdown ol {
   background-color: var(--ifm-color-primary-lightest);
   border: 1px solid var(--ifm-color-primary-lighter);
@@ -73,28 +140,33 @@
   margin: 1.5em 0;
 }
 
+/* ============================
+   画像
+   ============================ */
 .markdown img {
-  border: 1px solid #ccc;      /* 薄い灰色の枠 */
-  border-radius: 4px;          /* 任意：角丸 */
-  padding: 2px;                /* 任意：枠と画像の間に余白 */
-  background-color: white;     /* 任意：画像の背景色 */
+  border: 1px solid #ccd6f0;
+  border-radius: 6px;
+  padding: 2px;
+  background-color: white;
+  box-shadow: var(--custom-card-shadow);
 }
 
-/* 全コードブロックの背景をダーク風に強制する */
+/* ============================
+   コードブロック
+   ============================ */
 .markdown pre {
   background-color: #1e1e1e !important;
   border-radius: 6px;
   padding: 1em;
   overflow-x: auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
-/* Prism の token クラス（すべて白に） */
+/* Prism token の代表的な色設定（VSCode風） */
 .markdown code span.token {
   color: #ffffff !important;
 }
 
-
-/* Prism token の代表的な色設定（VSCode風） */
 .markdown code span.token.comment {
   color: #6a9955 !important;
   font-style: italic;
@@ -120,35 +192,110 @@
   color: #d4d4d4 !important;
 }
 
-
+/* ============================
+   テーブル
+   ============================ */
 .markdown table {
-  /* display: table; */
   display: block;
   width: 100% !important;
   table-layout: auto;
   border-collapse: collapse;
   white-space: nowrap;
-  /* white-space: pre; */
   overflow-x: auto;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: var(--custom-card-shadow);
+  margin: 1.5em 0;
 }
 
-/* 親が縮めようとするのを防ぐ */
 .markdown {
   overflow-x: auto;
 }
 
-/* 表のセルにスタイル */
-.markdown table th,
+.markdown table th {
+  background-color: var(--ifm-color-primary-lighter);
+  color: var(--ifm-color-primary-darkest);
+  border: 1px solid var(--custom-card-border);
+  padding: 0.6em 1em;
+  text-align: left;
+  font-weight: 600;
+}
+
 .markdown table td {
-  border: 1px solid #ddd;
+  border: 1px solid #dde8f8;
   padding: 0.5em 1em;
   text-align: left;
 }
 
+.markdown table tr:nth-child(even) td {
+  background-color: var(--ifm-color-primary-lightest);
+}
 
+.markdown table tr:hover td {
+  background-color: #dde8f8;
+  transition: background-color 0.15s ease;
+}
 
+/* ============================
+   サイドバー
+   ============================ */
+.menu__link--active {
+  font-weight: 600;
+  color: var(--ifm-color-primary) !important;
+  background-color: var(--ifm-color-primary-lightest) !important;
+}
 
+.menu__link:hover {
+  color: var(--ifm-color-primary);
+  background-color: var(--ifm-color-primary-lightest);
+}
 
+/* ============================
+   ドキュメントカード（カテゴリページ）
+   ============================ */
+.card {
+  border: 1px solid var(--custom-card-border);
+  border-radius: 8px;
+  box-shadow: var(--custom-card-shadow);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 20px rgba(1, 60, 166, 0.15);
+  transform: translateY(-2px);
+}
+
+/* ============================
+   パンくずリスト
+   ============================ */
+.breadcrumbs__link {
+  color: var(--ifm-color-primary-dark);
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--ifm-color-primary-darker);
+  font-weight: 600;
+}
+
+/* ============================
+   目次（TOC）
+   ============================ */
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* ============================
+   フッター
+   ============================ */
+.footer--dark {
+  background-color: #011A4A;
+}
+
+/* ============================
+   その他
+   ============================ */
 .sidebar-category-hidden-header > .menu__list-item-collapsible {
   display: none;
 }
@@ -159,7 +306,6 @@ article {
   color: var(--ifm-color-content);
 }
 
-/* 見出しの余白調整 */
 article h1,
 article h2,
 article h3 {
