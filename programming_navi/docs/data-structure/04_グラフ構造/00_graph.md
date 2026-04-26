@@ -11,6 +11,8 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 です。
 <br/>
 
+![グラフ構造](https://res.cloudinary.com/dtilrevrm/image/upload/v1777223576/%E3%82%B0%E3%83%A9%E3%83%95%E6%A7%8B%E9%80%A0_w9pkev.jpg)
+
 SNSの友人関係、地図の経路、Webページのリンク構造など、
 「関係性」や「つながり」を表現するあらゆる場面で使われます。
 
@@ -30,6 +32,8 @@ SNSの友人関係、地図の経路、Webページのリンク構造など、
 
 各頂点に、そこから到達できる頂点のリストを持たせる方法です。
 
+![隣接リスト](https://res.cloudinary.com/dtilrevrm/image/upload/v1777223577/%E9%9A%A3%E6%8E%A5%E3%83%AA%E3%82%B9%E3%83%88_dxjg58.jpg)
+
 ```python title="隣接リストの表現"
 # 頂点 0〜3 の無向グラフ
 graph = {
@@ -46,6 +50,9 @@ graph = {
 ### 隣接行列（Adjacency Matrix）
 
 n×n の行列で辺の有無（または重み）を表す方法です。
+
+![隣接行列](https://res.cloudinary.com/dtilrevrm/image/upload/v1777223577/%E9%9A%A3%E6%8E%A5%E8%A1%8C%E5%88%97_n6f6ty.jpg)
+
 
 ```python title="隣接行列の表現"
 # 同じグラフを行列で表現（0: 辺なし、1: 辺あり）
@@ -80,23 +87,6 @@ V: 頂点数、E: 辺数、degree: その頂点の次数
 | **BFS（幅優先探索）** | キューを使って近い頂点から探索 | 最短経路（重みなし） |
 | **DFS（深さ優先探索）** | スタックを使って深く探索 | 連結成分・トポロジカルソート |
 
-```python title="BFSの実装例"
-from collections import deque
-
-def bfs(graph, start):
-    visited = set()
-    queue = deque([start])
-    visited.add(start)
-    while queue:
-        v = queue.popleft()
-        print(v, end=" ")
-        for neighbor in graph[v]:
-            if neighbor not in visited:
-                visited.add(neighbor)
-                queue.append(neighbor)
-
-bfs(graph, 0)  # 0 1 2 3
-```
 
 ## 参考文献
 
