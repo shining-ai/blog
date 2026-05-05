@@ -103,11 +103,6 @@ print(bst.search(6))    # False
 print(bst.inorder())    # [2, 3, 4, 5, 7, 8, 9]（ソート済み）
 ```
 
-### 中順走査でソート済みリストが得られる
-
-BST の中順走査（左 → 根 → 右）は、常にソート済みの順序でノードを訪問します。
-これが BST の重要な性質のひとつです。
-
 ## 参考文献
 
 <AffiliateBanner site="tessoku" />
