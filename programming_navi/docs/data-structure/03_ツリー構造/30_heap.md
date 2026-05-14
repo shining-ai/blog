@@ -25,14 +25,6 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 | **最大ヒープ（Max Heap）** | 最大値 | 親 ≥ 子 |
 
 ![最小ヒープと最大ヒープ](https://res.cloudinary.com/dtilrevrm/image/upload/v1777945901/%E3%83%92%E3%83%BC%E3%83%97_%E6%9C%80%E5%B0%8F_%E6%9C%80%E5%A4%A7_vp9qr0.jpg)
-```
-最小ヒープの例:
-       1
-      / \
-     3   2
-    / \ / \
-   5  4 8  6
-```
 
 ## ヒープの操作
 ### 挿入(push)
