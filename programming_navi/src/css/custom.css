@@ -403,6 +403,11 @@ article.margin-top--md {
   background-color: #ffffff;
 }
 
+[data-theme='dark'] .pagination-nav__link {
+  background-color: #2f3136;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
 /* ============================
    ドキュメントカード（カテゴリページ）
    ============================ */
@@ -444,6 +449,10 @@ article.margin-top--md {
    ============================ */
 .footer--dark {
   background-color: #013CA6;
+}
+
+[data-theme='dark'] .footer--dark {
+  background-color: #2f3136;
 }
 
 /* ============================
