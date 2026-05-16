@@ -69,12 +69,18 @@ const config: Config = {
         // { to: '/docs/intro', label: '基礎', position: 'left', },
         { type: 'docSidebar', sidebarId: 'datastructureSidebar', label: 'データ構造', position: 'left' },
         { type: 'docSidebar', sidebarId: 'algorithmSidebar', label: 'アルゴリズム', position: 'left' },
+        { type: 'docSidebar', sidebarId: 'algorithmStrategySidebar', label: 'アルゴリズム戦略', position: 'left' },
         { type: 'docSidebar', sidebarId: 'booksmSidebar', label: '書籍', position: 'left' },
       ],
     },
     footer: {
       style: 'dark',
       copyright: `Copyright © 2023-${new Date().getFullYear()} プログラミングナビ All Right Reserved.`,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
     },
     prism: {
       theme: prismThemes.github,
