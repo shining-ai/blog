@@ -444,6 +444,13 @@ article.margin-top--md {
   font-weight: 600;
 }
 
+@media (min-width: 997px) {
+  /* TOC列をcol--2相当に縮小 */
+  .col.col--2:has(> .theme-doc-toc-desktop) {
+    --ifm-col-width: calc(2 / 12 * 100%);
+  }
+}
+
 /* ============================
    フッター
    ============================ */
