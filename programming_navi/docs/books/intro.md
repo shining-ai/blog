@@ -10,4 +10,5 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 <AffiliateBanner site="tessoku" />
 <AffiliateBanner site="antbook" />
 <AffiliateBanner site="rasen" />
-<AffiliateBanner site="algorithm-zukan" />
+<AffiliateBanner site="algorithm_zukan" />
+<AffiliateBanner site="algorithm_introduction" />

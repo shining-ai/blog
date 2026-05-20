@@ -184,6 +184,6 @@ print(table)
 
 ## 参考文献
 
-<AffiliateBanner site="algorithm-zukan" />
+<AffiliateBanner site="algorithm_zukan" />
 <AffiliateBanner site="rasen" />
 

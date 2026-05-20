@@ -151,6 +151,6 @@ B-treeの核となるアイデアは、
 
 ## 参考文献
 
-<AffiliateBanner site="algorithm-introduction" />
+<AffiliateBanner site="algorithm_introduction" />
 
 [SQLite B-Tree Implementation](https://www.sqlite.org/fileformat.html)

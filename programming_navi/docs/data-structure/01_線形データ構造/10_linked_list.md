@@ -126,4 +126,4 @@ while current:
 ## 参考文献
 <AffiliateBanner site="tessoku" />
 
-<AffiliateBanner site="algorithm-zukan" />
+<AffiliateBanner site="algorithm_zukan" />
