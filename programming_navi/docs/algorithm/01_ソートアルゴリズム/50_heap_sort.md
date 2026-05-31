@@ -123,4 +123,3 @@ Python の `heapq` は**最小ヒープ**のみ提供します。
 ## 参考文献
 
 <AffiliateBanner site="algorithm_zukan" />
-<AffiliateBanner site="rasen" />
