@@ -37,6 +37,8 @@ const config: Config = {
     },
   ],
 
+  plugins: ['docusaurus-plugin-image-zoom'],
+
   presets: [
     [
       'classic',
@@ -85,6 +87,13 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    zoom: {
+      selector: '.markdown img',
+      background: {
+        light: 'rgba(0, 0, 0, 0.7)',
+        dark: 'rgba(0, 0, 0, 0.85)',
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
