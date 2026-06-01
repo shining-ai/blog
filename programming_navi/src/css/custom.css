@@ -255,6 +255,8 @@
    画像
    ============================ */
 .markdown img {
+  max-width: 100%;
+  height: auto;
   border: 1px solid #ccd6f0;
   border-radius: 6px;
   padding: 2px;
@@ -445,9 +447,16 @@ article.margin-top--md {
 }
 
 @media (min-width: 997px) {
-  /* TOC列をcol--2相当に縮小 */
-  .col.col--2:has(> .theme-doc-toc-desktop) {
-    --ifm-col-width: calc(2 / 12 * 100%);
+  /* TOC幅をサイドバーの開閉に関わらず固定する */
+  .col:has(> .theme-doc-toc-desktop) {
+    flex: 0 0 18rem !important;
+    max-width: 18rem !important;
+  }
+  /* コンテンツ列は残りのスペースを埋める（75%固定を解除） */
+  .row:has(.theme-doc-toc-desktop) > .col:not(:has(.theme-doc-toc-desktop)) {
+    flex: 1 1 0 !important;
+    max-width: calc(100% - 18rem) !important;
+    min-width: 0 !important;
   }
 }
 
