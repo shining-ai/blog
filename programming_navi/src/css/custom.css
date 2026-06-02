@@ -458,6 +458,17 @@ article.margin-top--md {
     max-width: calc(100% - 18rem) !important;
     min-width: 0 !important;
   }
+  /* サイドバー開閉時のTOCスライドを防ぐ：コンテナを右揃えにする */
+  aside.theme-doc-sidebar-container ~ main > .container {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  /* TOCをビューポート右端に固定してサイドバー開閉の影響を受けないようにする */
+  .theme-doc-toc-desktop {
+    position: fixed !important;
+    right: 0;
+    width: 18rem;
+  }
 }
 
 /* ============================
