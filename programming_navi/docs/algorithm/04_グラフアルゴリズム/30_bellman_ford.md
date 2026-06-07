@@ -59,13 +59,13 @@ Bellman-Ford法とは、
 
 全ての頂点の値が変化しなくなり、最短距離が求められます。
 
-**2回目の更新**
+#### 2回目の更新
 
 ![ベルマンフォード法の2回目の更新](https://res.cloudinary.com/dtilrevrm/image/upload/v1780819693/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%896_ub1krp.jpg)
 
 ![ベルマンフォード法の2回目の更新2](https://res.cloudinary.com/dtilrevrm/image/upload/v1780819696/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%897_wxw5et.jpg)
 
-**3回目の更新**
+#### 3回目の更新
 
 ![ベルマンフォード法の3回目の更新](https://res.cloudinary.com/dtilrevrm/image/upload/v1780819679/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%898_y3pnwv.jpg)
 
