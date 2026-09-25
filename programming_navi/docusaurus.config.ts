@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'プログラミングナビ',
-  tagline: 'プログラミングに関する情報まとめサイト',
+  title: 'アルゴリズムナビ',
+  tagline: 'アルゴリズムとデータ構造を体系的に学べるサイト',
   favicon: 'img/programming_navi_logo.png',
 
   // ホストするURL
@@ -63,7 +63,7 @@ const config: Config = {
     navbar: {
       title: 'Home',
       logo: {
-        alt: 'Programming Navi Logo',
+        alt: 'Algorithm Navi Logo',
         src: 'img/programming_navi_logo.png',
       },
       // メニューバー
@@ -77,7 +77,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © 2023-${new Date().getFullYear()} プログラミングナビ All Right Reserved.`,
+      copyright: `Copyright © 2023-${new Date().getFullYear()} アルゴリズムナビ All Right Reserved.`,
     },
     docs: {
       sidebar: {
