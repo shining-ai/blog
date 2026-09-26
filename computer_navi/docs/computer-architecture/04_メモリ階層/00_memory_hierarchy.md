@@ -3,88 +3,112 @@ sidebar_position: 0
 displayed_sidebar: computerArchitectureSidebar
 ---
 
-# メモリ階層の全体像
+import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
-## 概要
+# メモリ階層 (Memory Hierarchy)
+
+## メモリ階層とは
 
 メモリ階層とは、
 
-> 速度・容量・コストのトレードオフを最適化するために、複数の記憶装置を階層的に組み合わせたコンピュータのメモリ設計
+> 速度・容量・コストのトレードオフを利用して複数の記憶装置を階層化し、高速かつ大容量のメモリを実現する設計手法
 
 です。
+<br/>
 
-プログラムの**局所性**（近くのアドレスを繰り返しアクセスする傾向）を利用し、高速な上位層に頻繁アクセスするデータを置くことで性能を向上させます。
+局所性の原理（時間的局所性・空間的局所性）を利用して、頻繁にアクセスするデータを上位階層に置きます。
 
-## 階層構造
+## 階層別スペック
 
-```
-レジスタ      〜300ps  数十〜数百バイト   コスト: 最高
-↓
-L1キャッシュ  1-4ns    32KB〜256KB       コスト: 高
-↓
-L2キャッシュ  4-10ns   256KB〜4MB        コスト: 中高
-↓
-L3キャッシュ  10-30ns  4MB〜32MB         コスト: 中
-↓
-DRAM（主記憶）50-100ns 4GB〜数百GB      コスト: 低
-↓
-SSD           100μs   数百GB〜数TB      コスト: 最低
-↓
-HDD           10ms    数TB〜数百TB       コスト: 最安
-```
+
+| 階層 | 容量 | アクセス時間 | 備考 |
+| --- | --- | --- | --- |
+| レジスタ | ~数十個 | 1サイクル未満 | CPU内部 |
+| L1 キャッシュ | 32〜64 KB | 1〜4サイクル | コアごとに独立 |
+| L2 キャッシュ | 256 KB〜1 MB | 10〜20サイクル | コアごと/共有 |
+| L3 キャッシュ | 4〜64 MB | 30〜50サイクル | ソケット共有 |
+| DRAM (メインメモリ) | 8〜256 GB | 50〜100 ns | LPDDR5等 |
+| NVMe SSD | 1〜8 TB | 50〜100 μs | PCIe 4.0/5.0 |
+| HDD | 1〜20 TB | 5〜10 ms | 磁気記録 |
 
 ## 局所性の原理
 
-| 種類 | 説明 | 例 |
-|---|---|---|
-| 時間的局所性 | 最近アクセスしたデータは再アクセスされやすい | ループ変数・ループカウンタ |
-| 空間的局所性 | アクセスしたアドレス近傍もアクセスされやすい | 配列の順次走査 |
-| 順次局所性 | 命令は連続的に実行される | 直線的なプログラムコード |
+```
+時間的局所性: 最近アクセスしたデータは近い将来また使われる
+              例: ループ変数、頻繁に呼ばれる関数
 
-## 性能指標
+空間的局所性: あるアドレスにアクセスしたとき、その近傍も使われる
+              例: 配列の連続要素、構造体メンバー
+```
 
-| 指標 | 説明 |
-|---|---|
-| ヒット率 | キャッシュで要求が満たされる割合 |
-| ミスペナルティ | ミス時に下位層から取得する時間 |
-| 有効アクセス時間 | = ヒット率×キャッシュ時間 + (1−ヒット率)×主記憶時間 |
-| AMAT | Average Memory Access Time |
+## 実装
 
-## 実装：キャッシュヒット率の測定
-
-```c title="メモリアクセスパターンの比較"
+```c title="キャッシュ効率の違い（C）"
 #include <stdio.h>
 #include <time.h>
 #define N 1024
 
-int mat[N][N];
+float A[N][N];
 
-// 行優先アクセス（キャッシュフレンドリー）
-void row_major(void) {
+/* 行優先アクセス（キャッシュフレンドリー） */
+double row_major_sum(void) {
+    double sum = 0;
     for (int i = 0; i < N; i++)
         for (int j = 0; j < N; j++)
-            mat[i][j] = i + j;
+            sum += A[i][j];  /* 連続メモリ → L1 ヒット率高 */
+    return sum;
 }
 
-// 列優先アクセス（キャッシュミス多発）
-void col_major(void) {
+/* 列優先アクセス（キャッシュ非効率） */
+double col_major_sum(void) {
+    double sum = 0;
     for (int j = 0; j < N; j++)
         for (int i = 0; i < N; i++)
-            mat[i][j] = i + j;
+            sum += A[i][j];  /* 非連続メモリ → キャッシュミス増 */
+    return sum;
 }
 
 int main(void) {
-    clock_t t1 = clock(); row_major(); clock_t t2 = clock();
-    clock_t t3 = clock(); col_major(); clock_t t4 = clock();
-    printf("row_major: %.3f s\n", (double)(t2-t1)/CLOCKS_PER_SEC);
-    printf("col_major: %.3f s\n", (double)(t4-t3)/CLOCKS_PER_SEC);
-    // 通常 col_major は row_major の数倍遅い
+    /* 行優先の方が数倍〜10倍以上速い */
+    clock_t t0 = clock();
+    row_major_sum();
+    printf("row-major:  %ldms\n", (clock() - t0) * 1000 / CLOCKS_PER_SEC);
+    t0 = clock();
+    col_major_sum();
+    printf("col-major:  %ldms\n", (clock() - t0) * 1000 / CLOCKS_PER_SEC);
     return 0;
 }
 ```
 
+```python title="メモリ階層シミュレーション（Python）"
+import time
+import numpy as np
+
+N = 2048
+A = np.random.rand(N, N).astype(np.float32)
+
+# 行方向アクセス（C-contiguous = 行優先）
+t0 = time.perf_counter()
+_ = np.sum(A)
+t_row = time.perf_counter() - t0
+
+# 列方向アクセス（Fortran-contiguous）
+A_f = np.asfortranarray(A)
+t0 = time.perf_counter()
+_ = np.sum(A_f, axis=0)
+t_col = time.perf_counter() - t0
+
+print(f"row-major:   {t_row*1000:.2f} ms")
+print(f"col-major:   {t_col*1000:.2f} ms")
+```
+
 ## 使用場面
 
-- **ループ最適化**: ループの反転・タイリングでキャッシュ効率を向上
-- **データ構造設計**: AoS（Array of Structs）vs SoA（Struct of Arrays）
-- **NUMA 対応**: マルチソケット構成でメモリ局所性を意識した設計
+- **データベース**: バッファプールによる DRAM キャッシュ管理
+- **OS**: ページキャッシュ（disk → DRAM）
+- **機械学習**: テンソル演算のメモリレイアウト最適化
+- **HPC**: NUMA アーキテクチャでのメモリ配置
+
+## 参考文献
+
+<AffiliateBanner site="algorithm_zukan" />

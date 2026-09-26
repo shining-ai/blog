@@ -3,95 +3,93 @@ sidebar_position: 0
 displayed_sidebar: computerArchitectureSidebar
 ---
 
-# ブール代数と論理ゲート
+import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
-## 概要
+# ブール代数と論理ゲート (Boolean Algebra)
+
+## ブール代数とは
 
 ブール代数とは、
 
-> 変数が 0（偽）または 1（真）の2値のみをとる代数系であり、論理演算の数学的基礎
+> 真（1）と偽（0）の2値を扱い、AND・OR・NOT の3演算で任意の論理を表現できる代数系
 
 です。
+<br/>
 
-AND・OR・NOT の3つの基本演算でデジタル回路のすべての論理を表現できます。
+ジョージ・ブールが1854年に考案し、クロード・シャノンが1937年にデジタル回路設計へ応用しました。
 
-## 基本演算と真理値表
+## 基本論理ゲート
 
-### AND（論理積）
 
-| A | B | A AND B |
-|---|---|---|
-| 0 | 0 | 0 |
-| 0 | 1 | 0 |
-| 1 | 0 | 0 |
-| 1 | 1 | 1 |
+| ゲート | 記号 | 真理値 |
+| --- | --- | --- |
+| AND | A · B | 両方1のとき1 |
+| OR | A + B | どちらか1のとき1 |
+| NOT | Ā | 反転 |
+| NAND | ¬(A · B) | AND の否定 |
+| NOR | ¬(A + B) | OR の否定 |
+| XOR | A ⊕ B | 異なるとき1 |
 
-### OR（論理和）
-
-| A | B | A OR B |
-|---|---|---|
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 0 | 1 |
-| 1 | 1 | 1 |
-
-### XOR（排他的論理和）
-
-| A | B | A XOR B |
-|---|---|---|
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 0 | 1 |
-| 1 | 1 | 0 |
-
-## 重要な定理
+## ド・モルガンの定理
 
 ```
-ド・モルガンの法則:
-  NOT(A AND B) = (NOT A) OR  (NOT B)
-  NOT(A OR  B) = (NOT A) AND (NOT B)
-
-吸収則:
-  A AND (A OR B) = A
-  A OR  (A AND B) = A
-
-分配則:
-  A AND (B OR C) = (A AND B) OR (A AND C)
+¬(A · B) = ¬A + ¬B
+¬(A + B) = ¬A · ¬B
 ```
 
-## 論理ゲートの記号
-
-| ゲート | 記号 | 動作 |
-|---|---|---|
-| AND | ・（ドット） | 全入力が 1 のとき出力 1 |
-| OR | ＋ | どれか 1 つが 1 のとき出力 1 |
-| NOT | バー（上線） | 入力を反転 |
-| NAND | AND＋反転 | AND の否定（普遍ゲート） |
-| NOR | OR＋反転 | OR の否定（普遍ゲート） |
-| XOR | ⊕ | 入力が異なるとき出力 1 |
+NAND/NOR ゲートだけで任意の論理回路を実現できる（汎用性）。
 
 ## 実装
 
-```c title="ビット演算による論理ゲート"
+```python title="論理ゲートシミュレーション（Python）"
+from itertools import product
+
+def truth_table(func, n_vars: int):
+    """n変数の真理値表を生成"""
+    header = [f'x{i}' for i in range(n_vars)] + ['out']
+    print(' | '.join(header))
+    print('-' * (4 * len(header)))
+    for vals in product([0, 1], repeat=n_vars):
+        out = func(*vals)
+        print(' | '.join(str(v) for v in (*vals, int(out))))
+
+# XOR の真理値表
+truth_table(lambda a, b: a ^ b, 2)
+```
+
+```c title="半加算器（C）"
 #include <stdio.h>
-#include <stdint.h>
+#include <stdbool.h>
+
+/* 半加算器: 1ビット加算の基本回路 */
+void half_adder(bool a, bool b, bool *sum, bool *carry) {
+    *sum   = a ^ b;   /* XOR */
+    *carry = a & b;   /* AND */
+}
+
+/* 全加算器: 桁上がり入力あり */
+void full_adder(bool a, bool b, bool cin, bool *sum, bool *cout) {
+    bool s1, c1, c2;
+    half_adder(a, b, &s1, &c1);
+    half_adder(s1, cin, sum, &c2);
+    *cout = c1 | c2;
+}
 
 int main(void) {
-    uint8_t a = 0b10110101;
-    uint8_t b = 0b11001100;
-
-    printf("AND:  %02X\n", a & b);   // 10000100
-    printf("OR:   %02X\n", a | b);   // 11111101
-    printf("XOR:  %02X\n", a ^ b);   // 01111001
-    printf("NOT:  %02X\n", (uint8_t)~a);  // 01001010
-    printf("NAND: %02X\n", (uint8_t)~(a & b));
+    bool sum, carry;
+    half_adder(1, 1, &sum, &carry);
+    printf("1+1: sum=%d carry=%d\n", sum, carry);  /* sum=0 carry=1 */
     return 0;
 }
 ```
 
 ## 使用場面
 
-- **マスク処理**: フラグのセット・クリア・トグルにビット演算を使用
-- **パリティチェック**: XOR でビット数の偶奇を検証
-- **暗号**: XOR 暗号・ストリーム暗号の基本演算
-- **ハードウェア設計**: 加算器・MUX・デコーダの実装
+- **ALU 設計**: 加算器・比較器・シフタの論理合成
+- **FPGA**: LUT（ルックアップテーブル）への論理マッピング
+- **コンパイラ最適化**: 条件式の定数畳み込み
+- **暗号回路**: AES の S-Box 実装
+
+## 参考文献
+
+<AffiliateBanner site="algorithm_zukan" />

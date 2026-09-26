@@ -3,92 +3,104 @@ sidebar_position: 1
 displayed_sidebar: computerArchitectureSidebar
 ---
 
-# 符号付き整数（2の補数表現）
+import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
-## 概要
+# 2の補数と浮動小数点 (Two's Complement & IEEE 754)
 
-2の補数表現とは、
+## 2の補数とは
 
-> 符号付き整数を「2ⁿ から正の値を引いた値」として表現し、加算回路を符号・無符号で共用できる方式
+2の補数とは、
+
+> 負の整数を2ⁿ − |x| で表現することで、加算回路だけで符号付き演算を実現する方式
 
 です。
+<br/>
 
-1 の補数（ビット反転のみ）と異なり、`+0` と `-0` が存在せず、ゼロが一意に定まります。
+符号ビット（最上位ビット）が 1 なら負、0 なら非負となります。
+8ビット符号付き整数の範囲は −128 〜 +127 です。
 
-## 変換方法
+## 2の補数の計算方法
 
-### 正の数 → 負の数（2の補数）
-
-1. ビットを全て反転（1の補数）
-2. 1 を加算
 
 ```
-  0000 0101  (+5)
-→ 1111 1010  (反転)
-→ 1111 1011  (+1加算) = -5 の 2の補数表現
+-5 の 8ビット 2の補数表現:
+1. +5 = 00000101
+2. 各ビット反転 → 11111010
+3. 1を加算       → 11111011  ← これが -5
 ```
 
-### 表現できる範囲（8ビットの場合）
+## IEEE 754 浮動小数点
 
-| 表現 | 10進数 |
-|---|---|
-| `0111 1111` | +127 |
-| `0000 0001` | +1 |
-| `0000 0000` | 0 |
-| `1111 1111` | −1 |
-| `1000 0001` | −127 |
-| `1000 0000` | −128（最小値） |
+| フィールド | 単精度(32bit) | 倍精度(64bit) |
+| --- | --- | --- |
+| 符号ビット | 1 | 1 |
+| 指数部 | 8 | 11 |
+| 仮数部 | 23 | 52 |
+| バイアス | 127 | 1023 |
 
-n ビットの範囲: **−2ⁿ⁻¹ ～ 2ⁿ⁻¹−1**
-
-## 加算が統一できる理由
-
-```
-  0000 0101  (+5)
-+ 1111 1011  (−5 の 2の補数)
-= 0000 0000  (繰り上がりを無視 → 0)  ✓
-```
-
-符号ビットを特別扱いせず、通常の加算回路をそのまま流用できます。
+値の計算式: `(-1)^s × 1.仮数部 × 2^(指数部 - バイアス)`
 
 ## 実装
 
-```c title="2の補数の確認"
+```python title="2の補数とIEEE 754（Python）"
+import struct
+
+def twos_complement(n: int, bits: int) -> int:
+    """符号付き整数のn をbitsビット2の補数表現の整数値に変換"""
+    if n < 0:
+        return n + (1 << bits)
+    return n
+
+def from_twos_complement(val: int, bits: int) -> int:
+    """bitsビット2の補数表現valを符号付き整数に変換"""
+    if val >= (1 << (bits - 1)):
+        return val - (1 << bits)
+    return val
+
+def float_to_bits(f: float) -> str:
+    """IEEE 754 単精度の内部ビット表現を返す"""
+    packed = struct.pack('>f', f)
+    bits = int.from_bytes(packed, 'big')
+    return format(bits, '032b')
+
+# 使用例
+print(twos_complement(-5, 8))          # 251 (= 11111011₂)
+print(from_twos_complement(251, 8))    # -5
+print(float_to_bits(1.0))
+# 00111111100000000000000000000000
+# S=0, E=01111111(127), M=0 → 1.0 × 2^0 = 1.0
+```
+
+```c title="2の補数確認（C）"
 #include <stdio.h>
 #include <stdint.h>
 
 int main(void) {
-    int8_t a = 5;
-    int8_t b = -5;
+    int8_t a = -5;
+    uint8_t b = (uint8_t)a;  /* 2の補数ビット列を取得 */
+    printf("signed:   %d\n", a);     /* -5 */
+    printf("unsigned: %u\n", b);     /* 251 */
+    printf("binary:   ");
+    for (int i = 7; i >= 0; i--)
+        printf("%d", (b >> i) & 1);
+    printf("\n");  /* 11111011 */
 
-    printf("a = %d, bit pattern: %02X\n", a, (uint8_t)a);  // 05
-    printf("b = %d, bit pattern: %02X\n", b, (uint8_t)b);  // FB
-    printf("a + b = %d\n", a + b);   // 0
-
-    // オーバーフロー検出
-    int8_t max = 127;
-    printf("max + 1 = %d (overflow!)\n", (int8_t)(max + 1));  // -128
+    /* IEEE 754 確認 */
+    float f = 1.5f;
+    uint32_t bits;
+    __builtin_memcpy(&bits, &f, sizeof(bits));
+    printf("1.5f bits: %08X\n", bits);  /* 3FC00000 */
     return 0;
 }
 ```
 
-```python title="2の補数の計算"
-def to_twos_complement(n: int, bits: int = 8) -> int:
-    """正の数を n ビットの2の補数表現に変換"""
-    return n & ((1 << bits) - 1)
+## 使用場面
 
-def from_twos_complement(bits_val: int, bits: int = 8) -> int:
-    """2の補数ビット列を符号付き整数に変換"""
-    if bits_val >= (1 << (bits - 1)):
-        return bits_val - (1 << bits)
-    return bits_val
+- **CPU 演算器**: 符号付き整数演算はすべて2の補数で実装
+- **オーバーフロー検出**: キャリービットと溢れビットの確認
+- **GPU シェーダー**: fp16/bf16 による高速浮動小数点演算
+- **機械学習**: 量子化（INT8 推論）でのビット幅削減
 
-print(to_twos_complement(-5, 8))    # 251 (0xFB)
-print(from_twos_complement(0xFB))   # -5
-```
+## 参考文献
 
-## 注意点
-
-:::caution オーバーフロー
-符号付き整数の最大値に 1 を加算するとオーバーフローし、負の最小値になります（C言語では未定義動作）。
-:::
+<AffiliateBanner site="algorithm_zukan" />

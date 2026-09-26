@@ -159,6 +159,7 @@
 
 /* ─── ダークモード ────────────────────────────────────────────── */
 
+/* ヘッダー */
 :global([data-theme='dark']) .pageHeader {
   border-bottom-color: rgba(255, 255, 255, 0.1);
 }
@@ -166,6 +167,7 @@
   color: #f4f4f4;
 }
 
+/* セクションカード */
 :global([data-theme='dark']) .sectionCard {
   background: #2f3136;
   border-color: rgba(255, 255, 255, 0.08);
@@ -185,6 +187,7 @@
   color: #627eff;
 }
 
+/* 姉妹サイト */
 :global([data-theme='dark']) .sisterArea {
   background: #202225;
   border-top-color: rgba(255, 255, 255, 0.08);

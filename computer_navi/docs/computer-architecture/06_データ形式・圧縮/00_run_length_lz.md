@@ -3,97 +3,112 @@ sidebar_position: 0
 displayed_sidebar: computerArchitectureSidebar
 ---
 
-# ランレングス符号化・LZ77・LZ78
+import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
-## 概要
+# ランレングス符号化と LZ 圧縮 (Run-Length & LZ77)
 
-データ圧縮とは、
+## ランレングス符号化とは
 
-> データの冗長性を取り除き、より少ないビット数で同じ情報を表現する技術
+ランレングス符号化（RLE）とは、
+
+> 連続する同じ値の列を「値×繰り返し数」のペアで表現し、データを圧縮する手法
 
 です。
+<br/>
 
-無損失圧縮アルゴリズムの代表として、ランレングス符号化と LZ 系（Lempel-Ziv）があります。
+繰り返しが多いデータ（ファックス画像・PCX フォーマット等）に効果的ですが、ランダムデータでは逆に膨張します。
 
-## ランレングス符号化（RLE）
+## LZ77 とは
 
-連続した同じ値を「（値, 回数）」のペアで置き換えます。
+LZ77（Lempel-Ziv 1977）とは、
 
-```
-元データ:    AAABBBBBCCDDDDDDDD
-エンコード:  A3 B5 C2 D8
-圧縮率:     18文字 → 8ペア（50%弱）
+> スライディングウィンドウを用いてデータの繰り返しを「距離・長さ」のペアで参照表現する汎用圧縮アルゴリズム
 
-効果的な例: FAX の白黒画像、BMP 形式のベタ塗り領域
-不得意な例: ランダムデータ（むしろ膨らむ）
-```
+です。
+<br/>
 
-## LZ77 アルゴリズム
+deflate（ZIP・gzip・PNG）や zstd の基礎となっています。
 
-スライディングウィンドウ内の過去データを参照し、一致するパターンを `(オフセット, 長さ)` で圧縮します。
+## アルゴリズム比較
 
-```
-検索バッファ（過去）| 先読みバッファ（未来）
-   ...ABCABC        | ABCABC...
 
-一致発見: オフセット=6, 長さ=6
-出力: (6, 6, 次の文字)
-```
-
-| パラメータ | 説明 |
-|---|---|
-| 検索バッファ | 過去のデータ（数KB〜数十KB） |
-| 先読みバッファ | 圧縮対象（数十バイト） |
-| 出力トークン | (オフセット, 長さ, 次文字) または (0, 0, 文字) |
-
-## LZ78 アルゴリズム
-
-辞書に新しいパターンを逐次追加していき、辞書インデックスで参照します。
-
-```
-辞書: {1: "A", 2: "B", 3: "AB", ...}
-エンコード: (0,A)(0,B)(1,B)(2,A)...
-```
-
-LZW（Lempel-Ziv-Welch）は LZ78 の改良版で、GIF・TIFF に使われています。
-
-## 計算量
-
-| アルゴリズム | 圧縮時間 | 展開時間 | 備考 |
-|---|---|---|---|
-| RLE | O(n) | O(n) | 最も単純 |
-| LZ77 | O(n × W) | O(n) | W=ウィンドウサイズ |
-| LZ78/LZW | O(n) | O(n) | 辞書のハッシュ検索 |
+| アルゴリズム | 圧縮対象 | 代表的な用途 |
+| --- | --- | --- |
+| RLE | 連続値列 | BMP・FAX・PCX |
+| LZ77 | 長距離繰り返し | gzip・zlib・PNG |
+| LZ78/LZW | 辞書ベース | GIF・TIFF |
+| Huffman | 出現頻度差 | JPEG・MP3 |
+| ANS | 高精度確率符号 | zstd・brotli |
 
 ## 実装
 
-```python title="ランレングス符号化"
-def rle_encode(data: str) -> list[tuple[str, int]]:
+```python title="ランレングス符号化（Python）"
+def rle_encode(data: bytes) -> list[tuple[int, int]]:
+    """バイト列をランレングス符号化"""
     if not data:
         return []
     result = []
-    ch, cnt = data[0], 1
-    for c in data[1:]:
-        if c == ch:
-            cnt += 1
+    count = 1
+    for i in range(1, len(data)):
+        if data[i] == data[i - 1] and count < 255:
+            count += 1
         else:
-            result.append((ch, cnt))
-            ch, cnt = c, 1
-    result.append((ch, cnt))
+            result.append((data[i - 1], count))
+            count = 1
+    result.append((data[-1], count))
     return result
 
-def rle_decode(encoded: list[tuple[str, int]]) -> str:
-    return ''.join(c * n for c, n in encoded)
+def rle_decode(encoded: list[tuple[int, int]]) -> bytes:
+    """ランレングス復号"""
+    return bytes(b for val, cnt in encoded for b in [val] * cnt)
 
-s = "AAABBBBBCCDDDDDDDD"
-enc = rle_encode(s)
-print(enc)           # [('A',3),('B',5),('C',2),('D',8)]
-print(rle_decode(enc) == s)  # True
+data = bytes([0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 2])
+enc = rle_encode(data)
+print("符号化:", enc)           # [(0,4),(1,2),(2,5)]
+print("復号:", rle_decode(enc))  # 元に戻る
+print(f"圧縮率: {len(data)/len(enc)/2:.1f}x")
+```
+
+```python title="LZ77 圧縮（Python）"
+def lz77_encode(data: str, window: int = 15, lookahead: int = 8) -> list:
+    """LZ77 エンコーダ（教育用簡易実装）"""
+    pos = 0
+    tokens = []
+    while pos < len(data):
+        best_off, best_len = 0, 0
+        # スライディングウィンドウ内で最長一致を探す
+        start = max(0, pos - window)
+        for i in range(start, pos):
+            l = 0
+            while (l < lookahead and
+                   pos + l < len(data) and
+                   data[i + l] == data[pos + l]):
+                l += 1
+            if l > best_len:
+                best_off, best_len = pos - i, l
+        if best_len >= 2:
+            tokens.append((best_off, best_len, ''))
+            pos += best_len
+        else:
+            tokens.append((0, 0, data[pos]))
+            pos += 1
+    return tokens
+
+text = "abracadabra_abracadabra"
+tokens = lz77_encode(text)
+literal_bytes = sum(1 for t in tokens if t[2])
+ref_count     = sum(1 for t in tokens if not t[2])
+print(f"元のサイズ: {len(text)}")
+print(f"リテラル数: {literal_bytes}, 参照数: {ref_count}")
 ```
 
 ## 使用場面
 
-- **RLE**: BMP・PCX・TIFF、FAX 通信（T.4 規格）
-- **LZ77**: DEFLATE（ZIP・gzip・zlib の中核）
-- **LZW**: GIF・PDF・初期の TIFF
-- **LZMA**: 7-Zip の圧縮アルゴリズム（高圧縮率）
+- **PNG**: deflate（LZ77 + Huffman）でロスレス圧縮
+- **HTTP/2**: HPACK ヘッダー圧縮で帯域削減
+- **仮想マシン**: メモリページの重複排除（KSM）
+- **ゲーム**: テクスチャアセットのパッケージング
+
+## 参考文献
+
+<AffiliateBanner site="algorithm_zukan" />

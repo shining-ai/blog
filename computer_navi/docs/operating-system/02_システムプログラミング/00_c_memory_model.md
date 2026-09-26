@@ -3,108 +3,116 @@ sidebar_position: 0
 displayed_sidebar: operatingSystemSidebar
 ---
 
-# C 言語とメモリモデル
+import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
-## 概要
+# C のメモリモデル (C Memory Model)
 
-C 言語のメモリモデルとは、
+## C のメモリ構造とは
 
-> プログラムが実行時に使用するメモリ領域の種類と管理方法を規定するモデルで、スタック・ヒープ・静的領域の3つに分類される
+C プログラムのメモリ構造とは、
+
+> 実行時のプロセスアドレス空間をテキスト・データ・BSS・ヒープ・スタックの各セグメントに分割して管理する仕組み
 
 です。
+<br/>
 
-C は OS のメモリ管理を直接扱える低レベル言語であり、メモリモデルを理解することがバグの少ないシステムプログラムの作成に不可欠です。
+セグメントごとに異なるライフタイムと用途があります。
+ヒープは明示的な割り当て/解放が必要であり、メモリリークや二重解放が典型的なバグになります。
 
-## メモリ領域の種類
+## アドレス空間の配置（x86-64 Linux）
+
 
 ```
 高アドレス
-┌──────────────┐
-│    スタック   │  関数呼び出し時に自動確保・解放
-│    ↓          │  ローカル変数・引数・戻りアドレス
-│               │
-│    ↑          │
-│    ヒープ     │  malloc/free で動的確保・解放
-├──────────────┤
-│ BSS セグメント│  未初期化グローバル変数（ゼロ初期化）
-│ データセグメント│  初期化済みグローバル変数・静的変数
-│ テキストセグメント│ コード・文字列リテラル（読み取り専用）
+  カーネル空間（アクセス不可）
+  スタック  ← 関数ローカル変数・戻りアドレス（下方向に成長）
+  ↓
+  (未使用)
+  ↑
+  ヒープ    ← malloc/free（上方向に成長）
+  BSS       ← 初期化されていないグローバル・静的変数
+  データ    ← 初期化済みグローバル・静的変数
+  テキスト  ← 実行コード（read-only）
 低アドレス
-└──────────────┘
 ```
 
-## 各領域の特性
+## セグメント詳細
 
-| 領域 | 確保 | 解放 | サイズ | 速度 |
-|---|---|---|---|---|
-| スタック | 自動（関数エントリ） | 自動（関数リターン） | 数MB（通常8MB） | 最速 |
-| ヒープ | 手動（malloc） | 手動（free） | GBまで可 | 中程度 |
-| 静的 | プログラム開始時 | プログラム終了時 | コンパイル時決定 | 高速 |
+| セグメント | 内容 | ライフタイム |
+| --- | --- | --- |
+| テキスト | 機械語命令 | プロセス全体 |
+| データ | 初期化済みグローバル変数 | プロセス全体 |
+| BSS | 未初期化グローバル変数 | プロセス全体（0 で初期化） |
+| ヒープ | malloc で確保した領域 | free まで |
+| スタック | ローカル変数・引数・戻りアドレス | 関数呼び出し中 |
 
-## スタックの動作
+## 実装
 
-```c title="スタックフレームの確認"
+```c title="各セグメントの確認（C）"
 #include <stdio.h>
-
-void inner(int x) {
-    int local = x * 2;
-    printf("inner: &local = %p\n", (void*)&local);
-}
-
-void outer(void) {
-    int local = 42;
-    printf("outer: &local = %p\n", (void*)&local);
-    inner(local);
-    // inner 終了後、inner のスタックフレームは消える
-}
-
-int main(void) {
-    outer();
-    return 0;
-}
-// outer のアドレス > inner のアドレス（スタックは高→低に成長）
-```
-
-## 動的メモリ管理
-
-```c title="malloc/free の正しい使い方"
 #include <stdlib.h>
 #include <string.h>
-#include <stdio.h>
+
+/* データセグメント（初期化済みグローバル） */
+int global_init = 42;
+
+/* BSS セグメント（未初期化グローバル） */
+int global_uninit;
+
+/* テキストセグメント（コード） */
+void print_addresses(void) {
+    /* スタック */
+    int local_var = 100;
+    char local_arr[16];
+
+    /* ヒープ */
+    char *heap_ptr = malloc(64);
+    if (!heap_ptr) return;
+    strcpy(heap_ptr, "heap data");
+
+    printf("テキスト  (関数):    %p\n", (void*)print_addresses);
+    printf("データ   (global):   %p → %d\n", (void*)&global_init, global_init);
+    printf("BSS      (global):   %p → %d\n", (void*)&global_uninit, global_uninit);
+    printf("スタック (local):    %p → %d\n", (void*)&local_var, local_var);
+    printf("ヒープ   (malloc):   %p → %s\n", (void*)heap_ptr, heap_ptr);
+
+    (void)local_arr;
+    free(heap_ptr);
+}
 
 int main(void) {
-    // 動的配列
-    int n = 100;
-    int *arr = malloc(n * sizeof(int));
-    if (!arr) { perror("malloc"); return 1; }
-
-    for (int i = 0; i < n; i++) arr[i] = i;
-    printf("arr[50] = %d\n", arr[50]);
-
-    free(arr);    // 解放
-    arr = NULL;   // ダングリングポインタ防止
-
-    // realloc でサイズ変更
-    int *buf = malloc(10 * sizeof(int));
-    buf = realloc(buf, 20 * sizeof(int));  // 拡張
-    free(buf);
-
+    print_addresses();
     return 0;
 }
 ```
 
-## 典型的なバグ
+```python title="ctypes でアドレス確認（Python）"
+import ctypes
+import sys
 
-| バグ | 説明 | 結果 |
-|---|---|---|
-| バッファオーバーフロー | 配列の境界外書き込み | SIGSEGV・脆弱性 |
-| メモリリーク | free 忘れ | メモリ枯渇 |
-| 二重解放 | free 済みポインタの再 free | ヒープ破壊 |
-| ダングリングポインタ | free 後のポインタ使用 | 未定義動作 |
-| NULL 参照 | NULL ポインタの逆参照 | SIGSEGV |
+# Python オブジェクトのアドレス
+x = 42
+lst = [1, 2, 3]
+s = "hello"
+
+print(f"int id:  {id(x):#x}")
+print(f"list id: {id(lst):#x}")
+print(f"str id:  {id(s):#x}")
+
+# C malloc のラッパーでヒープを確認
+libc = ctypes.CDLL("libc.so.6")
+ptr = libc.malloc(64)
+print(f"malloc:  {ptr:#x}")
+libc.free(ptr)
+```
 
 ## 使用場面
 
-- **OS カーネル**: デバイスドライバ・メモリアロケータの実装
-- **組み込みシステム**: 制限されたメモリの効率的な管理
-- **パフォーマンスクリティカルなコード**: ゲームエンジン・データベースのバッファ管理
+- **メモリデバッグ**: Valgrind・AddressSanitizer でリーク検出
+- **スタックオーバーフロー**: 再帰が深すぎるとスタック枯渇
+- **セキュリティ**: バッファオーバーフローによる ROP チェーンの悪用
+- **組み込み**: リンカスクリプトでセグメント配置を明示的に制御
+
+## 参考文献
+
+<AffiliateBanner site="algorithm_zukan" />

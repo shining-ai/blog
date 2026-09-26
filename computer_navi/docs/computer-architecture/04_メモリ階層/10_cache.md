@@ -3,94 +3,129 @@ sidebar_position: 1
 displayed_sidebar: computerArchitectureSidebar
 ---
 
-# キャッシュの仕組み（直接マッピング・セットアソシアティブ）
+import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
-## 概要
+# キャッシュ (Cache)
+
+## キャッシュとは
 
 キャッシュとは、
 
-> DRAM より高速な SRAM を用いて、主記憶の頻繁にアクセスされるデータのコピーを保持するバッファ
+> CPU がメインメモリにアクセスする際のレイテンシを隠蔽するために、直近アクセスしたデータをプロセッサ近傍の高速メモリに保持する仕組み
 
 です。
+<br/>
 
-キャッシュのマッピング方式によって、ヒット率・実装コスト・スラッシングのリスクが変わります。
+キャッシュラインサイズは一般的に64バイトです。
+キャッシュヒット率が数%下がるだけでプログラム全体のパフォーマンスが大幅に低下します。
 
-## マッピング方式の比較
+## キャッシュのマッピング方式
 
-| 方式 | 特徴 | メリット | デメリット |
-|---|---|---|---|
-| ダイレクトマップ | アドレス→1ライン固定 | 実装簡単・高速 | スラッシング発生 |
-| フルアソシアティブ | 任意のラインに配置 | ヒット率最高 | 比較回路が大規模 |
-| n ウェイセットアソシアティブ | セット内の n ライン | バランス良好 | 現代 CPU の標準 |
 
-## ダイレクトマップの仕組み
+| 方式 | 特徴 | ヒット率 |
+| --- | --- | --- |
+| ダイレクトマップ | 1つのセットに1エントリ | 低い（競合ミス多） |
+| フルアソシアティブ | 任意のセットに配置 | 高い（コスト大） |
+| セットアソシアティブ (n-way) | nエントリのセットに配置 | バランス良 |
 
-```
-物理アドレス（32ビット）の分解:
-  [タグ(20b)][インデックス(8b)][オフセット(4b)]
-         ↓
-  インデックスでキャッシュラインを特定
-  タグが一致すればヒット、不一致でミス→追い出し
-```
-
-## キャッシュラインと置換ポリシー
-
-| ポリシー | 説明 |
-|---|---|
-| LRU（Least Recently Used） | 最も長く未使用のラインを置換 |
-| LFU（Least Frequently Used） | 使用頻度が低いラインを置換 |
-| FIFO | 最初に入ったラインを置換 |
-| Random | ランダムに置換（実装が簡単） |
-
-## 書き込みポリシー
-
-| ポリシー | 動作 | 特徴 |
-|---|---|---|
-| Write-through | キャッシュと主記憶を同時更新 | 整合性高い・帯域消費大 |
-| Write-back | キャッシュのみ更新、後でまとめて書き戻し | 高速・ダーティビット管理が必要 |
-
-## MESI プロトコル（マルチコアの一貫性）
+## 置換アルゴリズム
 
 ```
-M（Modified）: キャッシュに存在し変更済み（他コアにない）
-E（Exclusive）: キャッシュに存在し未変更（他コアにない）
-S（Shared）: 複数コアが保持・変更なし
-I（Invalid）: 無効（次アクセスでフェッチ必要）
+LRU  (Least Recently Used)  : 最も長く使われていないを追い出す
+LFU  (Least Frequently Used): 使用頻度が最低のものを追い出す
+CLOCK                        : LRU の近似。循環バッファ+参照ビット
 ```
 
-## 実装：キャッシュシミュレータ
+## 実装
 
-```python title="ダイレクトマップキャッシュ"
-class DirectMappedCache:
-    def __init__(self, lines: int, line_size: int = 64):
-        self.lines = lines
-        self.line_size = line_size
-        self.cache = [None] * lines
-        self.hits = self.misses = 0
+```python title="LRU キャッシュ（Python）"
+from collections import OrderedDict
 
-    def access(self, address: int) -> bool:
-        offset = address % self.line_size
-        index  = (address // self.line_size) % self.lines
-        tag    = address // (self.line_size * self.lines)
+class LRUCache:
+    """LRU置換アルゴリズムを使ったキャッシュ"""
 
-        if self.cache[index] == tag:
+    def __init__(self, capacity: int):
+        self.capacity = capacity
+        self.cache: OrderedDict[int, int] = OrderedDict()
+        self.hits = 0
+        self.misses = 0
+
+    def get(self, key: int) -> int:
+        if key in self.cache:
+            self.cache.move_to_end(key)  # 最近使用済みにマーク
             self.hits += 1
-            return True
-        else:
-            self.cache[index] = tag
-            self.misses += 1
-            return False
+            return self.cache[key]
+        self.misses += 1
+        return -1
 
-cache = DirectMappedCache(lines=4, line_size=4)
-addrs = [0, 1, 2, 3, 4, 0, 4, 0]  # 4と0はスラッシング
-for a in addrs:
-    hit = cache.access(a)
-    print(f"addr={a}: {'HIT' if hit else 'MISS'}")
-print(f"hit rate: {cache.hits/(cache.hits+cache.misses):.1%}")
+    def put(self, key: int, value: int):
+        if key in self.cache:
+            self.cache.move_to_end(key)
+        self.cache[key] = value
+        if len(self.cache) > self.capacity:
+            self.cache.popitem(last=False)  # 最も古いエントリを削除
+
+    def hit_rate(self) -> float:
+        total = self.hits + self.misses
+        return self.hits / total if total else 0.0
+
+# アクセスパターンのシミュレーション
+cache = LRUCache(4)
+accesses = [1, 2, 3, 4, 1, 2, 5, 1, 2, 3]
+for addr in accesses:
+    if cache.get(addr) == -1:
+        cache.put(addr, addr * 10)
+print(f"ヒット率: {cache.hit_rate():.1%}")  # 50%
+```
+
+```c title="直接マップキャッシュシミュレーション（C）"
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+
+#define CACHE_LINES 8   /* 2のべき乗 */
+#define LINE_SIZE   64  /* バイト */
+
+typedef struct {
+    bool valid;
+    uint32_t tag;
+} CacheLine;
+
+CacheLine cache[CACHE_LINES];
+int hits = 0, misses = 0;
+
+/* アドレス分解: タグ + インデックス + オフセット */
+bool access(uint32_t addr) {
+    uint32_t offset = addr % LINE_SIZE;
+    uint32_t index  = (addr / LINE_SIZE) % CACHE_LINES;
+    uint32_t tag    = addr / (LINE_SIZE * CACHE_LINES);
+    (void)offset;
+
+    if (cache[index].valid && cache[index].tag == tag) {
+        hits++;
+        return true;  /* ヒット */
+    }
+    misses++;
+    cache[index].valid = true;
+    cache[index].tag   = tag;
+    return false;  /* ミス */
+}
+
+int main(void) {
+    /* 配列アクセスパターン */
+    for (int i = 0; i < 64; i++) access(i * 4);       /* ストライド4 */
+    printf("hits: %d, misses: %d\n", hits, misses);
+    return 0;
+}
 ```
 
 ## 使用場面
 
-- **コンパイラ最適化**: キャッシュ効率を意識したコード生成
-- **行列演算**: ブロッキングで L1/L2 に収まるサイズで計算
-- **データベース**: バッファプールのページ置換ポリシー
+- **CPU 設計**: マルチレベルキャッシュ（L1/L2/L3）の容量・アソシアティビティ設定
+- **OS ページキャッシュ**: ファイル読み書きのバッファリング
+- **データベース**: バッファプールのページ置換
+- **CDN**: エッジサーバーでのコンテンツキャッシュ
+
+## 参考文献
+
+<AffiliateBanner site="algorithm_zukan" />

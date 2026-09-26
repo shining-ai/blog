@@ -3,78 +3,117 @@ sidebar_position: 0
 displayed_sidebar: computerArchitectureSidebar
 ---
 
-# GPU アーキテクチャの概要（SM・ワープ・SIMD）
+import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
-## 概要
+# GPU アーキテクチャ (GPU Architecture)
+
+## GPU とは
 
 GPU（Graphics Processing Unit）とは、
 
-> 大量の並列演算コアを持ち、行列・ベクトル演算を高スループットで処理する演算装置
+> 数千〜数万のシンプルなコアを持ち、データ並列計算を高スループットで実行するプロセッサ
 
 です。
+<br/>
 
-CPU が少数の高性能コア（スカラ処理）を持つのに対し、GPU は数千〜数万の軽量コアで SIMD（Single Instruction, Multiple Data）型の並列処理を行います。
+CPU が少数の高性能コアでレイテンシを最小化するのに対し、GPU は大量のコアでスループットを最大化します。
 
-## GPU の階層構造（NVIDIA の場合）
+## CPU vs GPU の構造比較
 
-```
-GPU
-└── SM（Streaming Multiprocessor）× 数十〜百以上
-    └── SP（CUDA コア）× 64〜128 / SM
-        └── 32 スレッドのワープ単位で実行
-            └── ワープ内スレッドは同一命令を実行（SIMD）
-```
 
-| 要素 | 説明 | 例（RTX 4090） |
-|---|---|---|
-| SM 数 | Streaming Multiprocessor | 128 SM |
-| CUDA コア/SM | SIMD 演算ユニット | 128 コア/SM |
-| 合計 CUDA コア | SM × コア/SM | 16,384 |
-| ワープサイズ | スレッドの最小実行単位 | 32 スレッド |
-| 動作周波数 | コアクロック | 〜2.52 GHz |
+| 特徴 | CPU | GPU |
+| --- | --- | --- |
+| コア数 | 4〜128 | 数千〜数万 |
+| コアの複雑さ | 高い（OOO実行等） | 低い（単純なALU） |
+| キャッシュ | 大容量（L3: 数十MB） | 小容量（L2: 数MB） |
+| メモリ帯域幅 | 50〜100 GB/s | 500〜1000+ GB/s |
+| 得意な処理 | 逐次処理・低レイテンシ | 大規模並列・高スループット |
 
-## CPU vs GPU の比較
+## GPU メモリ階層（NVIDIA）
 
 ```
-CPU:
-  ┌──────────────────────────┐
-  │  コア  コア  コア  コア   │  ← 4〜32コア
-  │  大きなキャッシュ        │  ← 分岐予測・アウトオブオーダー
-  │  制御ロジック（多）      │
-  └──────────────────────────┘
-
-GPU:
-  ┌──────────────────────────────┐
-  │ ●●●●●●●●●●●●●●●●●●●●●●●● │
-  │ ●●●●●●●●●●●●●●●●●●●●●●●● │  ← 数千コア
-  │ ●●●●●●●●●●●●●●●●●●●●●●●● │  ← 小さなキャッシュ
-  │ 制御ロジック（少）         │  ← 規則的・予測可能なアクセス
-  └──────────────────────────────┘
+グローバルメモリ  (VRAM, 数GB〜数十GB, 高帯域幅)
+  └─ L2 キャッシュ（数MB）
+       └─ L1 キャッシュ / 共有メモリ（Streaming Multiprocessor ごと）
+            └─ レジスタファイル（スレッドごと）
 ```
 
-## メモリ帯域と計算対メモリ比
+## SIMT 実行モデル
 
-| スペック | CPU（Core i9-13900K） | GPU（RTX 4090） |
-|---|---|---|
-| ピーク演算性能 | 〜2 TFLOPS | 82.6 TFLOPS |
-| メモリ帯域 | 〜89 GB/s | 1,008 GB/s |
-| コア数 | 24（P+E コア） | 16,384 |
+```
+SIMT (Single Instruction Multiple Threads):
+  - 32スレッドがWarpを構成
+  - Warp内全スレッドが同一命令を実行
+  - 分岐があるとWarpが分裂 → 効率低下（Warp Divergence）
+```
 
-## ワープとブランチダイバージェンス
+## 実装
 
-```python title="ワープダイバージェンスのイメージ"
-# ワープ内の 32 スレッドが異なる分岐をたどると直列化（性能低下）
-# スレッド 0〜15: if ブランチ  → 実行
-# スレッド 16〜31: else ブランチ → 待機（マスク）
-# 次に:
-# スレッド 0〜15: 待機         → マスク
-# スレッド 16〜31: else ブランチ → 実行
-# → スループット 1/2 に低下
+```python title="NumPy CPU vs GPU（CuPy）比較（Python）"
+import numpy as np
+import time
+
+try:
+    import cupy as cp
+    HAS_GPU = True
+except ImportError:
+    HAS_GPU = False
+
+N = 4096
+A = np.random.rand(N, N).astype(np.float32)
+B = np.random.rand(N, N).astype(np.float32)
+
+# CPU 行列積
+t0 = time.perf_counter()
+C_cpu = A @ B
+t_cpu = time.perf_counter() - t0
+print(f"CPU: {t_cpu*1000:.1f} ms")
+
+if HAS_GPU:
+    d_A = cp.asarray(A)
+    d_B = cp.asarray(B)
+    cp.cuda.Stream.null.synchronize()
+    t0 = time.perf_counter()
+    d_C = d_A @ d_B
+    cp.cuda.Stream.null.synchronize()
+    t_gpu = time.perf_counter() - t0
+    print(f"GPU: {t_gpu*1000:.1f} ms")
+    print(f"高速化: {t_cpu/t_gpu:.1f}x")
+```
+
+```c title="GPU スレッド数計算（C ヘルパー）"
+#include <stdio.h>
+
+/* CUDA グリッド・ブロックサイズの計算 */
+typedef struct { int x, y, z; } dim3_t;
+
+dim3_t calc_grid(int n, int block_size) {
+    dim3_t grid;
+    grid.x = (n + block_size - 1) / block_size;
+    grid.y = 1;
+    grid.z = 1;
+    return grid;
+}
+
+int main(void) {
+    int n = 1024 * 1024;  /* 要素数 */
+    int block = 256;       /* ブロックあたりスレッド数 */
+    dim3_t grid = calc_grid(n, block);
+    printf("要素数: %d\n", n);
+    printf("ブロックサイズ: %d\n", block);
+    printf("グリッドサイズ: %d\n", grid.x);
+    printf("総スレッド数: %d\n", grid.x * block);
+    return 0;
+}
 ```
 
 ## 使用場面
 
-- **深層学習**: 行列乗算（GEMM）の大規模並列処理
-- **科学計算**: 流体シミュレーション・分子動力学
-- **グラフィックス**: レンダリングパイプライン（頂点・フラグメント処理）
-- **暗号通貨**: SHA-256 などのハッシュ計算
+- **深層学習**: Tensor Core による行列積の高速化
+- **科学計算**: 分子動力学・流体シミュレーション
+- **レイトレーシング**: RT Core によるリアルタイムレンダリング
+- **暗号通貨**: SHA-256 等のハッシュ計算
+
+## 参考文献
+
+<AffiliateBanner site="algorithm_zukan" />

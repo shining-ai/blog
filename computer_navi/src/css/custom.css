@@ -49,25 +49,30 @@
    ダークモード：コンテンツ要素
    ============================ */
 
+/* h2：青背景→ダーク背景＋白文字 */
 [data-theme='dark'] .markdown h2 {
   background-color: #13181c;
   color: #f4f4f4;
 }
 
+/* h3：白文字・白ボーダー */
 [data-theme='dark'] .markdown h3 {
   color: #f4f4f4;
   border-left-color: #f4f4f4;
 }
 
+/* h4：白文字 */
 [data-theme='dark'] .markdown h4 {
   color: #f4f4f4;
   border-bottom-color: #2a3060;
 }
 
+/* サイドバー選択中 */
 [data-theme='dark'] .menu__link--active {
   background-color: #1B1B1D !important;
 }
 
+/* パンくずリスト */
 [data-theme='dark'] .breadcrumbs__link {
   color: #f4f4f4;
 }
@@ -76,18 +81,21 @@
   color: #f4f4f4;
 }
 
+/* blockquote */
 [data-theme='dark'] .markdown blockquote {
   background-color: #13181c;
   border-left-color: #f4f4f4;
   color: #c3c3c3;
 }
 
+/* リスト */
 [data-theme='dark'] .markdown ul,
 [data-theme='dark'] .markdown ol {
   background-color: #13181c;
   border-color: rgba(255, 255, 255, 0.08);
 }
 
+/* テーブルヘッダー */
 [data-theme='dark'] .markdown table th {
   background-color: #13181c;
   color: #f4f4f4;
@@ -107,7 +115,9 @@
   background-color: #2a2f3a;
 }
 
+/* NeetCode ダークモード */
 [data-theme='dark'] {
+  /* プライマリカラー（NeetCode: #627eff） */
   --ifm-color-primary: #627eff;
   --ifm-color-primary-dark: #4a66ff;
   --ifm-color-primary-darker: #3855ff;
@@ -119,22 +129,28 @@
   --docusaurus-highlighted-code-line-bg: rgba(98, 126, 255, 0.15);
   --ifm-color-primary-contrast: #f4f4f4;
 
+  /* 背景（NeetCode: body=#202225, card=#2f3136） */
   --ifm-background-color: #202225;
   --ifm-background-surface-color: #2f3136;
 
+  /* ナビバー */
   --ifm-navbar-background-color: #2f3136;
   --ifm-navbar-link-color: #f4f4f4;
   --ifm-navbar-link-hover-color: #ffffff;
 
+  /* テキスト */
   --ifm-color-content: #f4f4f4;
   --ifm-color-content-secondary: #c3c3c3;
   --ifm-font-color-secondary: #c3c3c3;
 
+  /* リンク */
   --ifm-link-color: #627eff;
   --ifm-link-hover-color: #7d96ff;
 
+  /* サイドバー */
   --ifm-menu-color-active: #627eff;
 
+  /* カード・ボーダー */
   --custom-card-border: rgba(255, 255, 255, 0.08);
   --custom-card-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
@@ -164,6 +180,13 @@
 .navbar .clean-btn:hover {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* ============================
+   ヒーローバナー（トップページ）
+   ============================ */
+.hero--primary {
+  background: linear-gradient(135deg, #013CA6 0%, #0146C2 60%, #1A52C0 100%);
 }
 
 /* ============================
@@ -252,6 +275,7 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
+/* Prism token の代表的な色設定（VSCode風） */
 .markdown code span.token {
   color: #ffffff !important;
 }
@@ -327,6 +351,7 @@
    サイドバー
    ============================ */
 
+/* サイドバー背景 */
 .theme-doc-sidebar-container {
   background-color: #ffffff;
 }
@@ -334,12 +359,14 @@
   background-color: #2f3136;
 }
 
+/* カテゴリラベル（親）：上下に余白を持たせてグループ感を出す */
 .menu__link--sublist {
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
   margin-top: 0.5rem;
 }
 
+/* 記事リンク（子）：縦余白を詰めてコンパクトに、インデントを明確に */
 .menu__list .menu__list .menu__link:not(.menu__link--sublist) {
   font-size: 0.875rem;
   font-weight: 400;
@@ -348,6 +375,7 @@
   padding-left: 1.25rem;
 }
 
+/* 記事エリア背景 */
 .theme-doc-markdown,
 article.margin-top--md {
   background-color: #ffffff;
@@ -371,7 +399,7 @@ article.margin-top--md {
 }
 
 /* ============================
-   ページネーション
+   ページネーション（前後記事ボタン）
    ============================ */
 .pagination-nav__link {
   background-color: #ffffff;
@@ -383,7 +411,7 @@ article.margin-top--md {
 }
 
 /* ============================
-   ドキュメントカード
+   ドキュメントカード（カテゴリページ）
    ============================ */
 .card {
   border: 1px solid var(--custom-card-border);
@@ -419,19 +447,23 @@ article.margin-top--md {
 }
 
 @media (min-width: 997px) {
+  /* TOC幅をサイドバーの開閉に関わらず固定する */
   .col:has(> .theme-doc-toc-desktop) {
     flex: 0 0 18rem !important;
     max-width: 18rem !important;
   }
+  /* コンテンツ列は残りのスペースを埋める（75%固定を解除） */
   .row:has(.theme-doc-toc-desktop) > .col:not(:has(.theme-doc-toc-desktop)) {
     flex: 1 1 0 !important;
     max-width: calc(100% - 18rem) !important;
     min-width: 0 !important;
   }
+  /* サイドバー開閉時のTOCスライドを防ぐ：コンテナを右揃えにする */
   aside.theme-doc-sidebar-container ~ main > .container {
     margin-left: auto !important;
     margin-right: 0 !important;
   }
+  /* TOCをビューポート右端に固定してサイドバー開閉の影響を受けないようにする */
   .theme-doc-toc-desktop {
     position: fixed !important;
     right: 0;

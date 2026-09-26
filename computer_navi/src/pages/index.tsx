@@ -18,14 +18,14 @@ const SECTIONS: Section[] = [
   {
     title: 'コンピュータアーキテクチャ',
     path: '/docs/computer-architecture/intro',
-    description: 'データ表現・論理回路・CPU・メモリ階層・GPU・圧縮まで低レイヤを体系的に解説',
-    categories: ['データ表現', '論理回路', 'プロセッサ', 'メモリ階層', 'GPU・並列計算', 'データ形式・圧縮'],
+    description: 'データ表現・論理回路・プロセッサ・メモリ階層・GPU・圧縮まで低レイヤを体系的に解説',
+    categories: ['データ表現', '論理回路', 'プロセッサアーキテクチャ', 'メモリ階層', 'GPU・並列計算', 'データ形式・圧縮'],
   },
   {
     title: 'オペレーティングシステム',
     path: '/docs/operating-system/intro',
-    description: 'プロセス・スケジューリング・メモリ管理・ファイルシステム・システムプログラミングを解説',
-    categories: ['プロセス・スレッド', 'スケジューリング', '排他制御', 'メモリ管理', 'ファイルシステム', 'システムコール'],
+    description: 'OS・プロセス・スレッド・システムプログラミングをCとPythonで実践的に解説',
+    categories: ['OSの概要', 'プロセス・スレッド', 'Cのメモリモデル', 'ポインタ'],
   },
 ];
 
@@ -38,22 +38,16 @@ type SisterSite = {
 
 const SISTER_SITES: SisterSite[] = [
   {
-    title: 'アルゴリズムナビ',
+    title: 'アルゴリズム',
     subtitle: 'Algorithm Navi',
     description: 'アルゴリズムとデータ構造を体系的に学べるサイト',
     url: 'http://localhost:3001',
   },
   {
-    title: 'ネットワークナビ',
-    subtitle: 'Network Navi',
-    description: 'TCP/IP・HTTP・DNS・TLSなど通信プロトコルを解説',
-    url: 'http://localhost:3005',
-  },
-  {
-    title: 'セキュリティナビ',
-    subtitle: 'Security Navi',
-    description: '暗号理論・Webセキュリティ・バイナリ解析・CTFを解説',
-    url: 'http://localhost:3009',
+    title: '機械学習',
+    subtitle: 'Machine Learning',
+    description: '機械学習・深層学習のアルゴリズムと実装を解説',
+    url: '#',
   },
 ];
 
@@ -82,7 +76,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={siteConfig.title}
-      description="コンピュータアーキテクチャからOSまで低レイヤをコード例と図解で学ぶ">
+      description="コンピュータアーキテクチャ・OS・システムプログラミングをコード例と図解で学ぶ">
       <main>
 
         {/* ── ページヘッダー ── */}

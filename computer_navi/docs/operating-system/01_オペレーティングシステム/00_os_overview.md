@@ -3,99 +3,112 @@ sidebar_position: 0
 displayed_sidebar: operatingSystemSidebar
 ---
 
-# OS の役割とカーネルの種類
+import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
-## 概要
+# OS の概要 (OS Overview)
 
-オペレーティングシステム（OS）とは、
+## OS とは
 
-> ハードウェアリソース（CPU・メモリ・I/O・ネットワーク）を管理し、アプリケーションに統一的なインタフェースを提供するシステムソフトウェア
+OS（オペレーティングシステム）とは、
+
+> ハードウェアリソース（CPU・メモリ・I/O）を管理し、アプリケーションに統一されたインタフェースを提供するシステムソフトウェア
 
 です。
+<br/>
 
-OS がなければ、各アプリケーションが直接ハードウェアを制御する必要があり、複数プログラムの共存が不可能になります。
+OS は「リソース管理者」と「仮想マシン」の2つの役割を担います。
+アプリケーションはシステムコールを通じて OS のサービスを利用します。
 
-## OS の主な役割
+## OS の主要機能
+
 
 | 機能 | 説明 |
-|---|---|
-| プロセス管理 | プロセス・スレッドの生成・スケジューリング・終了 |
-| メモリ管理 | 仮想メモリ・ページング・動的割り当て |
-| ファイルシステム | ファイル・ディレクトリの管理・アクセス制御 |
-| I/O 管理 | デバイスドライバの抽象化・割り込み処理 |
-| ネットワーク | ソケット API・プロトコルスタック |
-| セキュリティ | 権限管理・プロセス分離・システムコールフィルタ |
+| --- | --- |
+| プロセス管理 | 生成・スケジューリング・終了・IPC |
+| メモリ管理 | 仮想アドレス空間・ページング・スワップ |
+| ファイルシステム | ディレクトリ・権限・ブロックデバイス |
+| I/O 管理 | デバイスドライバ・バッファリング |
+| ネットワーク | TCP/IP スタック・ソケット |
+| セキュリティ | 権限管理・名前空間・capabilities |
 
-## カーネルの種類
-
-### モノリシックカーネル
+## カーネルとユーザ空間
 
 ```
-ユーザ空間 | アプリケーション
------------|-----------------------------------------
-カーネル空間 | ファイルシステム・ネットワーク・ドライバ
-            | プロセス管理・メモリ管理
-            | （全て同じアドレス空間）
-```
-
-- **例**: Linux, FreeBSD, 初期の Windows
-- **メリット**: 高速（関数呼び出しのみ）
-- **デメリット**: バグが全体に波及、拡張性が低い
-
-### マイクロカーネル
-
-```
-ユーザ空間 | アプリ | FS サーバ | ドライバ | ネット
------------|-----------------------------------------
-カーネル空間 | IPC・メモリ管理・スレッド管理のみ
-```
-
-- **例**: MINIX, QNX, seL4, GNU Hurd
-- **メリット**: 安定性・モジュール性が高い、形式的検証が可能
-- **デメリット**: IPC オーバーヘッドで低速
-
-### ハイブリッドカーネル
-
-- **例**: Windows NT（NTFS・ドライバの一部がカーネル空間）、macOS（XNU: Mach マイクロ + BSD モノリシック）
-
-## 特権レベルとシステムコール
-
-```
-リング3（ユーザモード）: アプリケーション
-  ↓ システムコール（INT 0x80 / SYSCALL 命令）
-リング0（カーネルモード）: OS カーネル
-
-システムコールの例（Linux）:
-  read(2), write(2), open(2), fork(2), execve(2), mmap(2)
+ユーザ空間                カーネル空間
+  アプリケーション           プロセス管理
+      ↓ システムコール →     メモリ管理
+  標準ライブラリ(glibc)      ファイルシステム
+                              デバイスドライバ
+                                ↓
+                            ハードウェア
 ```
 
 ## 実装
 
-```c title="システムコールの呼び出し例（Linux x86-64）"
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/wait.h>
+```c title="fork/execve によるプロセス生成（C）"
 #include <stdio.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <errno.h>
+#include <string.h>
 
 int main(void) {
-    pid_t pid = fork();  // システムコール: fork
+    pid_t pid = fork();
+    if (pid < 0) {
+        perror("fork");
+        return 1;
+    }
 
     if (pid == 0) {
-        // 子プロセス
-        char *argv[] = {"/bin/echo", "Hello from child", NULL};
-        execv("/bin/echo", argv);  // システムコール: execve
-    } else {
-        // 親プロセス
-        int status;
-        waitpid(pid, &status, 0);  // 子の終了を待つ
-        printf("Child exited with %d\n", WEXITSTATUS(status));
+        /* 子プロセス */
+        char *const args[] = {"ls", "-la", NULL};
+        execvp("ls", args);
+        /* execvp が成功したらここに到達しない */
+        fprintf(stderr, "execvp failed: %s\n", strerror(errno));
+        return 1;
     }
+
+    /* 親プロセス */
+    int status;
+    waitpid(pid, &status, 0);
+    if (WIFEXITED(status))
+        printf("子プロセス終了コード: %d\n", WEXITSTATUS(status));
     return 0;
 }
 ```
 
+```python title="プロセス一覧と情報取得（Python）"
+import os
+import subprocess
+
+# 現在のプロセス情報
+print(f"PID:  {os.getpid()}")
+print(f"PPID: {os.getppid()}")
+print(f"UID:  {os.getuid()}")
+
+# サブプロセス実行
+result = subprocess.run(
+    ["uname", "-r"],
+    capture_output=True,
+    text=True
+)
+print(f"カーネルバージョン: {result.stdout.strip()}")
+
+# /proc 経由でプロセス一覧（Linux）
+try:
+    pids = [int(p) for p in os.listdir('/proc') if p.isdigit()]
+    print(f"実行中プロセス数: {len(pids)}")
+except PermissionError:
+    pass
+```
+
 ## 使用場面
 
-- **組み込みシステム**: リアルタイム OS（FreeRTOS・RTEMS）
-- **サーバ**: Linux カーネルによる大規模インフラ運用
-- **セキュリティ研究**: カーネルの脆弱性解析・eBPF による監視
+- **コンテナ**: namespaces + cgroups による OS レベル仮想化
+- **セキュリティ**: seccomp でシステムコールをフィルタリング
+- **デバッグ**: strace でシステムコールトレース
+- **パフォーマンス**: perf でカーネルイベント計測
+
+## 参考文献
+
+<AffiliateBanner site="algorithm_zukan" />

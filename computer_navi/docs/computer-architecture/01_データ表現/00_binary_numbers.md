@@ -3,23 +3,28 @@ sidebar_position: 0
 displayed_sidebar: computerArchitectureSidebar
 ---
 
-# 2進数・8進数・16進数
+import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
-## 概要
+# 2進数と基数変換 (Binary Numbers)
 
-コンピュータの数値表現とは、
+## 2進数とは
 
-> デジタル回路が扱える 0 と 1 のビット列で数値を表現するシステム
+2進数とは、
+
+> 0と1の2つの記号だけを使い、桁が上がるたびに重みが2倍になる位取り記数法
 
 です。
+<br/>
 
-10進数（人間が日常で使う基数10の表現）に対し、コンピュータは基数2（2進数）を基本とし、プログラマは基数8（8進数）・基数16（16進数）も利用します。
+コンピュータ内部ではあらゆるデータを2進数で表現します。
+n ビットで表現できる値の範囲は 0 〜 2ⁿ−1（符号なし）です。
 
-## 基数変換の仕組み
+## 基数変換
+
 
 ### 10進数 → 2進数
 
-10進数の数値を 2 で繰り返し割り、余りを逆順に並べます。
+10進数を2で繰り返し割り、余りを逆順に並べる。
 
 ```
 13 ÷ 2 = 6 余り 1
@@ -31,61 +36,64 @@ displayed_sidebar: computerArchitectureSidebar
 
 ### 2進数 → 16進数
 
-2進数を4ビットずつグループ化し、各グループを16進数1桁に対応させます。
+4ビットごとにまとめると16進数1桁に対応する。
 
-```
-1010 1111 → A F → 0xAF
-```
-
-## 各進数の比較
-
-| 10進数 | 2進数 | 8進数 | 16進数 |
-|---|---|---|---|
-| 0 | 0000 | 0 | 0x0 |
-| 8 | 1000 | 10 | 0x8 |
-| 10 | 1010 | 12 | 0xA |
-| 15 | 1111 | 17 | 0xF |
-| 16 | 0001 0000 | 20 | 0x10 |
-| 255 | 1111 1111 | 377 | 0xFF |
+| 2進数 | 16進数 |
+| --- | --- |
+| 0000 | 0 |
+| 1010 | A |
+| 1111 | F |
 
 ## 実装
 
-```python title="基数変換"
-# 10進 → 2/8/16進
-n = 255
-print(bin(n))   # '0b11111111'
-print(oct(n))   # '0o377'
-print(hex(n))   # '0xff'
+```python title="基数変換（Python）"
+def to_binary(n: int, bits: int = 8) -> str:
+    """10進数を指定ビット数の2進数文字列に変換"""
+    return format(n, f'0{bits}b')
 
-# 2/8/16進 → 10進
-print(int('11111111', 2))  # 255
-print(int('377', 8))       # 255
-print(int('ff', 16))       # 255
+def to_decimal(b: str) -> int:
+    """2進数文字列を10進数に変換"""
+    return int(b, 2)
+
+def to_hex(n: int) -> str:
+    """10進数を16進数文字列に変換"""
+    return format(n, 'X')
+
+# 使用例
+print(to_binary(13))        # 00001101
+print(to_decimal('1101'))   # 13
+print(to_hex(255))          # FF
+print(bin(255))             # 0b11111111
+print(hex(255))             # 0xff
 ```
 
-```c title="ビット操作による確認"
+```c title="基数変換（C）"
 #include <stdio.h>
 
-void print_binary(unsigned int n) {
-    for (int i = 31; i >= 0; i--) {
+void print_binary(unsigned int n, int bits) {
+    for (int i = bits - 1; i >= 0; i--) {
         printf("%d", (n >> i) & 1);
-        if (i % 4 == 0) printf(" ");
     }
     printf("\n");
 }
 
 int main(void) {
-    unsigned int x = 0xAF;  // 10101111
-    printf("decimal: %u\n", x);     // 175
-    printf("hex:     0x%X\n", x);   // 0xAF
-    print_binary(x);                // 0000 0000 ... 1010 1111
+    unsigned int x = 13;
+    printf("decimal: %u\n", x);
+    printf("binary:  ");
+    print_binary(x, 8);          // 00001101
+    printf("hex:     %X\n", x);  // D
     return 0;
 }
 ```
 
 ## 使用場面
 
-- **アドレス表示**: メモリアドレスは 16 進数（例: `0x7FFFFFFF`）
-- **ビットフラグ**: 権限・状態管理は 2 進数マスクで操作
-- **カラーコード**: HTML の色指定 `#FF5733` は RGB を 16 進数で表現
-- **ファイルのマジックナンバー**: ELF ヘッダ `7F 45 4C 46`（`\x7FELF`）
+- **メモリアドレス**: 64ビットアーキテクチャのアドレス空間表現
+- **ビットマスク**: フラグ管理・パーミッション
+- **ネットワーク**: IP アドレス・サブネットマスク
+- **文字コード**: ASCII・UTF-8 のバイト列表現
+
+## 参考文献
+
+<AffiliateBanner site="algorithm_zukan" />

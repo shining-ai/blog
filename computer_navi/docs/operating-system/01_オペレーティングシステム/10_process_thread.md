@@ -3,118 +3,123 @@ sidebar_position: 1
 displayed_sidebar: operatingSystemSidebar
 ---
 
-# プロセスとスレッド
+import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
-## 概要
+# プロセスとスレッド (Process & Thread)
+
+## プロセスとスレッドの違い
 
 プロセスとは、
 
-> 実行中のプログラムのインスタンスであり、独立したメモリ空間・ファイルディスクリプタ・PID を持つ OS の基本的な資源管理単位
+> OS が資源割り当ての単位として管理する独立したプログラムの実行インスタンス
+
+スレッドとは、
+
+> プロセス内でメモリ空間を共有しながら独立して実行されるスケジューリングの最小単位
 
 です。
+<br/>
 
-スレッドは同じプロセス内で動作し、コードセグメント・データセグメント・ヒープを共有しつつ、スタックとレジスタセットは独立します。
+プロセスは独立したアドレス空間を持ちますが、スレッドはプロセス内のヒープ・グローバル変数・ファイルディスクリプタを共有します。
 
-## プロセスとスレッドの比較
+## 比較
 
-| 属性 | プロセス | スレッド |
-|---|---|---|
-| アドレス空間 | 独立 | 共有（プロセス内） |
-| 生成コスト | 高い（fork: ページテーブルコピー） | 低い（スタックのみ） |
-| 通信方法 | IPC（パイプ・ソケット・共有メモリ） | 共有メモリ直接アクセス |
-| 障害分離 | クラッシュしても他プロセスに影響なし | バグが他スレッドに波及 |
-| 並列性 | マルチコア活用 | マルチコア活用 |
-| 例 | Chrome の各タブ | Web サーバの各接続処理 |
 
-## プロセスの状態遷移
+| 項目 | プロセス | スレッド |
+| --- | --- | --- |
+| メモリ空間 | 独立 | 共有 |
+| 生成コスト | 高い（fork） | 低い（pthread_create） |
+| 切り替えコスト | 高い（TLB フラッシュ） | 低い |
+| 障害影響 | 他プロセスに影響しない | 同プロセス全体に影響 |
+| 通信 | IPC（パイプ・共有メモリ等） | 共有変数（要同期） |
 
-```
-          fork()
-NEW ──────────────→ READY
-                     ↓↑ スケジューラ
-                   RUNNING
-                   /     \
-          wait()  /       \  I/O要求
-                ↓          ↓
-           ZOMBIE       BLOCKED（WAITING）
-                ↑          ↓
-             exit()   I/O完了 → READY
-```
+## スケジューリングアルゴリズム
 
-## プロセスのメモリレイアウト
-
-```
-高アドレス  ┌──────────────┐
-            │ カーネル空間  │  （リング0）
-            ├──────────────┤
-            │    スタック   │  ← rsp / ローカル変数
-            │    ↓          │
-            │               │
-            │    ↑          │
-            │    ヒープ     │  ← malloc / new
-            ├──────────────┤
-            │  BSS セグメント│  未初期化グローバル変数
-            │  データセグメント│  初期化済みグローバル変数
-低アドレス  │  テキスト     │  コード（実行可能）
-            └──────────────┘
-```
+| アルゴリズム | 特徴 |
+| --- | --- |
+| FIFO | シンプル・飢餓あり |
+| ラウンドロビン | タイムスライスで公平 |
+| 優先度スケジューリング | 高優先度タスク優先 |
+| CFS（Linux） | 仮想実行時間で公平 |
 
 ## 実装
 
-```c title="マルチスレッドの例（pthreads）"
-#include <pthread.h>
+```c title="POSIX スレッドと Mutex（C）"
 #include <stdio.h>
-#include <stdlib.h>
+#include <pthread.h>
 
-#define NTHREADS 4
+#define N_THREADS 4
+#define ITERATIONS 1000000
 
-typedef struct { int id; long sum; } Arg;
+static long counter = 0;
+static pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
-void *worker(void *arg) {
-    Arg *a = (Arg *)arg;
-    a->sum = 0;
-    for (int i = a->id * 1000; i < (a->id + 1) * 1000; i++)
-        a->sum += i;
+void *increment(void *arg) {
+    (void)arg;
+    for (int i = 0; i < ITERATIONS; i++) {
+        pthread_mutex_lock(&mutex);
+        counter++;
+        pthread_mutex_unlock(&mutex);
+    }
     return NULL;
 }
 
 int main(void) {
-    pthread_t threads[NTHREADS];
-    Arg       args[NTHREADS];
-    long      total = 0;
+    pthread_t threads[N_THREADS];
 
-    for (int i = 0; i < NTHREADS; i++) {
-        args[i].id = i;
-        pthread_create(&threads[i], NULL, worker, &args[i]);
-    }
-    for (int i = 0; i < NTHREADS; i++) {
+    for (int i = 0; i < N_THREADS; i++)
+        pthread_create(&threads[i], NULL, increment, NULL);
+
+    for (int i = 0; i < N_THREADS; i++)
         pthread_join(threads[i], NULL);
-        total += args[i].sum;
-    }
-    printf("Total: %ld\n", total);  // 0〜3999の合計 = 7998000
+
+    printf("counter = %ld (期待値: %d)\n",
+           counter, N_THREADS * ITERATIONS);
     return 0;
 }
 ```
 
-```python title="Python でのプロセス・スレッド"
-import threading, multiprocessing, time
+```python title="マルチプロセスとスレッドの比較（Python）"
+import multiprocessing
+import threading
+import time
 
-def task(name: str) -> None:
-    print(f"{name}: start")
-    time.sleep(0.1)
-    print(f"{name}: done")
+def cpu_bound(n: int) -> int:
+    """CPU バウンドなタスク（素数判定）"""
+    count = 0
+    for i in range(2, n):
+        if all(i % j != 0 for j in range(2, int(i**0.5) + 1)):
+            count += 1
+    return count
 
-# スレッド（GIL の制約あり）
-t = threading.Thread(target=task, args=("Thread",))
-t.start(); t.join()
+N = 10000
+WORKERS = 4
 
-# プロセス（GIL を回避可能）
-p = multiprocessing.Process(target=task, args=("Process",))
-p.start(); p.join()
+# スレッド（GIL により CPU バウンドは並列化されない）
+t0 = time.perf_counter()
+threads = [threading.Thread(target=cpu_bound, args=(N,)) for _ in range(WORKERS)]
+for t in threads: t.start()
+for t in threads: t.join()
+t_thread = time.perf_counter() - t0
+
+# プロセス（真の並列実行）
+t0 = time.perf_counter()
+with multiprocessing.Pool(WORKERS) as pool:
+    pool.map(cpu_bound, [N] * WORKERS)
+t_process = time.perf_counter() - t0
+
+print(f"スレッド:  {t_thread:.2f}s")
+print(f"プロセス: {t_process:.2f}s")
+print(f"高速化:    {t_thread/t_process:.1f}x（プロセスが有利）")
 ```
 
 ## 使用場面
 
-- **Web サーバ**: 接続ごとにスレッドまたはプロセスを割り当て（Apache: prefork/worker MPM）
-- **ブラウザ**: タブをプロセス分離してクラッシュ影響を最小化（Chrome）
-- **並列計算**: データ並列処理にマルチプロセス（Python: multiprocessing）
+- **Webサーバー**: マルチプロセス（Gunicorn）またはスレッドプール（スレッドモデル）
+- **データ処理**: Python の multiprocessing で GIL を回避
+- **ゲームエンジン**: レンダリング・物理・AI を別スレッドで並列処理
+- **データベース**: 接続ごとにスレッドまたはコルーチンを割り当て
+
+## 参考文献
+
+<AffiliateBanner site="algorithm_zukan" />
