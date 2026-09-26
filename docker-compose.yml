@@ -38,6 +38,19 @@ services:
     working_dir: /app
     command: sh -c "yarn install && yarn start --host 0.0.0.0 --port 3005"
 
+  theory_navi:
+    build: .
+    tty: true
+    stdin_open: true
+    ports:
+      - "3006:3006"
+    volumes:
+      - ./theory_navi:/app
+      - theory_navi_node_modules:/app/node_modules
+      - theory_navi_docusaurus:/app/.docusaurus
+    working_dir: /app
+    command: sh -c "yarn install && yarn start --host 0.0.0.0 --port 3006"
+
 volumes:
   algorithm_navi_node_modules:
   algorithm_navi_docusaurus:
@@ -45,3 +58,5 @@ volumes:
   system_navi_docusaurus:
   ml_navi_node_modules:
   ml_navi_docusaurus:
+  theory_navi_node_modules:
+  theory_navi_docusaurus:
