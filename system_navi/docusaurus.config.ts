@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'システムナビ',
   tagline: 'コンピュータアーキテクチャからOSまで低レイヤを体系的に学べるサイト',
-  favicon: 'img/computer_navi_logo.png',
+  favicon: 'img/system_navi_logo.png',
 
   url: 'https://system.nisshingeppo.com',
   baseUrl: '/',
@@ -37,12 +37,12 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/computer_navi_logo.png',
+    image: 'img/system_navi_logo.png',
     navbar: {
       title: 'Home',
       logo: {
         alt: 'System Navi Logo',
-        src: 'img/computer_navi_logo.png',
+        src: 'img/system_navi_logo.png',
       },
       items: [
         { type: 'docSidebar', sidebarId: 'computerArchitectureSidebar', label: 'コンピュータアーキテクチャ', position: 'left' },

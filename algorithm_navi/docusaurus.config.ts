@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'アルゴリズムナビ',
   tagline: 'アルゴリズムとデータ構造を体系的に学べるサイト',
-  favicon: 'img/programming_navi_logo.png',
+  favicon: 'img/algorithm_navi_logo.png',
 
   // ホストするURL
   url: 'https://algorithm.nisshingeppo.com',
@@ -52,12 +52,12 @@ const config: Config = {
 
   themeConfig: {
     // SNSのリンクでのロゴ
-    image: 'img/programming_navi_logo.png',
+    image: 'img/algorithm_navi_logo.png',
     navbar: {
       title: 'Home',
       logo: {
         alt: 'Algorithm Navi Logo',
-        src: 'img/programming_navi_logo.png',
+        src: 'img/algorithm_navi_logo.png',
       },
       // メニューバー
       items: [
