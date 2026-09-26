@@ -41,13 +41,13 @@ const SISTER_SITES: SisterSite[] = [
     title: 'アルゴリズム',
     subtitle: 'Algorithm Navi',
     description: 'アルゴリズムとデータ構造を体系的に学べるサイト',
-    url: 'https://algorithm.nisshingeppo.com',
+    url: '#',
   },
   {
     title: 'システム',
     subtitle: 'System Navi',
-    description: 'コンピュータアーキテクチャ・OSを体系的に学べるサイト',
-    url: 'https://system.nisshingeppo.com',
+    description: 'コンピュータアーキテクチャからOSまで低レイヤを体系的に学べるサイト',
+    url: '#',
   },
 ];
 
