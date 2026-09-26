@@ -9,7 +9,7 @@ const config: Config = {
   tagline: 'Docker・Kubernetes・Kafka・Raft・SREをクラウドネイティブから分散システムまで体系的に学べるサイト',
   favicon: 'img/cloud_navi_logo.png',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://cloud.nisshingeppo.com',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
