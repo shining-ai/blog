@@ -51,21 +51,15 @@ type SisterSite = {
 // 姉妹サイトの URL は適宜変更してください
 const SISTER_SITES: SisterSite[] = [
   {
-    title: 'OS',
-    subtitle: 'Operating System',
-    description: 'オペレーティングシステムの仕組みを解説',
+    title: 'システム',
+    subtitle: 'System Navi',
+    description: 'コンピュータアーキテクチャからOSまで低レイヤを体系的に学べるサイト',
     url: '#',
   },
   {
     title: '機械学習',
-    subtitle: 'Machine Learning',
-    description: '機械学習・深層学習のアルゴリズムと実装を解説',
-    url: '#',
-  },
-  {
-    title: 'コンピュータシステム',
-    subtitle: 'Computer Systems',
-    description: 'コンピュータの構成・アーキテクチャを基礎から解説',
+    subtitle: 'Machine Learning Navi',
+    description: '数学基礎から深層学習・MLOpsまで機械学習を体系的に学べるサイト',
     url: '#',
   },
 ];
