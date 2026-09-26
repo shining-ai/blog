@@ -1,4 +1,5 @@
 import type {ReactNode} from 'react';
+import {useEffect} from 'react';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
@@ -72,6 +73,18 @@ function SectionCard({title, path, description, categories}: Section) {
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
+
+  useEffect(() => {
+    if ((window as any).netlifyIdentity) {
+      (window as any).netlifyIdentity.on('init', (user: unknown) => {
+        if (!user) {
+          (window as any).netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    }
+  }, []);
 
   return (
     <Layout
