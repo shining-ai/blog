@@ -1,0 +1,82 @@
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
+
+// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+
+const config: Config = {
+  title: 'ネットワークナビ',
+  tagline: 'TCP/IP・HTTP・DNS・TLSからBGPまでネットワークを体系的に学べるサイト',
+  favicon: 'img/network_navi_logo.png',
+
+  url: 'https://your-docusaurus-site.example.com',
+  baseUrl: '/',
+
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+
+  scripts: [
+    {
+      src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
+      defer: true,
+    },
+  ],
+
+  plugins: ['docusaurus-plugin-image-zoom'],
+
+  presets: [
+    [
+      'classic',
+      {
+        docs: {
+          sidebarPath: './sidebars.ts',
+        },
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      } satisfies Preset.Options,
+    ],
+  ],
+
+  themeConfig: {
+    image: 'img/network_navi_logo.png',
+    navbar: {
+      title: 'Home',
+      logo: {
+        alt: 'Network Navi Logo',
+        src: 'img/network_navi_logo.png',
+      },
+      items: [
+        { type: 'docSidebar', sidebarId: 'networkBasicsSidebar', label: 'ネットワーク基礎〜トランスポート', position: 'left' },
+        { type: 'docSidebar', sidebarId: 'networkApplicationSidebar', label: 'アプリケーション層・設計・運用', position: 'left' },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      copyright: `Copyright © 2025-${new Date().getFullYear()} ネットワークナビ All Right Reserved.`,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+    zoom: {
+      selector: '.markdown img',
+      background: {
+        light: 'rgba(0, 0, 0, 0.7)',
+        dark: 'rgba(0, 0, 0, 0.85)',
+      },
+    },
+  } satisfies Preset.ThemeConfig,
+};
+
+export default config;
