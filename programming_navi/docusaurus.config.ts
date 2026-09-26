@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/programming_navi_logo.png',
 
   // ホストするURL
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://algorithm.nisshingeppo.com',
   // TOPページのパス
   baseUrl: '/',
 

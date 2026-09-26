@@ -9,7 +9,7 @@ const config: Config = {
   tagline: 'コンピュータアーキテクチャからOSまで低レイヤを体系的に学べるサイト',
   favicon: 'img/computer_navi_logo.png',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://system.nisshingeppo.com',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
