@@ -84,8 +84,8 @@ RISC-V は基本整数命令セット（RV32I/RV64I）に対して乗除算（M�
 | blt rs1, rs2, label | B | rs1 < rs2 なら PC += offset（符号付き） |
 | jal rd, label | J | rd = PC+4; PC += offset |
 | jalr rd, rs1, imm | I | rd = PC+4; PC = rs1 + imm |
-| lui rd, imm | U | rd = imm << 12 |
-| auipc rd, imm | U | rd = PC + (imm << 12) |
+| lui rd, imm | U | rd = imm \<\< 12 |
+| auipc rd, imm | U | rd = PC + (imm \<\< 12) |
 
 ## 実装
 
