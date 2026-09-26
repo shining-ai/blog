@@ -30,13 +30,6 @@ const config: Config = {
     locales: ['en'],
   },
 
-  scripts: [
-    {
-      src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
-      defer: true,
-    },
-  ],
-
   plugins: ['docusaurus-plugin-image-zoom'],
 
   presets: [
