@@ -41,7 +41,7 @@ const SISTER_SITES: SisterSite[] = [
     title: 'アルゴリズム',
     subtitle: 'Algorithm Navi',
     description: 'アルゴリズムとデータ構造を体系的に学べるサイト',
-    url: 'http://localhost:3001',
+    url: 'http://localhost:3003',
   },
   {
     title: '機械学習',
