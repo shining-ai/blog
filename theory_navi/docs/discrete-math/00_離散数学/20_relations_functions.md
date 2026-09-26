@@ -18,7 +18,7 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 |------|------|----|
 | 反射律 | ∀a: aRa | "=" , "≤" |
 | 対称律 | aRb ⇒ bRa | "=" , "兄弟関係" |
-| 推移律 | aRb ∧ bRc ⇒ aRc | "=" , "<" , "⊆" |
+| 推移律 | aRb ∧ bRc ⇒ aRc | "=" , "\<" , "⊆" |
 | 反対称律 | aRb ∧ bRa ⇒ a=b | "≤" , "⊆" |
 | 同値関係 | 反射+対称+推移 | "mod n で合同" |
 | 半順序 | 反射+反対称+推移 | "≤" , "⊆" |

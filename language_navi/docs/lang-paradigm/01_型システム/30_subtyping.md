@@ -12,10 +12,10 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
 ## 変位の種類
 
-| 変位 | 意味 | S <: T のとき | 典型的な用途 |
+| 変位 | 意味 | `S <: T` のとき | 典型的な用途 |
 |------|------|---------------|-------------|
-| 共変（Covariant） | `F<S>` は `F<T>` の部分型 | `List<Cat>` <: `List<Animal>` | 読み取り専用コンテナ |
-| 反変（Contravariant） | `F<T>` は `F<S>` の部分型 | `Consumer<Animal>` <: `Consumer<Cat>` | 書き込み専用コンテナ |
+| 共変（Covariant） | `F<S>` は `F<T>` の部分型 | `List<Cat> <: List<Animal>` | 読み取り専用コンテナ |
+| 反変（Contravariant） | `F<T>` は `F<S>` の部分型 | `Consumer<Animal> <: Consumer<Cat>` | 書き込み専用コンテナ |
 | 不変（Invariant） | どちらの部分型でもない | `List<Cat>` と `List<Animal>` は無関係 | 読み書き両方のコンテナ |
 
 ```typescript
