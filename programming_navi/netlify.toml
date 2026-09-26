@@ -1,0 +1,5 @@
+# Netlify のサイト設定でベースディレクトリにこのディレクトリを指定すること。
+# publish はベースディレクトリからの相対パス。
+[build]
+  command = "yarn build"
+  publish = "build"
