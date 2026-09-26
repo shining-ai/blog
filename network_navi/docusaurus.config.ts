@@ -9,7 +9,7 @@ const config: Config = {
   tagline: 'TCP/IP・HTTP・DNS・TLSからBGPまでネットワークを体系的に学べるサイト',
   favicon: 'img/network_navi_logo.png',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://network.nisshingeppo.com',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
