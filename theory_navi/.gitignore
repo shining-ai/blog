@@ -1,6 +1,9 @@
 # Dependencies
 /node_modules
 
+# パッケージマネージャは yarn に統一する
+package-lock.json
+
 # Production
 /build
 
