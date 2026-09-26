@@ -16,11 +16,11 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
 | 分布 | PMF P(X=k) | 期待値 | 分散 |
 |------|-----------|--------|------|
-| ベルヌーイ B(p) | p^k (1-p)^{1-k} | p | p(1-p) |
-| 二項 B(n,p) | C(n,k) p^k (1-p)^{n-k} | np | np(1-p) |
-| 幾何 Geo(p) | (1-p)^{k-1} p | 1/p | (1-p)/p^2 |
-| ポアソン Poi(λ) | e^{-λ} λ^k / k! | λ | λ |
-| 一様 U{1,...,n} | 1/n | (n+1)/2 | (n^2-1)/12 |
+| ベルヌーイ B(p) | p^k (1-p)^\{1-k} | p | p(1-p) |
+| 二項 B(n,p) | C(n,k) p^k (1-p)^\{n-k} | np | np(1-p) |
+| 幾何 Geo(p) | (1-p)^\{k-1} p | 1/p | (1-p)/p^2 |
+| ポアソン Poi(λ) | e^\{-λ} λ^k / k! | λ | λ |
+| 一様 U\{1,...,n} | 1/n | (n+1)/2 | (n^2-1)/12 |
 
 ```python
 import random

@@ -21,7 +21,7 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 | 差集合 | A \ B | x ∈ A かつ x ∉ B |
 | 補集合 | A^c | x ∉ A（全体集合 U を前提） |
 | 対称差 | A △ B | (A \ B) ∪ (B \ A) |
-| 直積 | A × B | {(a, b) \| a ∈ A, b ∈ B} |
+| 直積 | A × B | \{(a, b) \| a ∈ A, b ∈ B} |
 | べき集合 | P(A) | A のすべての部分集合の集合 |
 
 ```python

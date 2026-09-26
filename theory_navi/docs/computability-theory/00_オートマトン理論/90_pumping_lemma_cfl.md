@@ -10,7 +10,7 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
 正規言語のポンピング補題との違いは、分割が5つの部分（uvwxy）になり、v と x を同時にポンピングする点です。直感的には、文脈自由言語の解析木でポンプ長以上の文字列を解析すると、木のある分岐で同じ非終端記号が繰り返し現れます（鳩の巣原理）。その繰り返し部分が v と x に対応し、繰り返し回数を変えても解析木を作れます。
 
-典型的な非 CFL の例として {a^n b^n c^n | n ≥ 0} があります。この言語はどのように5分割しても v と x の両方が同時に a・b・c の3種の文字を含むことはできないため、ポンピング後に a・b・c の個数が崩れます。
+典型的な非 CFL の例として \{a^n b^n c^n | n ≥ 0} があります。この言語はどのように5分割しても v と x の両方が同時に a・b・c の3種の文字を含むことはできないため、ポンピング後に a・b・c の個数が崩れます。
 
 ## 正規言語 vs CFL のポンピング補題の比較
 
@@ -20,7 +20,7 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 | ポンプ条件 | \|xy\| ≤ p, \|y\| ≥ 1 | \|vwx\| ≤ p, \|vx\| ≥ 1 |
 | ポンピング | xy^i z ∈ L | uv^i wx^i y ∈ L |
 | 対象クラス | 正規言語（DFA が認識） | 文脈自由言語（PDA が認識） |
-| 典型的な反例 | {0^n 1^n} | {a^n b^n c^n} |
+| 典型的な反例 | \{0^n 1^n} | \{a^n b^n c^n} |
 
 ```python
 def pumping_lemma_cfl_demo(p=3):

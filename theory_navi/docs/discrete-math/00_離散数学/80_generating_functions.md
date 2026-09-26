@@ -10,7 +10,7 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 
 たとえば 1/(1-x) = 1 + x + x^2 + ... は数列 (1,1,1,...) の OGF であり、1/(1-x)^2 は自然数列 (1,2,3,...) の OGF です。2つの数列の OGF の積 A(x)B(x) の係数は**畳み込み**（convolution）に対応します。
 
-**指数型生成関数**（Exponential Generating Function, EGF）は A(x) = Σ a_n x^n/n! で、順列の計数（順序付き構造）に向いています。e^x は EGF で (1,1,1,...) に対応し、e^{2x} = e^x * e^x は「2色からなる文字列の数え方」を表します。漸化式 F_n = F_{n-1} + F_{n-2}（フィボナッチ）も OGF で解くと閉じた形の解が得られます。
+**指数型生成関数**（Exponential Generating Function, EGF）は A(x) = Σ a_n x^n/n! で、順列の計数（順序付き構造）に向いています。e^x は EGF で (1,1,1,...) に対応し、e^\{2x} = e^x * e^x は「2色からなる文字列の数え方」を表します。漸化式 F_n = F_\{n-1} + F_\{n-2}（フィボナッチ）も OGF で解くと閉じた形の解が得られます。
 
 ## 主要な生成関数の対応表
 
@@ -18,7 +18,7 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 |----------|----------|
 | 1, 1, 1, ... | 1/(1-x) |
 | 1, 2, 3, ... | 1/(1-x)^2 |
-| C(n,k) (固定 k) | x^k / (1-x)^{k+1} |
+| C(n,k) (固定 k) | x^k / (1-x)^\{k+1} |
 | フィボナッチ F_n | x/(1-x-x^2) |
 | カタラン数 C_n | (1 - sqrt(1-4x)) / (2x) |
 | n! | 1/(1-x)（EGF では e^x / (1-x)） |
