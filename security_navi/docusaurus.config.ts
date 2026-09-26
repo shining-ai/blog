@@ -9,7 +9,7 @@ const config: Config = {
   tagline: '暗号理論・Webセキュリティ・バイナリ解析・CTFをセキュリティの全領域を体系的に学べるサイト',
   favicon: 'img/security_navi_logo.png',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://security.nisshingeppo.com',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
