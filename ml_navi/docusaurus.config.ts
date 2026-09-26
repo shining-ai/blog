@@ -9,7 +9,7 @@ const config: Config = {
   tagline: '数学基礎から深層学習・MLOpsまで機械学習を体系的に学べるサイト',
   favicon: 'img/ml_navi_logo.png',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://ml.nisshingeppo.com',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
