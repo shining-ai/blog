@@ -9,7 +9,7 @@ const config: Config = {
   tagline: 'プログラミングパラダイム・型システム・コンパイラ・GCを体系的に学べるサイト',
   favicon: 'img/language_navi_logo.png',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://language.nisshingeppo.com',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
