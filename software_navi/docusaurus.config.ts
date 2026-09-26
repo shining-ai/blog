@@ -9,7 +9,7 @@ const config: Config = {
   tagline: '設計原則・デザインパターン・アーキテクチャ・テスト・CI/CDを体系的に学べるサイト',
   favicon: 'img/software_navi_logo.png',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://software.nisshingeppo.com',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
