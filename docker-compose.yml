@@ -129,6 +129,19 @@ services:
     working_dir: /app
     command: sh -c "yarn install && yarn start --host 0.0.0.0 --port 3012"
 
+  graphics_navi:
+    build: .
+    tty: true
+    stdin_open: true
+    ports:
+      - "3013:3013"
+    volumes:
+      - ./graphics_navi:/app
+      - graphics_navi_node_modules:/app/node_modules
+      - graphics_navi_docusaurus:/app/.docusaurus
+    working_dir: /app
+    command: sh -c "yarn install && yarn start --host 0.0.0.0 --port 3013"
+
 volumes:
   algorithm_navi_node_modules:
   algorithm_navi_docusaurus:
@@ -150,3 +163,5 @@ volumes:
   cloud_navi_docusaurus:
   security_navi_node_modules:
   security_navi_docusaurus:
+  graphics_navi_node_modules:
+  graphics_navi_docusaurus:
