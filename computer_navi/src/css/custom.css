@@ -438,37 +438,28 @@ article.margin-top--md {
 }
 
 /* ============================
+   コンテナ幅（ワイドスクリーン対応）
+   ============================ */
+:root {
+  --ifm-container-width-xl: 1600px;
+}
+
+@media (min-width: 997px) {
+  /* コンテンツ列を TOC 以外のスペース全体に広げる */
+  .row:has(.theme-doc-toc-desktop) > .col:not(:has(.theme-doc-toc-desktop)) {
+    flex: 1 1 0 !important;
+    max-width: none !important;
+    min-width: 0 !important;
+  }
+}
+
+/* ============================
    目次（TOC）
    ============================ */
 .table-of-contents__link:hover,
 .table-of-contents__link--active {
   color: var(--ifm-color-primary);
   font-weight: 600;
-}
-
-@media (min-width: 997px) {
-  /* TOC幅をサイドバーの開閉に関わらず固定する */
-  .col:has(> .theme-doc-toc-desktop) {
-    flex: 0 0 18rem !important;
-    max-width: 18rem !important;
-  }
-  /* コンテンツ列は残りのスペースを埋める（75%固定を解除） */
-  .row:has(.theme-doc-toc-desktop) > .col:not(:has(.theme-doc-toc-desktop)) {
-    flex: 1 1 0 !important;
-    max-width: calc(100% - 18rem) !important;
-    min-width: 0 !important;
-  }
-  /* サイドバー開閉時のTOCスライドを防ぐ：コンテナを右揃えにする */
-  aside.theme-doc-sidebar-container ~ main > .container {
-    margin-left: auto !important;
-    margin-right: 0 !important;
-  }
-  /* TOCをビューポート右端に固定してサイドバー開閉の影響を受けないようにする */
-  .theme-doc-toc-desktop {
-    position: fixed !important;
-    right: 0;
-    width: 18rem;
-  }
 }
 
 /* ============================
