@@ -9,7 +9,7 @@ const config: Config = {
   tagline: 'SQL・インデックス・トランザクション・NoSQL・分散DBを体系的に学べるサイト',
   favicon: 'img/db_navi_logo.png',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://db.nisshingeppo.com',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
