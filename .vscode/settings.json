@@ -1,0 +1,11 @@
+{
+  // エディタ同梱の TypeScript ではなく、プロジェクトが依存している
+  // TypeScript 5.6 を言語サービスに使わせる。
+  // 新しい TypeScript だと @docusaurus/tsconfig 由来の baseUrl が
+  // 非推奨警告として表示されるが、@docusaurus/tsconfig 側は 3.10 時点でも
+  // baseUrl を使っており、こちらでは直せないため。
+  // 全サイトが typescript ~5.6.2 を指定しているので、どのサイトの
+  // インストール先を指しても同じバージョンになる。
+  "typescript.tsdk": "programming_navi/node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
