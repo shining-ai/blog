@@ -9,7 +9,7 @@ const config: Config = {
   tagline: 'オートマトン・チューリング機械・計算量理論を体系的に学べるサイト',
   favicon: 'img/theory_navi_logo.png',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://theory.nisshingeppo.com',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
