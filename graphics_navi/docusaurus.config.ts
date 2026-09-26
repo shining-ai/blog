@@ -9,7 +9,7 @@ const config: Config = {
   tagline: 'レンダリングパイプライン・シェーダ・レイトレーシング・WebGLをCGの全領域を体系的に学べるサイト',
   favicon: 'img/graphics_navi_logo.png',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://graphics.nisshingeppo.com',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
