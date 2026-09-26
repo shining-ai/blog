@@ -1,0 +1,148 @@
+/* カード全体 */
+.affiliate-card {
+    width: 98%;
+    height: auto;
+    margin: 36px auto;
+    font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", Helvetica, Meiryo,
+        sans-serif;
+    line-height: 1.5;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    display: block;
+}
+
+
+.affiliate-card .af-box {
+    width: 100%;
+    background-color: #fafafa;
+    /* 全体の背景カラー */
+    overflow: hidden;
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 12px 8px;
+    box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+/* 商品画像 */
+.affiliate-card .af-imgbox {
+    width: 15%;
+    float: left;
+    margin: 0 3% 0 1%;
+    text-align: center;
+    background: #fff;
+}
+
+.affiliate-card .af-imgbox img {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #fff;
+}
+
+/* 商品タイトルとボタン全体 */
+.affiliate-card .af-info {
+    overflow: hidden;
+    line-height: 270%;
+    color: #333;
+}
+
+
+/* ボタン群 */
+.affiliate-card .af-kobox {
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.affiliate-card .af-kobox>div {
+    float: left;
+    width: 24%;
+    min-width: 128px;
+    margin: 0.5%;
+}
+
+/***** ボタンデザイン ******/
+.affiliate-card .af-kobox a {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 1px 0;
+    padding: 3% 0.5%;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 180%;
+    color: #fff;
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.26);
+}
+
+/* Yahoo!ショッピング */
+.affiliate-card .af-kobox .yahoo a {
+    background: #ff0033;
+    border: 2px solid #ff0033;
+    letter-spacing: normal;
+}
+
+/* Amazon */
+.affiliate-card .af-kobox .amazon a {
+    background: #ff9901;
+    border: 2px solid #ff9901;
+}
+
+/* 楽天 */
+.affiliate-card .af-kobox .rakuten a {
+    background: #bf0000;
+    border: 2px solid #bf0000;
+}
+
+/*****マウスオーバー時ここから *****/
+.affiliate-card .af-kobox a:hover {
+    background: #fff;
+}
+
+/* Yahoo!ショッピング */
+.affiliate-card .af-kobox .yahoo a:hover {
+    color: #ff0033;
+}
+
+/* Amazon */
+.affiliate-card .af-kobox .amazon a:hover {
+    color: #ff9901;
+}
+
+/* 楽天 */
+.affiliate-card .af-kobox .rakuten a:hover {
+    color: #bf0000;
+}
+
+
+.affiliate-card .clear {
+    clear: both;
+}
+
+/*****  解像度768px以下のスタイル *****/
+@media screen and (max-width: 768px) {
+    .affiliate-card .af-img {
+        width: 100%;
+        float: none;
+    }
+
+    .affiliate-card .af-kobox>div {
+        width: 32.33%;
+        margin: 0.5%;
+    }
+
+    .affiliate-card .af-info {
+        text-align: center;
+        padding-bottom: 1px;
+    }
+}
+
+/*****  解像度480px以下のスタイル *****/
+@media screen and (max-width: 480px) {
+    .affiliate-card .af-kobox>div {
+        width: 49%;
+        margin: 0.5%;
+    }
+}
