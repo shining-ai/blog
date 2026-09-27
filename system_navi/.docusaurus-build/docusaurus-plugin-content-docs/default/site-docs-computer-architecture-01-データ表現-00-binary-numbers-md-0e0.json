@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/データ表現/binary_numbers",
+  "title": "2進数と基数変換 (Binary Numbers)",
+  "description": "2進数とは",
+  "source": "@site/docs/computer-architecture/01_データ表現/00_binary_numbers.md",
+  "sourceDirName": "computer-architecture/01_データ表現",
+  "slug": "/computer-architecture/データ表現/binary_numbers",
+  "permalink": "/docs/computer-architecture/データ表現/binary_numbers",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "コンピュータアーキテクチャ",
+    "permalink": "/docs/computer-architecture/intro"
+  },
+  "next": {
+    "title": "2の補数と浮動小数点 (Two's Complement & IEEE 754)",
+    "permalink": "/docs/computer-architecture/データ表現/twos_complement"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "architecture-engineering/テスト/tdd",
+  "title": "テスト駆動開発（TDD）の実践",
+  "description": "TDDとは",
+  "source": "@site/docs/architecture-engineering/03_テスト/10_tdd.md",
+  "sourceDirName": "architecture-engineering/03_テスト",
+  "slug": "/architecture-engineering/テスト/tdd",
+  "permalink": "/docs/architecture-engineering/テスト/tdd",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "テストの種類（ユニット・統合・E2E）",
+    "permalink": "/docs/architecture-engineering/テスト/test_types"
+  },
+  "next": {
+    "title": "BDD（振る舞い駆動開発）",
+    "permalink": "/docs/architecture-engineering/テスト/bdd"
+  }
+}

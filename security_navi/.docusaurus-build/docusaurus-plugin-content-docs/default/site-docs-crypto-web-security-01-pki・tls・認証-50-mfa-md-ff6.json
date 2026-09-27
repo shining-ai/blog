@@ -1,0 +1,24 @@
+{
+  "id": "crypto-web-security/PKI・TLS・認証/mfa",
+  "title": "多要素認証（TOTP・FIDO2）",
+  "description": "多要素認証とは",
+  "source": "@site/docs/crypto-web-security/01_PKI・TLS・認証/50_mfa.md",
+  "sourceDirName": "crypto-web-security/01_PKI・TLS・認証",
+  "slug": "/crypto-web-security/PKI・TLS・認証/mfa",
+  "permalink": "/docs/crypto-web-security/PKI・TLS・認証/mfa",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "previous": {
+    "title": "パスワードの安全な保存（bcrypt・Argon2）",
+    "permalink": "/docs/crypto-web-security/PKI・TLS・認証/password_storage"
+  },
+  "next": {
+    "title": "OAuth 2.0 と OpenID Connect",
+    "permalink": "/docs/crypto-web-security/PKI・TLS・認証/oauth2_oidc"
+  }
+}

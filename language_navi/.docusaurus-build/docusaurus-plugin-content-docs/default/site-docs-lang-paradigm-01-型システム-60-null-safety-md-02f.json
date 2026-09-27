@@ -1,0 +1,20 @@
+{
+  "id": "lang-paradigm/型システム/null_safety",
+  "title": "Null安全とOption型",
+  "description": "Null安全とは",
+  "source": "@site/docs/lang-paradigm/01_型システム/60_null_safety.md",
+  "sourceDirName": "lang-paradigm/01_型システム",
+  "slug": "/lang-paradigm/型システム/null_safety",
+  "permalink": "/docs/lang-paradigm/型システム/null_safety",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 60,
+  "frontMatter": {},
+  "sidebar": "langParadigmSidebar",
+  "previous": {
+    "title": "依存型入門",
+    "permalink": "/docs/lang-paradigm/型システム/dependent_types"
+  }
+}

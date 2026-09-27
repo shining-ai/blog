@@ -1,0 +1,23 @@
+{
+  "id": "operating-system/intro",
+  "title": "オペレーティングシステム",
+  "description": "OSとシステムプログラミングの各トピックを体系的に解説します。",
+  "source": "@site/docs/operating-system/intro.md",
+  "sourceDirName": "operating-system",
+  "slug": "/operating-system/intro",
+  "permalink": "/docs/operating-system/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "displayed_sidebar": "operatingSystemSidebar"
+  },
+  "sidebar": "operatingSystemSidebar",
+  "next": {
+    "title": "OS の概要 (OS Overview)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/os_overview"
+  }
+}

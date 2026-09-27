@@ -1,0 +1,24 @@
+{
+  "id": "architecture-engineering/テスト/mocks",
+  "title": "モック・スタブ・フェイクの使い分け",
+  "description": "テストダブルとは",
+  "source": "@site/docs/architecture-engineering/03_テスト/30_mocks.md",
+  "sourceDirName": "architecture-engineering/03_テスト",
+  "slug": "/architecture-engineering/テスト/mocks",
+  "permalink": "/docs/architecture-engineering/テスト/mocks",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "BDD（振る舞い駆動開発）",
+    "permalink": "/docs/architecture-engineering/テスト/bdd"
+  },
+  "next": {
+    "title": "プロパティベーステスト",
+    "permalink": "/docs/architecture-engineering/テスト/property_testing"
+  }
+}

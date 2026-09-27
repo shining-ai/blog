@@ -1,0 +1,24 @@
+{
+  "id": "container-cloud/仮想化とコンテナ/virtualization",
+  "title": "仮想化の仕組み（ハイパーバイザー・KVM）",
+  "description": "仮想化とは",
+  "source": "@site/docs/container-cloud/00_仮想化とコンテナ/00_virtualization.md",
+  "sourceDirName": "container-cloud/00_仮想化とコンテナ",
+  "slug": "/container-cloud/仮想化とコンテナ/virtualization",
+  "permalink": "/docs/container-cloud/仮想化とコンテナ/virtualization",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "containerCloudSidebar",
+  "previous": {
+    "title": "コンテナ・クラウド基礎",
+    "permalink": "/docs/container-cloud/intro"
+  },
+  "next": {
+    "title": "コンテナの仕組み（名前空間・cgroups）",
+    "permalink": "/docs/container-cloud/仮想化とコンテナ/containers"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/オートマトン理論/nfa",
+  "title": "非決定性有限オートマトン（NFA）",
+  "description": "非決定性有限オートマトン（NFA）とは",
+  "source": "@site/docs/computability-theory/00_オートマトン理論/10_nfa.md",
+  "sourceDirName": "computability-theory/00_オートマトン理論",
+  "slug": "/computability-theory/オートマトン理論/nfa",
+  "permalink": "/docs/computability-theory/オートマトン理論/nfa",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "有限オートマトン（DFA）",
+    "permalink": "/docs/computability-theory/オートマトン理論/dfa"
+  },
+  "next": {
+    "title": "正規表現と正規言語",
+    "permalink": "/docs/computability-theory/オートマトン理論/regular_expressions"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/ネットワーク層/routing_basics",
+  "title": "ルーティングの基礎（ホップ・ルーティングテーブル）",
+  "description": "ルーティングとは",
+  "source": "@site/docs/network-basics/02_ネットワーク層/30_routing_basics.md",
+  "sourceDirName": "network-basics/02_ネットワーク層",
+  "slug": "/network-basics/ネットワーク層/routing_basics",
+  "permalink": "/docs/network-basics/ネットワーク層/routing_basics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "title": "ルーティングの基礎（ホップ・ルーティングテーブル）"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "IPv6 の概要と移行",
+    "permalink": "/docs/network-basics/ネットワーク層/ipv6"
+  },
+  "next": {
+    "title": "距離ベクトル法（RIP）",
+    "permalink": "/docs/network-basics/ネットワーク層/rip"
+  }
+}

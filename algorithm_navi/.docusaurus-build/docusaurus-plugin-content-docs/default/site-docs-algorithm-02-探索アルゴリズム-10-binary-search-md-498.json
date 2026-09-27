@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/探索アルゴリズム/binary_search",
+  "title": "二分探索 (Binary Search)",
+  "description": "二分探索とは",
+  "source": "@site/docs/algorithm/02_探索アルゴリズム/10_binary_search.md",
+  "sourceDirName": "algorithm/02_探索アルゴリズム",
+  "slug": "/algorithm/探索アルゴリズム/binary_search",
+  "permalink": "/docs/algorithm/探索アルゴリズム/binary_search",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "線形探索 (Linear Search)",
+    "permalink": "/docs/algorithm/探索アルゴリズム/linear_search"
+  },
+  "next": {
+    "title": "三分探索 (Ternary Search)",
+    "permalink": "/docs/algorithm/探索アルゴリズム/ternary_search"
+  }
+}

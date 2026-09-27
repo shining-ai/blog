@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/数値アルゴリズム/fast_pow",
+  "title": "高速べき乗（二進法べき乗）",
+  "description": "高速べき乗とは",
+  "source": "@site/docs/algorithm/05_数値アルゴリズム/30_fast_pow.md",
+  "sourceDirName": "algorithm/05_数値アルゴリズム",
+  "slug": "/algorithm/数値アルゴリズム/fast_pow",
+  "permalink": "/docs/algorithm/数値アルゴリズム/fast_pow",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "ユークリッドの互除法",
+    "permalink": "/docs/algorithm/数値アルゴリズム/gcd"
+  },
+  "next": {
+    "title": "mod演算",
+    "permalink": "/docs/algorithm/数値アルゴリズム/mod"
+  }
+}

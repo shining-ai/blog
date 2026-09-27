@@ -16,16 +16,16 @@ type Section = {
 
 const SECTIONS: Section[] = [
   {
-    title: '古典的機械学習',
-    path: '/docs/classical-ml/intro',
-    description: 'イントロ・数学基礎・データ前処理・モデル評価・教師あり学習・教師なし学習を体系的に解説',
-    categories: ['イントロダクション', '数学的基礎', 'データ前処理', 'モデル評価', '教師あり学習', '教師なし学習'],
+    title: '暗号・Web・NWセキュリティ',
+    path: '/docs/crypto-web-security/intro',
+    description: '暗号理論・PKI・TLS・認証・Webセキュリティ・ネットワークセキュリティを体系的に解説',
+    categories: ['暗号理論', 'PKI・TLS・認証', 'Webセキュリティ', 'ネットワークセキュリティ'],
   },
   {
-    title: '深層学習・応用',
-    path: '/docs/deep-learning/intro',
-    description: 'ニューラルネット・CNN・Transformer・NLP・強化学習・MLOpsまで深層学習と実践を解説',
-    categories: ['ニューラルネット基礎', 'CNN・画像', 'Transformer・NLP', '強化学習', 'MLOps'],
+    title: 'バイナリ・開発・CTF',
+    path: '/docs/binary-sec-dev/intro',
+    description: 'バイナリ・低レイヤセキュリティ・マルウェア・フォレンジクス・セキュアな開発・CTFを体系的に解説',
+    categories: ['バイナリ・低レイヤセキュリティ', 'マルウェア・フォレンジクス', 'セキュアな開発', 'CTF'],
   },
 ];
 

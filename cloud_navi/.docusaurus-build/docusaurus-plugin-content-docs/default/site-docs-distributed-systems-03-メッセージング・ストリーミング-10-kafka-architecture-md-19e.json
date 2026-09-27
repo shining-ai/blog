@@ -1,0 +1,24 @@
+{
+  "id": "distributed-systems/メッセージング・ストリーミング/kafka_architecture",
+  "title": "Apache Kafka のアーキテクチャ",
+  "description": "Apache Kafka とは",
+  "source": "@site/docs/distributed-systems/03_メッセージング・ストリーミング/10_kafka_architecture.md",
+  "sourceDirName": "distributed-systems/03_メッセージング・ストリーミング",
+  "slug": "/distributed-systems/メッセージング・ストリーミング/kafka_architecture",
+  "permalink": "/docs/distributed-systems/メッセージング・ストリーミング/kafka_architecture",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "distributedSystemsSidebar",
+  "previous": {
+    "title": "メッセージキューの概念（非同期・デカップリング）",
+    "permalink": "/docs/distributed-systems/メッセージング・ストリーミング/message_queue"
+  },
+  "next": {
+    "title": "Kafka のパーティション・オフセット・コンシューマグループ",
+    "permalink": "/docs/distributed-systems/メッセージング・ストリーミング/kafka_partition"
+  }
+}

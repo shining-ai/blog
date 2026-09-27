@@ -1,0 +1,24 @@
+{
+  "id": "compiler-runtime/コンパイラ_バックエンド/optimization",
+  "title": "最適化（定数畳み込み・デッドコード除去・インライン展開）",
+  "description": "コンパイラ最適化とは",
+  "source": "@site/docs/compiler-runtime/03_コンパイラ_バックエンド/20_optimization.md",
+  "sourceDirName": "compiler-runtime/03_コンパイラ_バックエンド",
+  "slug": "/compiler-runtime/コンパイラ_バックエンド/optimization",
+  "permalink": "/docs/compiler-runtime/コンパイラ_バックエンド/optimization",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "compilerRuntimeSidebar",
+  "previous": {
+    "title": "データフロー解析",
+    "permalink": "/docs/compiler-runtime/コンパイラ_バックエンド/dataflow"
+  },
+  "next": {
+    "title": "レジスタ割り付け",
+    "permalink": "/docs/compiler-runtime/コンパイラ_バックエンド/register_allocation"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "compiler-runtime/並行性・非同期モデル/stm",
+  "title": "STM（ソフトウェアトランザクショナルメモリ）",
+  "description": "STM とは",
+  "source": "@site/docs/compiler-runtime/05_並行性・非同期モデル/50_stm.md",
+  "sourceDirName": "compiler-runtime/05_並行性・非同期モデル",
+  "slug": "/compiler-runtime/並行性・非同期モデル/stm",
+  "permalink": "/docs/compiler-runtime/並行性・非同期モデル/stm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "compilerRuntimeSidebar",
+  "previous": {
+    "title": "イベントループ（Node.js の仕組み）",
+    "permalink": "/docs/compiler-runtime/並行性・非同期モデル/event_loop"
+  }
+}

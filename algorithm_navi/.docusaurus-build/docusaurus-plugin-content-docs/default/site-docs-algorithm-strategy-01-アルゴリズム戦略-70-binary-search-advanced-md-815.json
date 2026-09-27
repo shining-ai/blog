@@ -1,0 +1,24 @@
+{
+  "id": "algorithm-strategy/アルゴリズム戦略/binary_search_advanced",
+  "title": "二分探索の応用（答えで二分探索）",
+  "description": "概要",
+  "source": "@site/docs/algorithm-strategy/01_アルゴリズム戦略/70_binary_search_advanced.md",
+  "sourceDirName": "algorithm-strategy/01_アルゴリズム戦略",
+  "slug": "/algorithm-strategy/アルゴリズム戦略/binary_search_advanced",
+  "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/binary_search_advanced",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 70,
+  "frontMatter": {},
+  "sidebar": "algorithmStrategySidebar",
+  "previous": {
+    "title": "オンラインアルゴリズム (Online Algorithm)",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/online"
+  },
+  "next": {
+    "title": "しゃくとり法（Two Pointers）",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/two_pointers"
+  }
+}

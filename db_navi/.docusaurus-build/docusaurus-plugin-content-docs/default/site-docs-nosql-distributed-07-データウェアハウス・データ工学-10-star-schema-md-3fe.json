@@ -1,0 +1,24 @@
+{
+  "id": "nosql-distributed/データウェアハウス・データ工学/star_schema",
+  "title": "スタースキーマとスノーフレークスキーマ",
+  "description": "スタースキーマとは",
+  "source": "@site/docs/nosql-distributed/07_データウェアハウス・データ工学/10_star_schema.md",
+  "sourceDirName": "nosql-distributed/07_データウェアハウス・データ工学",
+  "slug": "/nosql-distributed/データウェアハウス・データ工学/star_schema",
+  "permalink": "/docs/nosql-distributed/データウェアハウス・データ工学/star_schema",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "nosqlDistributedSidebar",
+  "previous": {
+    "title": "OLTP vs OLAP",
+    "permalink": "/docs/nosql-distributed/データウェアハウス・データ工学/oltp_olap"
+  },
+  "next": {
+    "title": "ETL パイプラインの設計",
+    "permalink": "/docs/nosql-distributed/データウェアハウス・データ工学/etl"
+  }
+}

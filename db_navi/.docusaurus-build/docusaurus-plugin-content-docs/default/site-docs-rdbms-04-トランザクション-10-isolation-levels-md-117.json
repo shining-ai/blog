@@ -1,0 +1,24 @@
+{
+  "id": "rdbms/トランザクション/isolation_levels",
+  "title": "トランザクション分離レベル",
+  "description": "トランザクション分離レベルとは",
+  "source": "@site/docs/rdbms/04_トランザクション/10_isolation_levels.md",
+  "sourceDirName": "rdbms/04_トランザクション",
+  "slug": "/rdbms/トランザクション/isolation_levels",
+  "permalink": "/docs/rdbms/トランザクション/isolation_levels",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "rdbmsSidebar",
+  "previous": {
+    "title": "ACID特性",
+    "permalink": "/docs/rdbms/トランザクション/acid"
+  },
+  "next": {
+    "title": "ロック（共有ロック・排他ロック・デッドロック）",
+    "permalink": "/docs/rdbms/トランザクション/locking"
+  }
+}

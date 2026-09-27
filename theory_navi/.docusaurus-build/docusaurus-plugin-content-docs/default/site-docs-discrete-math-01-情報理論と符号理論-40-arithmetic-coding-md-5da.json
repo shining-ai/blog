@@ -1,0 +1,24 @@
+{
+  "id": "discrete-math/情報理論と符号理論/arithmetic_coding",
+  "title": "算術符号化",
+  "description": "算術符号化とは",
+  "source": "@site/docs/discrete-math/01_情報理論と符号理論/40_arithmetic_coding.md",
+  "sourceDirName": "discrete-math/01_情報理論と符号理論",
+  "slug": "/discrete-math/情報理論と符号理論/arithmetic_coding",
+  "permalink": "/docs/discrete-math/情報理論と符号理論/arithmetic_coding",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "discreteMathSidebar",
+  "previous": {
+    "title": "ハフマン符号",
+    "permalink": "/docs/discrete-math/情報理論と符号理論/huffman_coding"
+  },
+  "next": {
+    "title": "チャネル符号化定理（シャノンの第2定理）",
+    "permalink": "/docs/discrete-math/情報理論と符号理論/channel_coding"
+  }
+}

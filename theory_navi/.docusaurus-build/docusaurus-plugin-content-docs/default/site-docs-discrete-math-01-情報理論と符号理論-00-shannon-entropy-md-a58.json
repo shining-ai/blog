@@ -1,0 +1,24 @@
+{
+  "id": "discrete-math/情報理論と符号理論/shannon_entropy",
+  "title": "シャノンのエントロピー",
+  "description": "シャノンのエントロピーとは",
+  "source": "@site/docs/discrete-math/01_情報理論と符号理論/00_shannon_entropy.md",
+  "sourceDirName": "discrete-math/01_情報理論と符号理論",
+  "slug": "/discrete-math/情報理論と符号理論/shannon_entropy",
+  "permalink": "/docs/discrete-math/情報理論と符号理論/shannon_entropy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "discreteMathSidebar",
+  "previous": {
+    "title": "確率論の基礎",
+    "permalink": "/docs/discrete-math/離散数学/probability_basics"
+  },
+  "next": {
+    "title": "相互情報量と条件付きエントロピー",
+    "permalink": "/docs/discrete-math/情報理論と符号理論/mutual_information"
+  }
+}

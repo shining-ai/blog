@@ -1,0 +1,24 @@
+{
+  "id": "nosql-distributed/NoSQL/redis",
+  "title": "キーバリューストア（Redis）",
+  "description": "Redisとは",
+  "source": "@site/docs/nosql-distributed/05_NoSQL/10_redis.md",
+  "sourceDirName": "nosql-distributed/05_NoSQL",
+  "slug": "/nosql-distributed/NoSQL/redis",
+  "permalink": "/docs/nosql-distributed/NoSQL/redis",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "nosqlDistributedSidebar",
+  "previous": {
+    "title": "NoSQLの分類と使い分け",
+    "permalink": "/docs/nosql-distributed/NoSQL/nosql_overview"
+  },
+  "next": {
+    "title": "ドキュメントDB（MongoDB）",
+    "permalink": "/docs/nosql-distributed/NoSQL/mongodb"
+  }
+}

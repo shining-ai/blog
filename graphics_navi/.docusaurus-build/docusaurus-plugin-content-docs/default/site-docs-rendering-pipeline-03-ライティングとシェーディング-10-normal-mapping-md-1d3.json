@@ -1,0 +1,24 @@
+{
+  "id": "rendering-pipeline/ライティングとシェーディング/normal_mapping",
+  "title": "法線マッピング",
+  "description": "法線マッピングとは",
+  "source": "@site/docs/rendering-pipeline/03_ライティングとシェーディング/10_normal_mapping.md",
+  "sourceDirName": "rendering-pipeline/03_ライティングとシェーディング",
+  "slug": "/rendering-pipeline/ライティングとシェーディング/normal_mapping",
+  "permalink": "/docs/rendering-pipeline/ライティングとシェーディング/normal_mapping",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "フォン反射モデル（アンビエント・ディフューズ・スペキュラ）",
+    "permalink": "/docs/rendering-pipeline/ライティングとシェーディング/phong"
+  },
+  "next": {
+    "title": "物理ベースレンダリング（PBR）",
+    "permalink": "/docs/rendering-pipeline/ライティングとシェーディング/pbr"
+  }
+}

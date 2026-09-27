@@ -1,0 +1,24 @@
+{
+  "id": "rendering-pipeline/レンダリングパイプライン/fragment_processing",
+  "title": "フラグメント処理と深度テスト",
+  "description": "フラグメント処理とは",
+  "source": "@site/docs/rendering-pipeline/01_レンダリングパイプライン/30_fragment_processing.md",
+  "sourceDirName": "rendering-pipeline/01_レンダリングパイプライン",
+  "slug": "/rendering-pipeline/レンダリングパイプライン/fragment_processing",
+  "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/fragment_processing",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "ラスタライゼーション",
+    "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/rasterization"
+  },
+  "next": {
+    "title": "テクスチャマッピングとサンプリング",
+    "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/texture_mapping"
+  }
+}

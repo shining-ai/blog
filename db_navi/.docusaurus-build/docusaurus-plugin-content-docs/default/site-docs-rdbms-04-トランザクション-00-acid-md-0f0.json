@@ -1,0 +1,24 @@
+{
+  "id": "rdbms/トランザクション/acid",
+  "title": "ACID特性",
+  "description": "ACID特性とは",
+  "source": "@site/docs/rdbms/04_トランザクション/00_acid.md",
+  "sourceDirName": "rdbms/04_トランザクション",
+  "slug": "/rdbms/トランザクション/acid",
+  "permalink": "/docs/rdbms/トランザクション/acid",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "rdbmsSidebar",
+  "previous": {
+    "title": "インデックスが使われない原因と対策",
+    "permalink": "/docs/rdbms/クエリ最適化/index_not_used"
+  },
+  "next": {
+    "title": "トランザクション分離レベル",
+    "permalink": "/docs/rdbms/トランザクション/isolation_levels"
+  }
+}

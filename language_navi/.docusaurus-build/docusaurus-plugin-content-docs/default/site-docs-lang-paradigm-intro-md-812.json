@@ -1,0 +1,19 @@
+{
+  "id": "lang-paradigm/intro",
+  "title": "パラダイム・型システム",
+  "description": "命令型・OOP・関数型・論理型・型推論・代数的データ型まで、プログラミングパラダイムと型システムを体系的に解説します。",
+  "source": "@site/docs/lang-paradigm/intro.md",
+  "sourceDirName": "lang-paradigm",
+  "slug": "/lang-paradigm/intro",
+  "permalink": "/docs/lang-paradigm/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "langParadigmSidebar",
+  "next": {
+    "title": "命令型プログラミング",
+    "permalink": "/docs/lang-paradigm/プログラミングパラダイム/imperative"
+  }
+}

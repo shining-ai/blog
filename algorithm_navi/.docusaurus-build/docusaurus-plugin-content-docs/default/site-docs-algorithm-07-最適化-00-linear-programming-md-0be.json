@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/最適化/linear_programming",
+  "title": "線形計画法 (Linear Programming)",
+  "description": "線形計画法とは",
+  "source": "@site/docs/algorithm/07_最適化/00_linear_programming.md",
+  "sourceDirName": "algorithm/07_最適化",
+  "slug": "/algorithm/最適化/linear_programming",
+  "permalink": "/docs/algorithm/最適化/linear_programming",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "走査線アルゴリズム (Sweep Line)",
+    "permalink": "/docs/algorithm/計算幾何/sweep_line"
+  },
+  "next": {
+    "title": "整数計画法 (Integer Programming)",
+    "permalink": "/docs/algorithm/最適化/integer_programming"
+  }
+}

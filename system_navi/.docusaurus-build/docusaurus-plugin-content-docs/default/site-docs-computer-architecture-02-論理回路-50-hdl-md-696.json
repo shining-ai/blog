@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/論理回路/hdl",
+  "title": "HDL 入門 (Hardware Description Language)",
+  "description": "HDL とは",
+  "source": "@site/docs/computer-architecture/02_論理回路/50_hdl.md",
+  "sourceDirName": "computer-architecture/02_論理回路",
+  "slug": "/computer-architecture/論理回路/hdl",
+  "permalink": "/docs/computer-architecture/論理回路/hdl",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "有限状態機械 (Finite State Machine)",
+    "permalink": "/docs/computer-architecture/論理回路/fsm"
+  },
+  "next": {
+    "title": "命令セットアーキテクチャ (ISA Overview)",
+    "permalink": "/docs/computer-architecture/プロセッサアーキテクチャ/isa_overview"
+  }
+}

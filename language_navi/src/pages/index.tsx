@@ -16,16 +16,16 @@ type Section = {
 
 const SECTIONS: Section[] = [
   {
-    title: '古典的機械学習',
-    path: '/docs/classical-ml/intro',
-    description: 'イントロ・数学基礎・データ前処理・モデル評価・教師あり学習・教師なし学習を体系的に解説',
-    categories: ['イントロダクション', '数学的基礎', 'データ前処理', 'モデル評価', '教師あり学習', '教師なし学習'],
+    title: 'パラダイム・型システム',
+    path: '/docs/lang-paradigm/intro',
+    description: 'プログラミングパラダイム・型システムを体系的に解説',
+    categories: ['プログラミングパラダイム', '型システム'],
   },
   {
-    title: '深層学習・応用',
-    path: '/docs/deep-learning/intro',
-    description: 'ニューラルネット・CNN・Transformer・NLP・強化学習・MLOpsまで深層学習と実践を解説',
-    categories: ['ニューラルネット基礎', 'CNN・画像', 'Transformer・NLP', '強化学習', 'MLOps'],
+    title: 'コンパイラ・ランタイム',
+    path: '/docs/compiler-runtime/intro',
+    description: 'コンパイラ_フロントエンド・コンパイラ_バックエンド・ランタイムとメモリ管理・並行性・非同期モデルを体系的に解説',
+    categories: ['コンパイラ_フロントエンド', 'コンパイラ_バックエンド', 'ランタイムとメモリ管理', '並行性・非同期モデル'],
   },
 ];
 

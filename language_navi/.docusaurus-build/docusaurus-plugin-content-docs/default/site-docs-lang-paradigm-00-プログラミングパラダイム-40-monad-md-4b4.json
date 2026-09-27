@@ -1,0 +1,24 @@
+{
+  "id": "lang-paradigm/プログラミングパラダイム/monad",
+  "title": "モナドの直感的理解",
+  "description": "モナドとは",
+  "source": "@site/docs/lang-paradigm/00_プログラミングパラダイム/40_monad.md",
+  "sourceDirName": "lang-paradigm/00_プログラミングパラダイム",
+  "slug": "/lang-paradigm/プログラミングパラダイム/monad",
+  "permalink": "/docs/lang-paradigm/プログラミングパラダイム/monad",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "langParadigmSidebar",
+  "previous": {
+    "title": "高階関数・map・filter・fold",
+    "permalink": "/docs/lang-paradigm/プログラミングパラダイム/higher_order"
+  },
+  "next": {
+    "title": "論理プログラミング（Prolog）",
+    "permalink": "/docs/lang-paradigm/プログラミングパラダイム/logic_programming"
+  }
+}

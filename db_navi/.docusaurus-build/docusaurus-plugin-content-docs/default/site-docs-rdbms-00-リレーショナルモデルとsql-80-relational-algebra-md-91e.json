@@ -1,0 +1,24 @@
+{
+  "id": "rdbms/リレーショナルモデルとSQL/relational_algebra",
+  "title": "関係代数（射影・選択・結合・直積）",
+  "description": "関係代数とは",
+  "source": "@site/docs/rdbms/00_リレーショナルモデルとSQL/80_relational_algebra.md",
+  "sourceDirName": "rdbms/00_リレーショナルモデルとSQL",
+  "slug": "/rdbms/リレーショナルモデルとSQL/relational_algebra",
+  "permalink": "/docs/rdbms/リレーショナルモデルとSQL/relational_algebra",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 80,
+  "frontMatter": {},
+  "sidebar": "rdbmsSidebar",
+  "previous": {
+    "title": "DML（INSERT・UPDATE・DELETE）",
+    "permalink": "/docs/rdbms/リレーショナルモデルとSQL/dml"
+  },
+  "next": {
+    "title": "ER 図の書き方",
+    "permalink": "/docs/rdbms/データベース設計/er_diagram"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "compiler-runtime/コンパイラ_フロントエンド/scope_resolution",
+  "title": "スコープと名前解決",
+  "description": "スコープと名前解決とは",
+  "source": "@site/docs/compiler-runtime/02_コンパイラ_フロントエンド/70_scope_resolution.md",
+  "sourceDirName": "compiler-runtime/02_コンパイラ_フロントエンド",
+  "slug": "/compiler-runtime/コンパイラ_フロントエンド/scope_resolution",
+  "permalink": "/docs/compiler-runtime/コンパイラ_フロントエンド/scope_resolution",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 70,
+  "frontMatter": {},
+  "sidebar": "compilerRuntimeSidebar",
+  "previous": {
+    "title": "意味解析と型検査",
+    "permalink": "/docs/compiler-runtime/コンパイラ_フロントエンド/semantic_analysis"
+  },
+  "next": {
+    "title": "中間表現（IR）— 三番地コード・SSA 形式",
+    "permalink": "/docs/compiler-runtime/コンパイラ_バックエンド/ir"
+  }
+}

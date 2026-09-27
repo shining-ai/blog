@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/チューリング機械と計算可能性/halting_problem",
+  "title": "停止問題の証明（対角線論法）",
+  "description": "停止問題とは",
+  "source": "@site/docs/computability-theory/01_チューリング機械と計算可能性/40_halting_problem.md",
+  "sourceDirName": "computability-theory/01_チューリング機械と計算可能性",
+  "slug": "/computability-theory/チューリング機械と計算可能性/halting_problem",
+  "permalink": "/docs/computability-theory/チューリング機械と計算可能性/halting_problem",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "決定可能問題と半決定可能問題",
+    "permalink": "/docs/computability-theory/チューリング機械と計算可能性/decidable_problems"
+  },
+  "next": {
+    "title": "帰着（Reduction）の概念",
+    "permalink": "/docs/computability-theory/チューリング機械と計算可能性/reduction"
+  }
+}

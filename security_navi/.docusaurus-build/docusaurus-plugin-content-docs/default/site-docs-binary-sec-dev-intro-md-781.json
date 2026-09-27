@@ -1,0 +1,19 @@
+{
+  "id": "binary-sec-dev/intro",
+  "title": "バイナリ・開発・CTF",
+  "description": "バイナリ解析・マルウェア・セキュア開発・CTFを解説します。",
+  "source": "@site/docs/binary-sec-dev/intro.md",
+  "sourceDirName": "binary-sec-dev",
+  "slug": "/binary-sec-dev/intro",
+  "permalink": "/docs/binary-sec-dev/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "binarySecDevSidebar",
+  "next": {
+    "title": "スタックバッファオーバーフロー（原理と防御機構の解説）",
+    "permalink": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/stack_bof"
+  }
+}

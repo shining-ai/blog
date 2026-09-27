@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/文字列アルゴリズム/aho_corasick",
+  "title": "Aho-Corasick法",
+  "description": "Aho-Corasick法とは",
+  "source": "@site/docs/algorithm/03_文字列アルゴリズム/50_aho_corasick.md",
+  "sourceDirName": "algorithm/03_文字列アルゴリズム",
+  "slug": "/algorithm/文字列アルゴリズム/aho_corasick",
+  "permalink": "/docs/algorithm/文字列アルゴリズム/aho_corasick",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "接尾辞配列 (Suffix Array)",
+    "permalink": "/docs/algorithm/文字列アルゴリズム/suffix_array"
+  },
+  "next": {
+    "title": "深さ優先探索 (DFS)",
+    "permalink": "/docs/algorithm/グラフアルゴリズム/dfs"
+  }
+}

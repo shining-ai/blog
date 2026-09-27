@@ -1,0 +1,24 @@
+{
+  "id": "rendering-pipeline/ライティングとシェーディング/pbr",
+  "title": "物理ベースレンダリング（PBR）",
+  "description": "物理ベースレンダリングとは",
+  "source": "@site/docs/rendering-pipeline/03_ライティングとシェーディング/20_pbr.md",
+  "sourceDirName": "rendering-pipeline/03_ライティングとシェーディング",
+  "slug": "/rendering-pipeline/ライティングとシェーディング/pbr",
+  "permalink": "/docs/rendering-pipeline/ライティングとシェーディング/pbr",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "法線マッピング",
+    "permalink": "/docs/rendering-pipeline/ライティングとシェーディング/normal_mapping"
+  },
+  "next": {
+    "title": "影の生成（シャドウマッピング）",
+    "permalink": "/docs/rendering-pipeline/ライティングとシェーディング/shadow_mapping"
+  }
+}

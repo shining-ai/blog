@@ -1,0 +1,24 @@
+{
+  "id": "lang-paradigm/型システム/static_dynamic",
+  "title": "静的型付けと動的型付け",
+  "description": "静的型付けと動的型付けとは",
+  "source": "@site/docs/lang-paradigm/01_型システム/00_static_dynamic.md",
+  "sourceDirName": "lang-paradigm/01_型システム",
+  "slug": "/lang-paradigm/型システム/static_dynamic",
+  "permalink": "/docs/lang-paradigm/型システム/static_dynamic",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "langParadigmSidebar",
+  "previous": {
+    "title": "マルチパラダイム言語の比較",
+    "permalink": "/docs/lang-paradigm/プログラミングパラダイム/multiparadigm"
+  },
+  "next": {
+    "title": "型推論（Hindley-Milner）",
+    "permalink": "/docs/lang-paradigm/型システム/type_inference"
+  }
+}

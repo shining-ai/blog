@@ -1,0 +1,24 @@
+{
+  "id": "container-cloud/仮想化とコンテナ/docker_compose",
+  "title": "Docker Compose",
+  "description": "Docker Compose とは",
+  "source": "@site/docs/container-cloud/00_仮想化とコンテナ/40_docker_compose.md",
+  "sourceDirName": "container-cloud/00_仮想化とコンテナ",
+  "slug": "/container-cloud/仮想化とコンテナ/docker_compose",
+  "permalink": "/docs/container-cloud/仮想化とコンテナ/docker_compose",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "containerCloudSidebar",
+  "previous": {
+    "title": "Dockerfile のベストプラクティス",
+    "permalink": "/docs/container-cloud/仮想化とコンテナ/dockerfile"
+  },
+  "next": {
+    "title": "Kubernetes アーキテクチャ概要",
+    "permalink": "/docs/container-cloud/仮想化とコンテナ/k8s_architecture"
+  }
+}

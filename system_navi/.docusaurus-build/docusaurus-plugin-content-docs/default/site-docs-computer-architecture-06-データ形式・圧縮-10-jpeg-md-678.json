@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/データ形式・圧縮/jpeg",
+  "title": "JPEG 圧縮 (JPEG Compression)",
+  "description": "JPEG とは",
+  "source": "@site/docs/computer-architecture/06_データ形式・圧縮/10_jpeg.md",
+  "sourceDirName": "computer-architecture/06_データ形式・圧縮",
+  "slug": "/computer-architecture/データ形式・圧縮/jpeg",
+  "permalink": "/docs/computer-architecture/データ形式・圧縮/jpeg",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "ランレングス符号化と LZ 圧縮 (Run-Length & LZ77)",
+    "permalink": "/docs/computer-architecture/データ形式・圧縮/run_length_lz"
+  },
+  "next": {
+    "title": "zlib と DEFLATE (zlib & DEFLATE)",
+    "permalink": "/docs/computer-architecture/データ形式・圧縮/zlib"
+  }
+}

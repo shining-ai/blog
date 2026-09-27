@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/ネットワーク層/bgp",
+  "title": "BGP とインターネットルーティング",
+  "description": "BGP とは",
+  "source": "@site/docs/network-basics/02_ネットワーク層/60_bgp.md",
+  "sourceDirName": "network-basics/02_ネットワーク層",
+  "slug": "/network-basics/ネットワーク層/bgp",
+  "permalink": "/docs/network-basics/ネットワーク層/bgp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 60,
+  "frontMatter": {
+    "title": "BGP とインターネットルーティング"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "リンク状態法（OSPF）",
+    "permalink": "/docs/network-basics/ネットワーク層/ospf"
+  },
+  "next": {
+    "title": "NAT・PAT の仕組み",
+    "permalink": "/docs/network-basics/ネットワーク層/nat"
+  }
+}

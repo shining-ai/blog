@@ -1,0 +1,24 @@
+{
+  "id": "data-structure/線形データ構造/deque",
+  "title": "両側キュー(deque)",
+  "description": "両側キュー(deque)とは",
+  "source": "@site/docs/data-structure/01_線形データ構造/40_deque.md",
+  "sourceDirName": "data-structure/01_線形データ構造",
+  "slug": "/data-structure/線形データ構造/deque",
+  "permalink": "/docs/data-structure/線形データ構造/deque",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "datastructureSidebar",
+  "previous": {
+    "title": "キュー (Queue)",
+    "permalink": "/docs/data-structure/線形データ構造/queue"
+  },
+  "next": {
+    "title": "動的配列 (Dynamic Array)",
+    "permalink": "/docs/data-structure/線形データ構造/dynamic_array"
+  }
+}

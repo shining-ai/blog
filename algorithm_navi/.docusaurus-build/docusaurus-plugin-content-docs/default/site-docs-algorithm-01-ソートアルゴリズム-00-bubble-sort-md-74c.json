@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/ソートアルゴリズム/bubble_sort",
+  "title": "バブルソート (Bubble Sort)",
+  "description": "バブルソートとは",
+  "source": "@site/docs/algorithm/01_ソートアルゴリズム/00_bubble_sort.md",
+  "sourceDirName": "algorithm/01_ソートアルゴリズム",
+  "slug": "/algorithm/ソートアルゴリズム/bubble_sort",
+  "permalink": "/docs/algorithm/ソートアルゴリズム/bubble_sort",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "アルゴリズム",
+    "permalink": "/docs/algorithm/intro"
+  },
+  "next": {
+    "title": "選択ソート (Selection Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/selection_sort"
+  }
+}

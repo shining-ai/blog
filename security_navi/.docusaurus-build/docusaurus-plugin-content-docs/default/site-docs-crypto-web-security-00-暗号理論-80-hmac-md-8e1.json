@@ -1,0 +1,24 @@
+{
+  "id": "crypto-web-security/暗号理論/hmac",
+  "title": "MAC（HMAC）",
+  "description": "HMAC とは",
+  "source": "@site/docs/crypto-web-security/00_暗号理論/80_hmac.md",
+  "sourceDirName": "crypto-web-security/00_暗号理論",
+  "slug": "/crypto-web-security/暗号理論/hmac",
+  "permalink": "/docs/crypto-web-security/暗号理論/hmac",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 80,
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "previous": {
+    "title": "デジタル署名",
+    "permalink": "/docs/crypto-web-security/暗号理論/digital_signature"
+  },
+  "next": {
+    "title": "量子耐性暗号（格子暗号の概要）",
+    "permalink": "/docs/crypto-web-security/暗号理論/post_quantum"
+  }
+}

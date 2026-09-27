@@ -1,0 +1,24 @@
+{
+  "id": "compiler-runtime/コンパイラ_バックエンド/code_generation",
+  "title": "コード生成とターゲットコード",
+  "description": "コード生成とは",
+  "source": "@site/docs/compiler-runtime/03_コンパイラ_バックエンド/40_code_generation.md",
+  "sourceDirName": "compiler-runtime/03_コンパイラ_バックエンド",
+  "slug": "/compiler-runtime/コンパイラ_バックエンド/code_generation",
+  "permalink": "/docs/compiler-runtime/コンパイラ_バックエンド/code_generation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "compilerRuntimeSidebar",
+  "previous": {
+    "title": "レジスタ割り付け",
+    "permalink": "/docs/compiler-runtime/コンパイラ_バックエンド/register_allocation"
+  },
+  "next": {
+    "title": "LLVM の概要",
+    "permalink": "/docs/compiler-runtime/コンパイラ_バックエンド/llvm"
+  }
+}

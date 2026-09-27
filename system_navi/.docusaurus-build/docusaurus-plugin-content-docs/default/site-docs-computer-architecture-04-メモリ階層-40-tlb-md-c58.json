@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/メモリ階層/tlb",
+  "title": "TLB とアドレス変換 (TLB & Address Translation)",
+  "description": "TLB とは",
+  "source": "@site/docs/computer-architecture/04_メモリ階層/40_tlb.md",
+  "sourceDirName": "computer-architecture/04_メモリ階層",
+  "slug": "/computer-architecture/メモリ階層/tlb",
+  "permalink": "/docs/computer-architecture/メモリ階層/tlb",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "仮想メモリとページング (Virtual Memory & Paging)",
+    "permalink": "/docs/computer-architecture/メモリ階層/virtual_memory"
+  },
+  "next": {
+    "title": "ページ置換アルゴリズム (Page Replacement)",
+    "permalink": "/docs/computer-architecture/メモリ階層/page_replacement"
+  }
+}

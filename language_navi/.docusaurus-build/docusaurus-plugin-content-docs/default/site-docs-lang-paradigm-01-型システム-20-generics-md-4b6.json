@@ -1,0 +1,24 @@
+{
+  "id": "lang-paradigm/型システム/generics",
+  "title": "ジェネリクス・パラメトリック多相",
+  "description": "ジェネリクスとは",
+  "source": "@site/docs/lang-paradigm/01_型システム/20_generics.md",
+  "sourceDirName": "lang-paradigm/01_型システム",
+  "slug": "/lang-paradigm/型システム/generics",
+  "permalink": "/docs/lang-paradigm/型システム/generics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "langParadigmSidebar",
+  "previous": {
+    "title": "型推論（Hindley-Milner）",
+    "permalink": "/docs/lang-paradigm/型システム/type_inference"
+  },
+  "next": {
+    "title": "部分型と共変・反変",
+    "permalink": "/docs/lang-paradigm/型システム/subtyping"
+  }
+}

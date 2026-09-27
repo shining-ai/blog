@@ -1,0 +1,24 @@
+{
+  "id": "raytracing-api/05_3Dアセットとアニメーション/polygon_mesh",
+  "title": "ポリゴンメッシュの表現",
+  "description": "ポリゴンメッシュとは",
+  "source": "@site/docs/raytracing-api/05_3Dアセットとアニメーション/00_polygon_mesh.md",
+  "sourceDirName": "raytracing-api/05_3Dアセットとアニメーション",
+  "slug": "/raytracing-api/05_3Dアセットとアニメーション/polygon_mesh",
+  "permalink": "/docs/raytracing-api/05_3Dアセットとアニメーション/polygon_mesh",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "rayTracingApiSidebar",
+  "previous": {
+    "title": "GPU レイトレーシング（DXR・Vulkan Ray Tracing）",
+    "permalink": "/docs/raytracing-api/レイトレーシング/gpu_raytracing"
+  },
+  "next": {
+    "title": "UV マッピングとテクスチャアトラス",
+    "permalink": "/docs/raytracing-api/05_3Dアセットとアニメーション/uv_mapping"
+  }
+}

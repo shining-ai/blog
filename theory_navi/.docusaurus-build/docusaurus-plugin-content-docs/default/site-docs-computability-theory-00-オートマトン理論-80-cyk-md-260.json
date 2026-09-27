@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/オートマトン理論/cyk",
+  "title": "CYK アルゴリズム",
+  "description": "CYK アルゴリズムとは",
+  "source": "@site/docs/computability-theory/00_オートマトン理論/80_cyk.md",
+  "sourceDirName": "computability-theory/00_オートマトン理論",
+  "slug": "/computability-theory/オートマトン理論/cyk",
+  "permalink": "/docs/computability-theory/オートマトン理論/cyk",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 80,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "文脈自由文法（CFG）",
+    "permalink": "/docs/computability-theory/オートマトン理論/cfg"
+  },
+  "next": {
+    "title": "文脈自由言語のポンピング補題",
+    "permalink": "/docs/computability-theory/オートマトン理論/pumping_lemma_cfl"
+  }
+}

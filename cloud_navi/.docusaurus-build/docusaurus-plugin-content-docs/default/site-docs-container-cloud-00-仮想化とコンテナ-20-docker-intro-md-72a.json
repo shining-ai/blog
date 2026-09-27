@@ -1,0 +1,24 @@
+{
+  "id": "container-cloud/仮想化とコンテナ/docker_intro",
+  "title": "Docker 入門（イメージ・コンテナ・レジストリ）",
+  "description": "Docker とは",
+  "source": "@site/docs/container-cloud/00_仮想化とコンテナ/20_docker_intro.md",
+  "sourceDirName": "container-cloud/00_仮想化とコンテナ",
+  "slug": "/container-cloud/仮想化とコンテナ/docker_intro",
+  "permalink": "/docs/container-cloud/仮想化とコンテナ/docker_intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "containerCloudSidebar",
+  "previous": {
+    "title": "コンテナの仕組み（名前空間・cgroups）",
+    "permalink": "/docs/container-cloud/仮想化とコンテナ/containers"
+  },
+  "next": {
+    "title": "Dockerfile のベストプラクティス",
+    "permalink": "/docs/container-cloud/仮想化とコンテナ/dockerfile"
+  }
+}

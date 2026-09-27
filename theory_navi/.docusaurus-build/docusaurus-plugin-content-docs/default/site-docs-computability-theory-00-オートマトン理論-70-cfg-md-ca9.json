@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/オートマトン理論/cfg",
+  "title": "文脈自由文法（CFG）",
+  "description": "文脈自由文法（CFG）とは",
+  "source": "@site/docs/computability-theory/00_オートマトン理論/70_cfg.md",
+  "sourceDirName": "computability-theory/00_オートマトン理論",
+  "slug": "/computability-theory/オートマトン理論/cfg",
+  "permalink": "/docs/computability-theory/オートマトン理論/cfg",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 70,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "プッシュダウンオートマトン（PDA）",
+    "permalink": "/docs/computability-theory/オートマトン理論/pda"
+  },
+  "next": {
+    "title": "CYK アルゴリズム",
+    "permalink": "/docs/computability-theory/オートマトン理論/cyk"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "binary-sec-dev/CTF/crypto_ctf",
+  "title": "典型的な Crypto 問題の学び方（教育目的）",
+  "description": "CTF の Crypto カテゴリとは",
+  "source": "@site/docs/binary-sec-dev/07_CTF/30_crypto_ctf.md",
+  "sourceDirName": "binary-sec-dev/07_CTF",
+  "slug": "/binary-sec-dev/CTF/crypto_ctf",
+  "permalink": "/docs/binary-sec-dev/CTF/crypto_ctf",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "binarySecDevSidebar",
+  "previous": {
+    "title": "典型的な Web 問題の学び方（教育目的）",
+    "permalink": "/docs/binary-sec-dev/CTF/web_ctf"
+  }
+}

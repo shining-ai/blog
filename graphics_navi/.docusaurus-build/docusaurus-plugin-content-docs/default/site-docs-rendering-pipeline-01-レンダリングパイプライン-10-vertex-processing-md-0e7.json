@@ -1,0 +1,24 @@
+{
+  "id": "rendering-pipeline/レンダリングパイプライン/vertex_processing",
+  "title": "頂点処理とプリミティブ組み立て",
+  "description": "頂点処理とは",
+  "source": "@site/docs/rendering-pipeline/01_レンダリングパイプライン/10_vertex_processing.md",
+  "sourceDirName": "rendering-pipeline/01_レンダリングパイプライン",
+  "slug": "/rendering-pipeline/レンダリングパイプライン/vertex_processing",
+  "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/vertex_processing",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "リアルタイムレンダリングの概要",
+    "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/realtime_rendering"
+  },
+  "next": {
+    "title": "ラスタライゼーション",
+    "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/rasterization"
+  }
+}

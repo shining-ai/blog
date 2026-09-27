@@ -1,0 +1,24 @@
+{
+  "id": "lang-paradigm/プログラミングパラダイム/imperative",
+  "title": "命令型プログラミング",
+  "description": "命令型プログラミングとは",
+  "source": "@site/docs/lang-paradigm/00_プログラミングパラダイム/00_imperative.md",
+  "sourceDirName": "lang-paradigm/00_プログラミングパラダイム",
+  "slug": "/lang-paradigm/プログラミングパラダイム/imperative",
+  "permalink": "/docs/lang-paradigm/プログラミングパラダイム/imperative",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "langParadigmSidebar",
+  "previous": {
+    "title": "パラダイム・型システム",
+    "permalink": "/docs/lang-paradigm/intro"
+  },
+  "next": {
+    "title": "オブジェクト指向プログラミングの4原則",
+    "permalink": "/docs/lang-paradigm/プログラミングパラダイム/oop"
+  }
+}

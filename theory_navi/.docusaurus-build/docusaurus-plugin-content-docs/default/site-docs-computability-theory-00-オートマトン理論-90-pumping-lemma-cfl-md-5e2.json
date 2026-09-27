@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/オートマトン理論/pumping_lemma_cfl",
+  "title": "文脈自由言語のポンピング補題",
+  "description": "文脈自由言語のポンピング補題とは",
+  "source": "@site/docs/computability-theory/00_オートマトン理論/90_pumping_lemma_cfl.md",
+  "sourceDirName": "computability-theory/00_オートマトン理論",
+  "slug": "/computability-theory/オートマトン理論/pumping_lemma_cfl",
+  "permalink": "/docs/computability-theory/オートマトン理論/pumping_lemma_cfl",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 90,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "CYK アルゴリズム",
+    "permalink": "/docs/computability-theory/オートマトン理論/cyk"
+  },
+  "next": {
+    "title": "チューリング機械の定義",
+    "permalink": "/docs/computability-theory/チューリング機械と計算可能性/turing_machine"
+  }
+}

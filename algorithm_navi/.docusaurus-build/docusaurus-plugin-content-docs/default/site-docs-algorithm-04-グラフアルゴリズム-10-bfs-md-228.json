@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/グラフアルゴリズム/bfs",
+  "title": "幅優先探索 (BFS)",
+  "description": "BFSとは",
+  "source": "@site/docs/algorithm/04_グラフアルゴリズム/10_bfs.md",
+  "sourceDirName": "algorithm/04_グラフアルゴリズム",
+  "slug": "/algorithm/グラフアルゴリズム/bfs",
+  "permalink": "/docs/algorithm/グラフアルゴリズム/bfs",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "深さ優先探索 (DFS)",
+    "permalink": "/docs/algorithm/グラフアルゴリズム/dfs"
+  },
+  "next": {
+    "title": "ダイクストラ法",
+    "permalink": "/docs/algorithm/グラフアルゴリズム/dijkstra"
+  }
+}

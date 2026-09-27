@@ -1,0 +1,19 @@
+{
+  "id": "raytracing-api/intro",
+  "title": "レイトレーシング・API・アニメーション",
+  "description": "レイトレーシング・3Dアセット・アニメーション・グラフィックスAPIを解説します。",
+  "source": "@site/docs/raytracing-api/intro.md",
+  "sourceDirName": "raytracing-api",
+  "slug": "/raytracing-api/intro",
+  "permalink": "/docs/raytracing-api/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "rayTracingApiSidebar",
+  "next": {
+    "title": "レイトレーシングの基礎（レイキャスティング）",
+    "permalink": "/docs/raytracing-api/レイトレーシング/ray_casting"
+  }
+}

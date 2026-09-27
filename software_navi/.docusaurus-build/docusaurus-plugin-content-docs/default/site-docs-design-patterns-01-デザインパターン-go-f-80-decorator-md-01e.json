@@ -1,0 +1,24 @@
+{
+  "id": "design-patterns/デザインパターン_GoF/decorator",
+  "title": "Decorator パターン",
+  "description": "Decorator とは",
+  "source": "@site/docs/design-patterns/01_デザインパターン_GoF/80_decorator.md",
+  "sourceDirName": "design-patterns/01_デザインパターン_GoF",
+  "slug": "/design-patterns/デザインパターン_GoF/decorator",
+  "permalink": "/docs/design-patterns/デザインパターン_GoF/decorator",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 80,
+  "frontMatter": {},
+  "sidebar": "designPatternsSidebar",
+  "previous": {
+    "title": "Composite パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/composite"
+  },
+  "next": {
+    "title": "Facade パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/facade"
+  }
+}

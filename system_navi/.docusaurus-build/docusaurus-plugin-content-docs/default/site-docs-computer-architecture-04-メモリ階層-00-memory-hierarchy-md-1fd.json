@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/メモリ階層/memory_hierarchy",
+  "title": "メモリ階層 (Memory Hierarchy)",
+  "description": "メモリ階層とは",
+  "source": "@site/docs/computer-architecture/04_メモリ階層/00_memory_hierarchy.md",
+  "sourceDirName": "computer-architecture/04_メモリ階層",
+  "slug": "/computer-architecture/メモリ階層/memory_hierarchy",
+  "permalink": "/docs/computer-architecture/メモリ階層/memory_hierarchy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "RISC-V 入門 (RISC-V)",
+    "permalink": "/docs/computer-architecture/プロセッサアーキテクチャ/riscv"
+  },
+  "next": {
+    "title": "キャッシュ (Cache)",
+    "permalink": "/docs/computer-architecture/メモリ階層/cache"
+  }
+}

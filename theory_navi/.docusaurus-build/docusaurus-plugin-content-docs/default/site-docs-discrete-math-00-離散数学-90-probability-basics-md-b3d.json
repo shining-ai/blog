@@ -1,0 +1,24 @@
+{
+  "id": "discrete-math/離散数学/probability_basics",
+  "title": "確率論の基礎",
+  "description": "確率論とは",
+  "source": "@site/docs/discrete-math/00_離散数学/90_probability_basics.md",
+  "sourceDirName": "discrete-math/00_離散数学",
+  "slug": "/discrete-math/離散数学/probability_basics",
+  "permalink": "/docs/discrete-math/離散数学/probability_basics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 90,
+  "frontMatter": {},
+  "sidebar": "discreteMathSidebar",
+  "previous": {
+    "title": "生成関数入門",
+    "permalink": "/docs/discrete-math/離散数学/generating_functions"
+  },
+  "next": {
+    "title": "シャノンのエントロピー",
+    "permalink": "/docs/discrete-math/情報理論と符号理論/shannon_entropy"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "design-patterns/デザインパターン_GoF/abstract_factory",
+  "title": "Abstract Factory パターン",
+  "description": "Abstract Factory とは",
+  "source": "@site/docs/design-patterns/01_デザインパターン_GoF/20_abstract_factory.md",
+  "sourceDirName": "design-patterns/01_デザインパターン_GoF",
+  "slug": "/design-patterns/デザインパターン_GoF/abstract_factory",
+  "permalink": "/docs/design-patterns/デザインパターン_GoF/abstract_factory",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "designPatternsSidebar",
+  "previous": {
+    "title": "Factory Method パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/factory_method"
+  },
+  "next": {
+    "title": "Builder パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/builder"
+  }
+}

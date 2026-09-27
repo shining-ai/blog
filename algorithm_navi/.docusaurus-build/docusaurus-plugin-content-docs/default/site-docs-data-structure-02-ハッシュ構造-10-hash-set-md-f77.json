@@ -1,0 +1,24 @@
+{
+  "id": "data-structure/ハッシュ構造/hash_set",
+  "title": "ハッシュセット (Hash Set)",
+  "description": "ハッシュセットとは",
+  "source": "@site/docs/data-structure/02_ハッシュ構造/10_hash_set.md",
+  "sourceDirName": "data-structure/02_ハッシュ構造",
+  "slug": "/data-structure/ハッシュ構造/hash_set",
+  "permalink": "/docs/data-structure/ハッシュ構造/hash_set",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "datastructureSidebar",
+  "previous": {
+    "title": "ハッシュテーブル (Hash Table)",
+    "permalink": "/docs/data-structure/ハッシュ構造/hash_table"
+  },
+  "next": {
+    "title": "二分木 (Binary Tree)",
+    "permalink": "/docs/data-structure/ツリー構造/binary_tree"
+  }
+}

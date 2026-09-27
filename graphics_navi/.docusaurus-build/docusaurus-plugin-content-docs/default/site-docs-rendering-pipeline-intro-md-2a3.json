@@ -1,0 +1,19 @@
+{
+  "id": "rendering-pipeline/intro",
+  "title": "レンダリング・シェーダ",
+  "description": "グラフィックス数学・レンダリングパイプライン・シェーダ・ライティングを解説します。",
+  "source": "@site/docs/rendering-pipeline/intro.md",
+  "sourceDirName": "rendering-pipeline",
+  "slug": "/rendering-pipeline/intro",
+  "permalink": "/docs/rendering-pipeline/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "next": {
+    "title": "ベクトル演算（内積・外積）",
+    "permalink": "/docs/rendering-pipeline/グラフィックスのための数学/vectors"
+  }
+}

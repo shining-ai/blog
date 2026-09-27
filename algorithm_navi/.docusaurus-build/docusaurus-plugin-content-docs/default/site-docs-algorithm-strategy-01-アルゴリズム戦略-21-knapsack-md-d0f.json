@@ -1,0 +1,24 @@
+{
+  "id": "algorithm-strategy/アルゴリズム戦略/knapsack",
+  "title": "ナップサック問題 (Knapsack Problem)",
+  "description": "ナップサック問題とは",
+  "source": "@site/docs/algorithm-strategy/01_アルゴリズム戦略/21_knapsack.md",
+  "sourceDirName": "algorithm-strategy/01_アルゴリズム戦略",
+  "slug": "/algorithm-strategy/アルゴリズム戦略/knapsack",
+  "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/knapsack",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 21,
+  "frontMatter": {},
+  "sidebar": "algorithmStrategySidebar",
+  "previous": {
+    "title": "動的計画法 (Dynamic Programming)",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/dynamic_programming"
+  },
+  "next": {
+    "title": "最長共通部分列（LCS）",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/lcs"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "distributed-systems/分散システム理論/distributed_challenges",
+  "title": "分散システムの困難さ（部分故障・ネットワーク分断）",
+  "description": "分散システムとは",
+  "source": "@site/docs/distributed-systems/02_分散システム理論/00_distributed_challenges.md",
+  "sourceDirName": "distributed-systems/02_分散システム理論",
+  "slug": "/distributed-systems/分散システム理論/distributed_challenges",
+  "permalink": "/docs/distributed-systems/分散システム理論/distributed_challenges",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "distributedSystemsSidebar",
+  "previous": {
+    "title": "分散システム・信頼性",
+    "permalink": "/docs/distributed-systems/intro"
+  },
+  "next": {
+    "title": "CAP 定理の詳解",
+    "permalink": "/docs/distributed-systems/分散システム理論/cap_theorem"
+  }
+}

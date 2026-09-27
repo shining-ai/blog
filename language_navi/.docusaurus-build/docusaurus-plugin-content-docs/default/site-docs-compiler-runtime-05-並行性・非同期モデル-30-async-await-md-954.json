@@ -1,0 +1,24 @@
+{
+  "id": "compiler-runtime/並行性・非同期モデル/async_await",
+  "title": "async/await と非同期ランタイム",
+  "description": "async/await とは",
+  "source": "@site/docs/compiler-runtime/05_並行性・非同期モデル/30_async_await.md",
+  "sourceDirName": "compiler-runtime/05_並行性・非同期モデル",
+  "slug": "/compiler-runtime/並行性・非同期モデル/async_await",
+  "permalink": "/docs/compiler-runtime/並行性・非同期モデル/async_await",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "compilerRuntimeSidebar",
+  "previous": {
+    "title": "CSP とチャンネル（Go）",
+    "permalink": "/docs/compiler-runtime/並行性・非同期モデル/csp"
+  },
+  "next": {
+    "title": "イベントループ（Node.js の仕組み）",
+    "permalink": "/docs/compiler-runtime/並行性・非同期モデル/event_loop"
+  }
+}

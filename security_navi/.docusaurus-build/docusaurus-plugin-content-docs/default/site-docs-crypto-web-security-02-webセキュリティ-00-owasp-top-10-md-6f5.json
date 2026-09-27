@@ -1,0 +1,24 @@
+{
+  "id": "crypto-web-security/Webセキュリティ/owasp_top10",
+  "title": "OWASP Top 10 の概要",
+  "description": "OWASP Top 10 とは",
+  "source": "@site/docs/crypto-web-security/02_Webセキュリティ/00_owasp_top10.md",
+  "sourceDirName": "crypto-web-security/02_Webセキュリティ",
+  "slug": "/crypto-web-security/Webセキュリティ/owasp_top10",
+  "permalink": "/docs/crypto-web-security/Webセキュリティ/owasp_top10",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "previous": {
+    "title": "SSO（シングルサインオン）",
+    "permalink": "/docs/crypto-web-security/PKI・TLS・認証/sso"
+  },
+  "next": {
+    "title": "SQL インジェクション（防御方法中心）",
+    "permalink": "/docs/crypto-web-security/Webセキュリティ/sqli"
+  }
+}

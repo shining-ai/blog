@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/論理回路/combinational_circuits",
+  "title": "組み合わせ回路 (Combinational Circuits)",
+  "description": "組み合わせ回路とは",
+  "source": "@site/docs/computer-architecture/02_論理回路/20_combinational_circuits.md",
+  "sourceDirName": "computer-architecture/02_論理回路",
+  "slug": "/computer-architecture/論理回路/combinational_circuits",
+  "permalink": "/docs/computer-architecture/論理回路/combinational_circuits",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "カルノー図 (Karnaugh Map)",
+    "permalink": "/docs/computer-architecture/論理回路/karnaugh_map"
+  },
+  "next": {
+    "title": "順序回路 (Sequential Circuits)",
+    "permalink": "/docs/computer-architecture/論理回路/sequential_circuits"
+  }
+}

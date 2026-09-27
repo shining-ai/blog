@@ -1,0 +1,24 @@
+{
+  "id": "rdbms/データベース設計/normalization_1to3",
+  "title": "第 1〜第 3 正規形",
+  "description": "正規化とは",
+  "source": "@site/docs/rdbms/01_データベース設計/10_normalization_1to3.md",
+  "sourceDirName": "rdbms/01_データベース設計",
+  "slug": "/rdbms/データベース設計/normalization_1to3",
+  "permalink": "/docs/rdbms/データベース設計/normalization_1to3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "rdbmsSidebar",
+  "previous": {
+    "title": "ER 図の書き方",
+    "permalink": "/docs/rdbms/データベース設計/er_diagram"
+  },
+  "next": {
+    "title": "BCNF・第 4 正規形",
+    "permalink": "/docs/rdbms/データベース設計/bcnf_4nf"
+  }
+}

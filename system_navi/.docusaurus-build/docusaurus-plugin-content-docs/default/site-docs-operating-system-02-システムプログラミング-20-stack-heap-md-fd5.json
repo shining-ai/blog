@@ -1,0 +1,27 @@
+{
+  "id": "operating-system/システムプログラミング/stack_heap",
+  "title": "スタックとヒープ (Stack and Heap)",
+  "description": "スタックとヒープとは",
+  "source": "@site/docs/operating-system/02_システムプログラミング/20_stack_heap.md",
+  "sourceDirName": "operating-system/02_システムプログラミング",
+  "slug": "/operating-system/システムプログラミング/stack_heap",
+  "permalink": "/docs/operating-system/システムプログラミング/stack_heap",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "displayed_sidebar": "operatingSystemSidebar"
+  },
+  "sidebar": "operatingSystemSidebar",
+  "previous": {
+    "title": "ポインタ (Pointers)",
+    "permalink": "/docs/operating-system/システムプログラミング/pointers"
+  },
+  "next": {
+    "title": "動的メモリ管理 (Dynamic Memory Management)",
+    "permalink": "/docs/operating-system/システムプログラミング/dynamic_memory"
+  }
+}

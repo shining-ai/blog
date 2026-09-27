@@ -1,0 +1,279 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "rdbms/intro",
+          "docs": [
+            {
+              "id": "nosql-distributed/intro",
+              "path": "/docs/nosql-distributed/intro",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/NoSQL/cassandra",
+              "path": "/docs/nosql-distributed/NoSQL/cassandra",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/NoSQL/elasticsearch",
+              "path": "/docs/nosql-distributed/NoSQL/elasticsearch",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/NoSQL/mongodb",
+              "path": "/docs/nosql-distributed/NoSQL/mongodb",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/NoSQL/neo4j",
+              "path": "/docs/nosql-distributed/NoSQL/neo4j",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/NoSQL/nosql_overview",
+              "path": "/docs/nosql-distributed/NoSQL/nosql_overview",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/NoSQL/redis",
+              "path": "/docs/nosql-distributed/NoSQL/redis",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/NoSQL/timeseries_db",
+              "path": "/docs/nosql-distributed/NoSQL/timeseries_db",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/データウェアハウス・データ工学/columnar_storage",
+              "path": "/docs/nosql-distributed/データウェアハウス・データ工学/columnar_storage",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/データウェアハウス・データ工学/data_lake",
+              "path": "/docs/nosql-distributed/データウェアハウス・データ工学/data_lake",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/データウェアハウス・データ工学/etl",
+              "path": "/docs/nosql-distributed/データウェアハウス・データ工学/etl",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/データウェアハウス・データ工学/oltp_olap",
+              "path": "/docs/nosql-distributed/データウェアハウス・データ工学/oltp_olap",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/データウェアハウス・データ工学/spark_intro",
+              "path": "/docs/nosql-distributed/データウェアハウス・データ工学/spark_intro",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/データウェアハウス・データ工学/star_schema",
+              "path": "/docs/nosql-distributed/データウェアハウス・データ工学/star_schema",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/分散データベース/cap_theorem",
+              "path": "/docs/nosql-distributed/分散データベース/cap_theorem",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/分散データベース/distributed_tx",
+              "path": "/docs/nosql-distributed/分散データベース/distributed_tx",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/分散データベース/eventual_consistency",
+              "path": "/docs/nosql-distributed/分散データベース/eventual_consistency",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/分散データベース/newsql",
+              "path": "/docs/nosql-distributed/分散データベース/newsql",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/分散データベース/replication",
+              "path": "/docs/nosql-distributed/分散データベース/replication",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "nosql-distributed/分散データベース/sharding",
+              "path": "/docs/nosql-distributed/分散データベース/sharding",
+              "sidebar": "nosqlDistributedSidebar"
+            },
+            {
+              "id": "rdbms/intro",
+              "path": "/docs/rdbms/intro",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/クエリ最適化/explain",
+              "path": "/docs/rdbms/クエリ最適化/explain",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/クエリ最適化/index_not_used",
+              "path": "/docs/rdbms/クエリ最適化/index_not_used",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/クエリ最適化/query_optimizer",
+              "path": "/docs/rdbms/クエリ最適化/query_optimizer",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/クエリ最適化/statistics",
+              "path": "/docs/rdbms/クエリ最適化/statistics",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/ストレージ・インデックス/btree_index",
+              "path": "/docs/rdbms/ストレージ・インデックス/btree_index",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/ストレージ・インデックス/composite_index",
+              "path": "/docs/rdbms/ストレージ・インデックス/composite_index",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/ストレージ・インデックス/disk_io",
+              "path": "/docs/rdbms/ストレージ・インデックス/disk_io",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/ストレージ・インデックス/fulltext_search",
+              "path": "/docs/rdbms/ストレージ・インデックス/fulltext_search",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/ストレージ・インデックス/hash_index",
+              "path": "/docs/rdbms/ストレージ・インデックス/hash_index",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/データベース設計/bcnf_4nf",
+              "path": "/docs/rdbms/データベース設計/bcnf_4nf",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/データベース設計/denormalization",
+              "path": "/docs/rdbms/データベース設計/denormalization",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/データベース設計/er_diagram",
+              "path": "/docs/rdbms/データベース設計/er_diagram",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/データベース設計/index_design",
+              "path": "/docs/rdbms/データベース設計/index_design",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/データベース設計/normalization_1to3",
+              "path": "/docs/rdbms/データベース設計/normalization_1to3",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/トランザクション/acid",
+              "path": "/docs/rdbms/トランザクション/acid",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/トランザクション/isolation_levels",
+              "path": "/docs/rdbms/トランザクション/isolation_levels",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/トランザクション/locking",
+              "path": "/docs/rdbms/トランザクション/locking",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/トランザクション/mvcc",
+              "path": "/docs/rdbms/トランザクション/mvcc",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/トランザクション/wal",
+              "path": "/docs/rdbms/トランザクション/wal",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/リレーショナルモデルとSQL/aggregation",
+              "path": "/docs/rdbms/リレーショナルモデルとSQL/aggregation",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/リレーショナルモデルとSQL/ddl",
+              "path": "/docs/rdbms/リレーショナルモデルとSQL/ddl",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/リレーショナルモデルとSQL/dml",
+              "path": "/docs/rdbms/リレーショナルモデルとSQL/dml",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/リレーショナルモデルとSQL/joins",
+              "path": "/docs/rdbms/リレーショナルモデルとSQL/joins",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/リレーショナルモデルとSQL/relational_algebra",
+              "path": "/docs/rdbms/リレーショナルモデルとSQL/relational_algebra",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/リレーショナルモデルとSQL/relational_model",
+              "path": "/docs/rdbms/リレーショナルモデルとSQL/relational_model",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/リレーショナルモデルとSQL/sql_basics",
+              "path": "/docs/rdbms/リレーショナルモデルとSQL/sql_basics",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/リレーショナルモデルとSQL/subquery_cte",
+              "path": "/docs/rdbms/リレーショナルモデルとSQL/subquery_cte",
+              "sidebar": "rdbmsSidebar"
+            },
+            {
+              "id": "rdbms/リレーショナルモデルとSQL/views",
+              "path": "/docs/rdbms/リレーショナルモデルとSQL/views",
+              "sidebar": "rdbmsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "rdbmsSidebar": {
+              "link": {
+                "path": "/docs/rdbms/intro",
+                "label": "リレーショナルDB"
+              }
+            },
+            "nosqlDistributedSidebar": {
+              "link": {
+                "path": "/docs/nosql-distributed/intro",
+                "label": "NoSQL・分散・データ工学"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "container-cloud/仮想化とコンテナ/k8s_architecture",
+  "title": "Kubernetes アーキテクチャ概要",
+  "description": "Kubernetes とは",
+  "source": "@site/docs/container-cloud/00_仮想化とコンテナ/50_k8s_architecture.md",
+  "sourceDirName": "container-cloud/00_仮想化とコンテナ",
+  "slug": "/container-cloud/仮想化とコンテナ/k8s_architecture",
+  "permalink": "/docs/container-cloud/仮想化とコンテナ/k8s_architecture",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "containerCloudSidebar",
+  "previous": {
+    "title": "Docker Compose",
+    "permalink": "/docs/container-cloud/仮想化とコンテナ/docker_compose"
+  },
+  "next": {
+    "title": "Pod・Deployment・Service",
+    "permalink": "/docs/container-cloud/仮想化とコンテナ/k8s_pod_deployment"
+  }
+}

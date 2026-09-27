@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/GPU・並列計算/cuda_programming",
+  "title": "CUDAプログラミング (CUDA Programming)",
+  "description": "CUDAとは",
+  "source": "@site/docs/computer-architecture/05_GPU・並列計算/10_cuda_programming.md",
+  "sourceDirName": "computer-architecture/05_GPU・並列計算",
+  "slug": "/computer-architecture/GPU・並列計算/cuda_programming",
+  "permalink": "/docs/computer-architecture/GPU・並列計算/cuda_programming",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "GPU アーキテクチャ (GPU Architecture)",
+    "permalink": "/docs/computer-architecture/GPU・並列計算/gpu_architecture"
+  },
+  "next": {
+    "title": "CUDA メモリ階層 (CUDA Memory Hierarchy)",
+    "permalink": "/docs/computer-architecture/GPU・並列計算/cuda_memory"
+  }
+}

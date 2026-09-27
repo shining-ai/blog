@@ -1,0 +1,24 @@
+{
+  "id": "distributed-systems/分散システム理論/raft",
+  "title": "Raft によるコンセンサス",
+  "description": "Raft とは",
+  "source": "@site/docs/distributed-systems/02_分散システム理論/50_raft.md",
+  "sourceDirName": "distributed-systems/02_分散システム理論",
+  "slug": "/distributed-systems/分散システム理論/raft",
+  "permalink": "/docs/distributed-systems/分散システム理論/raft",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "distributedSystemsSidebar",
+  "previous": {
+    "title": "Paxos の概要",
+    "permalink": "/docs/distributed-systems/分散システム理論/paxos"
+  },
+  "next": {
+    "title": "分散スナップショット（Chandy-Lamport）",
+    "permalink": "/docs/distributed-systems/分散システム理論/chandy_lamport"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "rdbms/リレーショナルモデルとSQL/relational_model",
+  "title": "リレーショナルモデルの基礎",
+  "description": "リレーショナルモデルとは",
+  "source": "@site/docs/rdbms/00_リレーショナルモデルとSQL/00_relational_model.md",
+  "sourceDirName": "rdbms/00_リレーショナルモデルとSQL",
+  "slug": "/rdbms/リレーショナルモデルとSQL/relational_model",
+  "permalink": "/docs/rdbms/リレーショナルモデルとSQL/relational_model",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "rdbmsSidebar",
+  "previous": {
+    "title": "リレーショナルDB",
+    "permalink": "/docs/rdbms/intro"
+  },
+  "next": {
+    "title": "SQL 入門",
+    "permalink": "/docs/rdbms/リレーショナルモデルとSQL/sql_basics"
+  }
+}

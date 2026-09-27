@@ -1,0 +1,19 @@
+{
+  "id": "rdbms/intro",
+  "title": "リレーショナルDB",
+  "description": "SQL・データベース設計・インデックス・クエリ最適化・トランザクションを体系的に解説します。",
+  "source": "@site/docs/rdbms/intro.md",
+  "sourceDirName": "rdbms",
+  "slug": "/rdbms/intro",
+  "permalink": "/docs/rdbms/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "rdbmsSidebar",
+  "next": {
+    "title": "リレーショナルモデルの基礎",
+    "permalink": "/docs/rdbms/リレーショナルモデルとSQL/relational_model"
+  }
+}

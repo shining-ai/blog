@@ -1,0 +1,24 @@
+{
+  "id": "raytracing-api/レイトレーシング/bvh",
+  "title": "BVH（バウンディングボリューム階層）による高速化",
+  "description": "BVH とは",
+  "source": "@site/docs/raytracing-api/04_レイトレーシング/20_bvh.md",
+  "sourceDirName": "raytracing-api/04_レイトレーシング",
+  "slug": "/raytracing-api/レイトレーシング/bvh",
+  "permalink": "/docs/raytracing-api/レイトレーシング/bvh",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "rayTracingApiSidebar",
+  "previous": {
+    "title": "反射・屈折・影の計算",
+    "permalink": "/docs/raytracing-api/レイトレーシング/reflection_refraction"
+  },
+  "next": {
+    "title": "パストレーシングとモンテカルロ法",
+    "permalink": "/docs/raytracing-api/レイトレーシング/path_tracing"
+  }
+}

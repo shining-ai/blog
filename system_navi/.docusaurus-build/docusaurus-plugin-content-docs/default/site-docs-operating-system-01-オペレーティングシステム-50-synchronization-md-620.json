@@ -1,0 +1,27 @@
+{
+  "id": "operating-system/オペレーティングシステム/synchronization",
+  "title": "競合状態と排他制御 (Race Condition & Synchronization)",
+  "description": "競合状態とは",
+  "source": "@site/docs/operating-system/01_オペレーティングシステム/50_synchronization.md",
+  "sourceDirName": "operating-system/01_オペレーティングシステム",
+  "slug": "/operating-system/オペレーティングシステム/synchronization",
+  "permalink": "/docs/operating-system/オペレーティングシステム/synchronization",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "displayed_sidebar": "operatingSystemSidebar"
+  },
+  "sidebar": "operatingSystemSidebar",
+  "previous": {
+    "title": "プロセス間通信 (Inter-Process Communication)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/ipc"
+  },
+  "next": {
+    "title": "デッドロック (Deadlock)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/deadlock"
+  }
+}

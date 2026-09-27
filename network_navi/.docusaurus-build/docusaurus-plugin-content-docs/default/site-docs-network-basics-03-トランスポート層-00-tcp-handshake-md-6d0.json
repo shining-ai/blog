@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/トランスポート層/tcp_handshake",
+  "title": "TCP の概要と 3 ウェイハンドシェイク",
+  "description": "TCP とは",
+  "source": "@site/docs/network-basics/03_トランスポート層/00_tcp_handshake.md",
+  "sourceDirName": "network-basics/03_トランスポート層",
+  "slug": "/network-basics/トランスポート層/tcp_handshake",
+  "permalink": "/docs/network-basics/トランスポート層/tcp_handshake",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "TCP の概要と 3 ウェイハンドシェイク"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "ICMP と ping・traceroute",
+    "permalink": "/docs/network-basics/ネットワーク層/icmp"
+  },
+  "next": {
+    "title": "TCP のシーケンス番号と確認応答",
+    "permalink": "/docs/network-basics/トランスポート層/tcp_sequence"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "discrete-math/離散数学/relations_functions",
+  "title": "関係と写像",
+  "description": "関係と写像とは",
+  "source": "@site/docs/discrete-math/00_離散数学/20_relations_functions.md",
+  "sourceDirName": "discrete-math/00_離散数学",
+  "slug": "/discrete-math/離散数学/relations_functions",
+  "permalink": "/docs/discrete-math/離散数学/relations_functions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "discreteMathSidebar",
+  "previous": {
+    "title": "集合論の基礎",
+    "permalink": "/docs/discrete-math/離散数学/set_theory"
+  },
+  "next": {
+    "title": "帰納法と再帰",
+    "permalink": "/docs/discrete-math/離散数学/induction_recursion"
+  }
+}

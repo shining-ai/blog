@@ -1,0 +1,23 @@
+{
+  "id": "algorithm/intro",
+  "title": "アルゴリズム",
+  "description": "アルゴリズムとは、問題を解くための手順・手法の体系です。",
+  "source": "@site/docs/algorithm/intro.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/intro",
+  "permalink": "/docs/algorithm/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "displayed_sidebar": "algorithmSidebar"
+  },
+  "sidebar": "algorithmSidebar",
+  "next": {
+    "title": "バブルソート (Bubble Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/bubble_sort"
+  }
+}

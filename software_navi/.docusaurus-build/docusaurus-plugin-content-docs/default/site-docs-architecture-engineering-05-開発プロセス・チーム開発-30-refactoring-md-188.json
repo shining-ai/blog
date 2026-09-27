@@ -1,0 +1,24 @@
+{
+  "id": "architecture-engineering/開発プロセス・チーム開発/refactoring",
+  "title": "リファクタリングと技術的負債",
+  "description": "リファクタリングとは",
+  "source": "@site/docs/architecture-engineering/05_開発プロセス・チーム開発/30_refactoring.md",
+  "sourceDirName": "architecture-engineering/05_開発プロセス・チーム開発",
+  "slug": "/architecture-engineering/開発プロセス・チーム開発/refactoring",
+  "permalink": "/docs/architecture-engineering/開発プロセス・チーム開発/refactoring",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "コードレビューの進め方",
+    "permalink": "/docs/architecture-engineering/開発プロセス・チーム開発/code_review"
+  },
+  "next": {
+    "title": "CI/CD パイプラインの設計",
+    "permalink": "/docs/architecture-engineering/開発プロセス・チーム開発/cicd"
+  }
+}

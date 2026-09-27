@@ -1,0 +1,19 @@
+{
+  "id": "crypto-web-security/intro",
+  "title": "暗号・Web・NWセキュリティ",
+  "description": "暗号理論・PKI・TLS・Webセキュリティ・ネットワークセキュリティを解説します。",
+  "source": "@site/docs/crypto-web-security/intro.md",
+  "sourceDirName": "crypto-web-security",
+  "slug": "/crypto-web-security/intro",
+  "permalink": "/docs/crypto-web-security/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "next": {
+    "title": "暗号の基礎概念（機密性・完全性・認証）",
+    "permalink": "/docs/crypto-web-security/暗号理論/crypto_basics"
+  }
+}

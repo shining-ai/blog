@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/最適化/simulated_annealing",
+  "title": "焼きなまし法 (Simulated Annealing)",
+  "description": "焼きなまし法とは",
+  "source": "@site/docs/algorithm/07_最適化/30_simulated_annealing.md",
+  "sourceDirName": "algorithm/07_最適化",
+  "slug": "/algorithm/最適化/simulated_annealing",
+  "permalink": "/docs/algorithm/最適化/simulated_annealing",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "局所探索法 (Local Search)",
+    "permalink": "/docs/algorithm/最適化/local_search"
+  },
+  "next": {
+    "title": "遺伝的アルゴリズム (Genetic Algorithm)",
+    "permalink": "/docs/algorithm/最適化/genetic_algorithm"
+  }
+}

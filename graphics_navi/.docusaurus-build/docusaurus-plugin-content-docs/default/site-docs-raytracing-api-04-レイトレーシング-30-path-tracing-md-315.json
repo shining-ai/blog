@@ -1,0 +1,24 @@
+{
+  "id": "raytracing-api/レイトレーシング/path_tracing",
+  "title": "パストレーシングとモンテカルロ法",
+  "description": "パストレーシングとは",
+  "source": "@site/docs/raytracing-api/04_レイトレーシング/30_path_tracing.md",
+  "sourceDirName": "raytracing-api/04_レイトレーシング",
+  "slug": "/raytracing-api/レイトレーシング/path_tracing",
+  "permalink": "/docs/raytracing-api/レイトレーシング/path_tracing",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "rayTracingApiSidebar",
+  "previous": {
+    "title": "BVH（バウンディングボリューム階層）による高速化",
+    "permalink": "/docs/raytracing-api/レイトレーシング/bvh"
+  },
+  "next": {
+    "title": "GPU レイトレーシング（DXR・Vulkan Ray Tracing）",
+    "permalink": "/docs/raytracing-api/レイトレーシング/gpu_raytracing"
+  }
+}

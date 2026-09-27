@@ -1,0 +1,24 @@
+{
+  "id": "compiler-runtime/コンパイラ_フロントエンド/lr_parsing",
+  "title": "LR 解析（SLR・LALR・LR(1)）",
+  "description": "LR 解析とは",
+  "source": "@site/docs/compiler-runtime/02_コンパイラ_フロントエンド/40_lr_parsing.md",
+  "sourceDirName": "compiler-runtime/02_コンパイラ_フロントエンド",
+  "slug": "/compiler-runtime/コンパイラ_フロントエンド/lr_parsing",
+  "permalink": "/docs/compiler-runtime/コンパイラ_フロントエンド/lr_parsing",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "compilerRuntimeSidebar",
+  "previous": {
+    "title": "再帰下降パーサの実装",
+    "permalink": "/docs/compiler-runtime/コンパイラ_フロントエンド/recursive_descent"
+  },
+  "next": {
+    "title": "抽象構文木（AST）の構築",
+    "permalink": "/docs/compiler-runtime/コンパイラ_フロントエンド/ast"
+  }
+}

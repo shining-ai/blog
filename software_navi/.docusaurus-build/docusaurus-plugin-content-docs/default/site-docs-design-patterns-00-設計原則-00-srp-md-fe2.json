@@ -1,0 +1,24 @@
+{
+  "id": "design-patterns/設計原則/srp",
+  "title": "SOLID原則 S: 単一責任の原則（SRP）",
+  "description": "単一責任の原則とは",
+  "source": "@site/docs/design-patterns/00_設計原則/00_srp.md",
+  "sourceDirName": "design-patterns/00_設計原則",
+  "slug": "/design-patterns/設計原則/srp",
+  "permalink": "/docs/design-patterns/設計原則/srp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "designPatternsSidebar",
+  "previous": {
+    "title": "設計原則・デザインパターン",
+    "permalink": "/docs/design-patterns/intro"
+  },
+  "next": {
+    "title": "SOLID原則 O: 開放閉鎖の原則（OCP）",
+    "permalink": "/docs/design-patterns/設計原則/ocp"
+  }
+}

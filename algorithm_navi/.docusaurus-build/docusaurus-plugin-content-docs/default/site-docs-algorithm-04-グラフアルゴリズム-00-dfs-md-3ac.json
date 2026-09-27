@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/グラフアルゴリズム/dfs",
+  "title": "深さ優先探索 (DFS)",
+  "description": "DFSとは",
+  "source": "@site/docs/algorithm/04_グラフアルゴリズム/00_dfs.md",
+  "sourceDirName": "algorithm/04_グラフアルゴリズム",
+  "slug": "/algorithm/グラフアルゴリズム/dfs",
+  "permalink": "/docs/algorithm/グラフアルゴリズム/dfs",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "Aho-Corasick法",
+    "permalink": "/docs/algorithm/文字列アルゴリズム/aho_corasick"
+  },
+  "next": {
+    "title": "幅優先探索 (BFS)",
+    "permalink": "/docs/algorithm/グラフアルゴリズム/bfs"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "crypto-web-security/Webセキュリティ/xxe",
+  "title": "XML External Entity（XXE）インジェクション",
+  "description": "XXE インジェクションとは",
+  "source": "@site/docs/crypto-web-security/02_Webセキュリティ/50_xxe.md",
+  "sourceDirName": "crypto-web-security/02_Webセキュリティ",
+  "slug": "/crypto-web-security/Webセキュリティ/xxe",
+  "permalink": "/docs/crypto-web-security/Webセキュリティ/xxe",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "previous": {
+    "title": "SSRF（サーバサイドリクエストフォージェリ）",
+    "permalink": "/docs/crypto-web-security/Webセキュリティ/ssrf"
+  },
+  "next": {
+    "title": "パストラバーサル",
+    "permalink": "/docs/crypto-web-security/Webセキュリティ/path_traversal"
+  }
+}

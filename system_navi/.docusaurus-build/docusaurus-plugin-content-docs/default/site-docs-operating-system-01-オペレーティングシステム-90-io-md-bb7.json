@@ -1,0 +1,27 @@
+{
+  "id": "operating-system/オペレーティングシステム/io",
+  "title": "I/O サブシステムとデバイスドライバ (I/O Subsystem & Device Drivers)",
+  "description": "I/O サブシステムとは",
+  "source": "@site/docs/operating-system/01_オペレーティングシステム/90_io.md",
+  "sourceDirName": "operating-system/01_オペレーティングシステム",
+  "slug": "/operating-system/オペレーティングシステム/io",
+  "permalink": "/docs/operating-system/オペレーティングシステム/io",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "displayed_sidebar": "operatingSystemSidebar"
+  },
+  "sidebar": "operatingSystemSidebar",
+  "previous": {
+    "title": "ファイルシステム (File System)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/filesystem"
+  },
+  "next": {
+    "title": "システムコールの仕組み (System Call Mechanism)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/syscall"
+  }
+}

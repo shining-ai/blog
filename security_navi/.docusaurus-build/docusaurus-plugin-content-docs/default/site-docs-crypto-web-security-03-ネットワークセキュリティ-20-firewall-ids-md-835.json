@@ -1,0 +1,24 @@
+{
+  "id": "crypto-web-security/ネットワークセキュリティ/firewall_ids",
+  "title": "ファイアウォールと IDS/IPS",
+  "description": "ファイアウォールと IDS/IPS とは",
+  "source": "@site/docs/crypto-web-security/03_ネットワークセキュリティ/20_firewall_ids.md",
+  "sourceDirName": "crypto-web-security/03_ネットワークセキュリティ",
+  "slug": "/crypto-web-security/ネットワークセキュリティ/firewall_ids",
+  "permalink": "/docs/crypto-web-security/ネットワークセキュリティ/firewall_ids",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "previous": {
+    "title": "ポートスキャンと Nmap（防御・検出方法）",
+    "permalink": "/docs/crypto-web-security/ネットワークセキュリティ/port_scan_nmap"
+  },
+  "next": {
+    "title": "DDoS 攻撃の種類と対策",
+    "permalink": "/docs/crypto-web-security/ネットワークセキュリティ/ddos_types"
+  }
+}

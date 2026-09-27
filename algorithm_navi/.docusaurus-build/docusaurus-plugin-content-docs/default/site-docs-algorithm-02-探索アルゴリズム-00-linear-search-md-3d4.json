@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/探索アルゴリズム/linear_search",
+  "title": "線形探索 (Linear Search)",
+  "description": "線形探索とは",
+  "source": "@site/docs/algorithm/02_探索アルゴリズム/00_linear_search.md",
+  "sourceDirName": "algorithm/02_探索アルゴリズム",
+  "slug": "/algorithm/探索アルゴリズム/linear_search",
+  "permalink": "/docs/algorithm/探索アルゴリズム/linear_search",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "基数ソート (Radix Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/radix_sort"
+  },
+  "next": {
+    "title": "二分探索 (Binary Search)",
+    "permalink": "/docs/algorithm/探索アルゴリズム/binary_search"
+  }
+}

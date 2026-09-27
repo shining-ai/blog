@@ -1,0 +1,20 @@
+{
+  "id": "data-structure/順序付き構造/skip_list",
+  "title": "スキップリスト (Skip List)",
+  "description": "スキップリストとは",
+  "source": "@site/docs/data-structure/07_順序付き構造/10_skip_list.md",
+  "sourceDirName": "data-structure/07_順序付き構造",
+  "slug": "/data-structure/順序付き構造/skip_list",
+  "permalink": "/docs/data-structure/順序付き構造/skip_list",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "datastructureSidebar",
+  "previous": {
+    "title": "ビット集合 (Bitset)",
+    "permalink": "/docs/data-structure/集合管理構造/bitset"
+  }
+}

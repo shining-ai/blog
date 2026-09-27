@@ -1,0 +1,24 @@
+{
+  "id": "rendering-pipeline/グラフィックスのための数学/vectors",
+  "title": "ベクトル演算（内積・外積）",
+  "description": "ベクトル演算とは",
+  "source": "@site/docs/rendering-pipeline/00_グラフィックスのための数学/00_vectors.md",
+  "sourceDirName": "rendering-pipeline/00_グラフィックスのための数学",
+  "slug": "/rendering-pipeline/グラフィックスのための数学/vectors",
+  "permalink": "/docs/rendering-pipeline/グラフィックスのための数学/vectors",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "レンダリング・シェーダ",
+    "permalink": "/docs/rendering-pipeline/intro"
+  },
+  "next": {
+    "title": "行列と変換（スケール・回転・平行移動）",
+    "permalink": "/docs/rendering-pipeline/グラフィックスのための数学/matrix_transform"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "rendering-pipeline/intro",
+          "docs": [
+            {
+              "id": "raytracing-api/05_3Dアセットとアニメーション/gltf",
+              "path": "/docs/raytracing-api/05_3Dアセットとアニメーション/gltf",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "raytracing-api/05_3Dアセットとアニメーション/polygon_mesh",
+              "path": "/docs/raytracing-api/05_3Dアセットとアニメーション/polygon_mesh",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "raytracing-api/05_3Dアセットとアニメーション/skinning",
+              "path": "/docs/raytracing-api/05_3Dアセットとアニメーション/skinning",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "raytracing-api/05_3Dアセットとアニメーション/uv_mapping",
+              "path": "/docs/raytracing-api/05_3Dアセットとアニメーション/uv_mapping",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "raytracing-api/intro",
+              "path": "/docs/raytracing-api/intro",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "raytracing-api/グラフィックスAPI/metal_dx12",
+              "path": "/docs/raytracing-api/グラフィックスAPI/metal_dx12",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "raytracing-api/グラフィックスAPI/opengl",
+              "path": "/docs/raytracing-api/グラフィックスAPI/opengl",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "raytracing-api/グラフィックスAPI/vulkan",
+              "path": "/docs/raytracing-api/グラフィックスAPI/vulkan",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "raytracing-api/グラフィックスAPI/webgl",
+              "path": "/docs/raytracing-api/グラフィックスAPI/webgl",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "raytracing-api/レイトレーシング/bvh",
+              "path": "/docs/raytracing-api/レイトレーシング/bvh",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "raytracing-api/レイトレーシング/gpu_raytracing",
+              "path": "/docs/raytracing-api/レイトレーシング/gpu_raytracing",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "raytracing-api/レイトレーシング/path_tracing",
+              "path": "/docs/raytracing-api/レイトレーシング/path_tracing",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "raytracing-api/レイトレーシング/ray_casting",
+              "path": "/docs/raytracing-api/レイトレーシング/ray_casting",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "raytracing-api/レイトレーシング/reflection_refraction",
+              "path": "/docs/raytracing-api/レイトレーシング/reflection_refraction",
+              "sidebar": "rayTracingApiSidebar"
+            },
+            {
+              "id": "rendering-pipeline/intro",
+              "path": "/docs/rendering-pipeline/intro",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/グラフィックスのための数学/coordinate_systems",
+              "path": "/docs/rendering-pipeline/グラフィックスのための数学/coordinate_systems",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/グラフィックスのための数学/homogeneous",
+              "path": "/docs/rendering-pipeline/グラフィックスのための数学/homogeneous",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/グラフィックスのための数学/matrix_transform",
+              "path": "/docs/rendering-pipeline/グラフィックスのための数学/matrix_transform",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/グラフィックスのための数学/quaternion",
+              "path": "/docs/rendering-pipeline/グラフィックスのための数学/quaternion",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/グラフィックスのための数学/vectors",
+              "path": "/docs/rendering-pipeline/グラフィックスのための数学/vectors",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/シェーダ/compute_shader",
+              "path": "/docs/rendering-pipeline/シェーダ/compute_shader",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/シェーダ/fragment_shader",
+              "path": "/docs/rendering-pipeline/シェーダ/fragment_shader",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/シェーダ/post_effects",
+              "path": "/docs/rendering-pipeline/シェーダ/post_effects",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/シェーダ/shader_intro",
+              "path": "/docs/rendering-pipeline/シェーダ/shader_intro",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/シェーダ/vertex_shader",
+              "path": "/docs/rendering-pipeline/シェーダ/vertex_shader",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/ライティングとシェーディング/global_illumination",
+              "path": "/docs/rendering-pipeline/ライティングとシェーディング/global_illumination",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/ライティングとシェーディング/normal_mapping",
+              "path": "/docs/rendering-pipeline/ライティングとシェーディング/normal_mapping",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/ライティングとシェーディング/pbr",
+              "path": "/docs/rendering-pipeline/ライティングとシェーディング/pbr",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/ライティングとシェーディング/phong",
+              "path": "/docs/rendering-pipeline/ライティングとシェーディング/phong",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/ライティングとシェーディング/shadow_mapping",
+              "path": "/docs/rendering-pipeline/ライティングとシェーディング/shadow_mapping",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/ライティングとシェーディング/ssao",
+              "path": "/docs/rendering-pipeline/ライティングとシェーディング/ssao",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/レンダリングパイプライン/antialiasing",
+              "path": "/docs/rendering-pipeline/レンダリングパイプライン/antialiasing",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/レンダリングパイプライン/fragment_processing",
+              "path": "/docs/rendering-pipeline/レンダリングパイプライン/fragment_processing",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/レンダリングパイプライン/rasterization",
+              "path": "/docs/rendering-pipeline/レンダリングパイプライン/rasterization",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/レンダリングパイプライン/realtime_rendering",
+              "path": "/docs/rendering-pipeline/レンダリングパイプライン/realtime_rendering",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/レンダリングパイプライン/texture_mapping",
+              "path": "/docs/rendering-pipeline/レンダリングパイプライン/texture_mapping",
+              "sidebar": "renderingPipelineSidebar"
+            },
+            {
+              "id": "rendering-pipeline/レンダリングパイプライン/vertex_processing",
+              "path": "/docs/rendering-pipeline/レンダリングパイプライン/vertex_processing",
+              "sidebar": "renderingPipelineSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "renderingPipelineSidebar": {
+              "link": {
+                "path": "/docs/rendering-pipeline/intro",
+                "label": "レンダリング・シェーダ"
+              }
+            },
+            "rayTracingApiSidebar": {
+              "link": {
+                "path": "/docs/raytracing-api/intro",
+                "label": "レイトレーシング・API・アニメーション"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

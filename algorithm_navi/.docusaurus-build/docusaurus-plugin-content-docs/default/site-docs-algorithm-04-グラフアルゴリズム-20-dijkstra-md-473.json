@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/グラフアルゴリズム/dijkstra",
+  "title": "ダイクストラ法",
+  "description": "ダイクストラ法とは",
+  "source": "@site/docs/algorithm/04_グラフアルゴリズム/20_dijkstra.md",
+  "sourceDirName": "algorithm/04_グラフアルゴリズム",
+  "slug": "/algorithm/グラフアルゴリズム/dijkstra",
+  "permalink": "/docs/algorithm/グラフアルゴリズム/dijkstra",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "幅優先探索 (BFS)",
+    "permalink": "/docs/algorithm/グラフアルゴリズム/bfs"
+  },
+  "next": {
+    "title": "Bellman-Ford法",
+    "permalink": "/docs/algorithm/グラフアルゴリズム/bellman_ford"
+  }
+}

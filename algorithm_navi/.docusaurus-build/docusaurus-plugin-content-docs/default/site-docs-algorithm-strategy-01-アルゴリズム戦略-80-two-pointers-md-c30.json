@@ -1,0 +1,20 @@
+{
+  "id": "algorithm-strategy/アルゴリズム戦略/two_pointers",
+  "title": "しゃくとり法（Two Pointers）",
+  "description": "しゃくとり法とは",
+  "source": "@site/docs/algorithm-strategy/01_アルゴリズム戦略/80_two_pointers.md",
+  "sourceDirName": "algorithm-strategy/01_アルゴリズム戦略",
+  "slug": "/algorithm-strategy/アルゴリズム戦略/two_pointers",
+  "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/two_pointers",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 80,
+  "frontMatter": {},
+  "sidebar": "algorithmStrategySidebar",
+  "previous": {
+    "title": "二分探索の応用（答えで二分探索）",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/binary_search_advanced"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "compiler-runtime/コンパイラ_フロントエンド/parser_overview",
+  "title": "構文解析の概要（BNF・EBNF）",
+  "description": "構文解析とは",
+  "source": "@site/docs/compiler-runtime/02_コンパイラ_フロントエンド/20_parser_overview.md",
+  "sourceDirName": "compiler-runtime/02_コンパイラ_フロントエンド",
+  "slug": "/compiler-runtime/コンパイラ_フロントエンド/parser_overview",
+  "permalink": "/docs/compiler-runtime/コンパイラ_フロントエンド/parser_overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "compilerRuntimeSidebar",
+  "previous": {
+    "title": "字句解析（トークナイザ・正規表現）",
+    "permalink": "/docs/compiler-runtime/コンパイラ_フロントエンド/lexer"
+  },
+  "next": {
+    "title": "再帰下降パーサの実装",
+    "permalink": "/docs/compiler-runtime/コンパイラ_フロントエンド/recursive_descent"
+  }
+}

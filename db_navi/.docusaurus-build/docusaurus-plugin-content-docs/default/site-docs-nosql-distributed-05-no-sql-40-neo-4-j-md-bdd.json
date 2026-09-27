@@ -1,0 +1,24 @@
+{
+  "id": "nosql-distributed/NoSQL/neo4j",
+  "title": "グラフDB（Neo4j）",
+  "description": "Neo4j とは",
+  "source": "@site/docs/nosql-distributed/05_NoSQL/40_neo4j.md",
+  "sourceDirName": "nosql-distributed/05_NoSQL",
+  "slug": "/nosql-distributed/NoSQL/neo4j",
+  "permalink": "/docs/nosql-distributed/NoSQL/neo4j",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "nosqlDistributedSidebar",
+  "previous": {
+    "title": "ワイドカラムストア（Cassandra）",
+    "permalink": "/docs/nosql-distributed/NoSQL/cassandra"
+  },
+  "next": {
+    "title": "時系列DB（InfluxDB・TimescaleDB）",
+    "permalink": "/docs/nosql-distributed/NoSQL/timeseries_db"
+  }
+}

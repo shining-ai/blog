@@ -1,0 +1,24 @@
+{
+  "id": "crypto-web-security/暗号理論/block_cipher_modes",
+  "title": "ブロック暗号モード（ECB・CBC・CTR・GCM）",
+  "description": "ブロック暗号モードとは",
+  "source": "@site/docs/crypto-web-security/00_暗号理論/20_block_cipher_modes.md",
+  "sourceDirName": "crypto-web-security/00_暗号理論",
+  "slug": "/crypto-web-security/暗号理論/block_cipher_modes",
+  "permalink": "/docs/crypto-web-security/暗号理論/block_cipher_modes",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "previous": {
+    "title": "共通鍵暗号（AES の仕組み）",
+    "permalink": "/docs/crypto-web-security/暗号理論/aes"
+  },
+  "next": {
+    "title": "公開鍵暗号（RSA の数学的背景）",
+    "permalink": "/docs/crypto-web-security/暗号理論/rsa"
+  }
+}

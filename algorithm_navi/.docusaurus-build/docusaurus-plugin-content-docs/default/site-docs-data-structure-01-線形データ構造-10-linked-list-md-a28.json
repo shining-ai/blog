@@ -1,0 +1,26 @@
+{
+  "id": "data-structure/線形データ構造/linked_list",
+  "title": "連結リスト（Linked List）",
+  "description": "連結リスト（Linked List）とは",
+  "source": "@site/docs/data-structure/01_線形データ構造/10_linked_list.md",
+  "sourceDirName": "data-structure/01_線形データ構造",
+  "slug": "/data-structure/線形データ構造/linked_list",
+  "permalink": "/docs/data-structure/線形データ構造/linked_list",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "連結リスト（Linked List）"
+  },
+  "sidebar": "datastructureSidebar",
+  "previous": {
+    "title": "配列(Array)",
+    "permalink": "/docs/data-structure/線形データ構造/array"
+  },
+  "next": {
+    "title": "スタック (Stack)",
+    "permalink": "/docs/data-structure/線形データ構造/stack"
+  }
+}

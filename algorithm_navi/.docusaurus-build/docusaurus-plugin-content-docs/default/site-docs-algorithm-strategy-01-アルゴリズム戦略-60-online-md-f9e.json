@@ -1,0 +1,24 @@
+{
+  "id": "algorithm-strategy/アルゴリズム戦略/online",
+  "title": "オンラインアルゴリズム (Online Algorithm)",
+  "description": "オンラインアルゴリズムとは",
+  "source": "@site/docs/algorithm-strategy/01_アルゴリズム戦略/60_online.md",
+  "sourceDirName": "algorithm-strategy/01_アルゴリズム戦略",
+  "slug": "/algorithm-strategy/アルゴリズム戦略/online",
+  "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/online",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 60,
+  "frontMatter": {},
+  "sidebar": "algorithmStrategySidebar",
+  "previous": {
+    "title": "近似アルゴリズム (Approximation Algorithm)",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/approximation"
+  },
+  "next": {
+    "title": "二分探索の応用（答えで二分探索）",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/binary_search_advanced"
+  }
+}

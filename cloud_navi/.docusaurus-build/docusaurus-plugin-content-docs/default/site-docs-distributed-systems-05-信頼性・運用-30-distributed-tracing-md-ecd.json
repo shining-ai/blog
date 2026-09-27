@@ -1,0 +1,24 @@
+{
+  "id": "distributed-systems/信頼性・運用/distributed_tracing",
+  "title": "分散トレーシング（Jaeger・OpenTelemetry）",
+  "description": "分散トレーシングとは",
+  "source": "@site/docs/distributed-systems/05_信頼性・運用/30_distributed_tracing.md",
+  "sourceDirName": "distributed-systems/05_信頼性・運用",
+  "slug": "/distributed-systems/信頼性・運用/distributed_tracing",
+  "permalink": "/docs/distributed-systems/信頼性・運用/distributed_tracing",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "distributedSystemsSidebar",
+  "previous": {
+    "title": "Prometheus と Grafana",
+    "permalink": "/docs/distributed-systems/信頼性・運用/prometheus_grafana"
+  },
+  "next": {
+    "title": "カオスエンジニアリング",
+    "permalink": "/docs/distributed-systems/信頼性・運用/chaos_engineering"
+  }
+}

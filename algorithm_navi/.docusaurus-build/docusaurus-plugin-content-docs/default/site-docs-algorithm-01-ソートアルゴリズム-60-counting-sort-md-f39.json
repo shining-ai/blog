@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/ソートアルゴリズム/counting_sort",
+  "title": "計数ソート (Counting Sort)",
+  "description": "計数ソートとは",
+  "source": "@site/docs/algorithm/01_ソートアルゴリズム/60_counting_sort.md",
+  "sourceDirName": "algorithm/01_ソートアルゴリズム",
+  "slug": "/algorithm/ソートアルゴリズム/counting_sort",
+  "permalink": "/docs/algorithm/ソートアルゴリズム/counting_sort",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 60,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "ヒープソート (Heap Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/heap_sort"
+  },
+  "next": {
+    "title": "基数ソート (Radix Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/radix_sort"
+  }
+}

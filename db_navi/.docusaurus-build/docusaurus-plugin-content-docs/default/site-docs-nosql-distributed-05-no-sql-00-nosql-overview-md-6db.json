@@ -1,0 +1,24 @@
+{
+  "id": "nosql-distributed/NoSQL/nosql_overview",
+  "title": "NoSQLの分類と使い分け",
+  "description": "NoSQLとは",
+  "source": "@site/docs/nosql-distributed/05_NoSQL/00_nosql_overview.md",
+  "sourceDirName": "nosql-distributed/05_NoSQL",
+  "slug": "/nosql-distributed/NoSQL/nosql_overview",
+  "permalink": "/docs/nosql-distributed/NoSQL/nosql_overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "nosqlDistributedSidebar",
+  "previous": {
+    "title": "NoSQL・分散・データ工学",
+    "permalink": "/docs/nosql-distributed/intro"
+  },
+  "next": {
+    "title": "キーバリューストア（Redis）",
+    "permalink": "/docs/nosql-distributed/NoSQL/redis"
+  }
+}

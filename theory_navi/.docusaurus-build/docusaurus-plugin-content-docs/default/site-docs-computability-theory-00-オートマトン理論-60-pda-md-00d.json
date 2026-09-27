@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/オートマトン理論/pda",
+  "title": "プッシュダウンオートマトン（PDA）",
+  "description": "プッシュダウンオートマトン（PDA）とは",
+  "source": "@site/docs/computability-theory/00_オートマトン理論/60_pda.md",
+  "sourceDirName": "computability-theory/00_オートマトン理論",
+  "slug": "/computability-theory/オートマトン理論/pda",
+  "permalink": "/docs/computability-theory/オートマトン理論/pda",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 60,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "正規言語のポンピング補題",
+    "permalink": "/docs/computability-theory/オートマトン理論/pumping_lemma_regular"
+  },
+  "next": {
+    "title": "文脈自由文法（CFG）",
+    "permalink": "/docs/computability-theory/オートマトン理論/cfg"
+  }
+}

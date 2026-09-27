@@ -1,0 +1,24 @@
+{
+  "id": "architecture-engineering/API設計/graphql",
+  "title": "GraphQL の設計",
+  "description": "GraphQLとは",
+  "source": "@site/docs/architecture-engineering/04_API設計/20_graphql.md",
+  "sourceDirName": "architecture-engineering/04_API設計",
+  "slug": "/architecture-engineering/API設計/graphql",
+  "permalink": "/docs/architecture-engineering/API設計/graphql",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "OpenAPI / Swagger",
+    "permalink": "/docs/architecture-engineering/API設計/openapi"
+  },
+  "next": {
+    "title": "gRPC と Protocol Buffers",
+    "permalink": "/docs/architecture-engineering/API設計/grpc"
+  }
+}

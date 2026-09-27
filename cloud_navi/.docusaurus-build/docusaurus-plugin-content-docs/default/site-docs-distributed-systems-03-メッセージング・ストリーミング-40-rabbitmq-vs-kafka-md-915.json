@@ -1,0 +1,24 @@
+{
+  "id": "distributed-systems/メッセージング・ストリーミング/rabbitmq_vs_kafka",
+  "title": "RabbitMQ と Kafka の使い分け",
+  "description": "RabbitMQ・Kafka とは",
+  "source": "@site/docs/distributed-systems/03_メッセージング・ストリーミング/40_rabbitmq_vs_kafka.md",
+  "sourceDirName": "distributed-systems/03_メッセージング・ストリーミング",
+  "slug": "/distributed-systems/メッセージング・ストリーミング/rabbitmq_vs_kafka",
+  "permalink": "/docs/distributed-systems/メッセージング・ストリーミング/rabbitmq_vs_kafka",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "distributedSystemsSidebar",
+  "previous": {
+    "title": "イベント駆動アーキテクチャ",
+    "permalink": "/docs/distributed-systems/メッセージング・ストリーミング/event_driven"
+  },
+  "next": {
+    "title": "サービス分割の考え方（境界付きコンテキスト）",
+    "permalink": "/docs/distributed-systems/マイクロサービスパターン/service_decomposition"
+  }
+}

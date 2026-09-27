@@ -1,0 +1,24 @@
+{
+  "id": "data-structure/ツリー構造/bit",
+  "title": "BIT（Binary Indexed Tree / Fenwick Tree）",
+  "description": "BITとは",
+  "source": "@site/docs/data-structure/03_ツリー構造/80_bit.md",
+  "sourceDirName": "data-structure/03_ツリー構造",
+  "slug": "/data-structure/ツリー構造/bit",
+  "permalink": "/docs/data-structure/ツリー構造/bit",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 80,
+  "frontMatter": {},
+  "sidebar": "datastructureSidebar",
+  "previous": {
+    "title": "トライ木 (Trie)",
+    "permalink": "/docs/data-structure/ツリー構造/trie"
+  },
+  "next": {
+    "title": "グラフ (Graph)",
+    "permalink": "/docs/data-structure/グラフ構造/graph"
+  }
+}

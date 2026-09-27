@@ -1,0 +1,24 @@
+{
+  "id": "rdbms/クエリ最適化/explain",
+  "title": "実行計画の読み方（EXPLAIN）",
+  "description": "EXPLAINとは",
+  "source": "@site/docs/rdbms/03_クエリ最適化/10_explain.md",
+  "sourceDirName": "rdbms/03_クエリ最適化",
+  "slug": "/rdbms/クエリ最適化/explain",
+  "permalink": "/docs/rdbms/クエリ最適化/explain",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "rdbmsSidebar",
+  "previous": {
+    "title": "クエリオプティマイザの仕組み",
+    "permalink": "/docs/rdbms/クエリ最適化/query_optimizer"
+  },
+  "next": {
+    "title": "統計情報とヒストグラム",
+    "permalink": "/docs/rdbms/クエリ最適化/statistics"
+  }
+}

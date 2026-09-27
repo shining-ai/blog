@@ -1,0 +1,24 @@
+{
+  "id": "design-patterns/設計原則/cohesion_coupling",
+  "title": "凝集度と結合度",
+  "description": "凝集度と結合度とは",
+  "source": "@site/docs/design-patterns/00_設計原則/60_cohesion_coupling.md",
+  "sourceDirName": "design-patterns/00_設計原則",
+  "slug": "/design-patterns/設計原則/cohesion_coupling",
+  "permalink": "/docs/design-patterns/設計原則/cohesion_coupling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 60,
+  "frontMatter": {},
+  "sidebar": "designPatternsSidebar",
+  "previous": {
+    "title": "DRY・KISS・YAGNI",
+    "permalink": "/docs/design-patterns/設計原則/dry_kiss_yagni"
+  },
+  "next": {
+    "title": "Clean Code の考え方",
+    "permalink": "/docs/design-patterns/設計原則/clean_code"
+  }
+}

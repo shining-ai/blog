@@ -1,0 +1,24 @@
+{
+  "id": "lang-paradigm/プログラミングパラダイム/functional_core",
+  "title": "関数型プログラミングの核心（純粋関数・副作用）",
+  "description": "関数型プログラミングとは",
+  "source": "@site/docs/lang-paradigm/00_プログラミングパラダイム/20_functional_core.md",
+  "sourceDirName": "lang-paradigm/00_プログラミングパラダイム",
+  "slug": "/lang-paradigm/プログラミングパラダイム/functional_core",
+  "permalink": "/docs/lang-paradigm/プログラミングパラダイム/functional_core",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "langParadigmSidebar",
+  "previous": {
+    "title": "オブジェクト指向プログラミングの4原則",
+    "permalink": "/docs/lang-paradigm/プログラミングパラダイム/oop"
+  },
+  "next": {
+    "title": "高階関数・map・filter・fold",
+    "permalink": "/docs/lang-paradigm/プログラミングパラダイム/higher_order"
+  }
+}

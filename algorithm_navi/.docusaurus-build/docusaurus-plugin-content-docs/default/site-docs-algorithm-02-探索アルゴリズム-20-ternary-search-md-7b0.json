@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/探索アルゴリズム/ternary_search",
+  "title": "三分探索 (Ternary Search)",
+  "description": "三分探索とは",
+  "source": "@site/docs/algorithm/02_探索アルゴリズム/20_ternary_search.md",
+  "sourceDirName": "algorithm/02_探索アルゴリズム",
+  "slug": "/algorithm/探索アルゴリズム/ternary_search",
+  "permalink": "/docs/algorithm/探索アルゴリズム/ternary_search",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "二分探索 (Binary Search)",
+    "permalink": "/docs/algorithm/探索アルゴリズム/binary_search"
+  },
+  "next": {
+    "title": "KMP法 (Knuth-Morris-Pratt)",
+    "permalink": "/docs/algorithm/文字列アルゴリズム/kmp"
+  }
+}

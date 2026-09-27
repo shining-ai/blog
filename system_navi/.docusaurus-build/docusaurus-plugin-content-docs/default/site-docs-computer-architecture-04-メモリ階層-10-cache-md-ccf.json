@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/メモリ階層/cache",
+  "title": "キャッシュ (Cache)",
+  "description": "キャッシュとは",
+  "source": "@site/docs/computer-architecture/04_メモリ階層/10_cache.md",
+  "sourceDirName": "computer-architecture/04_メモリ階層",
+  "slug": "/computer-architecture/メモリ階層/cache",
+  "permalink": "/docs/computer-architecture/メモリ階層/cache",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "メモリ階層 (Memory Hierarchy)",
+    "permalink": "/docs/computer-architecture/メモリ階層/memory_hierarchy"
+  },
+  "next": {
+    "title": "キャッシュ一貫性と MESI プロトコル (Cache Coherence & MESI)",
+    "permalink": "/docs/computer-architecture/メモリ階層/mesi"
+  }
+}

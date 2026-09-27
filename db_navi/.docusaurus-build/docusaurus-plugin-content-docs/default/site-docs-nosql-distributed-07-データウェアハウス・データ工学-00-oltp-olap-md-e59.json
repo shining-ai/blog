@@ -1,0 +1,24 @@
+{
+  "id": "nosql-distributed/データウェアハウス・データ工学/oltp_olap",
+  "title": "OLTP vs OLAP",
+  "description": "OLTP と OLAP とは",
+  "source": "@site/docs/nosql-distributed/07_データウェアハウス・データ工学/00_oltp_olap.md",
+  "sourceDirName": "nosql-distributed/07_データウェアハウス・データ工学",
+  "slug": "/nosql-distributed/データウェアハウス・データ工学/oltp_olap",
+  "permalink": "/docs/nosql-distributed/データウェアハウス・データ工学/oltp_olap",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "nosqlDistributedSidebar",
+  "previous": {
+    "title": "NewSQL（CockroachDB・Spanner）",
+    "permalink": "/docs/nosql-distributed/分散データベース/newsql"
+  },
+  "next": {
+    "title": "スタースキーマとスノーフレークスキーマ",
+    "permalink": "/docs/nosql-distributed/データウェアハウス・データ工学/star_schema"
+  }
+}

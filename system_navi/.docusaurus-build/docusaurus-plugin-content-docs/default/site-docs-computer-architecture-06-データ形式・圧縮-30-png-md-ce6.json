@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/データ形式・圧縮/png",
+  "title": "PNG 圧縮 (PNG Compression)",
+  "description": "PNG とは",
+  "source": "@site/docs/computer-architecture/06_データ形式・圧縮/30_png.md",
+  "sourceDirName": "computer-architecture/06_データ形式・圧縮",
+  "slug": "/computer-architecture/データ形式・圧縮/png",
+  "permalink": "/docs/computer-architecture/データ形式・圧縮/png",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "zlib と DEFLATE (zlib & DEFLATE)",
+    "permalink": "/docs/computer-architecture/データ形式・圧縮/zlib"
+  },
+  "next": {
+    "title": "動画コーデックの概要 (Video Codec Overview)",
+    "permalink": "/docs/computer-architecture/データ形式・圧縮/video_codec"
+  }
+}

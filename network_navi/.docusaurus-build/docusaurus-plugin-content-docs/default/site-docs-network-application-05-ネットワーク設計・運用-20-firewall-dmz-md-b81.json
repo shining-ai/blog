@@ -1,0 +1,24 @@
+{
+  "id": "network-application/ネットワーク設計・運用/firewall_dmz",
+  "title": "ファイアウォールと DMZ",
+  "description": "ファイアウォールと DMZ とは",
+  "source": "@site/docs/network-application/05_ネットワーク設計・運用/20_firewall_dmz.md",
+  "sourceDirName": "network-application/05_ネットワーク設計・運用",
+  "slug": "/network-application/ネットワーク設計・運用/firewall_dmz",
+  "permalink": "/docs/network-application/ネットワーク設計・運用/firewall_dmz",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "networkApplicationSidebar",
+  "previous": {
+    "title": "ロードバランサ（L4 と L7）",
+    "permalink": "/docs/network-application/ネットワーク設計・運用/load_balancer"
+  },
+  "next": {
+    "title": "VPN（IPsec・WireGuard）",
+    "permalink": "/docs/network-application/ネットワーク設計・運用/vpn"
+  }
+}

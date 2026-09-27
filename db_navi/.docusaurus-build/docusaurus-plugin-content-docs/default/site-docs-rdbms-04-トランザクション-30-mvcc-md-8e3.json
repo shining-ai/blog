@@ -1,0 +1,24 @@
+{
+  "id": "rdbms/トランザクション/mvcc",
+  "title": "MVCC（多版同時実行制御）",
+  "description": "MVCCとは",
+  "source": "@site/docs/rdbms/04_トランザクション/30_mvcc.md",
+  "sourceDirName": "rdbms/04_トランザクション",
+  "slug": "/rdbms/トランザクション/mvcc",
+  "permalink": "/docs/rdbms/トランザクション/mvcc",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "rdbmsSidebar",
+  "previous": {
+    "title": "ロック（共有ロック・排他ロック・デッドロック）",
+    "permalink": "/docs/rdbms/トランザクション/locking"
+  },
+  "next": {
+    "title": "WAL（Write-Ahead Logging）とリカバリ",
+    "permalink": "/docs/rdbms/トランザクション/wal"
+  }
+}

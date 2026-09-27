@@ -1,0 +1,24 @@
+{
+  "id": "distributed-systems/信頼性・運用/prometheus_grafana",
+  "title": "Prometheus と Grafana",
+  "description": "Prometheus と Grafana とは",
+  "source": "@site/docs/distributed-systems/05_信頼性・運用/20_prometheus_grafana.md",
+  "sourceDirName": "distributed-systems/05_信頼性・運用",
+  "slug": "/distributed-systems/信頼性・運用/prometheus_grafana",
+  "permalink": "/docs/distributed-systems/信頼性・運用/prometheus_grafana",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "distributedSystemsSidebar",
+  "previous": {
+    "title": "オブザーバビリティの3柱（メトリクス・ログ・トレース）",
+    "permalink": "/docs/distributed-systems/信頼性・運用/observability"
+  },
+  "next": {
+    "title": "分散トレーシング（Jaeger・OpenTelemetry）",
+    "permalink": "/docs/distributed-systems/信頼性・運用/distributed_tracing"
+  }
+}

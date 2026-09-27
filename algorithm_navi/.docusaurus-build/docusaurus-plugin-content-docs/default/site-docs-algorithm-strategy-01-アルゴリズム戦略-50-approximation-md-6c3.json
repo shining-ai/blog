@@ -1,0 +1,24 @@
+{
+  "id": "algorithm-strategy/アルゴリズム戦略/approximation",
+  "title": "近似アルゴリズム (Approximation Algorithm)",
+  "description": "近似アルゴリズムとは",
+  "source": "@site/docs/algorithm-strategy/01_アルゴリズム戦略/50_approximation.md",
+  "sourceDirName": "algorithm-strategy/01_アルゴリズム戦略",
+  "slug": "/algorithm-strategy/アルゴリズム戦略/approximation",
+  "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/approximation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "algorithmStrategySidebar",
+  "previous": {
+    "title": "乱択アルゴリズム (Randomized Algorithm)",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/randomized"
+  },
+  "next": {
+    "title": "オンラインアルゴリズム (Online Algorithm)",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/online"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "architecture-engineering/ソフトウェアアーキテクチャ/layered",
+  "title": "レイヤードアーキテクチャ",
+  "description": "レイヤードアーキテクチャとは",
+  "source": "@site/docs/architecture-engineering/02_ソフトウェアアーキテクチャ/00_layered.md",
+  "sourceDirName": "architecture-engineering/02_ソフトウェアアーキテクチャ",
+  "slug": "/architecture-engineering/ソフトウェアアーキテクチャ/layered",
+  "permalink": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/layered",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "アーキテクチャ・開発プロセス",
+    "permalink": "/docs/architecture-engineering/intro"
+  },
+  "next": {
+    "title": "クリーンアーキテクチャ",
+    "permalink": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/clean_architecture"
+  }
+}

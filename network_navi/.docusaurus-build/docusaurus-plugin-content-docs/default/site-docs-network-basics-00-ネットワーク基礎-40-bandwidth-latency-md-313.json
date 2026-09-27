@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/ネットワーク基礎/bandwidth_latency",
+  "title": "帯域・遅延・スループットの概念",
+  "description": "帯域・遅延・スループットとは",
+  "source": "@site/docs/network-basics/00_ネットワーク基礎/40_bandwidth_latency.md",
+  "sourceDirName": "network-basics/00_ネットワーク基礎",
+  "slug": "/network-basics/ネットワーク基礎/bandwidth_latency",
+  "permalink": "/docs/network-basics/ネットワーク基礎/bandwidth_latency",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {
+    "title": "帯域・遅延・スループットの概念"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "パケット交換と回線交換",
+    "permalink": "/docs/network-basics/ネットワーク基礎/packet_switching"
+  },
+  "next": {
+    "title": "イーサネットとフレーム構造",
+    "permalink": "/docs/network-basics/データリンク層/ethernet"
+  }
+}

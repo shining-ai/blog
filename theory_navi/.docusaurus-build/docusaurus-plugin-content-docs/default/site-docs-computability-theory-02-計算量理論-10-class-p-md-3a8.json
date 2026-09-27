@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/計算量理論/class_p",
+  "title": "クラス P（多項式時間で解ける問題）",
+  "description": "クラス P とは",
+  "source": "@site/docs/computability-theory/02_計算量理論/10_class_p.md",
+  "sourceDirName": "computability-theory/02_計算量理論",
+  "slug": "/computability-theory/計算量理論/class_p",
+  "permalink": "/docs/computability-theory/計算量理論/class_p",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "時間計算量と空間計算量（O記法・Ω記法・Θ記法）",
+    "permalink": "/docs/computability-theory/計算量理論/complexity_basics"
+  },
+  "next": {
+    "title": "クラス NP と証明器（多項式時間検証可能な問題）",
+    "permalink": "/docs/computability-theory/計算量理論/class_np"
+  }
+}

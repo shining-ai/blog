@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/計算量理論/complexity_basics",
+  "title": "時間計算量と空間計算量（O記法・Ω記法・Θ記法）",
+  "description": "計算量理論の基礎とは",
+  "source": "@site/docs/computability-theory/02_計算量理論/00_complexity_basics.md",
+  "sourceDirName": "computability-theory/02_計算量理論",
+  "slug": "/computability-theory/計算量理論/complexity_basics",
+  "permalink": "/docs/computability-theory/計算量理論/complexity_basics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "λ計算入門",
+    "permalink": "/docs/computability-theory/チューリング機械と計算可能性/lambda_calculus"
+  },
+  "next": {
+    "title": "クラス P（多項式時間で解ける問題）",
+    "permalink": "/docs/computability-theory/計算量理論/class_p"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "nosql-distributed/データウェアハウス・データ工学/columnar_storage",
+  "title": "カラム指向ストレージ（Parquet・ORC）",
+  "description": "カラム指向ストレージとは",
+  "source": "@site/docs/nosql-distributed/07_データウェアハウス・データ工学/40_columnar_storage.md",
+  "sourceDirName": "nosql-distributed/07_データウェアハウス・データ工学",
+  "slug": "/nosql-distributed/データウェアハウス・データ工学/columnar_storage",
+  "permalink": "/docs/nosql-distributed/データウェアハウス・データ工学/columnar_storage",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "nosqlDistributedSidebar",
+  "previous": {
+    "title": "データレイクとデータレイクハウス",
+    "permalink": "/docs/nosql-distributed/データウェアハウス・データ工学/data_lake"
+  },
+  "next": {
+    "title": "Apache Spark 入門",
+    "permalink": "/docs/nosql-distributed/データウェアハウス・データ工学/spark_intro"
+  }
+}

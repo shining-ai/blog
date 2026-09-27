@@ -1,0 +1,24 @@
+{
+  "id": "algorithm-strategy/アルゴリズム戦略/randomized",
+  "title": "乱択アルゴリズム (Randomized Algorithm)",
+  "description": "乱択アルゴリズムとは",
+  "source": "@site/docs/algorithm-strategy/01_アルゴリズム戦略/40_randomized.md",
+  "sourceDirName": "algorithm-strategy/01_アルゴリズム戦略",
+  "slug": "/algorithm-strategy/アルゴリズム戦略/randomized",
+  "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/randomized",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "algorithmStrategySidebar",
+  "previous": {
+    "title": "バックトラッキング (Backtracking)",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/backtracking"
+  },
+  "next": {
+    "title": "近似アルゴリズム (Approximation Algorithm)",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/approximation"
+  }
+}

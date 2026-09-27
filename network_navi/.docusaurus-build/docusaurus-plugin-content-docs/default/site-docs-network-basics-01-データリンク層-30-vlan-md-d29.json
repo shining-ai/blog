@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/データリンク層/vlan",
+  "title": "VLAN",
+  "description": "VLAN とは",
+  "source": "@site/docs/network-basics/01_データリンク層/30_vlan.md",
+  "sourceDirName": "network-basics/01_データリンク層",
+  "slug": "/network-basics/データリンク層/vlan",
+  "permalink": "/docs/network-basics/データリンク層/vlan",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "title": "VLAN"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "スイッチとブリッジ",
+    "permalink": "/docs/network-basics/データリンク層/switch_bridge"
+  },
+  "next": {
+    "title": "Wi-Fi（IEEE 802.11）の仕組み",
+    "permalink": "/docs/network-basics/データリンク層/wifi"
+  }
+}

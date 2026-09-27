@@ -1,0 +1,24 @@
+{
+  "id": "architecture-engineering/開発プロセス・チーム開発/code_review",
+  "title": "コードレビューの進め方",
+  "description": "コードレビューとは",
+  "source": "@site/docs/architecture-engineering/05_開発プロセス・チーム開発/20_code_review.md",
+  "sourceDirName": "architecture-engineering/05_開発プロセス・チーム開発",
+  "slug": "/architecture-engineering/開発プロセス・チーム開発/code_review",
+  "permalink": "/docs/architecture-engineering/開発プロセス・チーム開発/code_review",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "ブランチ戦略（Git Flow・GitHub Flow・Trunk Based）",
+    "permalink": "/docs/architecture-engineering/開発プロセス・チーム開発/branch_strategy"
+  },
+  "next": {
+    "title": "リファクタリングと技術的負債",
+    "permalink": "/docs/architecture-engineering/開発プロセス・チーム開発/refactoring"
+  }
+}

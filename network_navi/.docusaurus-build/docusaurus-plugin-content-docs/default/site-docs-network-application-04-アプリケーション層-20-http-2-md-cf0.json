@@ -1,0 +1,26 @@
+{
+  "id": "network-application/アプリケーション層/http2",
+  "title": "HTTP/2 の多重化とヘッダ圧縮",
+  "description": "HTTP/2 とは",
+  "source": "@site/docs/network-application/04_アプリケーション層/20_http2.md",
+  "sourceDirName": "network-application/04_アプリケーション層",
+  "slug": "/network-application/アプリケーション層/http2",
+  "permalink": "/docs/network-application/アプリケーション層/http2",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "title": "HTTP/2 の多重化とヘッダ圧縮"
+  },
+  "sidebar": "networkApplicationSidebar",
+  "previous": {
+    "title": "HTTP/1.1 の構造（リクエスト・レスポンス）",
+    "permalink": "/docs/network-application/アプリケーション層/http11"
+  },
+  "next": {
+    "title": "HTTP/3（QUIC ベース）",
+    "permalink": "/docs/network-application/アプリケーション層/http3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "container-cloud/仮想化とコンテナ/helm",
+  "title": "Helm によるパッケージ管理",
+  "description": "Helm とは",
+  "source": "@site/docs/container-cloud/00_仮想化とコンテナ/80_helm.md",
+  "sourceDirName": "container-cloud/00_仮想化とコンテナ",
+  "slug": "/container-cloud/仮想化とコンテナ/helm",
+  "permalink": "/docs/container-cloud/仮想化とコンテナ/helm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 80,
+  "frontMatter": {},
+  "sidebar": "containerCloudSidebar",
+  "previous": {
+    "title": "Kubernetes のスケーリングと自己修復",
+    "permalink": "/docs/container-cloud/仮想化とコンテナ/k8s_scaling"
+  },
+  "next": {
+    "title": "IaaS・PaaS・SaaS の違い",
+    "permalink": "/docs/container-cloud/クラウド基礎/iaas_paas_saas"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "architecture-engineering/API設計/api_versioning",
+  "title": "API バージョニング戦略",
+  "description": "APIバージョニングとは",
+  "source": "@site/docs/architecture-engineering/04_API設計/40_api_versioning.md",
+  "sourceDirName": "architecture-engineering/04_API設計",
+  "slug": "/architecture-engineering/API設計/api_versioning",
+  "permalink": "/docs/architecture-engineering/API設計/api_versioning",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "gRPC と Protocol Buffers",
+    "permalink": "/docs/architecture-engineering/API設計/grpc"
+  },
+  "next": {
+    "title": "後方互換性の維持",
+    "permalink": "/docs/architecture-engineering/API設計/backward_compatibility"
+  }
+}

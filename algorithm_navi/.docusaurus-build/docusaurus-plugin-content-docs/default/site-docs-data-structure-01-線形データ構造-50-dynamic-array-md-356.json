@@ -1,0 +1,24 @@
+{
+  "id": "data-structure/線形データ構造/dynamic_array",
+  "title": "動的配列 (Dynamic Array)",
+  "description": "動的配列とは",
+  "source": "@site/docs/data-structure/01_線形データ構造/50_dynamic_array.md",
+  "sourceDirName": "data-structure/01_線形データ構造",
+  "slug": "/data-structure/線形データ構造/dynamic_array",
+  "permalink": "/docs/data-structure/線形データ構造/dynamic_array",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "datastructureSidebar",
+  "previous": {
+    "title": "両側キュー(deque)",
+    "permalink": "/docs/data-structure/線形データ構造/deque"
+  },
+  "next": {
+    "title": "ハッシュテーブル (Hash Table)",
+    "permalink": "/docs/data-structure/ハッシュ構造/hash_table"
+  }
+}

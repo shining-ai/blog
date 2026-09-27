@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/ネットワーク層/ip_address",
+  "title": "IP アドレスとサブネットマスク",
+  "description": "IP アドレスとは",
+  "source": "@site/docs/network-basics/02_ネットワーク層/00_ip_address.md",
+  "sourceDirName": "network-basics/02_ネットワーク層",
+  "slug": "/network-basics/ネットワーク層/ip_address",
+  "permalink": "/docs/network-basics/ネットワーク層/ip_address",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "IP アドレスとサブネットマスク"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "CSMA/CD と CSMA/CA",
+    "permalink": "/docs/network-basics/データリンク層/csma"
+  },
+  "next": {
+    "title": "IPv4 ヘッダの構造",
+    "permalink": "/docs/network-basics/ネットワーク層/ipv4_header"
+  }
+}

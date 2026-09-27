@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/トランスポート層/tcp_flow_control",
+  "title": "TCP のフロー制御（スライディングウィンドウ）",
+  "description": "フロー制御とは",
+  "source": "@site/docs/network-basics/03_トランスポート層/20_tcp_flow_control.md",
+  "sourceDirName": "network-basics/03_トランスポート層",
+  "slug": "/network-basics/トランスポート層/tcp_flow_control",
+  "permalink": "/docs/network-basics/トランスポート層/tcp_flow_control",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "title": "TCP のフロー制御（スライディングウィンドウ）"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "TCP のシーケンス番号と確認応答",
+    "permalink": "/docs/network-basics/トランスポート層/tcp_sequence"
+  },
+  "next": {
+    "title": "TCP の輻輳制御（スロースタート・CUBIC）",
+    "permalink": "/docs/network-basics/トランスポート層/tcp_congestion"
+  }
+}

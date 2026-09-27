@@ -1,0 +1,24 @@
+{
+  "id": "compiler-runtime/コンパイラ_バックエンド/ir",
+  "title": "中間表現（IR）— 三番地コード・SSA 形式",
+  "description": "中間表現とは",
+  "source": "@site/docs/compiler-runtime/03_コンパイラ_バックエンド/00_ir.md",
+  "sourceDirName": "compiler-runtime/03_コンパイラ_バックエンド",
+  "slug": "/compiler-runtime/コンパイラ_バックエンド/ir",
+  "permalink": "/docs/compiler-runtime/コンパイラ_バックエンド/ir",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "compilerRuntimeSidebar",
+  "previous": {
+    "title": "スコープと名前解決",
+    "permalink": "/docs/compiler-runtime/コンパイラ_フロントエンド/scope_resolution"
+  },
+  "next": {
+    "title": "データフロー解析",
+    "permalink": "/docs/compiler-runtime/コンパイラ_バックエンド/dataflow"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "binary-sec-dev/バイナリ・低レイヤセキュリティ/rop",
+  "title": "Return-Oriented Programming（ROP）の概念と防御",
+  "description": "ROP とは",
+  "source": "@site/docs/binary-sec-dev/04_バイナリ・低レイヤセキュリティ/20_rop.md",
+  "sourceDirName": "binary-sec-dev/04_バイナリ・低レイヤセキュリティ",
+  "slug": "/binary-sec-dev/バイナリ・低レイヤセキュリティ/rop",
+  "permalink": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/rop",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "binarySecDevSidebar",
+  "previous": {
+    "title": "ヒープオーバーフロー（原理と防御機構）",
+    "permalink": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/heap_bof"
+  },
+  "next": {
+    "title": "ASLR・PIE・Canary・NX の仕組み（防御機構の詳解）",
+    "permalink": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/mitigations"
+  }
+}

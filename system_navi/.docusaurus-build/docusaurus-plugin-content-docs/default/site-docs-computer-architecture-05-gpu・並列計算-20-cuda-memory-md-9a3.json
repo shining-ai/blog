@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/GPU・並列計算/cuda_memory",
+  "title": "CUDA メモリ階層 (CUDA Memory Hierarchy)",
+  "description": "CUDA メモリ階層とは",
+  "source": "@site/docs/computer-architecture/05_GPU・並列計算/20_cuda_memory.md",
+  "sourceDirName": "computer-architecture/05_GPU・並列計算",
+  "slug": "/computer-architecture/GPU・並列計算/cuda_memory",
+  "permalink": "/docs/computer-architecture/GPU・並列計算/cuda_memory",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "CUDAプログラミング (CUDA Programming)",
+    "permalink": "/docs/computer-architecture/GPU・並列計算/cuda_programming"
+  },
+  "next": {
+    "title": "CUDA カーネル最適化 (CUDA Kernel Optimization)",
+    "permalink": "/docs/computer-architecture/GPU・並列計算/cuda_optimization"
+  }
+}

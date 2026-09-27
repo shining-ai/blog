@@ -1,0 +1,24 @@
+{
+  "id": "nosql-distributed/分散データベース/sharding",
+  "title": "シャーディング",
+  "description": "シャーディングとは",
+  "source": "@site/docs/nosql-distributed/06_分散データベース/20_sharding.md",
+  "sourceDirName": "nosql-distributed/06_分散データベース",
+  "slug": "/nosql-distributed/分散データベース/sharding",
+  "permalink": "/docs/nosql-distributed/分散データベース/sharding",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "nosqlDistributedSidebar",
+  "previous": {
+    "title": "結果整合性と強整合性",
+    "permalink": "/docs/nosql-distributed/分散データベース/eventual_consistency"
+  },
+  "next": {
+    "title": "レプリケーション（同期・非同期・半同期）",
+    "permalink": "/docs/nosql-distributed/分散データベース/replication"
+  }
+}

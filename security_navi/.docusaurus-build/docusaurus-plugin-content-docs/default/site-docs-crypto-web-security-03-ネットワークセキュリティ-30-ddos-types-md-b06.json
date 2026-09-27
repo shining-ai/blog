@@ -1,0 +1,24 @@
+{
+  "id": "crypto-web-security/ネットワークセキュリティ/ddos_types",
+  "title": "DDoS 攻撃の種類と対策",
+  "description": "DDoS 攻撃とは",
+  "source": "@site/docs/crypto-web-security/03_ネットワークセキュリティ/30_ddos_types.md",
+  "sourceDirName": "crypto-web-security/03_ネットワークセキュリティ",
+  "slug": "/crypto-web-security/ネットワークセキュリティ/ddos_types",
+  "permalink": "/docs/crypto-web-security/ネットワークセキュリティ/ddos_types",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "previous": {
+    "title": "ファイアウォールと IDS/IPS",
+    "permalink": "/docs/crypto-web-security/ネットワークセキュリティ/firewall_ids"
+  },
+  "next": {
+    "title": "DNS ハイジャッキングと DNSSEC",
+    "permalink": "/docs/crypto-web-security/ネットワークセキュリティ/dns_hijacking"
+  }
+}

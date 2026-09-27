@@ -1,0 +1,20 @@
+{
+  "id": "algorithm/並列アルゴリズム/prefix_sum",
+  "title": "並列前置和 (Parallel Prefix Sum / Scan)",
+  "description": "並列前置和とは",
+  "source": "@site/docs/algorithm/08_並列アルゴリズム/20_prefix_sum.md",
+  "sourceDirName": "algorithm/08_並列アルゴリズム",
+  "slug": "/algorithm/並列アルゴリズム/prefix_sum",
+  "permalink": "/docs/algorithm/並列アルゴリズム/prefix_sum",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "MapReduce",
+    "permalink": "/docs/algorithm/並列アルゴリズム/mapreduce"
+  }
+}

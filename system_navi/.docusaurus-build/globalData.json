@@ -1,0 +1,319 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "computer-architecture/intro",
+          "docs": [
+            {
+              "id": "computer-architecture/GPU・並列計算/cuda_memory",
+              "path": "/docs/computer-architecture/GPU・並列計算/cuda_memory",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/GPU・並列計算/cuda_optimization",
+              "path": "/docs/computer-architecture/GPU・並列計算/cuda_optimization",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/GPU・並列計算/cuda_programming",
+              "path": "/docs/computer-architecture/GPU・並列計算/cuda_programming",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/GPU・並列計算/gpgpu",
+              "path": "/docs/computer-architecture/GPU・並列計算/gpgpu",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/GPU・並列計算/gpu_architecture",
+              "path": "/docs/computer-architecture/GPU・並列計算/gpu_architecture",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/intro",
+              "path": "/docs/computer-architecture/intro",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/データ形式・圧縮/jpeg",
+              "path": "/docs/computer-architecture/データ形式・圧縮/jpeg",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/データ形式・圧縮/png",
+              "path": "/docs/computer-architecture/データ形式・圧縮/png",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/データ形式・圧縮/run_length_lz",
+              "path": "/docs/computer-architecture/データ形式・圧縮/run_length_lz",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/データ形式・圧縮/video_codec",
+              "path": "/docs/computer-architecture/データ形式・圧縮/video_codec",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/データ形式・圧縮/zlib",
+              "path": "/docs/computer-architecture/データ形式・圧縮/zlib",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/データ表現/binary_numbers",
+              "path": "/docs/computer-architecture/データ表現/binary_numbers",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/データ表現/character_encoding",
+              "path": "/docs/computer-architecture/データ表現/character_encoding",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/データ表現/endianness",
+              "path": "/docs/computer-architecture/データ表現/endianness",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/データ表現/floating_point",
+              "path": "/docs/computer-architecture/データ表現/floating_point",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/データ表現/twos_complement",
+              "path": "/docs/computer-architecture/データ表現/twos_complement",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/プロセッサアーキテクチャ/branch_prediction",
+              "path": "/docs/computer-architecture/プロセッサアーキテクチャ/branch_prediction",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/プロセッサアーキテクチャ/cpu_structure",
+              "path": "/docs/computer-architecture/プロセッサアーキテクチャ/cpu_structure",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/プロセッサアーキテクチャ/instruction_cycle",
+              "path": "/docs/computer-architecture/プロセッサアーキテクチャ/instruction_cycle",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/プロセッサアーキテクチャ/isa_overview",
+              "path": "/docs/computer-architecture/プロセッサアーキテクチャ/isa_overview",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/プロセッサアーキテクチャ/pipeline",
+              "path": "/docs/computer-architecture/プロセッサアーキテクチャ/pipeline",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/プロセッサアーキテクチャ/riscv",
+              "path": "/docs/computer-architecture/プロセッサアーキテクチャ/riscv",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/プロセッサアーキテクチャ/superscalar",
+              "path": "/docs/computer-architecture/プロセッサアーキテクチャ/superscalar",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/プロセッサアーキテクチャ/x86_64",
+              "path": "/docs/computer-architecture/プロセッサアーキテクチャ/x86_64",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/メモリ階層/cache",
+              "path": "/docs/computer-architecture/メモリ階層/cache",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/メモリ階層/dram",
+              "path": "/docs/computer-architecture/メモリ階層/dram",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/メモリ階層/memory_hierarchy",
+              "path": "/docs/computer-architecture/メモリ階層/memory_hierarchy",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/メモリ階層/mesi",
+              "path": "/docs/computer-architecture/メモリ階層/mesi",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/メモリ階層/page_replacement",
+              "path": "/docs/computer-architecture/メモリ階層/page_replacement",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/メモリ階層/tlb",
+              "path": "/docs/computer-architecture/メモリ階層/tlb",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/メモリ階層/virtual_memory",
+              "path": "/docs/computer-architecture/メモリ階層/virtual_memory",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/論理回路/boolean_algebra",
+              "path": "/docs/computer-architecture/論理回路/boolean_algebra",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/論理回路/combinational_circuits",
+              "path": "/docs/computer-architecture/論理回路/combinational_circuits",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/論理回路/fsm",
+              "path": "/docs/computer-architecture/論理回路/fsm",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/論理回路/hdl",
+              "path": "/docs/computer-architecture/論理回路/hdl",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/論理回路/karnaugh_map",
+              "path": "/docs/computer-architecture/論理回路/karnaugh_map",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "computer-architecture/論理回路/sequential_circuits",
+              "path": "/docs/computer-architecture/論理回路/sequential_circuits",
+              "sidebar": "computerArchitectureSidebar"
+            },
+            {
+              "id": "operating-system/intro",
+              "path": "/docs/operating-system/intro",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/オペレーティングシステム/context_switch",
+              "path": "/docs/operating-system/オペレーティングシステム/context_switch",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/オペレーティングシステム/deadlock",
+              "path": "/docs/operating-system/オペレーティングシステム/deadlock",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/オペレーティングシステム/filesystem",
+              "path": "/docs/operating-system/オペレーティングシステム/filesystem",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/オペレーティングシステム/io",
+              "path": "/docs/operating-system/オペレーティングシステム/io",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/オペレーティングシステム/ipc",
+              "path": "/docs/operating-system/オペレーティングシステム/ipc",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/オペレーティングシステム/linux_kernel",
+              "path": "/docs/operating-system/オペレーティングシステム/linux_kernel",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/オペレーティングシステム/memory_management",
+              "path": "/docs/operating-system/オペレーティングシステム/memory_management",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/オペレーティングシステム/os_overview",
+              "path": "/docs/operating-system/オペレーティングシステム/os_overview",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/オペレーティングシステム/process_scheduling",
+              "path": "/docs/operating-system/オペレーティングシステム/process_scheduling",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/オペレーティングシステム/process_thread",
+              "path": "/docs/operating-system/オペレーティングシステム/process_thread",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/オペレーティングシステム/signal",
+              "path": "/docs/operating-system/オペレーティングシステム/signal",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/オペレーティングシステム/synchronization",
+              "path": "/docs/operating-system/オペレーティングシステム/synchronization",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/オペレーティングシステム/syscall",
+              "path": "/docs/operating-system/オペレーティングシステム/syscall",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/システムプログラミング/c_memory_model",
+              "path": "/docs/operating-system/システムプログラミング/c_memory_model",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/システムプログラミング/dynamic_memory",
+              "path": "/docs/operating-system/システムプログラミング/dynamic_memory",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/システムプログラミング/pointers",
+              "path": "/docs/operating-system/システムプログラミング/pointers",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/システムプログラミング/posix_api",
+              "path": "/docs/operating-system/システムプログラミング/posix_api",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/システムプログラミング/pthreads",
+              "path": "/docs/operating-system/システムプログラミング/pthreads",
+              "sidebar": "operatingSystemSidebar"
+            },
+            {
+              "id": "operating-system/システムプログラミング/stack_heap",
+              "path": "/docs/operating-system/システムプログラミング/stack_heap",
+              "sidebar": "operatingSystemSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "computerArchitectureSidebar": {
+              "link": {
+                "path": "/docs/computer-architecture/intro",
+                "label": "コンピュータアーキテクチャ"
+              }
+            },
+            "operatingSystemSidebar": {
+              "link": {
+                "path": "/docs/operating-system/intro",
+                "label": "オペレーティングシステム"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

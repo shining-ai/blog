@@ -1,0 +1,24 @@
+{
+  "id": "data-structure/グラフ構造/graph",
+  "title": "グラフ (Graph)",
+  "description": "グラフとは",
+  "source": "@site/docs/data-structure/04_グラフ構造/00_graph.md",
+  "sourceDirName": "data-structure/04_グラフ構造",
+  "slug": "/data-structure/グラフ構造/graph",
+  "permalink": "/docs/data-structure/グラフ構造/graph",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "datastructureSidebar",
+  "previous": {
+    "title": "BIT（Binary Indexed Tree / Fenwick Tree）",
+    "permalink": "/docs/data-structure/ツリー構造/bit"
+  },
+  "next": {
+    "title": "無向グラフ・有向グラフ",
+    "permalink": "/docs/data-structure/グラフ構造/directed_undirected"
+  }
+}

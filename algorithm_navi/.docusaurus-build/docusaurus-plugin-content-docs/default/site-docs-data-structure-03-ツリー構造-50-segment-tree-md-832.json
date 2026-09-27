@@ -1,0 +1,24 @@
+{
+  "id": "data-structure/ツリー構造/segment_tree",
+  "title": "セグメント木(Segment Tree)",
+  "description": "セグメント木(Segment Tree)とは",
+  "source": "@site/docs/data-structure/03_ツリー構造/50_segment_tree.md",
+  "sourceDirName": "data-structure/03_ツリー構造",
+  "slug": "/data-structure/ツリー構造/segment_tree",
+  "permalink": "/docs/data-structure/ツリー構造/segment_tree",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "datastructureSidebar",
+  "previous": {
+    "title": "B木 / B+木 (B-Tree / B+ Tree)",
+    "permalink": "/docs/data-structure/ツリー構造/b_tree"
+  },
+  "next": {
+    "title": "区間木 (Interval Tree)",
+    "permalink": "/docs/data-structure/ツリー構造/interval_tree"
+  }
+}

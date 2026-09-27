@@ -1,0 +1,24 @@
+{
+  "id": "lang-paradigm/プログラミングパラダイム/higher_order",
+  "title": "高階関数・map・filter・fold",
+  "description": "高階関数とは",
+  "source": "@site/docs/lang-paradigm/00_プログラミングパラダイム/30_higher_order.md",
+  "sourceDirName": "lang-paradigm/00_プログラミングパラダイム",
+  "slug": "/lang-paradigm/プログラミングパラダイム/higher_order",
+  "permalink": "/docs/lang-paradigm/プログラミングパラダイム/higher_order",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "langParadigmSidebar",
+  "previous": {
+    "title": "関数型プログラミングの核心（純粋関数・副作用）",
+    "permalink": "/docs/lang-paradigm/プログラミングパラダイム/functional_core"
+  },
+  "next": {
+    "title": "モナドの直感的理解",
+    "permalink": "/docs/lang-paradigm/プログラミングパラダイム/monad"
+  }
+}

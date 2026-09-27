@@ -1,0 +1,24 @@
+{
+  "id": "binary-sec-dev/バイナリ・低レイヤセキュリティ/stack_bof",
+  "title": "スタックバッファオーバーフロー（原理と防御機構の解説）",
+  "description": "スタックバッファオーバーフローとは",
+  "source": "@site/docs/binary-sec-dev/04_バイナリ・低レイヤセキュリティ/00_stack_bof.md",
+  "sourceDirName": "binary-sec-dev/04_バイナリ・低レイヤセキュリティ",
+  "slug": "/binary-sec-dev/バイナリ・低レイヤセキュリティ/stack_bof",
+  "permalink": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/stack_bof",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "binarySecDevSidebar",
+  "previous": {
+    "title": "バイナリ・開発・CTF",
+    "permalink": "/docs/binary-sec-dev/intro"
+  },
+  "next": {
+    "title": "ヒープオーバーフロー（原理と防御機構）",
+    "permalink": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/heap_bof"
+  }
+}

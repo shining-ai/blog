@@ -16,16 +16,16 @@ type Section = {
 
 const SECTIONS: Section[] = [
   {
-    title: '古典的機械学習',
-    path: '/docs/classical-ml/intro',
-    description: 'イントロ・数学基礎・データ前処理・モデル評価・教師あり学習・教師なし学習を体系的に解説',
-    categories: ['イントロダクション', '数学的基礎', 'データ前処理', 'モデル評価', '教師あり学習', '教師なし学習'],
+    title: '設計原則・デザインパターン',
+    path: '/docs/design-patterns/intro',
+    description: '設計原則・デザインパターン_GoFを体系的に解説',
+    categories: ['設計原則', 'デザインパターン_GoF'],
   },
   {
-    title: '深層学習・応用',
-    path: '/docs/deep-learning/intro',
-    description: 'ニューラルネット・CNN・Transformer・NLP・強化学習・MLOpsまで深層学習と実践を解説',
-    categories: ['ニューラルネット基礎', 'CNN・画像', 'Transformer・NLP', '強化学習', 'MLOps'],
+    title: 'アーキテクチャ・開発プロセス',
+    path: '/docs/architecture-engineering/intro',
+    description: 'ソフトウェアアーキテクチャ・テスト・API設計・開発プロセス・チーム開発を体系的に解説',
+    categories: ['ソフトウェアアーキテクチャ', 'テスト', 'API設計', '開発プロセス・チーム開発'],
   },
 ];
 

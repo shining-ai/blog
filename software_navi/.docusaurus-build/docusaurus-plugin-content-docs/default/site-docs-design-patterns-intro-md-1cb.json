@@ -1,0 +1,19 @@
+{
+  "id": "design-patterns/intro",
+  "title": "設計原則・デザインパターン",
+  "description": "SOLID・DRY・GoFの23パターンまで、ソフトウェア設計の原則とデザインパターンを体系的に解説します。",
+  "source": "@site/docs/design-patterns/intro.md",
+  "sourceDirName": "design-patterns",
+  "slug": "/design-patterns/intro",
+  "permalink": "/docs/design-patterns/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "designPatternsSidebar",
+  "next": {
+    "title": "SOLID原則 S: 単一責任の原則（SRP）",
+    "permalink": "/docs/design-patterns/設計原則/srp"
+  }
+}

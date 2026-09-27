@@ -1,0 +1,24 @@
+{
+  "id": "compiler-runtime/並行性・非同期モデル/event_loop",
+  "title": "イベントループ（Node.js の仕組み）",
+  "description": "イベントループとは",
+  "source": "@site/docs/compiler-runtime/05_並行性・非同期モデル/40_event_loop.md",
+  "sourceDirName": "compiler-runtime/05_並行性・非同期モデル",
+  "slug": "/compiler-runtime/並行性・非同期モデル/event_loop",
+  "permalink": "/docs/compiler-runtime/並行性・非同期モデル/event_loop",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "compilerRuntimeSidebar",
+  "previous": {
+    "title": "async/await と非同期ランタイム",
+    "permalink": "/docs/compiler-runtime/並行性・非同期モデル/async_await"
+  },
+  "next": {
+    "title": "STM（ソフトウェアトランザクショナルメモリ）",
+    "permalink": "/docs/compiler-runtime/並行性・非同期モデル/stm"
+  }
+}

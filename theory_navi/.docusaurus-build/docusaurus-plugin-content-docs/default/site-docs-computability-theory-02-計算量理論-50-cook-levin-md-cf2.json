@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/計算量理論/cook_levin",
+  "title": "Cook-Levin 定理（SAT の NP 完全性）",
+  "description": "Cook-Levin 定理とは",
+  "source": "@site/docs/computability-theory/02_計算量理論/50_cook_levin.md",
+  "sourceDirName": "computability-theory/02_計算量理論",
+  "slug": "/computability-theory/計算量理論/cook_levin",
+  "permalink": "/docs/computability-theory/計算量理論/cook_levin",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "NP 困難と NP 完全（帰着による定義）",
+    "permalink": "/docs/computability-theory/計算量理論/np_hard_complete"
+  },
+  "next": {
+    "title": "代表的な NP 完全問題（3-SAT・ハミルトン路など）",
+    "permalink": "/docs/computability-theory/計算量理論/np_complete_problems"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "network-application/アプリケーション層/https_tls",
+  "title": "HTTPS と TLS ハンドシェイク",
+  "description": "HTTPS / TLS とは",
+  "source": "@site/docs/network-application/04_アプリケーション層/40_https_tls.md",
+  "sourceDirName": "network-application/04_アプリケーション層",
+  "slug": "/network-application/アプリケーション層/https_tls",
+  "permalink": "/docs/network-application/アプリケーション層/https_tls",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {
+    "title": "HTTPS と TLS ハンドシェイク"
+  },
+  "sidebar": "networkApplicationSidebar",
+  "previous": {
+    "title": "HTTP/3（QUIC ベース）",
+    "permalink": "/docs/network-application/アプリケーション層/http3"
+  },
+  "next": {
+    "title": "REST API と HTTP メソッド",
+    "permalink": "/docs/network-application/アプリケーション層/rest_api"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "crypto-web-security/PKI・TLS・認証/tls13",
+  "title": "TLS 1.3 ハンドシェイクの詳細",
+  "description": "TLS 1.3 とは",
+  "source": "@site/docs/crypto-web-security/01_PKI・TLS・認証/10_tls13.md",
+  "sourceDirName": "crypto-web-security/01_PKI・TLS・認証",
+  "slug": "/crypto-web-security/PKI・TLS・認証/tls13",
+  "permalink": "/docs/crypto-web-security/PKI・TLS・認証/tls13",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "previous": {
+    "title": "X.509 証明書と PKI",
+    "permalink": "/docs/crypto-web-security/PKI・TLS・認証/x509_pki"
+  },
+  "next": {
+    "title": "証明書の検証チェーン",
+    "permalink": "/docs/crypto-web-security/PKI・TLS・認証/cert_chain"
+  }
+}

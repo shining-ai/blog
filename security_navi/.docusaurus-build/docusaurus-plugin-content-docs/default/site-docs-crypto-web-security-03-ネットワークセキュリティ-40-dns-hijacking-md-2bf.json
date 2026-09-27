@@ -1,0 +1,20 @@
+{
+  "id": "crypto-web-security/ネットワークセキュリティ/dns_hijacking",
+  "title": "DNS ハイジャッキングと DNSSEC",
+  "description": "DNS ハイジャッキングとは",
+  "source": "@site/docs/crypto-web-security/03_ネットワークセキュリティ/40_dns_hijacking.md",
+  "sourceDirName": "crypto-web-security/03_ネットワークセキュリティ",
+  "slug": "/crypto-web-security/ネットワークセキュリティ/dns_hijacking",
+  "permalink": "/docs/crypto-web-security/ネットワークセキュリティ/dns_hijacking",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "previous": {
+    "title": "DDoS 攻撃の種類と対策",
+    "permalink": "/docs/crypto-web-security/ネットワークセキュリティ/ddos_types"
+  }
+}

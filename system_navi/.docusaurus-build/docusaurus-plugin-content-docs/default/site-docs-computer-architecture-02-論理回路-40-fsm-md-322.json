@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/論理回路/fsm",
+  "title": "有限状態機械 (Finite State Machine)",
+  "description": "有限状態機械とは",
+  "source": "@site/docs/computer-architecture/02_論理回路/40_fsm.md",
+  "sourceDirName": "computer-architecture/02_論理回路",
+  "slug": "/computer-architecture/論理回路/fsm",
+  "permalink": "/docs/computer-architecture/論理回路/fsm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "順序回路 (Sequential Circuits)",
+    "permalink": "/docs/computer-architecture/論理回路/sequential_circuits"
+  },
+  "next": {
+    "title": "HDL 入門 (Hardware Description Language)",
+    "permalink": "/docs/computer-architecture/論理回路/hdl"
+  }
+}

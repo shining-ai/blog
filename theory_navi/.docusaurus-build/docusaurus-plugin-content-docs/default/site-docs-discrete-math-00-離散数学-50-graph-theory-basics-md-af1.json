@@ -1,0 +1,24 @@
+{
+  "id": "discrete-math/離散数学/graph_theory_basics",
+  "title": "グラフ理論の基礎（次数・閉路・木）",
+  "description": "グラフ理論とは",
+  "source": "@site/docs/discrete-math/00_離散数学/50_graph_theory_basics.md",
+  "sourceDirName": "discrete-math/00_離散数学",
+  "slug": "/discrete-math/離散数学/graph_theory_basics",
+  "permalink": "/docs/discrete-math/離散数学/graph_theory_basics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "discreteMathSidebar",
+  "previous": {
+    "title": "整数論入門（mod・素数・フェルマーの小定理）",
+    "permalink": "/docs/discrete-math/離散数学/number_theory"
+  },
+  "next": {
+    "title": "平面グラフと彩色問題",
+    "permalink": "/docs/discrete-math/離散数学/planar_graph_coloring"
+  }
+}

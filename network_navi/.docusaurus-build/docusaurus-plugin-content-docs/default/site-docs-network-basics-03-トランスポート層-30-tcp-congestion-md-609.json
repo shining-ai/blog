@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/トランスポート層/tcp_congestion",
+  "title": "TCP の輻輳制御（スロースタート・CUBIC）",
+  "description": "輻輳制御とは",
+  "source": "@site/docs/network-basics/03_トランスポート層/30_tcp_congestion.md",
+  "sourceDirName": "network-basics/03_トランスポート層",
+  "slug": "/network-basics/トランスポート層/tcp_congestion",
+  "permalink": "/docs/network-basics/トランスポート層/tcp_congestion",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "title": "TCP の輻輳制御（スロースタート・CUBIC）"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "TCP のフロー制御（スライディングウィンドウ）",
+    "permalink": "/docs/network-basics/トランスポート層/tcp_flow_control"
+  },
+  "next": {
+    "title": "TCP の接続終了（4 ウェイハンドシェイク）",
+    "permalink": "/docs/network-basics/トランスポート層/tcp_termination"
+  }
+}

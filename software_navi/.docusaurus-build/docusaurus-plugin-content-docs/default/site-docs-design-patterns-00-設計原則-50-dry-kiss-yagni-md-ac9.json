@@ -1,0 +1,24 @@
+{
+  "id": "design-patterns/設計原則/dry_kiss_yagni",
+  "title": "DRY・KISS・YAGNI",
+  "description": "DRY・KISS・YAGNIとは",
+  "source": "@site/docs/design-patterns/00_設計原則/50_dry_kiss_yagni.md",
+  "sourceDirName": "design-patterns/00_設計原則",
+  "slug": "/design-patterns/設計原則/dry_kiss_yagni",
+  "permalink": "/docs/design-patterns/設計原則/dry_kiss_yagni",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "designPatternsSidebar",
+  "previous": {
+    "title": "SOLID原則 D: 依存性逆転の原則（DIP）",
+    "permalink": "/docs/design-patterns/設計原則/dip"
+  },
+  "next": {
+    "title": "凝集度と結合度",
+    "permalink": "/docs/design-patterns/設計原則/cohesion_coupling"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "lang-paradigm/型システム/subtyping",
+  "title": "部分型と共変・反変",
+  "description": "部分型とは",
+  "source": "@site/docs/lang-paradigm/01_型システム/30_subtyping.md",
+  "sourceDirName": "lang-paradigm/01_型システム",
+  "slug": "/lang-paradigm/型システム/subtyping",
+  "permalink": "/docs/lang-paradigm/型システム/subtyping",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "langParadigmSidebar",
+  "previous": {
+    "title": "ジェネリクス・パラメトリック多相",
+    "permalink": "/docs/lang-paradigm/型システム/generics"
+  },
+  "next": {
+    "title": "代数的データ型とパターンマッチング",
+    "permalink": "/docs/lang-paradigm/型システム/adt"
+  }
+}

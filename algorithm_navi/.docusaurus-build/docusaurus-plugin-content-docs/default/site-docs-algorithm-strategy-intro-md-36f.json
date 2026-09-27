@@ -1,0 +1,23 @@
+{
+  "id": "algorithm-strategy/intro",
+  "title": "アルゴリズム戦略",
+  "description": "アルゴリズム戦略とは、問題を効率的に解くための設計パラダイムです。",
+  "source": "@site/docs/algorithm-strategy/intro.md",
+  "sourceDirName": "algorithm-strategy",
+  "slug": "/algorithm-strategy/intro",
+  "permalink": "/docs/algorithm-strategy/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "displayed_sidebar": "algorithmStrategySidebar"
+  },
+  "sidebar": "algorithmStrategySidebar",
+  "next": {
+    "title": "分割統治法 (Divide and Conquer)",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/divide_and_conquer"
+  }
+}

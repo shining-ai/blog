@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/メモリ階層/dram",
+  "title": "DRAM の仕組みとメモリ帯域 (DRAM & Memory Bandwidth)",
+  "description": "DRAM とは",
+  "source": "@site/docs/computer-architecture/04_メモリ階層/60_dram.md",
+  "sourceDirName": "computer-architecture/04_メモリ階層",
+  "slug": "/computer-architecture/メモリ階層/dram",
+  "permalink": "/docs/computer-architecture/メモリ階層/dram",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "ページ置換アルゴリズム (Page Replacement)",
+    "permalink": "/docs/computer-architecture/メモリ階層/page_replacement"
+  },
+  "next": {
+    "title": "GPU アーキテクチャ (GPU Architecture)",
+    "permalink": "/docs/computer-architecture/GPU・並列計算/gpu_architecture"
+  }
+}

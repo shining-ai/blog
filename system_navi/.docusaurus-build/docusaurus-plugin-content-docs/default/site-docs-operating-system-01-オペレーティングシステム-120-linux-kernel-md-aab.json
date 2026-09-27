@@ -1,0 +1,27 @@
+{
+  "id": "operating-system/オペレーティングシステム/linux_kernel",
+  "title": "Linux カーネルの概要 (Linux Kernel Overview)",
+  "description": "Linuxカーネルとは",
+  "source": "@site/docs/operating-system/01_オペレーティングシステム/120_linux_kernel.md",
+  "sourceDirName": "operating-system/01_オペレーティングシステム",
+  "slug": "/operating-system/オペレーティングシステム/linux_kernel",
+  "permalink": "/docs/operating-system/オペレーティングシステム/linux_kernel",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "displayed_sidebar": "operatingSystemSidebar"
+  },
+  "sidebar": "operatingSystemSidebar",
+  "previous": {
+    "title": "シグナルと例外処理 (Signals & Exception Handling)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/signal"
+  },
+  "next": {
+    "title": "C のメモリモデル (C Memory Model)",
+    "permalink": "/docs/operating-system/システムプログラミング/c_memory_model"
+  }
+}

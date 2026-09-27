@@ -1,0 +1,24 @@
+{
+  "id": "design-patterns/デザインパターン_GoF/prototype",
+  "title": "Prototype パターン",
+  "description": "Prototype とは",
+  "source": "@site/docs/design-patterns/01_デザインパターン_GoF/40_prototype.md",
+  "sourceDirName": "design-patterns/01_デザインパターン_GoF",
+  "slug": "/design-patterns/デザインパターン_GoF/prototype",
+  "permalink": "/docs/design-patterns/デザインパターン_GoF/prototype",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "designPatternsSidebar",
+  "previous": {
+    "title": "Builder パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/builder"
+  },
+  "next": {
+    "title": "Adapter パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/adapter"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "nosql-distributed/データウェアハウス・データ工学/spark_intro",
+  "title": "Apache Spark 入門",
+  "description": "Apache Spark とは",
+  "source": "@site/docs/nosql-distributed/07_データウェアハウス・データ工学/50_spark_intro.md",
+  "sourceDirName": "nosql-distributed/07_データウェアハウス・データ工学",
+  "slug": "/nosql-distributed/データウェアハウス・データ工学/spark_intro",
+  "permalink": "/docs/nosql-distributed/データウェアハウス・データ工学/spark_intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "nosqlDistributedSidebar",
+  "previous": {
+    "title": "カラム指向ストレージ（Parquet・ORC）",
+    "permalink": "/docs/nosql-distributed/データウェアハウス・データ工学/columnar_storage"
+  }
+}

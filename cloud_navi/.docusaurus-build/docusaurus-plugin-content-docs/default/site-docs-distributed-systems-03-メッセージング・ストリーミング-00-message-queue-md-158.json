@@ -1,0 +1,24 @@
+{
+  "id": "distributed-systems/メッセージング・ストリーミング/message_queue",
+  "title": "メッセージキューの概念（非同期・デカップリング）",
+  "description": "メッセージキューとは",
+  "source": "@site/docs/distributed-systems/03_メッセージング・ストリーミング/00_message_queue.md",
+  "sourceDirName": "distributed-systems/03_メッセージング・ストリーミング",
+  "slug": "/distributed-systems/メッセージング・ストリーミング/message_queue",
+  "permalink": "/docs/distributed-systems/メッセージング・ストリーミング/message_queue",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "distributedSystemsSidebar",
+  "previous": {
+    "title": "分散スナップショット（Chandy-Lamport）",
+    "permalink": "/docs/distributed-systems/分散システム理論/chandy_lamport"
+  },
+  "next": {
+    "title": "Apache Kafka のアーキテクチャ",
+    "permalink": "/docs/distributed-systems/メッセージング・ストリーミング/kafka_architecture"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "rendering-pipeline/レンダリングパイプライン/texture_mapping",
+  "title": "テクスチャマッピングとサンプリング",
+  "description": "テクスチャマッピングとは",
+  "source": "@site/docs/rendering-pipeline/01_レンダリングパイプライン/40_texture_mapping.md",
+  "sourceDirName": "rendering-pipeline/01_レンダリングパイプライン",
+  "slug": "/rendering-pipeline/レンダリングパイプライン/texture_mapping",
+  "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/texture_mapping",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "フラグメント処理と深度テスト",
+    "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/fragment_processing"
+  },
+  "next": {
+    "title": "アンチエイリアシング",
+    "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/antialiasing"
+  }
+}

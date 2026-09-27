@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/ネットワーク層/nat",
+  "title": "NAT・PAT の仕組み",
+  "description": "NAT とは",
+  "source": "@site/docs/network-basics/02_ネットワーク層/70_nat.md",
+  "sourceDirName": "network-basics/02_ネットワーク層",
+  "slug": "/network-basics/ネットワーク層/nat",
+  "permalink": "/docs/network-basics/ネットワーク層/nat",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 70,
+  "frontMatter": {
+    "title": "NAT・PAT の仕組み"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "BGP とインターネットルーティング",
+    "permalink": "/docs/network-basics/ネットワーク層/bgp"
+  },
+  "next": {
+    "title": "ICMP と ping・traceroute",
+    "permalink": "/docs/network-basics/ネットワーク層/icmp"
+  }
+}

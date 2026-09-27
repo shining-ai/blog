@@ -1,0 +1,245 @@
+{
+  "/markdown-page-3d7": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "393be207"
+  },
+  "/docs-61d": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/docs-e0b": {
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
+  },
+  "/docs-2dd": {
+    "__comp": "a94703ab"
+  },
+  "/docs/architecture-engineering/API設計/api_versioning-1e8": {
+    "__comp": "17896441",
+    "content": "c0c7ba9a"
+  },
+  "/docs/architecture-engineering/API設計/backward_compatibility-f41": {
+    "__comp": "17896441",
+    "content": "24a6a1fb"
+  },
+  "/docs/architecture-engineering/API設計/graphql-da0": {
+    "__comp": "17896441",
+    "content": "14e7de2f"
+  },
+  "/docs/architecture-engineering/API設計/grpc-bc9": {
+    "__comp": "17896441",
+    "content": "45d3a0d0"
+  },
+  "/docs/architecture-engineering/API設計/openapi-287": {
+    "__comp": "17896441",
+    "content": "be9a256a"
+  },
+  "/docs/architecture-engineering/API設計/restful-c7d": {
+    "__comp": "17896441",
+    "content": "dd94144b"
+  },
+  "/docs/architecture-engineering/intro-22e": {
+    "__comp": "17896441",
+    "content": "c8d3f132"
+  },
+  "/docs/architecture-engineering/ソフトウェアアーキテクチャ/clean_architecture-79f": {
+    "__comp": "17896441",
+    "content": "77cff23a"
+  },
+  "/docs/architecture-engineering/ソフトウェアアーキテクチャ/cqrs_es-8e7": {
+    "__comp": "17896441",
+    "content": "a31f6b5a"
+  },
+  "/docs/architecture-engineering/ソフトウェアアーキテクチャ/ddd-c07": {
+    "__comp": "17896441",
+    "content": "659467fa"
+  },
+  "/docs/architecture-engineering/ソフトウェアアーキテクチャ/hexagonal-da9": {
+    "__comp": "17896441",
+    "content": "43aabb96"
+  },
+  "/docs/architecture-engineering/ソフトウェアアーキテクチャ/layered-57b": {
+    "__comp": "17896441",
+    "content": "5d435c50"
+  },
+  "/docs/architecture-engineering/ソフトウェアアーキテクチャ/monolith_vs_microservices-6e4": {
+    "__comp": "17896441",
+    "content": "ce98699f"
+  },
+  "/docs/architecture-engineering/テスト/bdd-b72": {
+    "__comp": "17896441",
+    "content": "92a9b82d"
+  },
+  "/docs/architecture-engineering/テスト/coverage-eda": {
+    "__comp": "17896441",
+    "content": "69749a9e"
+  },
+  "/docs/architecture-engineering/テスト/mocks-335": {
+    "__comp": "17896441",
+    "content": "6da0e952"
+  },
+  "/docs/architecture-engineering/テスト/performance_testing-a00": {
+    "__comp": "17896441",
+    "content": "f203ecff"
+  },
+  "/docs/architecture-engineering/テスト/property_testing-baf": {
+    "__comp": "17896441",
+    "content": "24551a65"
+  },
+  "/docs/architecture-engineering/テスト/tdd-76b": {
+    "__comp": "17896441",
+    "content": "942b40f4"
+  },
+  "/docs/architecture-engineering/テスト/test_types-fc2": {
+    "__comp": "17896441",
+    "content": "5c1fb330"
+  },
+  "/docs/architecture-engineering/開発プロセス・チーム開発/adr-fd8": {
+    "__comp": "17896441",
+    "content": "100fdca9"
+  },
+  "/docs/architecture-engineering/開発プロセス・チーム開発/agile_scrum-8ef": {
+    "__comp": "17896441",
+    "content": "8c5011f4"
+  },
+  "/docs/architecture-engineering/開発プロセス・チーム開発/branch_strategy-5dd": {
+    "__comp": "17896441",
+    "content": "d987080a"
+  },
+  "/docs/architecture-engineering/開発プロセス・チーム開発/cicd-6ec": {
+    "__comp": "17896441",
+    "content": "996cf485"
+  },
+  "/docs/architecture-engineering/開発プロセス・チーム開発/code_review-7a8": {
+    "__comp": "17896441",
+    "content": "1cfb9901"
+  },
+  "/docs/architecture-engineering/開発プロセス・チーム開発/git_internals-8fd": {
+    "__comp": "17896441",
+    "content": "b5cca7ea"
+  },
+  "/docs/architecture-engineering/開発プロセス・チーム開発/refactoring-4c9": {
+    "__comp": "17896441",
+    "content": "1887085b"
+  },
+  "/docs/design-patterns/intro-e9a": {
+    "__comp": "17896441",
+    "content": "1cb4d10b"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/abstract_factory-dce": {
+    "__comp": "17896441",
+    "content": "b527375f"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/adapter-050": {
+    "__comp": "17896441",
+    "content": "8645dac0"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/bridge-3eb": {
+    "__comp": "17896441",
+    "content": "654dff5e"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/builder-e4a": {
+    "__comp": "17896441",
+    "content": "ea154ddc"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/chain_of_responsibility-d61": {
+    "__comp": "17896441",
+    "content": "00dca4c3"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/command-5c2": {
+    "__comp": "17896441",
+    "content": "f7bde09a"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/composite-9ca": {
+    "__comp": "17896441",
+    "content": "6e97b4ee"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/decorator-9e9": {
+    "__comp": "17896441",
+    "content": "01e01453"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/facade-f2e": {
+    "__comp": "17896441",
+    "content": "ed22c974"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/factory_method-97f": {
+    "__comp": "17896441",
+    "content": "918e34b4"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/iterator-601": {
+    "__comp": "17896441",
+    "content": "b2018934"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/observer-309": {
+    "__comp": "17896441",
+    "content": "9993008f"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/prototype-997": {
+    "__comp": "17896441",
+    "content": "6d1bf5e5"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/proxy-9ed": {
+    "__comp": "17896441",
+    "content": "5fbe82f3"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/singleton-6bf": {
+    "__comp": "17896441",
+    "content": "45ca1865"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/state-32e": {
+    "__comp": "17896441",
+    "content": "6cf4b21b"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/strategy-293": {
+    "__comp": "17896441",
+    "content": "bbfeaa7f"
+  },
+  "/docs/design-patterns/デザインパターン_GoF/template_method-2a3": {
+    "__comp": "17896441",
+    "content": "34abdea1"
+  },
+  "/docs/design-patterns/設計原則/clean_code-70e": {
+    "__comp": "17896441",
+    "content": "c4d71ab5"
+  },
+  "/docs/design-patterns/設計原則/cohesion_coupling-70b": {
+    "__comp": "17896441",
+    "content": "a63cae9b"
+  },
+  "/docs/design-patterns/設計原則/dip-b57": {
+    "__comp": "17896441",
+    "content": "a972f09a"
+  },
+  "/docs/design-patterns/設計原則/dry_kiss_yagni-1b5": {
+    "__comp": "17896441",
+    "content": "ac93fc64"
+  },
+  "/docs/design-patterns/設計原則/isp-0bb": {
+    "__comp": "17896441",
+    "content": "3bfe6275"
+  },
+  "/docs/design-patterns/設計原則/lsp-98f": {
+    "__comp": "17896441",
+    "content": "566fefd2"
+  },
+  "/docs/design-patterns/設計原則/ocp-306": {
+    "__comp": "17896441",
+    "content": "98350cb1"
+  },
+  "/docs/design-patterns/設計原則/srp-822": {
+    "__comp": "17896441",
+    "content": "fe27f3c3"
+  },
+  "/-e5f": {
+    "__comp": "1df93b7f",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

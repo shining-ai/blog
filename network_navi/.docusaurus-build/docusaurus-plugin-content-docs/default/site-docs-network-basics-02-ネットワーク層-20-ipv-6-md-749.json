@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/ネットワーク層/ipv6",
+  "title": "IPv6 の概要と移行",
+  "description": "IPv6 とは",
+  "source": "@site/docs/network-basics/02_ネットワーク層/20_ipv6.md",
+  "sourceDirName": "network-basics/02_ネットワーク層",
+  "slug": "/network-basics/ネットワーク層/ipv6",
+  "permalink": "/docs/network-basics/ネットワーク層/ipv6",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "title": "IPv6 の概要と移行"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "IPv4 ヘッダの構造",
+    "permalink": "/docs/network-basics/ネットワーク層/ipv4_header"
+  },
+  "next": {
+    "title": "ルーティングの基礎（ホップ・ルーティングテーブル）",
+    "permalink": "/docs/network-basics/ネットワーク層/routing_basics"
+  }
+}

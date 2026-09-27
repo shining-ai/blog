@@ -1,0 +1,254 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "network-basics/intro",
+          "docs": [
+            {
+              "id": "network-application/intro",
+              "path": "/docs/network-application/intro",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/アプリケーション層/dns",
+              "path": "/docs/network-application/アプリケーション層/dns",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/アプリケーション層/email_protocols",
+              "path": "/docs/network-application/アプリケーション層/email_protocols",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/アプリケーション層/http11",
+              "path": "/docs/network-application/アプリケーション層/http11",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/アプリケーション層/http2",
+              "path": "/docs/network-application/アプリケーション層/http2",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/アプリケーション層/http3",
+              "path": "/docs/network-application/アプリケーション層/http3",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/アプリケーション層/https_tls",
+              "path": "/docs/network-application/アプリケーション層/https_tls",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/アプリケーション層/rest_api",
+              "path": "/docs/network-application/アプリケーション層/rest_api",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/アプリケーション層/websocket",
+              "path": "/docs/network-application/アプリケーション層/websocket",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/ネットワーク設計・運用/cdn",
+              "path": "/docs/network-application/ネットワーク設計・運用/cdn",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/ネットワーク設計・運用/ddos",
+              "path": "/docs/network-application/ネットワーク設計・運用/ddos",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/ネットワーク設計・運用/firewall_dmz",
+              "path": "/docs/network-application/ネットワーク設計・運用/firewall_dmz",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/ネットワーク設計・運用/load_balancer",
+              "path": "/docs/network-application/ネットワーク設計・運用/load_balancer",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/ネットワーク設計・運用/network_monitoring",
+              "path": "/docs/network-application/ネットワーク設計・運用/network_monitoring",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-application/ネットワーク設計・運用/vpn",
+              "path": "/docs/network-application/ネットワーク設計・運用/vpn",
+              "sidebar": "networkApplicationSidebar"
+            },
+            {
+              "id": "network-basics/intro",
+              "path": "/docs/network-basics/intro",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/データリンク層/csma",
+              "path": "/docs/network-basics/データリンク層/csma",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/データリンク層/ethernet",
+              "path": "/docs/network-basics/データリンク層/ethernet",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/データリンク層/mac_arp",
+              "path": "/docs/network-basics/データリンク層/mac_arp",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/データリンク層/switch_bridge",
+              "path": "/docs/network-basics/データリンク層/switch_bridge",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/データリンク層/vlan",
+              "path": "/docs/network-basics/データリンク層/vlan",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/データリンク層/wifi",
+              "path": "/docs/network-basics/データリンク層/wifi",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/トランスポート層/port_socket",
+              "path": "/docs/network-basics/トランスポート層/port_socket",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/トランスポート層/quic",
+              "path": "/docs/network-basics/トランスポート層/quic",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/トランスポート層/tcp_congestion",
+              "path": "/docs/network-basics/トランスポート層/tcp_congestion",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/トランスポート層/tcp_flow_control",
+              "path": "/docs/network-basics/トランスポート層/tcp_flow_control",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/トランスポート層/tcp_handshake",
+              "path": "/docs/network-basics/トランスポート層/tcp_handshake",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/トランスポート層/tcp_sequence",
+              "path": "/docs/network-basics/トランスポート層/tcp_sequence",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/トランスポート層/tcp_termination",
+              "path": "/docs/network-basics/トランスポート層/tcp_termination",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/トランスポート層/udp",
+              "path": "/docs/network-basics/トランスポート層/udp",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク基礎/bandwidth_latency",
+              "path": "/docs/network-basics/ネットワーク基礎/bandwidth_latency",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク基礎/osi_model",
+              "path": "/docs/network-basics/ネットワーク基礎/osi_model",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク基礎/packet_switching",
+              "path": "/docs/network-basics/ネットワーク基礎/packet_switching",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク基礎/tcp_ip_model",
+              "path": "/docs/network-basics/ネットワーク基礎/tcp_ip_model",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク基礎/what_is_network",
+              "path": "/docs/network-basics/ネットワーク基礎/what_is_network",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク層/bgp",
+              "path": "/docs/network-basics/ネットワーク層/bgp",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク層/icmp",
+              "path": "/docs/network-basics/ネットワーク層/icmp",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク層/ip_address",
+              "path": "/docs/network-basics/ネットワーク層/ip_address",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク層/ipv4_header",
+              "path": "/docs/network-basics/ネットワーク層/ipv4_header",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク層/ipv6",
+              "path": "/docs/network-basics/ネットワーク層/ipv6",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク層/nat",
+              "path": "/docs/network-basics/ネットワーク層/nat",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク層/ospf",
+              "path": "/docs/network-basics/ネットワーク層/ospf",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク層/rip",
+              "path": "/docs/network-basics/ネットワーク層/rip",
+              "sidebar": "networkBasicsSidebar"
+            },
+            {
+              "id": "network-basics/ネットワーク層/routing_basics",
+              "path": "/docs/network-basics/ネットワーク層/routing_basics",
+              "sidebar": "networkBasicsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "networkBasicsSidebar": {
+              "link": {
+                "path": "/docs/network-basics/intro",
+                "label": "ネットワーク基礎〜トランスポート"
+              }
+            },
+            "networkApplicationSidebar": {
+              "link": {
+                "path": "/docs/network-application/intro",
+                "label": "アプリケーション層・設計・運用"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

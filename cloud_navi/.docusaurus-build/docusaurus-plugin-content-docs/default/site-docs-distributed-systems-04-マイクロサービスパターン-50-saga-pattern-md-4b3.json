@@ -1,0 +1,24 @@
+{
+  "id": "distributed-systems/マイクロサービスパターン/saga_pattern",
+  "title": "Saga パターン（分散トランザクション）",
+  "description": "Saga パターンとは",
+  "source": "@site/docs/distributed-systems/04_マイクロサービスパターン/50_saga_pattern.md",
+  "sourceDirName": "distributed-systems/04_マイクロサービスパターン",
+  "slug": "/distributed-systems/マイクロサービスパターン/saga_pattern",
+  "permalink": "/docs/distributed-systems/マイクロサービスパターン/saga_pattern",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "distributedSystemsSidebar",
+  "previous": {
+    "title": "サーキットブレーカーパターン",
+    "permalink": "/docs/distributed-systems/マイクロサービスパターン/circuit_breaker"
+  },
+  "next": {
+    "title": "SLI・SLO・SLA",
+    "permalink": "/docs/distributed-systems/信頼性・運用/sli_slo_sla"
+  }
+}

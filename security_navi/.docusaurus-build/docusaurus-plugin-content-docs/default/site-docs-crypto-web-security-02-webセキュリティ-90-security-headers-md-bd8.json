@@ -1,0 +1,24 @@
+{
+  "id": "crypto-web-security/Webセキュリティ/security_headers",
+  "title": "セキュリティヘッダ（CSP・HSTS・X-Frame-Options）",
+  "description": "セキュリティヘッダとは",
+  "source": "@site/docs/crypto-web-security/02_Webセキュリティ/90_security_headers.md",
+  "sourceDirName": "crypto-web-security/02_Webセキュリティ",
+  "slug": "/crypto-web-security/Webセキュリティ/security_headers",
+  "permalink": "/docs/crypto-web-security/Webセキュリティ/security_headers",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 90,
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "previous": {
+    "title": "安全でない逆シリアル化",
+    "permalink": "/docs/crypto-web-security/Webセキュリティ/insecure_deserialization"
+  },
+  "next": {
+    "title": "パケットスニッフィングと ARP スプーフィング（防御方法中心）",
+    "permalink": "/docs/crypto-web-security/ネットワークセキュリティ/packet_sniffing"
+  }
+}

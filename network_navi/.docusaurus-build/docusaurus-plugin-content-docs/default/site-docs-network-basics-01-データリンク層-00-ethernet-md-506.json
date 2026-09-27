@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/データリンク層/ethernet",
+  "title": "イーサネットとフレーム構造",
+  "description": "イーサネットとは",
+  "source": "@site/docs/network-basics/01_データリンク層/00_ethernet.md",
+  "sourceDirName": "network-basics/01_データリンク層",
+  "slug": "/network-basics/データリンク層/ethernet",
+  "permalink": "/docs/network-basics/データリンク層/ethernet",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "イーサネットとフレーム構造"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "帯域・遅延・スループットの概念",
+    "permalink": "/docs/network-basics/ネットワーク基礎/bandwidth_latency"
+  },
+  "next": {
+    "title": "MAC アドレスと ARP",
+    "permalink": "/docs/network-basics/データリンク層/mac_arp"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "operating-system/オペレーティングシステム/process_scheduling",
+  "title": "プロセススケジューリング (Process Scheduling)",
+  "description": "プロセススケジューリングとは",
+  "source": "@site/docs/operating-system/01_オペレーティングシステム/20_process_scheduling.md",
+  "sourceDirName": "operating-system/01_オペレーティングシステム",
+  "slug": "/operating-system/オペレーティングシステム/process_scheduling",
+  "permalink": "/docs/operating-system/オペレーティングシステム/process_scheduling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "displayed_sidebar": "operatingSystemSidebar"
+  },
+  "sidebar": "operatingSystemSidebar",
+  "previous": {
+    "title": "プロセスとスレッド (Process & Thread)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/process_thread"
+  },
+  "next": {
+    "title": "コンテキストスイッチ (Context Switch)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/context_switch"
+  }
+}

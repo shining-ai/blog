@@ -1,0 +1,24 @@
+{
+  "id": "binary-sec-dev/CTF/pwn_basics",
+  "title": "典型的な Pwn 問題の学び方（教育目的）",
+  "description": "Pwn カテゴリとは",
+  "source": "@site/docs/binary-sec-dev/07_CTF/10_pwn_basics.md",
+  "sourceDirName": "binary-sec-dev/07_CTF",
+  "slug": "/binary-sec-dev/CTF/pwn_basics",
+  "permalink": "/docs/binary-sec-dev/CTF/pwn_basics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "binarySecDevSidebar",
+  "previous": {
+    "title": "CTF のカテゴリ紹介（Pwn・Web・Crypto・Forensics・Rev）",
+    "permalink": "/docs/binary-sec-dev/CTF/ctf_categories"
+  },
+  "next": {
+    "title": "典型的な Web 問題の学び方（教育目的）",
+    "permalink": "/docs/binary-sec-dev/CTF/web_ctf"
+  }
+}

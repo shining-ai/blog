@@ -1,0 +1,24 @@
+{
+  "id": "container-cloud/仮想化とコンテナ/k8s_scaling",
+  "title": "Kubernetes のスケーリングと自己修復",
+  "description": "スケーリングと自己修復とは",
+  "source": "@site/docs/container-cloud/00_仮想化とコンテナ/70_k8s_scaling.md",
+  "sourceDirName": "container-cloud/00_仮想化とコンテナ",
+  "slug": "/container-cloud/仮想化とコンテナ/k8s_scaling",
+  "permalink": "/docs/container-cloud/仮想化とコンテナ/k8s_scaling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 70,
+  "frontMatter": {},
+  "sidebar": "containerCloudSidebar",
+  "previous": {
+    "title": "Pod・Deployment・Service",
+    "permalink": "/docs/container-cloud/仮想化とコンテナ/k8s_pod_deployment"
+  },
+  "next": {
+    "title": "Helm によるパッケージ管理",
+    "permalink": "/docs/container-cloud/仮想化とコンテナ/helm"
+  }
+}

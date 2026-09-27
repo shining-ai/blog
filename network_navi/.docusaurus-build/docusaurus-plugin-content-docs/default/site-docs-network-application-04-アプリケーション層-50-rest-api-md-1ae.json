@@ -1,0 +1,26 @@
+{
+  "id": "network-application/アプリケーション層/rest_api",
+  "title": "REST API と HTTP メソッド",
+  "description": "REST API とは",
+  "source": "@site/docs/network-application/04_アプリケーション層/50_rest_api.md",
+  "sourceDirName": "network-application/04_アプリケーション層",
+  "slug": "/network-application/アプリケーション層/rest_api",
+  "permalink": "/docs/network-application/アプリケーション層/rest_api",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {
+    "title": "REST API と HTTP メソッド"
+  },
+  "sidebar": "networkApplicationSidebar",
+  "previous": {
+    "title": "HTTPS と TLS ハンドシェイク",
+    "permalink": "/docs/network-application/アプリケーション層/https_tls"
+  },
+  "next": {
+    "title": "WebSocket（双方向通信プロトコル）",
+    "permalink": "/docs/network-application/アプリケーション層/websocket"
+  }
+}

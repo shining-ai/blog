@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/並列アルゴリズム/mapreduce",
+  "title": "MapReduce",
+  "description": "MapReduce とは",
+  "source": "@site/docs/algorithm/08_並列アルゴリズム/10_mapreduce.md",
+  "sourceDirName": "algorithm/08_並列アルゴリズム",
+  "slug": "/algorithm/並列アルゴリズム/mapreduce",
+  "permalink": "/docs/algorithm/並列アルゴリズム/mapreduce",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "並列ソート (Parallel Sort)",
+    "permalink": "/docs/algorithm/並列アルゴリズム/parallel_sort"
+  },
+  "next": {
+    "title": "並列前置和 (Parallel Prefix Sum / Scan)",
+    "permalink": "/docs/algorithm/並列アルゴリズム/prefix_sum"
+  }
+}

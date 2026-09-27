@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/グラフアルゴリズム/dinic",
+  "title": "Dinic法",
+  "description": "Dinic法とは",
+  "source": "@site/docs/algorithm/04_グラフアルゴリズム/110_dinic.md",
+  "sourceDirName": "algorithm/04_グラフアルゴリズム",
+  "slug": "/algorithm/グラフアルゴリズム/dinic",
+  "permalink": "/docs/algorithm/グラフアルゴリズム/dinic",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 110,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "Ford-Fulkerson法",
+    "permalink": "/docs/algorithm/グラフアルゴリズム/ford_fulkerson"
+  },
+  "next": {
+    "title": "二部マッチング",
+    "permalink": "/docs/algorithm/グラフアルゴリズム/bipartite_matching"
+  }
+}

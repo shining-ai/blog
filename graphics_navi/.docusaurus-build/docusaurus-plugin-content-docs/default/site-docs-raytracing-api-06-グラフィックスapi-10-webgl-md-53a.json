@@ -1,0 +1,24 @@
+{
+  "id": "raytracing-api/グラフィックスAPI/webgl",
+  "title": "WebGL によるブラウザレンダリング",
+  "description": "WebGL とは",
+  "source": "@site/docs/raytracing-api/06_グラフィックスAPI/10_webgl.md",
+  "sourceDirName": "raytracing-api/06_グラフィックスAPI",
+  "slug": "/raytracing-api/グラフィックスAPI/webgl",
+  "permalink": "/docs/raytracing-api/グラフィックスAPI/webgl",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "rayTracingApiSidebar",
+  "previous": {
+    "title": "OpenGL の概要と歴史",
+    "permalink": "/docs/raytracing-api/グラフィックスAPI/opengl"
+  },
+  "next": {
+    "title": "Vulkan の設計思想（明示的制御）",
+    "permalink": "/docs/raytracing-api/グラフィックスAPI/vulkan"
+  }
+}

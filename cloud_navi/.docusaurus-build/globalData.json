@@ -1,0 +1,234 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "container-cloud/intro",
+          "docs": [
+            {
+              "id": "container-cloud/intro",
+              "path": "/docs/container-cloud/intro",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/クラウド基礎/cloud_native",
+              "path": "/docs/container-cloud/クラウド基礎/cloud_native",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/クラウド基礎/iaas_paas_saas",
+              "path": "/docs/container-cloud/クラウド基礎/iaas_paas_saas",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/クラウド基礎/iac_terraform",
+              "path": "/docs/container-cloud/クラウド基礎/iac_terraform",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/クラウド基礎/object_storage",
+              "path": "/docs/container-cloud/クラウド基礎/object_storage",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/クラウド基礎/serverless",
+              "path": "/docs/container-cloud/クラウド基礎/serverless",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/仮想化とコンテナ/containers",
+              "path": "/docs/container-cloud/仮想化とコンテナ/containers",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/仮想化とコンテナ/docker_compose",
+              "path": "/docs/container-cloud/仮想化とコンテナ/docker_compose",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/仮想化とコンテナ/docker_intro",
+              "path": "/docs/container-cloud/仮想化とコンテナ/docker_intro",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/仮想化とコンテナ/dockerfile",
+              "path": "/docs/container-cloud/仮想化とコンテナ/dockerfile",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/仮想化とコンテナ/helm",
+              "path": "/docs/container-cloud/仮想化とコンテナ/helm",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/仮想化とコンテナ/k8s_architecture",
+              "path": "/docs/container-cloud/仮想化とコンテナ/k8s_architecture",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/仮想化とコンテナ/k8s_pod_deployment",
+              "path": "/docs/container-cloud/仮想化とコンテナ/k8s_pod_deployment",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/仮想化とコンテナ/k8s_scaling",
+              "path": "/docs/container-cloud/仮想化とコンテナ/k8s_scaling",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "container-cloud/仮想化とコンテナ/virtualization",
+              "path": "/docs/container-cloud/仮想化とコンテナ/virtualization",
+              "sidebar": "containerCloudSidebar"
+            },
+            {
+              "id": "distributed-systems/intro",
+              "path": "/docs/distributed-systems/intro",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/マイクロサービスパターン/api_gateway",
+              "path": "/docs/distributed-systems/マイクロサービスパターン/api_gateway",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/マイクロサービスパターン/circuit_breaker",
+              "path": "/docs/distributed-systems/マイクロサービスパターン/circuit_breaker",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/マイクロサービスパターン/saga_pattern",
+              "path": "/docs/distributed-systems/マイクロサービスパターン/saga_pattern",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/マイクロサービスパターン/service_decomposition",
+              "path": "/docs/distributed-systems/マイクロサービスパターン/service_decomposition",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/マイクロサービスパターン/service_discovery",
+              "path": "/docs/distributed-systems/マイクロサービスパターン/service_discovery",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/マイクロサービスパターン/service_mesh",
+              "path": "/docs/distributed-systems/マイクロサービスパターン/service_mesh",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/メッセージング・ストリーミング/event_driven",
+              "path": "/docs/distributed-systems/メッセージング・ストリーミング/event_driven",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/メッセージング・ストリーミング/kafka_architecture",
+              "path": "/docs/distributed-systems/メッセージング・ストリーミング/kafka_architecture",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/メッセージング・ストリーミング/kafka_partition",
+              "path": "/docs/distributed-systems/メッセージング・ストリーミング/kafka_partition",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/メッセージング・ストリーミング/message_queue",
+              "path": "/docs/distributed-systems/メッセージング・ストリーミング/message_queue",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/メッセージング・ストリーミング/rabbitmq_vs_kafka",
+              "path": "/docs/distributed-systems/メッセージング・ストリーミング/rabbitmq_vs_kafka",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/信頼性・運用/chaos_engineering",
+              "path": "/docs/distributed-systems/信頼性・運用/chaos_engineering",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/信頼性・運用/distributed_tracing",
+              "path": "/docs/distributed-systems/信頼性・運用/distributed_tracing",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/信頼性・運用/incident_management",
+              "path": "/docs/distributed-systems/信頼性・運用/incident_management",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/信頼性・運用/observability",
+              "path": "/docs/distributed-systems/信頼性・運用/observability",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/信頼性・運用/prometheus_grafana",
+              "path": "/docs/distributed-systems/信頼性・運用/prometheus_grafana",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/信頼性・運用/sli_slo_sla",
+              "path": "/docs/distributed-systems/信頼性・運用/sli_slo_sla",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/分散システム理論/cap_theorem",
+              "path": "/docs/distributed-systems/分散システム理論/cap_theorem",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/分散システム理論/chandy_lamport",
+              "path": "/docs/distributed-systems/分散システム理論/chandy_lamport",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/分散システム理論/consistency_models",
+              "path": "/docs/distributed-systems/分散システム理論/consistency_models",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/分散システム理論/distributed_challenges",
+              "path": "/docs/distributed-systems/分散システム理論/distributed_challenges",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/分散システム理論/logical_clocks",
+              "path": "/docs/distributed-systems/分散システム理論/logical_clocks",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/分散システム理論/paxos",
+              "path": "/docs/distributed-systems/分散システム理論/paxos",
+              "sidebar": "distributedSystemsSidebar"
+            },
+            {
+              "id": "distributed-systems/分散システム理論/raft",
+              "path": "/docs/distributed-systems/分散システム理論/raft",
+              "sidebar": "distributedSystemsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "containerCloudSidebar": {
+              "link": {
+                "path": "/docs/container-cloud/intro",
+                "label": "コンテナ・クラウド基礎"
+              }
+            },
+            "distributedSystemsSidebar": {
+              "link": {
+                "path": "/docs/distributed-systems/intro",
+                "label": "分散システム・信頼性"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

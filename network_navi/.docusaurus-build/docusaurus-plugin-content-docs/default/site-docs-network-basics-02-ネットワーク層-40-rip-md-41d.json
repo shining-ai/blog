@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/ネットワーク層/rip",
+  "title": "距離ベクトル法（RIP）",
+  "description": "距離ベクトル法（RIP）とは",
+  "source": "@site/docs/network-basics/02_ネットワーク層/40_rip.md",
+  "sourceDirName": "network-basics/02_ネットワーク層",
+  "slug": "/network-basics/ネットワーク層/rip",
+  "permalink": "/docs/network-basics/ネットワーク層/rip",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {
+    "title": "距離ベクトル法（RIP）"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "ルーティングの基礎（ホップ・ルーティングテーブル）",
+    "permalink": "/docs/network-basics/ネットワーク層/routing_basics"
+  },
+  "next": {
+    "title": "リンク状態法（OSPF）",
+    "permalink": "/docs/network-basics/ネットワーク層/ospf"
+  }
+}

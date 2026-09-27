@@ -1,0 +1,24 @@
+{
+  "id": "binary-sec-dev/マルウェア・フォレンジクス/digital_forensics",
+  "title": "デジタルフォレンジクスの基礎",
+  "description": "デジタルフォレンジクスとは",
+  "source": "@site/docs/binary-sec-dev/05_マルウェア・フォレンジクス/30_digital_forensics.md",
+  "sourceDirName": "binary-sec-dev/05_マルウェア・フォレンジクス",
+  "slug": "/binary-sec-dev/マルウェア・フォレンジクス/digital_forensics",
+  "permalink": "/docs/binary-sec-dev/マルウェア・フォレンジクス/digital_forensics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "binarySecDevSidebar",
+  "previous": {
+    "title": "サンドボックス解析",
+    "permalink": "/docs/binary-sec-dev/マルウェア・フォレンジクス/sandbox"
+  },
+  "next": {
+    "title": "メモリフォレンジクス（Volatility）",
+    "permalink": "/docs/binary-sec-dev/マルウェア・フォレンジクス/memory_forensics"
+  }
+}

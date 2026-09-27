@@ -1,0 +1,24 @@
+{
+  "id": "raytracing-api/05_3Dアセットとアニメーション/skinning",
+  "title": "スキニングとボーンアニメーション",
+  "description": "スキニングとは",
+  "source": "@site/docs/raytracing-api/05_3Dアセットとアニメーション/20_skinning.md",
+  "sourceDirName": "raytracing-api/05_3Dアセットとアニメーション",
+  "slug": "/raytracing-api/05_3Dアセットとアニメーション/skinning",
+  "permalink": "/docs/raytracing-api/05_3Dアセットとアニメーション/skinning",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "rayTracingApiSidebar",
+  "previous": {
+    "title": "UV マッピングとテクスチャアトラス",
+    "permalink": "/docs/raytracing-api/05_3Dアセットとアニメーション/uv_mapping"
+  },
+  "next": {
+    "title": "glTF フォーマット",
+    "permalink": "/docs/raytracing-api/05_3Dアセットとアニメーション/gltf"
+  }
+}

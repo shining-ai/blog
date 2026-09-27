@@ -1,0 +1,27 @@
+{
+  "id": "operating-system/オペレーティングシステム/signal",
+  "title": "シグナルと例外処理 (Signals & Exception Handling)",
+  "description": "シグナルとは",
+  "source": "@site/docs/operating-system/01_オペレーティングシステム/110_signal.md",
+  "sourceDirName": "operating-system/01_オペレーティングシステム",
+  "slug": "/operating-system/オペレーティングシステム/signal",
+  "permalink": "/docs/operating-system/オペレーティングシステム/signal",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "displayed_sidebar": "operatingSystemSidebar"
+  },
+  "sidebar": "operatingSystemSidebar",
+  "previous": {
+    "title": "システムコールの仕組み (System Call Mechanism)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/syscall"
+  },
+  "next": {
+    "title": "Linux カーネルの概要 (Linux Kernel Overview)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/linux_kernel"
+  }
+}

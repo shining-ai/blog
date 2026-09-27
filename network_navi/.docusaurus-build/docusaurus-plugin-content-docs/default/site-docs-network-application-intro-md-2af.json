@@ -1,0 +1,19 @@
+{
+  "id": "network-application/intro",
+  "title": "アプリケーション層・設計・運用",
+  "description": "DNS・HTTP・TLS・REST・CDN・VPNを体系的に解説します。",
+  "source": "@site/docs/network-application/intro.md",
+  "sourceDirName": "network-application",
+  "slug": "/network-application/intro",
+  "permalink": "/docs/network-application/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "networkApplicationSidebar",
+  "next": {
+    "title": "DNS の仕組み（再帰的解決・権威サーバ）",
+    "permalink": "/docs/network-application/アプリケーション層/dns"
+  }
+}

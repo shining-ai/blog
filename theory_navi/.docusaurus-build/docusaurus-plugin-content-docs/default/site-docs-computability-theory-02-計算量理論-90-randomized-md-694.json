@@ -1,0 +1,20 @@
+{
+  "id": "computability-theory/計算量理論/randomized",
+  "title": "ランダム化計算（BPP・RP）",
+  "description": "ランダム化計算とは",
+  "source": "@site/docs/computability-theory/02_計算量理論/90_randomized.md",
+  "sourceDirName": "computability-theory/02_計算量理論",
+  "slug": "/computability-theory/計算量理論/randomized",
+  "permalink": "/docs/computability-theory/計算量理論/randomized",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 90,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "PSPACE・EXP クラス",
+    "permalink": "/docs/computability-theory/計算量理論/pspace_exp"
+  }
+}

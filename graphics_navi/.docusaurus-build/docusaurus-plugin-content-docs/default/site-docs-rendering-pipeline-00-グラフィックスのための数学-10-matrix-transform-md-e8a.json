@@ -1,0 +1,24 @@
+{
+  "id": "rendering-pipeline/グラフィックスのための数学/matrix_transform",
+  "title": "行列と変換（スケール・回転・平行移動）",
+  "description": "行列と変換とは",
+  "source": "@site/docs/rendering-pipeline/00_グラフィックスのための数学/10_matrix_transform.md",
+  "sourceDirName": "rendering-pipeline/00_グラフィックスのための数学",
+  "slug": "/rendering-pipeline/グラフィックスのための数学/matrix_transform",
+  "permalink": "/docs/rendering-pipeline/グラフィックスのための数学/matrix_transform",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "ベクトル演算（内積・外積）",
+    "permalink": "/docs/rendering-pipeline/グラフィックスのための数学/vectors"
+  },
+  "next": {
+    "title": "同次座標とアフィン変換",
+    "permalink": "/docs/rendering-pipeline/グラフィックスのための数学/homogeneous"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "design-patterns/デザインパターン_GoF/command",
+  "title": "Command パターン",
+  "description": "Command とは",
+  "source": "@site/docs/design-patterns/01_デザインパターン_GoF/130_command.md",
+  "sourceDirName": "design-patterns/01_デザインパターン_GoF",
+  "slug": "/design-patterns/デザインパターン_GoF/command",
+  "permalink": "/docs/design-patterns/デザインパターン_GoF/command",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 130,
+  "frontMatter": {},
+  "sidebar": "designPatternsSidebar",
+  "previous": {
+    "title": "Strategy パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/strategy"
+  },
+  "next": {
+    "title": "Template Method パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/template_method"
+  }
+}

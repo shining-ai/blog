@@ -1,0 +1,19 @@
+{
+  "id": "computability-theory/intro",
+  "title": "形式言語・計算量",
+  "description": "オートマトン・チューリング機械・P/NP問題・計算量クラスを体系的に解説します。",
+  "source": "@site/docs/computability-theory/intro.md",
+  "sourceDirName": "computability-theory",
+  "slug": "/computability-theory/intro",
+  "permalink": "/docs/computability-theory/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "next": {
+    "title": "有限オートマトン（DFA）",
+    "permalink": "/docs/computability-theory/オートマトン理論/dfa"
+  }
+}

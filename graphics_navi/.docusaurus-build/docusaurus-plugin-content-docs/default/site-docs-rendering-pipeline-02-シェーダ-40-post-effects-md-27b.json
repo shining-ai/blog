@@ -1,0 +1,24 @@
+{
+  "id": "rendering-pipeline/シェーダ/post_effects",
+  "title": "シェーダによるポストエフェクト",
+  "description": "ポストエフェクトとは",
+  "source": "@site/docs/rendering-pipeline/02_シェーダ/40_post_effects.md",
+  "sourceDirName": "rendering-pipeline/02_シェーダ",
+  "slug": "/rendering-pipeline/シェーダ/post_effects",
+  "permalink": "/docs/rendering-pipeline/シェーダ/post_effects",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "コンピュートシェーダ",
+    "permalink": "/docs/rendering-pipeline/シェーダ/compute_shader"
+  },
+  "next": {
+    "title": "フォン反射モデル（アンビエント・ディフューズ・スペキュラ）",
+    "permalink": "/docs/rendering-pipeline/ライティングとシェーディング/phong"
+  }
+}

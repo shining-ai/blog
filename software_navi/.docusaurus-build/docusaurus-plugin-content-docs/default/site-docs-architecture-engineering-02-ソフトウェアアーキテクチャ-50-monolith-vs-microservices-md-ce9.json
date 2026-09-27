@@ -1,0 +1,24 @@
+{
+  "id": "architecture-engineering/ソフトウェアアーキテクチャ/monolith_vs_microservices",
+  "title": "モノリス vs マイクロサービスの判断基準",
+  "description": "モノリス・マイクロサービスとは",
+  "source": "@site/docs/architecture-engineering/02_ソフトウェアアーキテクチャ/50_monolith_vs_microservices.md",
+  "sourceDirName": "architecture-engineering/02_ソフトウェアアーキテクチャ",
+  "slug": "/architecture-engineering/ソフトウェアアーキテクチャ/monolith_vs_microservices",
+  "permalink": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/monolith_vs_microservices",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "CQRS と Event Sourcing",
+    "permalink": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/cqrs_es"
+  },
+  "next": {
+    "title": "テストの種類（ユニット・統合・E2E）",
+    "permalink": "/docs/architecture-engineering/テスト/test_types"
+  }
+}

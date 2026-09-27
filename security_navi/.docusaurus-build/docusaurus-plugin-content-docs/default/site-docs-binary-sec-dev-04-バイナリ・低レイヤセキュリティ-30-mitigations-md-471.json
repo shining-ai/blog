@@ -1,0 +1,24 @@
+{
+  "id": "binary-sec-dev/バイナリ・低レイヤセキュリティ/mitigations",
+  "title": "ASLR・PIE・Canary・NX の仕組み（防御機構の詳解）",
+  "description": "バイナリ防御機構とは",
+  "source": "@site/docs/binary-sec-dev/04_バイナリ・低レイヤセキュリティ/30_mitigations.md",
+  "sourceDirName": "binary-sec-dev/04_バイナリ・低レイヤセキュリティ",
+  "slug": "/binary-sec-dev/バイナリ・低レイヤセキュリティ/mitigations",
+  "permalink": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/mitigations",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "binarySecDevSidebar",
+  "previous": {
+    "title": "Return-Oriented Programming（ROP）の概念と防御",
+    "permalink": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/rop"
+  },
+  "next": {
+    "title": "フォーマット文字列攻撃（防御方法中心）",
+    "permalink": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/format_string"
+  }
+}

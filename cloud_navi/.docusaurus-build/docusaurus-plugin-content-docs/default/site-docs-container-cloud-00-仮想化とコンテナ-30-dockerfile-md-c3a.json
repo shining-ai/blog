@@ -1,0 +1,24 @@
+{
+  "id": "container-cloud/仮想化とコンテナ/dockerfile",
+  "title": "Dockerfile のベストプラクティス",
+  "description": "Dockerfile とは",
+  "source": "@site/docs/container-cloud/00_仮想化とコンテナ/30_dockerfile.md",
+  "sourceDirName": "container-cloud/00_仮想化とコンテナ",
+  "slug": "/container-cloud/仮想化とコンテナ/dockerfile",
+  "permalink": "/docs/container-cloud/仮想化とコンテナ/dockerfile",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "containerCloudSidebar",
+  "previous": {
+    "title": "Docker 入門（イメージ・コンテナ・レジストリ）",
+    "permalink": "/docs/container-cloud/仮想化とコンテナ/docker_intro"
+  },
+  "next": {
+    "title": "Docker Compose",
+    "permalink": "/docs/container-cloud/仮想化とコンテナ/docker_compose"
+  }
+}

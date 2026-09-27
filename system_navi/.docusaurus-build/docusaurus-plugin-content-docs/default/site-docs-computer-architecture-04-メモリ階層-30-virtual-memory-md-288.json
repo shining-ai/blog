@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/メモリ階層/virtual_memory",
+  "title": "仮想メモリとページング (Virtual Memory & Paging)",
+  "description": "仮想メモリとは",
+  "source": "@site/docs/computer-architecture/04_メモリ階層/30_virtual_memory.md",
+  "sourceDirName": "computer-architecture/04_メモリ階層",
+  "slug": "/computer-architecture/メモリ階層/virtual_memory",
+  "permalink": "/docs/computer-architecture/メモリ階層/virtual_memory",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "キャッシュ一貫性と MESI プロトコル (Cache Coherence & MESI)",
+    "permalink": "/docs/computer-architecture/メモリ階層/mesi"
+  },
+  "next": {
+    "title": "TLB とアドレス変換 (TLB & Address Translation)",
+    "permalink": "/docs/computer-architecture/メモリ階層/tlb"
+  }
+}

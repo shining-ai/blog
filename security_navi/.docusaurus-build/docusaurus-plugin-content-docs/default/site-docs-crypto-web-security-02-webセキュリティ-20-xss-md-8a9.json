@@ -1,0 +1,24 @@
+{
+  "id": "crypto-web-security/Webセキュリティ/xss",
+  "title": "XSS（クロスサイトスクリプティング）（防御方法中心）",
+  "description": "XSS とは",
+  "source": "@site/docs/crypto-web-security/02_Webセキュリティ/20_xss.md",
+  "sourceDirName": "crypto-web-security/02_Webセキュリティ",
+  "slug": "/crypto-web-security/Webセキュリティ/xss",
+  "permalink": "/docs/crypto-web-security/Webセキュリティ/xss",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "previous": {
+    "title": "SQL インジェクション（防御方法中心）",
+    "permalink": "/docs/crypto-web-security/Webセキュリティ/sqli"
+  },
+  "next": {
+    "title": "CSRF（クロスサイトリクエストフォージェリ）",
+    "permalink": "/docs/crypto-web-security/Webセキュリティ/csrf"
+  }
+}

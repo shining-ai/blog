@@ -1,0 +1,24 @@
+{
+  "id": "distributed-systems/マイクロサービスパターン/api_gateway",
+  "title": "API ゲートウェイ",
+  "description": "API ゲートウェイとは",
+  "source": "@site/docs/distributed-systems/04_マイクロサービスパターン/10_api_gateway.md",
+  "sourceDirName": "distributed-systems/04_マイクロサービスパターン",
+  "slug": "/distributed-systems/マイクロサービスパターン/api_gateway",
+  "permalink": "/docs/distributed-systems/マイクロサービスパターン/api_gateway",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "distributedSystemsSidebar",
+  "previous": {
+    "title": "サービス分割の考え方（境界付きコンテキスト）",
+    "permalink": "/docs/distributed-systems/マイクロサービスパターン/service_decomposition"
+  },
+  "next": {
+    "title": "サービスメッシュ（Istio・Envoy）",
+    "permalink": "/docs/distributed-systems/マイクロサービスパターン/service_mesh"
+  }
+}

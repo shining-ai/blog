@@ -1,0 +1,19 @@
+{
+  "id": "nosql-distributed/intro",
+  "title": "NoSQL・分散・データ工学",
+  "description": "NoSQL・分散DB・CAP定理・データウェアハウスを体系的に解説します。",
+  "source": "@site/docs/nosql-distributed/intro.md",
+  "sourceDirName": "nosql-distributed",
+  "slug": "/nosql-distributed/intro",
+  "permalink": "/docs/nosql-distributed/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosqlDistributedSidebar",
+  "next": {
+    "title": "NoSQLの分類と使い分け",
+    "permalink": "/docs/nosql-distributed/NoSQL/nosql_overview"
+  }
+}

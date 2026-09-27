@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/データ表現/endianness",
+  "title": "エンディアン (Endianness)",
+  "description": "エンディアンとは",
+  "source": "@site/docs/computer-architecture/01_データ表現/40_endianness.md",
+  "sourceDirName": "computer-architecture/01_データ表現",
+  "slug": "/computer-architecture/データ表現/endianness",
+  "permalink": "/docs/computer-architecture/データ表現/endianness",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "文字エンコーディング (Character Encoding)",
+    "permalink": "/docs/computer-architecture/データ表現/character_encoding"
+  },
+  "next": {
+    "title": "ブール代数と論理ゲート (Boolean Algebra)",
+    "permalink": "/docs/computer-architecture/論理回路/boolean_algebra"
+  }
+}

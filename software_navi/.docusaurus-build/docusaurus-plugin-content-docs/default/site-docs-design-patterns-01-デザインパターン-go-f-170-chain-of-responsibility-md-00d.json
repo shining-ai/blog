@@ -1,0 +1,20 @@
+{
+  "id": "design-patterns/デザインパターン_GoF/chain_of_responsibility",
+  "title": "Chain of Responsibility パターン",
+  "description": "Chain of Responsibility とは",
+  "source": "@site/docs/design-patterns/01_デザインパターン_GoF/170_chain_of_responsibility.md",
+  "sourceDirName": "design-patterns/01_デザインパターン_GoF",
+  "slug": "/design-patterns/デザインパターン_GoF/chain_of_responsibility",
+  "permalink": "/docs/design-patterns/デザインパターン_GoF/chain_of_responsibility",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 170,
+  "frontMatter": {},
+  "sidebar": "designPatternsSidebar",
+  "previous": {
+    "title": "Iterator パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/iterator"
+  }
+}

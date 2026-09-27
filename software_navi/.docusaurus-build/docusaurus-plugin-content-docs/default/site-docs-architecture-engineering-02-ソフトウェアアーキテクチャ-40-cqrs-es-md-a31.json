@@ -1,0 +1,24 @@
+{
+  "id": "architecture-engineering/ソフトウェアアーキテクチャ/cqrs_es",
+  "title": "CQRS と Event Sourcing",
+  "description": "CQRS とは",
+  "source": "@site/docs/architecture-engineering/02_ソフトウェアアーキテクチャ/40_cqrs_es.md",
+  "sourceDirName": "architecture-engineering/02_ソフトウェアアーキテクチャ",
+  "slug": "/architecture-engineering/ソフトウェアアーキテクチャ/cqrs_es",
+  "permalink": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/cqrs_es",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "ドメイン駆動設計（DDD）入門",
+    "permalink": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/ddd"
+  },
+  "next": {
+    "title": "モノリス vs マイクロサービスの判断基準",
+    "permalink": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/monolith_vs_microservices"
+  }
+}

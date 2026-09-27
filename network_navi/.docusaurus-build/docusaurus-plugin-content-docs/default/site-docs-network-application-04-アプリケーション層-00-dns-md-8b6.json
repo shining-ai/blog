@@ -1,0 +1,26 @@
+{
+  "id": "network-application/アプリケーション層/dns",
+  "title": "DNS の仕組み（再帰的解決・権威サーバ）",
+  "description": "DNS とは",
+  "source": "@site/docs/network-application/04_アプリケーション層/00_dns.md",
+  "sourceDirName": "network-application/04_アプリケーション層",
+  "slug": "/network-application/アプリケーション層/dns",
+  "permalink": "/docs/network-application/アプリケーション層/dns",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "DNS の仕組み（再帰的解決・権威サーバ）"
+  },
+  "sidebar": "networkApplicationSidebar",
+  "previous": {
+    "title": "アプリケーション層・設計・運用",
+    "permalink": "/docs/network-application/intro"
+  },
+  "next": {
+    "title": "HTTP/1.1 の構造（リクエスト・レスポンス）",
+    "permalink": "/docs/network-application/アプリケーション層/http11"
+  }
+}

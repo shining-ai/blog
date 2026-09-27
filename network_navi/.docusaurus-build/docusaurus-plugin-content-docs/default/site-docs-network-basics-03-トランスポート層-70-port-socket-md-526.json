@@ -1,0 +1,22 @@
+{
+  "id": "network-basics/トランスポート層/port_socket",
+  "title": "ポートとソケットの概念",
+  "description": "ポートとソケットとは",
+  "source": "@site/docs/network-basics/03_トランスポート層/70_port_socket.md",
+  "sourceDirName": "network-basics/03_トランスポート層",
+  "slug": "/network-basics/トランスポート層/port_socket",
+  "permalink": "/docs/network-basics/トランスポート層/port_socket",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 70,
+  "frontMatter": {
+    "title": "ポートとソケットの概念"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "QUIC プロトコル",
+    "permalink": "/docs/network-basics/トランスポート層/quic"
+  }
+}

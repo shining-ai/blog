@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/プロセッサアーキテクチャ/x86_64",
+  "title": "x86-64 アセンブリ入門 (x86-64 Assembly)",
+  "description": "x86-64 とは",
+  "source": "@site/docs/computer-architecture/03_プロセッサアーキテクチャ/60_x86_64.md",
+  "sourceDirName": "computer-architecture/03_プロセッサアーキテクチャ",
+  "slug": "/computer-architecture/プロセッサアーキテクチャ/x86_64",
+  "permalink": "/docs/computer-architecture/プロセッサアーキテクチャ/x86_64",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "スーパースカラとアウトオブオーダー実行 (Superscalar & OoO)",
+    "permalink": "/docs/computer-architecture/プロセッサアーキテクチャ/superscalar"
+  },
+  "next": {
+    "title": "RISC-V 入門 (RISC-V)",
+    "permalink": "/docs/computer-architecture/プロセッサアーキテクチャ/riscv"
+  }
+}

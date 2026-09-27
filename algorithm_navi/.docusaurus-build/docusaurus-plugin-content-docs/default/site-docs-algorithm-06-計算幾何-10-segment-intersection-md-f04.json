@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/計算幾何/segment_intersection",
+  "title": "線分交差判定",
+  "description": "線分交差判定とは",
+  "source": "@site/docs/algorithm/06_計算幾何/10_segment_intersection.md",
+  "sourceDirName": "algorithm/06_計算幾何",
+  "slug": "/algorithm/計算幾何/segment_intersection",
+  "permalink": "/docs/algorithm/計算幾何/segment_intersection",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "凸包 (Convex Hull)",
+    "permalink": "/docs/algorithm/計算幾何/convex_hull"
+  },
+  "next": {
+    "title": "最近点対 (Closest Pair of Points)",
+    "permalink": "/docs/algorithm/計算幾何/closest_pair"
+  }
+}

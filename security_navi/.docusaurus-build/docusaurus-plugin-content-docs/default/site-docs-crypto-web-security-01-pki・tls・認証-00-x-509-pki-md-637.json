@@ -1,0 +1,24 @@
+{
+  "id": "crypto-web-security/PKI・TLS・認証/x509_pki",
+  "title": "X.509 証明書と PKI",
+  "description": "X.509 証明書と PKI とは",
+  "source": "@site/docs/crypto-web-security/01_PKI・TLS・認証/00_x509_pki.md",
+  "sourceDirName": "crypto-web-security/01_PKI・TLS・認証",
+  "slug": "/crypto-web-security/PKI・TLS・認証/x509_pki",
+  "permalink": "/docs/crypto-web-security/PKI・TLS・認証/x509_pki",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "previous": {
+    "title": "量子耐性暗号（格子暗号の概要）",
+    "permalink": "/docs/crypto-web-security/暗号理論/post_quantum"
+  },
+  "next": {
+    "title": "TLS 1.3 ハンドシェイクの詳細",
+    "permalink": "/docs/crypto-web-security/PKI・TLS・認証/tls13"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "discrete-math/離散数学/generating_functions",
+  "title": "生成関数入門",
+  "description": "生成関数とは",
+  "source": "@site/docs/discrete-math/00_離散数学/80_generating_functions.md",
+  "sourceDirName": "discrete-math/00_離散数学",
+  "slug": "/discrete-math/離散数学/generating_functions",
+  "permalink": "/docs/discrete-math/離散数学/generating_functions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 80,
+  "frontMatter": {},
+  "sidebar": "discreteMathSidebar",
+  "previous": {
+    "title": "組み合わせ論（順列・組み合わせ・包除原理）",
+    "permalink": "/docs/discrete-math/離散数学/combinatorics"
+  },
+  "next": {
+    "title": "確率論の基礎",
+    "permalink": "/docs/discrete-math/離散数学/probability_basics"
+  }
+}

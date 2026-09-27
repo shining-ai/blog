@@ -1,0 +1,24 @@
+{
+  "id": "design-patterns/デザインパターン_GoF/bridge",
+  "title": "Bridge パターン",
+  "description": "Bridge とは",
+  "source": "@site/docs/design-patterns/01_デザインパターン_GoF/60_bridge.md",
+  "sourceDirName": "design-patterns/01_デザインパターン_GoF",
+  "slug": "/design-patterns/デザインパターン_GoF/bridge",
+  "permalink": "/docs/design-patterns/デザインパターン_GoF/bridge",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 60,
+  "frontMatter": {},
+  "sidebar": "designPatternsSidebar",
+  "previous": {
+    "title": "Adapter パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/adapter"
+  },
+  "next": {
+    "title": "Composite パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/composite"
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "crypto-web-security/intro",
+          "docs": [
+            {
+              "id": "binary-sec-dev/CTF/crypto_ctf",
+              "path": "/docs/binary-sec-dev/CTF/crypto_ctf",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/CTF/ctf_categories",
+              "path": "/docs/binary-sec-dev/CTF/ctf_categories",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/CTF/pwn_basics",
+              "path": "/docs/binary-sec-dev/CTF/pwn_basics",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/CTF/web_ctf",
+              "path": "/docs/binary-sec-dev/CTF/web_ctf",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/intro",
+              "path": "/docs/binary-sec-dev/intro",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/セキュアな開発/dependency_vuln",
+              "path": "/docs/binary-sec-dev/セキュアな開発/dependency_vuln",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/セキュアな開発/pentest_flow",
+              "path": "/docs/binary-sec-dev/セキュアな開発/pentest_flow",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/セキュアな開発/sast_dast_sca",
+              "path": "/docs/binary-sec-dev/セキュアな開発/sast_dast_sca",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/セキュアな開発/secure_sdlc",
+              "path": "/docs/binary-sec-dev/セキュアな開発/secure_sdlc",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/セキュアな開発/threat_modeling",
+              "path": "/docs/binary-sec-dev/セキュアな開発/threat_modeling",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/バイナリ・低レイヤセキュリティ/dynamic_analysis",
+              "path": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/dynamic_analysis",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/バイナリ・低レイヤセキュリティ/format_string",
+              "path": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/format_string",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/バイナリ・低レイヤセキュリティ/heap_bof",
+              "path": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/heap_bof",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/バイナリ・低レイヤセキュリティ/mitigations",
+              "path": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/mitigations",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/バイナリ・低レイヤセキュリティ/reverse_engineering",
+              "path": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/reverse_engineering",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/バイナリ・低レイヤセキュリティ/rop",
+              "path": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/rop",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/バイナリ・低レイヤセキュリティ/stack_bof",
+              "path": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/stack_bof",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/マルウェア・フォレンジクス/digital_forensics",
+              "path": "/docs/binary-sec-dev/マルウェア・フォレンジクス/digital_forensics",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/マルウェア・フォレンジクス/malware_types",
+              "path": "/docs/binary-sec-dev/マルウェア・フォレンジクス/malware_types",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/マルウェア・フォレンジクス/memory_forensics",
+              "path": "/docs/binary-sec-dev/マルウェア・フォレンジクス/memory_forensics",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/マルウェア・フォレンジクス/sandbox",
+              "path": "/docs/binary-sec-dev/マルウェア・フォレンジクス/sandbox",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "binary-sec-dev/マルウェア・フォレンジクス/static_dynamic_analysis",
+              "path": "/docs/binary-sec-dev/マルウェア・フォレンジクス/static_dynamic_analysis",
+              "sidebar": "binarySecDevSidebar"
+            },
+            {
+              "id": "crypto-web-security/intro",
+              "path": "/docs/crypto-web-security/intro",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/PKI・TLS・認証/cert_chain",
+              "path": "/docs/crypto-web-security/PKI・TLS・認証/cert_chain",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/PKI・TLS・認証/https_hsts",
+              "path": "/docs/crypto-web-security/PKI・TLS・認証/https_hsts",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/PKI・TLS・認証/jwt",
+              "path": "/docs/crypto-web-security/PKI・TLS・認証/jwt",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/PKI・TLS・認証/mfa",
+              "path": "/docs/crypto-web-security/PKI・TLS・認証/mfa",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/PKI・TLS・認証/oauth2_oidc",
+              "path": "/docs/crypto-web-security/PKI・TLS・認証/oauth2_oidc",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/PKI・TLS・認証/password_storage",
+              "path": "/docs/crypto-web-security/PKI・TLS・認証/password_storage",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/PKI・TLS・認証/sso",
+              "path": "/docs/crypto-web-security/PKI・TLS・認証/sso",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/PKI・TLS・認証/tls13",
+              "path": "/docs/crypto-web-security/PKI・TLS・認証/tls13",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/PKI・TLS・認証/x509_pki",
+              "path": "/docs/crypto-web-security/PKI・TLS・認証/x509_pki",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/Webセキュリティ/command_injection",
+              "path": "/docs/crypto-web-security/Webセキュリティ/command_injection",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/Webセキュリティ/csrf",
+              "path": "/docs/crypto-web-security/Webセキュリティ/csrf",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/Webセキュリティ/insecure_deserialization",
+              "path": "/docs/crypto-web-security/Webセキュリティ/insecure_deserialization",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/Webセキュリティ/owasp_top10",
+              "path": "/docs/crypto-web-security/Webセキュリティ/owasp_top10",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/Webセキュリティ/path_traversal",
+              "path": "/docs/crypto-web-security/Webセキュリティ/path_traversal",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/Webセキュリティ/security_headers",
+              "path": "/docs/crypto-web-security/Webセキュリティ/security_headers",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/Webセキュリティ/sqli",
+              "path": "/docs/crypto-web-security/Webセキュリティ/sqli",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/Webセキュリティ/ssrf",
+              "path": "/docs/crypto-web-security/Webセキュリティ/ssrf",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/Webセキュリティ/xss",
+              "path": "/docs/crypto-web-security/Webセキュリティ/xss",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/Webセキュリティ/xxe",
+              "path": "/docs/crypto-web-security/Webセキュリティ/xxe",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/ネットワークセキュリティ/ddos_types",
+              "path": "/docs/crypto-web-security/ネットワークセキュリティ/ddos_types",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/ネットワークセキュリティ/dns_hijacking",
+              "path": "/docs/crypto-web-security/ネットワークセキュリティ/dns_hijacking",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/ネットワークセキュリティ/firewall_ids",
+              "path": "/docs/crypto-web-security/ネットワークセキュリティ/firewall_ids",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/ネットワークセキュリティ/packet_sniffing",
+              "path": "/docs/crypto-web-security/ネットワークセキュリティ/packet_sniffing",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/ネットワークセキュリティ/port_scan_nmap",
+              "path": "/docs/crypto-web-security/ネットワークセキュリティ/port_scan_nmap",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/暗号理論/aes",
+              "path": "/docs/crypto-web-security/暗号理論/aes",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/暗号理論/block_cipher_modes",
+              "path": "/docs/crypto-web-security/暗号理論/block_cipher_modes",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/暗号理論/crypto_basics",
+              "path": "/docs/crypto-web-security/暗号理論/crypto_basics",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/暗号理論/dh_key_exchange",
+              "path": "/docs/crypto-web-security/暗号理論/dh_key_exchange",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/暗号理論/digital_signature",
+              "path": "/docs/crypto-web-security/暗号理論/digital_signature",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/暗号理論/ecc",
+              "path": "/docs/crypto-web-security/暗号理論/ecc",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/暗号理論/hash_functions",
+              "path": "/docs/crypto-web-security/暗号理論/hash_functions",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/暗号理論/hmac",
+              "path": "/docs/crypto-web-security/暗号理論/hmac",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/暗号理論/post_quantum",
+              "path": "/docs/crypto-web-security/暗号理論/post_quantum",
+              "sidebar": "cryptoWebSecSidebar"
+            },
+            {
+              "id": "crypto-web-security/暗号理論/rsa",
+              "path": "/docs/crypto-web-security/暗号理論/rsa",
+              "sidebar": "cryptoWebSecSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "cryptoWebSecSidebar": {
+              "link": {
+                "path": "/docs/crypto-web-security/intro",
+                "label": "暗号・Web・NWセキュリティ"
+              }
+            },
+            "binarySecDevSidebar": {
+              "link": {
+                "path": "/docs/binary-sec-dev/intro",
+                "label": "バイナリ・開発・CTF"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

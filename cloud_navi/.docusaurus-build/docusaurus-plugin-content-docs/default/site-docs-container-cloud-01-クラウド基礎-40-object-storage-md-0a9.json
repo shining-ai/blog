@@ -1,0 +1,20 @@
+{
+  "id": "container-cloud/クラウド基礎/object_storage",
+  "title": "オブジェクトストレージ（S3 の仕組み）",
+  "description": "オブジェクトストレージとは",
+  "source": "@site/docs/container-cloud/01_クラウド基礎/40_object_storage.md",
+  "sourceDirName": "container-cloud/01_クラウド基礎",
+  "slug": "/container-cloud/クラウド基礎/object_storage",
+  "permalink": "/docs/container-cloud/クラウド基礎/object_storage",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "containerCloudSidebar",
+  "previous": {
+    "title": "サーバレス（AWS Lambda・Cloud Functions）",
+    "permalink": "/docs/container-cloud/クラウド基礎/serverless"
+  }
+}

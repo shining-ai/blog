@@ -1,0 +1,19 @@
+{
+  "id": "compiler-runtime/intro",
+  "title": "コンパイラ・ランタイム",
+  "description": "字句解析・構文解析・最適化・GC・JIT・仮想マシンまで、コンパイラとランタイムを体系的に解説します。",
+  "source": "@site/docs/compiler-runtime/intro.md",
+  "sourceDirName": "compiler-runtime",
+  "slug": "/compiler-runtime/intro",
+  "permalink": "/docs/compiler-runtime/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "compilerRuntimeSidebar",
+  "next": {
+    "title": "コンパイラの全体構造",
+    "permalink": "/docs/compiler-runtime/コンパイラ_フロントエンド/compiler_overview"
+  }
+}

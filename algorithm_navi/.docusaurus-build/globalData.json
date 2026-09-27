@@ -1,0 +1,496 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "data-structure/intro",
+          "docs": [
+            {
+              "id": "algorithm-strategy/intro",
+              "path": "/docs/algorithm-strategy/intro",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm-strategy/アルゴリズム戦略/approximation",
+              "path": "/docs/algorithm-strategy/アルゴリズム戦略/approximation",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm-strategy/アルゴリズム戦略/backtracking",
+              "path": "/docs/algorithm-strategy/アルゴリズム戦略/backtracking",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm-strategy/アルゴリズム戦略/binary_search_advanced",
+              "path": "/docs/algorithm-strategy/アルゴリズム戦略/binary_search_advanced",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm-strategy/アルゴリズム戦略/digit_dp",
+              "path": "/docs/algorithm-strategy/アルゴリズム戦略/digit_dp",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm-strategy/アルゴリズム戦略/divide_and_conquer",
+              "path": "/docs/algorithm-strategy/アルゴリズム戦略/divide_and_conquer",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm-strategy/アルゴリズム戦略/dynamic_programming",
+              "path": "/docs/algorithm-strategy/アルゴリズム戦略/dynamic_programming",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm-strategy/アルゴリズム戦略/greedy",
+              "path": "/docs/algorithm-strategy/アルゴリズム戦略/greedy",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm-strategy/アルゴリズム戦略/interval_dp",
+              "path": "/docs/algorithm-strategy/アルゴリズム戦略/interval_dp",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm-strategy/アルゴリズム戦略/knapsack",
+              "path": "/docs/algorithm-strategy/アルゴリズム戦略/knapsack",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm-strategy/アルゴリズム戦略/lcs",
+              "path": "/docs/algorithm-strategy/アルゴリズム戦略/lcs",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm-strategy/アルゴリズム戦略/online",
+              "path": "/docs/algorithm-strategy/アルゴリズム戦略/online",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm-strategy/アルゴリズム戦略/randomized",
+              "path": "/docs/algorithm-strategy/アルゴリズム戦略/randomized",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm-strategy/アルゴリズム戦略/two_pointers",
+              "path": "/docs/algorithm-strategy/アルゴリズム戦略/two_pointers",
+              "sidebar": "algorithmStrategySidebar"
+            },
+            {
+              "id": "algorithm/intro",
+              "path": "/docs/algorithm/intro",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/a_star",
+              "path": "/docs/algorithm/グラフアルゴリズム/a_star",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/bellman_ford",
+              "path": "/docs/algorithm/グラフアルゴリズム/bellman_ford",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/bfs",
+              "path": "/docs/algorithm/グラフアルゴリズム/bfs",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/bipartite_matching",
+              "path": "/docs/algorithm/グラフアルゴリズム/bipartite_matching",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/dfs",
+              "path": "/docs/algorithm/グラフアルゴリズム/dfs",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/dijkstra",
+              "path": "/docs/algorithm/グラフアルゴリズム/dijkstra",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/dinic",
+              "path": "/docs/algorithm/グラフアルゴリズム/dinic",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/ford_fulkerson",
+              "path": "/docs/algorithm/グラフアルゴリズム/ford_fulkerson",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/kruskal",
+              "path": "/docs/algorithm/グラフアルゴリズム/kruskal",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/lca",
+              "path": "/docs/algorithm/グラフアルゴリズム/lca",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/prim",
+              "path": "/docs/algorithm/グラフアルゴリズム/prim",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/scc",
+              "path": "/docs/algorithm/グラフアルゴリズム/scc",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/topological_sort",
+              "path": "/docs/algorithm/グラフアルゴリズム/topological_sort",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/グラフアルゴリズム/warshall_floyd",
+              "path": "/docs/algorithm/グラフアルゴリズム/warshall_floyd",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/ソートアルゴリズム/bubble_sort",
+              "path": "/docs/algorithm/ソートアルゴリズム/bubble_sort",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/ソートアルゴリズム/counting_sort",
+              "path": "/docs/algorithm/ソートアルゴリズム/counting_sort",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/ソートアルゴリズム/heap_sort",
+              "path": "/docs/algorithm/ソートアルゴリズム/heap_sort",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/ソートアルゴリズム/insertion_sort",
+              "path": "/docs/algorithm/ソートアルゴリズム/insertion_sort",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/ソートアルゴリズム/merge_sort",
+              "path": "/docs/algorithm/ソートアルゴリズム/merge_sort",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/ソートアルゴリズム/quick_sort",
+              "path": "/docs/algorithm/ソートアルゴリズム/quick_sort",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/ソートアルゴリズム/radix_sort",
+              "path": "/docs/algorithm/ソートアルゴリズム/radix_sort",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/ソートアルゴリズム/selection_sort",
+              "path": "/docs/algorithm/ソートアルゴリズム/selection_sort",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/並列アルゴリズム/mapreduce",
+              "path": "/docs/algorithm/並列アルゴリズム/mapreduce",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/並列アルゴリズム/parallel_sort",
+              "path": "/docs/algorithm/並列アルゴリズム/parallel_sort",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/並列アルゴリズム/prefix_sum",
+              "path": "/docs/algorithm/並列アルゴリズム/prefix_sum",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/最適化/genetic_algorithm",
+              "path": "/docs/algorithm/最適化/genetic_algorithm",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/最適化/integer_programming",
+              "path": "/docs/algorithm/最適化/integer_programming",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/最適化/linear_programming",
+              "path": "/docs/algorithm/最適化/linear_programming",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/最適化/local_search",
+              "path": "/docs/algorithm/最適化/local_search",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/最適化/simulated_annealing",
+              "path": "/docs/algorithm/最適化/simulated_annealing",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/探索アルゴリズム/binary_search",
+              "path": "/docs/algorithm/探索アルゴリズム/binary_search",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/探索アルゴリズム/linear_search",
+              "path": "/docs/algorithm/探索アルゴリズム/linear_search",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/探索アルゴリズム/ternary_search",
+              "path": "/docs/algorithm/探索アルゴリズム/ternary_search",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/数値アルゴリズム/fast_pow",
+              "path": "/docs/algorithm/数値アルゴリズム/fast_pow",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/数値アルゴリズム/fft",
+              "path": "/docs/algorithm/数値アルゴリズム/fft",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/数値アルゴリズム/gcd",
+              "path": "/docs/algorithm/数値アルゴリズム/gcd",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/数値アルゴリズム/matrix",
+              "path": "/docs/algorithm/数値アルゴリズム/matrix",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/数値アルゴリズム/mod",
+              "path": "/docs/algorithm/数値アルゴリズム/mod",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/数値アルゴリズム/primality_test",
+              "path": "/docs/algorithm/数値アルゴリズム/primality_test",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/数値アルゴリズム/sieve",
+              "path": "/docs/algorithm/数値アルゴリズム/sieve",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/文字列アルゴリズム/aho_corasick",
+              "path": "/docs/algorithm/文字列アルゴリズム/aho_corasick",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/文字列アルゴリズム/boyer_moore",
+              "path": "/docs/algorithm/文字列アルゴリズム/boyer_moore",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/文字列アルゴリズム/kmp",
+              "path": "/docs/algorithm/文字列アルゴリズム/kmp",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/文字列アルゴリズム/rabin_karp",
+              "path": "/docs/algorithm/文字列アルゴリズム/rabin_karp",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/文字列アルゴリズム/suffix_array",
+              "path": "/docs/algorithm/文字列アルゴリズム/suffix_array",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/文字列アルゴリズム/z_algorithm",
+              "path": "/docs/algorithm/文字列アルゴリズム/z_algorithm",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/計算幾何/closest_pair",
+              "path": "/docs/algorithm/計算幾何/closest_pair",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/計算幾何/convex_hull",
+              "path": "/docs/algorithm/計算幾何/convex_hull",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/計算幾何/segment_intersection",
+              "path": "/docs/algorithm/計算幾何/segment_intersection",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/計算幾何/sweep_line",
+              "path": "/docs/algorithm/計算幾何/sweep_line",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "books/intro",
+              "path": "/docs/books/intro",
+              "sidebar": "booksmSidebar"
+            },
+            {
+              "id": "data-structure/intro",
+              "path": "/docs/data-structure/intro",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/グラフ構造/directed_undirected",
+              "path": "/docs/data-structure/グラフ構造/directed_undirected",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/グラフ構造/graph",
+              "path": "/docs/data-structure/グラフ構造/graph",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/グラフ構造/weighted_graph",
+              "path": "/docs/data-structure/グラフ構造/weighted_graph",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/ツリー構造/b_tree",
+              "path": "/docs/data-structure/ツリー構造/b_tree",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/ツリー構造/balanced_bst",
+              "path": "/docs/data-structure/ツリー構造/balanced_bst",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/ツリー構造/binary_search_tree",
+              "path": "/docs/data-structure/ツリー構造/binary_search_tree",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/ツリー構造/binary_tree",
+              "path": "/docs/data-structure/ツリー構造/binary_tree",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/ツリー構造/bit",
+              "path": "/docs/data-structure/ツリー構造/bit",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/ツリー構造/heap",
+              "path": "/docs/data-structure/ツリー構造/heap",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/ツリー構造/interval_tree",
+              "path": "/docs/data-structure/ツリー構造/interval_tree",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/ツリー構造/segment_tree",
+              "path": "/docs/data-structure/ツリー構造/segment_tree",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/ツリー構造/trie",
+              "path": "/docs/data-structure/ツリー構造/trie",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/ハッシュ構造/hash_set",
+              "path": "/docs/data-structure/ハッシュ構造/hash_set",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/ハッシュ構造/hash_table",
+              "path": "/docs/data-structure/ハッシュ構造/hash_table",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/線形データ構造/array",
+              "path": "/docs/data-structure/線形データ構造/array",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/線形データ構造/deque",
+              "path": "/docs/data-structure/線形データ構造/deque",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/線形データ構造/dynamic_array",
+              "path": "/docs/data-structure/線形データ構造/dynamic_array",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/線形データ構造/linked_list",
+              "path": "/docs/data-structure/線形データ構造/linked_list",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/線形データ構造/queue",
+              "path": "/docs/data-structure/線形データ構造/queue",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/線形データ構造/stack",
+              "path": "/docs/data-structure/線形データ構造/stack",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/集合管理構造/bitset",
+              "path": "/docs/data-structure/集合管理構造/bitset",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/集合管理構造/union_find",
+              "path": "/docs/data-structure/集合管理構造/union_find",
+              "sidebar": "datastructureSidebar"
+            },
+            {
+              "id": "data-structure/順序付き構造/skip_list",
+              "path": "/docs/data-structure/順序付き構造/skip_list",
+              "sidebar": "datastructureSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "datastructureSidebar": {
+              "link": {
+                "path": "/docs/data-structure/intro",
+                "label": "データ構造"
+              }
+            },
+            "algorithmSidebar": {
+              "link": {
+                "path": "/docs/algorithm/intro",
+                "label": "アルゴリズム"
+              }
+            },
+            "algorithmStrategySidebar": {
+              "link": {
+                "path": "/docs/algorithm-strategy/intro",
+                "label": "アルゴリズム戦略"
+              }
+            },
+            "booksmSidebar": {
+              "link": {
+                "path": "/docs/books/intro",
+                "label": "書籍"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "binary-sec-dev/セキュアな開発/threat_modeling",
+  "title": "脅威モデリング（STRIDE）",
+  "description": "脅威モデリングとは",
+  "source": "@site/docs/binary-sec-dev/06_セキュアな開発/10_threat_modeling.md",
+  "sourceDirName": "binary-sec-dev/06_セキュアな開発",
+  "slug": "/binary-sec-dev/セキュアな開発/threat_modeling",
+  "permalink": "/docs/binary-sec-dev/セキュアな開発/threat_modeling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "binarySecDevSidebar",
+  "previous": {
+    "title": "セキュア SDLC の考え方",
+    "permalink": "/docs/binary-sec-dev/セキュアな開発/secure_sdlc"
+  },
+  "next": {
+    "title": "SAST・DAST・SCA ツール",
+    "permalink": "/docs/binary-sec-dev/セキュアな開発/sast_dast_sca"
+  }
+}

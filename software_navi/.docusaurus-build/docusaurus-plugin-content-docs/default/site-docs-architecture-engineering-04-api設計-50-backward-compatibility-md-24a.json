@@ -1,0 +1,24 @@
+{
+  "id": "architecture-engineering/API設計/backward_compatibility",
+  "title": "後方互換性の維持",
+  "description": "後方互換性とは",
+  "source": "@site/docs/architecture-engineering/04_API設計/50_backward_compatibility.md",
+  "sourceDirName": "architecture-engineering/04_API設計",
+  "slug": "/architecture-engineering/API設計/backward_compatibility",
+  "permalink": "/docs/architecture-engineering/API設計/backward_compatibility",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "API バージョニング戦略",
+    "permalink": "/docs/architecture-engineering/API設計/api_versioning"
+  },
+  "next": {
+    "title": "Git の内部構造（オブジェクト・ツリー・コミット）",
+    "permalink": "/docs/architecture-engineering/開発プロセス・チーム開発/git_internals"
+  }
+}

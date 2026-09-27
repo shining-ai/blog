@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/プロセッサアーキテクチャ/isa_overview",
+  "title": "命令セットアーキテクチャ (ISA Overview)",
+  "description": "ISA とは",
+  "source": "@site/docs/computer-architecture/03_プロセッサアーキテクチャ/00_isa_overview.md",
+  "sourceDirName": "computer-architecture/03_プロセッサアーキテクチャ",
+  "slug": "/computer-architecture/プロセッサアーキテクチャ/isa_overview",
+  "permalink": "/docs/computer-architecture/プロセッサアーキテクチャ/isa_overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "HDL 入門 (Hardware Description Language)",
+    "permalink": "/docs/computer-architecture/論理回路/hdl"
+  },
+  "next": {
+    "title": "パイプライン処理 (Pipeline)",
+    "permalink": "/docs/computer-architecture/プロセッサアーキテクチャ/pipeline"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/ネットワーク層/icmp",
+  "title": "ICMP と ping・traceroute",
+  "description": "ICMP とは",
+  "source": "@site/docs/network-basics/02_ネットワーク層/80_icmp.md",
+  "sourceDirName": "network-basics/02_ネットワーク層",
+  "slug": "/network-basics/ネットワーク層/icmp",
+  "permalink": "/docs/network-basics/ネットワーク層/icmp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 80,
+  "frontMatter": {
+    "title": "ICMP と ping・traceroute"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "NAT・PAT の仕組み",
+    "permalink": "/docs/network-basics/ネットワーク層/nat"
+  },
+  "next": {
+    "title": "TCP の概要と 3 ウェイハンドシェイク",
+    "permalink": "/docs/network-basics/トランスポート層/tcp_handshake"
+  }
+}

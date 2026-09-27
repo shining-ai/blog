@@ -1,0 +1,24 @@
+{
+  "id": "rdbms/ストレージ・インデックス/fulltext_search",
+  "title": "全文検索インデックス",
+  "description": "全文検索インデックスとは",
+  "source": "@site/docs/rdbms/02_ストレージ・インデックス/40_fulltext_search.md",
+  "sourceDirName": "rdbms/02_ストレージ・インデックス",
+  "slug": "/rdbms/ストレージ・インデックス/fulltext_search",
+  "permalink": "/docs/rdbms/ストレージ・インデックス/fulltext_search",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "rdbmsSidebar",
+  "previous": {
+    "title": "複合インデックスとカバリングインデックス",
+    "permalink": "/docs/rdbms/ストレージ・インデックス/composite_index"
+  },
+  "next": {
+    "title": "クエリオプティマイザの仕組み",
+    "permalink": "/docs/rdbms/クエリ最適化/query_optimizer"
+  }
+}

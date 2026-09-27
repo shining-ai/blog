@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/トランスポート層/quic",
+  "title": "QUIC プロトコル",
+  "description": "QUIC とは",
+  "source": "@site/docs/network-basics/03_トランスポート層/60_quic.md",
+  "sourceDirName": "network-basics/03_トランスポート層",
+  "slug": "/network-basics/トランスポート層/quic",
+  "permalink": "/docs/network-basics/トランスポート層/quic",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 60,
+  "frontMatter": {
+    "title": "QUIC プロトコル"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "UDP の特性と使いどころ",
+    "permalink": "/docs/network-basics/トランスポート層/udp"
+  },
+  "next": {
+    "title": "ポートとソケットの概念",
+    "permalink": "/docs/network-basics/トランスポート層/port_socket"
+  }
+}

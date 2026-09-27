@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/ソートアルゴリズム/radix_sort",
+  "title": "基数ソート (Radix Sort)",
+  "description": "基数ソートとは",
+  "source": "@site/docs/algorithm/01_ソートアルゴリズム/70_radix_sort.md",
+  "sourceDirName": "algorithm/01_ソートアルゴリズム",
+  "slug": "/algorithm/ソートアルゴリズム/radix_sort",
+  "permalink": "/docs/algorithm/ソートアルゴリズム/radix_sort",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 70,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "計数ソート (Counting Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/counting_sort"
+  },
+  "next": {
+    "title": "線形探索 (Linear Search)",
+    "permalink": "/docs/algorithm/探索アルゴリズム/linear_search"
+  }
+}

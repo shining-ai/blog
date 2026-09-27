@@ -1,0 +1,24 @@
+{
+  "id": "distributed-systems/分散システム理論/logical_clocks",
+  "title": "論理時計（Lamport クロック・ベクタクロック）",
+  "description": "論理時計とは",
+  "source": "@site/docs/distributed-systems/02_分散システム理論/30_logical_clocks.md",
+  "sourceDirName": "distributed-systems/02_分散システム理論",
+  "slug": "/distributed-systems/分散システム理論/logical_clocks",
+  "permalink": "/docs/distributed-systems/分散システム理論/logical_clocks",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "distributedSystemsSidebar",
+  "previous": {
+    "title": "整合性モデル（結果整合性・線形化可能性）",
+    "permalink": "/docs/distributed-systems/分散システム理論/consistency_models"
+  },
+  "next": {
+    "title": "Paxos の概要",
+    "permalink": "/docs/distributed-systems/分散システム理論/paxos"
+  }
+}

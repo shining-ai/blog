@@ -1,0 +1,24 @@
+{
+  "id": "rendering-pipeline/シェーダ/compute_shader",
+  "title": "コンピュートシェーダ",
+  "description": "コンピュートシェーダとは",
+  "source": "@site/docs/rendering-pipeline/02_シェーダ/30_compute_shader.md",
+  "sourceDirName": "rendering-pipeline/02_シェーダ",
+  "slug": "/rendering-pipeline/シェーダ/compute_shader",
+  "permalink": "/docs/rendering-pipeline/シェーダ/compute_shader",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "フラグメントシェーダの実装",
+    "permalink": "/docs/rendering-pipeline/シェーダ/fragment_shader"
+  },
+  "next": {
+    "title": "シェーダによるポストエフェクト",
+    "permalink": "/docs/rendering-pipeline/シェーダ/post_effects"
+  }
+}

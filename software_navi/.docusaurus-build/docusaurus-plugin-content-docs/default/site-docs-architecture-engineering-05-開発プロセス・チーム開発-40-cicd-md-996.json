@@ -1,0 +1,24 @@
+{
+  "id": "architecture-engineering/開発プロセス・チーム開発/cicd",
+  "title": "CI/CD パイプラインの設計",
+  "description": "CI/CD とは",
+  "source": "@site/docs/architecture-engineering/05_開発プロセス・チーム開発/40_cicd.md",
+  "sourceDirName": "architecture-engineering/05_開発プロセス・チーム開発",
+  "slug": "/architecture-engineering/開発プロセス・チーム開発/cicd",
+  "permalink": "/docs/architecture-engineering/開発プロセス・チーム開発/cicd",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "リファクタリングと技術的負債",
+    "permalink": "/docs/architecture-engineering/開発プロセス・チーム開発/refactoring"
+  },
+  "next": {
+    "title": "アジャイル・スクラムの実践",
+    "permalink": "/docs/architecture-engineering/開発プロセス・チーム開発/agile_scrum"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "architecture-engineering/API設計/grpc",
+  "title": "gRPC と Protocol Buffers",
+  "description": "gRPCとは",
+  "source": "@site/docs/architecture-engineering/04_API設計/30_grpc.md",
+  "sourceDirName": "architecture-engineering/04_API設計",
+  "slug": "/architecture-engineering/API設計/grpc",
+  "permalink": "/docs/architecture-engineering/API設計/grpc",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "GraphQL の設計",
+    "permalink": "/docs/architecture-engineering/API設計/graphql"
+  },
+  "next": {
+    "title": "API バージョニング戦略",
+    "permalink": "/docs/architecture-engineering/API設計/api_versioning"
+  }
+}

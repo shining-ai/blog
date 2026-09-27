@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/データ表現/character_encoding",
+  "title": "文字エンコーディング (Character Encoding)",
+  "description": "文字エンコーディングとは",
+  "source": "@site/docs/computer-architecture/01_データ表現/30_character_encoding.md",
+  "sourceDirName": "computer-architecture/01_データ表現",
+  "slug": "/computer-architecture/データ表現/character_encoding",
+  "permalink": "/docs/computer-architecture/データ表現/character_encoding",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "浮動小数点数 (IEEE 754)",
+    "permalink": "/docs/computer-architecture/データ表現/floating_point"
+  },
+  "next": {
+    "title": "エンディアン (Endianness)",
+    "permalink": "/docs/computer-architecture/データ表現/endianness"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/ネットワーク基礎/tcp_ip_model",
+  "title": "TCP/IP モデル（4 層）",
+  "description": "TCP/IP モデルとは",
+  "source": "@site/docs/network-basics/00_ネットワーク基礎/20_tcp_ip_model.md",
+  "sourceDirName": "network-basics/00_ネットワーク基礎",
+  "slug": "/network-basics/ネットワーク基礎/tcp_ip_model",
+  "permalink": "/docs/network-basics/ネットワーク基礎/tcp_ip_model",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "title": "TCP/IP モデル（4 層）"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "OSI 参照モデルの 7 層",
+    "permalink": "/docs/network-basics/ネットワーク基礎/osi_model"
+  },
+  "next": {
+    "title": "パケット交換と回線交換",
+    "permalink": "/docs/network-basics/ネットワーク基礎/packet_switching"
+  }
+}

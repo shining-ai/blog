@@ -1,0 +1,24 @@
+{
+  "id": "rendering-pipeline/レンダリングパイプライン/rasterization",
+  "title": "ラスタライゼーション",
+  "description": "ラスタライゼーションとは",
+  "source": "@site/docs/rendering-pipeline/01_レンダリングパイプライン/20_rasterization.md",
+  "sourceDirName": "rendering-pipeline/01_レンダリングパイプライン",
+  "slug": "/rendering-pipeline/レンダリングパイプライン/rasterization",
+  "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/rasterization",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "頂点処理とプリミティブ組み立て",
+    "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/vertex_processing"
+  },
+  "next": {
+    "title": "フラグメント処理と深度テスト",
+    "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/fragment_processing"
+  }
+}

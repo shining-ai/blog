@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/オートマトン理論/dfa",
+  "title": "有限オートマトン（DFA）",
+  "description": "有限オートマトン（DFA）とは",
+  "source": "@site/docs/computability-theory/00_オートマトン理論/00_dfa.md",
+  "sourceDirName": "computability-theory/00_オートマトン理論",
+  "slug": "/computability-theory/オートマトン理論/dfa",
+  "permalink": "/docs/computability-theory/オートマトン理論/dfa",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "形式言語・計算量",
+    "permalink": "/docs/computability-theory/intro"
+  },
+  "next": {
+    "title": "非決定性有限オートマトン（NFA）",
+    "permalink": "/docs/computability-theory/オートマトン理論/nfa"
+  }
+}

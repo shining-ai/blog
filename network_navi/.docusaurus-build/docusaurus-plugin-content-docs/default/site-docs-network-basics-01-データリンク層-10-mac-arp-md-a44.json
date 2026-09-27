@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/データリンク層/mac_arp",
+  "title": "MAC アドレスと ARP",
+  "description": "MAC アドレスと ARP とは",
+  "source": "@site/docs/network-basics/01_データリンク層/10_mac_arp.md",
+  "sourceDirName": "network-basics/01_データリンク層",
+  "slug": "/network-basics/データリンク層/mac_arp",
+  "permalink": "/docs/network-basics/データリンク層/mac_arp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "MAC アドレスと ARP"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "イーサネットとフレーム構造",
+    "permalink": "/docs/network-basics/データリンク層/ethernet"
+  },
+  "next": {
+    "title": "スイッチとブリッジ",
+    "permalink": "/docs/network-basics/データリンク層/switch_bridge"
+  }
+}

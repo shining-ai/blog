@@ -1,0 +1,269 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "discrete-math/intro",
+          "docs": [
+            {
+              "id": "computability-theory/intro",
+              "path": "/docs/computability-theory/intro",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/オートマトン理論/cfg",
+              "path": "/docs/computability-theory/オートマトン理論/cfg",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/オートマトン理論/cyk",
+              "path": "/docs/computability-theory/オートマトン理論/cyk",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/オートマトン理論/dfa",
+              "path": "/docs/computability-theory/オートマトン理論/dfa",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/オートマトン理論/dfa_minimization",
+              "path": "/docs/computability-theory/オートマトン理論/dfa_minimization",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/オートマトン理論/nfa",
+              "path": "/docs/computability-theory/オートマトン理論/nfa",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/オートマトン理論/nfa_to_dfa",
+              "path": "/docs/computability-theory/オートマトン理論/nfa_to_dfa",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/オートマトン理論/pda",
+              "path": "/docs/computability-theory/オートマトン理論/pda",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/オートマトン理論/pumping_lemma_cfl",
+              "path": "/docs/computability-theory/オートマトン理論/pumping_lemma_cfl",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/オートマトン理論/pumping_lemma_regular",
+              "path": "/docs/computability-theory/オートマトン理論/pumping_lemma_regular",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/オートマトン理論/regular_expressions",
+              "path": "/docs/computability-theory/オートマトン理論/regular_expressions",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/チューリング機械と計算可能性/decidable_problems",
+              "path": "/docs/computability-theory/チューリング機械と計算可能性/decidable_problems",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/チューリング機械と計算可能性/halting_problem",
+              "path": "/docs/computability-theory/チューリング機械と計算可能性/halting_problem",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/チューリング機械と計算可能性/lambda_calculus",
+              "path": "/docs/computability-theory/チューリング機械と計算可能性/lambda_calculus",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/チューリング機械と計算可能性/multitape_ndtm",
+              "path": "/docs/computability-theory/チューリング機械と計算可能性/multitape_ndtm",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/チューリング機械と計算可能性/reduction",
+              "path": "/docs/computability-theory/チューリング機械と計算可能性/reduction",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/チューリング機械と計算可能性/rice_theorem",
+              "path": "/docs/computability-theory/チューリング機械と計算可能性/rice_theorem",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/チューリング機械と計算可能性/turing_machine",
+              "path": "/docs/computability-theory/チューリング機械と計算可能性/turing_machine",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/チューリング機械と計算可能性/universal_tm",
+              "path": "/docs/computability-theory/チューリング機械と計算可能性/universal_tm",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/計算量理論/approximation",
+              "path": "/docs/computability-theory/計算量理論/approximation",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/計算量理論/class_np",
+              "path": "/docs/computability-theory/計算量理論/class_np",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/計算量理論/class_p",
+              "path": "/docs/computability-theory/計算量理論/class_p",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/計算量理論/complexity_basics",
+              "path": "/docs/computability-theory/計算量理論/complexity_basics",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/計算量理論/cook_levin",
+              "path": "/docs/computability-theory/計算量理論/cook_levin",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/計算量理論/np_complete_problems",
+              "path": "/docs/computability-theory/計算量理論/np_complete_problems",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/計算量理論/np_hard_complete",
+              "path": "/docs/computability-theory/計算量理論/np_hard_complete",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/計算量理論/p_np_problem",
+              "path": "/docs/computability-theory/計算量理論/p_np_problem",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/計算量理論/pspace_exp",
+              "path": "/docs/computability-theory/計算量理論/pspace_exp",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "computability-theory/計算量理論/randomized",
+              "path": "/docs/computability-theory/計算量理論/randomized",
+              "sidebar": "computabilityTheorySidebar"
+            },
+            {
+              "id": "discrete-math/intro",
+              "path": "/docs/discrete-math/intro",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/情報理論と符号理論/arithmetic_coding",
+              "path": "/docs/discrete-math/情報理論と符号理論/arithmetic_coding",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/情報理論と符号理論/channel_coding",
+              "path": "/docs/discrete-math/情報理論と符号理論/channel_coding",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/情報理論と符号理論/hamming_code",
+              "path": "/docs/discrete-math/情報理論と符号理論/hamming_code",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/情報理論と符号理論/huffman_coding",
+              "path": "/docs/discrete-math/情報理論と符号理論/huffman_coding",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/情報理論と符号理論/mutual_information",
+              "path": "/docs/discrete-math/情報理論と符号理論/mutual_information",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/情報理論と符号理論/shannon_entropy",
+              "path": "/docs/discrete-math/情報理論と符号理論/shannon_entropy",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/情報理論と符号理論/source_coding",
+              "path": "/docs/discrete-math/情報理論と符号理論/source_coding",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/離散数学/combinatorics",
+              "path": "/docs/discrete-math/離散数学/combinatorics",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/離散数学/generating_functions",
+              "path": "/docs/discrete-math/離散数学/generating_functions",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/離散数学/graph_theory_basics",
+              "path": "/docs/discrete-math/離散数学/graph_theory_basics",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/離散数学/induction_recursion",
+              "path": "/docs/discrete-math/離散数学/induction_recursion",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/離散数学/number_theory",
+              "path": "/docs/discrete-math/離散数学/number_theory",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/離散数学/planar_graph_coloring",
+              "path": "/docs/discrete-math/離散数学/planar_graph_coloring",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/離散数学/probability_basics",
+              "path": "/docs/discrete-math/離散数学/probability_basics",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/離散数学/propositional_logic",
+              "path": "/docs/discrete-math/離散数学/propositional_logic",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/離散数学/relations_functions",
+              "path": "/docs/discrete-math/離散数学/relations_functions",
+              "sidebar": "discreteMathSidebar"
+            },
+            {
+              "id": "discrete-math/離散数学/set_theory",
+              "path": "/docs/discrete-math/離散数学/set_theory",
+              "sidebar": "discreteMathSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "discreteMathSidebar": {
+              "link": {
+                "path": "/docs/discrete-math/intro",
+                "label": "離散数学・情報理論"
+              }
+            },
+            "computabilityTheorySidebar": {
+              "link": {
+                "path": "/docs/computability-theory/intro",
+                "label": "形式言語・計算量"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

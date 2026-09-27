@@ -1,0 +1,19 @@
+{
+  "id": "network-basics/intro",
+  "title": "ネットワーク基礎〜トランスポート",
+  "description": "OSIモデル・TCP/IP・イーサネット・ルーティング・TCPを体系的に解説します。",
+  "source": "@site/docs/network-basics/intro.md",
+  "sourceDirName": "network-basics",
+  "slug": "/network-basics/intro",
+  "permalink": "/docs/network-basics/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "networkBasicsSidebar",
+  "next": {
+    "title": "ネットワークとは・インターネットの構造",
+    "permalink": "/docs/network-basics/ネットワーク基礎/what_is_network"
+  }
+}

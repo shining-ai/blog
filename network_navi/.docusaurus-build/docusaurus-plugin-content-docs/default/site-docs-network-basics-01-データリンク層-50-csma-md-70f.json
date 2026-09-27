@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/データリンク層/csma",
+  "title": "CSMA/CD と CSMA/CA",
+  "description": "CSMA/CD と CSMA/CA とは",
+  "source": "@site/docs/network-basics/01_データリンク層/50_csma.md",
+  "sourceDirName": "network-basics/01_データリンク層",
+  "slug": "/network-basics/データリンク層/csma",
+  "permalink": "/docs/network-basics/データリンク層/csma",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {
+    "title": "CSMA/CD と CSMA/CA"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "Wi-Fi（IEEE 802.11）の仕組み",
+    "permalink": "/docs/network-basics/データリンク層/wifi"
+  },
+  "next": {
+    "title": "IP アドレスとサブネットマスク",
+    "permalink": "/docs/network-basics/ネットワーク層/ip_address"
+  }
+}

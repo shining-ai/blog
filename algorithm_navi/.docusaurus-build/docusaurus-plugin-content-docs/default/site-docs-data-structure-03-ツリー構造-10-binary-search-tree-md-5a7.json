@@ -1,0 +1,24 @@
+{
+  "id": "data-structure/ツリー構造/binary_search_tree",
+  "title": "二分探索木 (Binary Search Tree)",
+  "description": "二分探索木とは",
+  "source": "@site/docs/data-structure/03_ツリー構造/10_binary_search_tree.md",
+  "sourceDirName": "data-structure/03_ツリー構造",
+  "slug": "/data-structure/ツリー構造/binary_search_tree",
+  "permalink": "/docs/data-structure/ツリー構造/binary_search_tree",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "datastructureSidebar",
+  "previous": {
+    "title": "二分木 (Binary Tree)",
+    "permalink": "/docs/data-structure/ツリー構造/binary_tree"
+  },
+  "next": {
+    "title": "平衡二分探索木 (Balanced BST)",
+    "permalink": "/docs/data-structure/ツリー構造/balanced_bst"
+  }
+}

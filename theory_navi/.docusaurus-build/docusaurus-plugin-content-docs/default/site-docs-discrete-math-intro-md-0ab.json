@@ -1,0 +1,19 @@
+{
+  "id": "discrete-math/intro",
+  "title": "離散数学・情報理論",
+  "description": "命題論理・集合論・グラフ理論・確率論・情報理論・符号理論を体系的に解説します。",
+  "source": "@site/docs/discrete-math/intro.md",
+  "sourceDirName": "discrete-math",
+  "slug": "/discrete-math/intro",
+  "permalink": "/docs/discrete-math/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "discreteMathSidebar",
+  "next": {
+    "title": "命題論理と述語論理",
+    "permalink": "/docs/discrete-math/離散数学/propositional_logic"
+  }
+}

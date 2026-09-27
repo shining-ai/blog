@@ -1,0 +1,217 @@
+{
+  "/markdown-page-3d7": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "393be207"
+  },
+  "/docs-c1c": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/docs-946": {
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
+  },
+  "/docs-b2e": {
+    "__comp": "a94703ab"
+  },
+  "/docs/computability-theory/intro-98a": {
+    "__comp": "17896441",
+    "content": "d7106340"
+  },
+  "/docs/computability-theory/オートマトン理論/cfg-fe1": {
+    "__comp": "17896441",
+    "content": "ca93445b"
+  },
+  "/docs/computability-theory/オートマトン理論/cyk-dfc": {
+    "__comp": "17896441",
+    "content": "260cca8a"
+  },
+  "/docs/computability-theory/オートマトン理論/dfa-833": {
+    "__comp": "17896441",
+    "content": "2499a15a"
+  },
+  "/docs/computability-theory/オートマトン理論/dfa_minimization-4c2": {
+    "__comp": "17896441",
+    "content": "479716b2"
+  },
+  "/docs/computability-theory/オートマトン理論/nfa-f2c": {
+    "__comp": "17896441",
+    "content": "ee7c2314"
+  },
+  "/docs/computability-theory/オートマトン理論/nfa_to_dfa-f0e": {
+    "__comp": "17896441",
+    "content": "ab9be12f"
+  },
+  "/docs/computability-theory/オートマトン理論/pda-267": {
+    "__comp": "17896441",
+    "content": "00d061df"
+  },
+  "/docs/computability-theory/オートマトン理論/pumping_lemma_cfl-05f": {
+    "__comp": "17896441",
+    "content": "5e201da8"
+  },
+  "/docs/computability-theory/オートマトン理論/pumping_lemma_regular-033": {
+    "__comp": "17896441",
+    "content": "bc776903"
+  },
+  "/docs/computability-theory/オートマトン理論/regular_expressions-526": {
+    "__comp": "17896441",
+    "content": "fdac44c2"
+  },
+  "/docs/computability-theory/チューリング機械と計算可能性/decidable_problems-009": {
+    "__comp": "17896441",
+    "content": "d4c3b1a6"
+  },
+  "/docs/computability-theory/チューリング機械と計算可能性/halting_problem-915": {
+    "__comp": "17896441",
+    "content": "aa646cbb"
+  },
+  "/docs/computability-theory/チューリング機械と計算可能性/lambda_calculus-4d6": {
+    "__comp": "17896441",
+    "content": "0a3f8467"
+  },
+  "/docs/computability-theory/チューリング機械と計算可能性/multitape_ndtm-732": {
+    "__comp": "17896441",
+    "content": "cde9cc00"
+  },
+  "/docs/computability-theory/チューリング機械と計算可能性/reduction-af5": {
+    "__comp": "17896441",
+    "content": "51565c48"
+  },
+  "/docs/computability-theory/チューリング機械と計算可能性/rice_theorem-ef9": {
+    "__comp": "17896441",
+    "content": "c8aa5825"
+  },
+  "/docs/computability-theory/チューリング機械と計算可能性/turing_machine-86a": {
+    "__comp": "17896441",
+    "content": "2177e75a"
+  },
+  "/docs/computability-theory/チューリング機械と計算可能性/universal_tm-e84": {
+    "__comp": "17896441",
+    "content": "54d29070"
+  },
+  "/docs/computability-theory/計算量理論/approximation-c58": {
+    "__comp": "17896441",
+    "content": "dd5b7328"
+  },
+  "/docs/computability-theory/計算量理論/class_np-04a": {
+    "__comp": "17896441",
+    "content": "bcd1cf7b"
+  },
+  "/docs/computability-theory/計算量理論/class_p-256": {
+    "__comp": "17896441",
+    "content": "3a803c14"
+  },
+  "/docs/computability-theory/計算量理論/complexity_basics-369": {
+    "__comp": "17896441",
+    "content": "55458d1b"
+  },
+  "/docs/computability-theory/計算量理論/cook_levin-26e": {
+    "__comp": "17896441",
+    "content": "cf2743b1"
+  },
+  "/docs/computability-theory/計算量理論/np_complete_problems-e1c": {
+    "__comp": "17896441",
+    "content": "47677105"
+  },
+  "/docs/computability-theory/計算量理論/np_hard_complete-027": {
+    "__comp": "17896441",
+    "content": "2e5ec68b"
+  },
+  "/docs/computability-theory/計算量理論/p_np_problem-95b": {
+    "__comp": "17896441",
+    "content": "8701c1b1"
+  },
+  "/docs/computability-theory/計算量理論/pspace_exp-bc0": {
+    "__comp": "17896441",
+    "content": "57d58cc4"
+  },
+  "/docs/computability-theory/計算量理論/randomized-e35": {
+    "__comp": "17896441",
+    "content": "6944756b"
+  },
+  "/docs/discrete-math/intro-13e": {
+    "__comp": "17896441",
+    "content": "0abca0d6"
+  },
+  "/docs/discrete-math/情報理論と符号理論/arithmetic_coding-069": {
+    "__comp": "17896441",
+    "content": "5da45c17"
+  },
+  "/docs/discrete-math/情報理論と符号理論/channel_coding-650": {
+    "__comp": "17896441",
+    "content": "289d5354"
+  },
+  "/docs/discrete-math/情報理論と符号理論/hamming_code-8c8": {
+    "__comp": "17896441",
+    "content": "a64c0865"
+  },
+  "/docs/discrete-math/情報理論と符号理論/huffman_coding-569": {
+    "__comp": "17896441",
+    "content": "13994610"
+  },
+  "/docs/discrete-math/情報理論と符号理論/mutual_information-519": {
+    "__comp": "17896441",
+    "content": "1339cc07"
+  },
+  "/docs/discrete-math/情報理論と符号理論/shannon_entropy-6f0": {
+    "__comp": "17896441",
+    "content": "a589b35c"
+  },
+  "/docs/discrete-math/情報理論と符号理論/source_coding-57b": {
+    "__comp": "17896441",
+    "content": "636c83cf"
+  },
+  "/docs/discrete-math/離散数学/combinatorics-6b4": {
+    "__comp": "17896441",
+    "content": "270e832c"
+  },
+  "/docs/discrete-math/離散数学/generating_functions-1a1": {
+    "__comp": "17896441",
+    "content": "a9a7787a"
+  },
+  "/docs/discrete-math/離散数学/graph_theory_basics-df9": {
+    "__comp": "17896441",
+    "content": "af180d07"
+  },
+  "/docs/discrete-math/離散数学/induction_recursion-c4e": {
+    "__comp": "17896441",
+    "content": "79bebd33"
+  },
+  "/docs/discrete-math/離散数学/number_theory-5f0": {
+    "__comp": "17896441",
+    "content": "b97d7a00"
+  },
+  "/docs/discrete-math/離散数学/planar_graph_coloring-89f": {
+    "__comp": "17896441",
+    "content": "9c949359"
+  },
+  "/docs/discrete-math/離散数学/probability_basics-316": {
+    "__comp": "17896441",
+    "content": "b3db4c32"
+  },
+  "/docs/discrete-math/離散数学/propositional_logic-740": {
+    "__comp": "17896441",
+    "content": "d2b8c8b1"
+  },
+  "/docs/discrete-math/離散数学/relations_functions-a53": {
+    "__comp": "17896441",
+    "content": "91bf4bbb"
+  },
+  "/docs/discrete-math/離散数学/set_theory-918": {
+    "__comp": "17896441",
+    "content": "7cf5e94a"
+  },
+  "/-e5f": {
+    "__comp": "1df93b7f",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

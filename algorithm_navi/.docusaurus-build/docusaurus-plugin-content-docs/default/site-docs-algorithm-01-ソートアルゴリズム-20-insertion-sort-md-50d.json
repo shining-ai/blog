@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/ソートアルゴリズム/insertion_sort",
+  "title": "挿入ソート (Insertion Sort)",
+  "description": "挿入ソートとは",
+  "source": "@site/docs/algorithm/01_ソートアルゴリズム/20_insertion_sort.md",
+  "sourceDirName": "algorithm/01_ソートアルゴリズム",
+  "slug": "/algorithm/ソートアルゴリズム/insertion_sort",
+  "permalink": "/docs/algorithm/ソートアルゴリズム/insertion_sort",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "選択ソート (Selection Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/selection_sort"
+  },
+  "next": {
+    "title": "マージソート (Merge Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/merge_sort"
+  }
+}

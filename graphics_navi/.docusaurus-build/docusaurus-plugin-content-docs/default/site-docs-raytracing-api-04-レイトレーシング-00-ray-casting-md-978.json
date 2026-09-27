@@ -1,0 +1,24 @@
+{
+  "id": "raytracing-api/レイトレーシング/ray_casting",
+  "title": "レイトレーシングの基礎（レイキャスティング）",
+  "description": "レイキャスティングとは",
+  "source": "@site/docs/raytracing-api/04_レイトレーシング/00_ray_casting.md",
+  "sourceDirName": "raytracing-api/04_レイトレーシング",
+  "slug": "/raytracing-api/レイトレーシング/ray_casting",
+  "permalink": "/docs/raytracing-api/レイトレーシング/ray_casting",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "rayTracingApiSidebar",
+  "previous": {
+    "title": "レイトレーシング・API・アニメーション",
+    "permalink": "/docs/raytracing-api/intro"
+  },
+  "next": {
+    "title": "反射・屈折・影の計算",
+    "permalink": "/docs/raytracing-api/レイトレーシング/reflection_refraction"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "design-patterns/設計原則/isp",
+  "title": "SOLID原則 I: インタフェース分離の原則（ISP）",
+  "description": "インタフェース分離の原則とは",
+  "source": "@site/docs/design-patterns/00_設計原則/30_isp.md",
+  "sourceDirName": "design-patterns/00_設計原則",
+  "slug": "/design-patterns/設計原則/isp",
+  "permalink": "/docs/design-patterns/設計原則/isp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "designPatternsSidebar",
+  "previous": {
+    "title": "SOLID原則 L: リスコフ置換の原則（LSP）",
+    "permalink": "/docs/design-patterns/設計原則/lsp"
+  },
+  "next": {
+    "title": "SOLID原則 D: 依存性逆転の原則（DIP）",
+    "permalink": "/docs/design-patterns/設計原則/dip"
+  }
+}

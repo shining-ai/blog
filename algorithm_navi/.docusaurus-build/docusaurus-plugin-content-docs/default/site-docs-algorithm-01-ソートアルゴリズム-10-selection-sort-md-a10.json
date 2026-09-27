@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/ソートアルゴリズム/selection_sort",
+  "title": "選択ソート (Selection Sort)",
+  "description": "選択ソートとは",
+  "source": "@site/docs/algorithm/01_ソートアルゴリズム/10_selection_sort.md",
+  "sourceDirName": "algorithm/01_ソートアルゴリズム",
+  "slug": "/algorithm/ソートアルゴリズム/selection_sort",
+  "permalink": "/docs/algorithm/ソートアルゴリズム/selection_sort",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "バブルソート (Bubble Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/bubble_sort"
+  },
+  "next": {
+    "title": "挿入ソート (Insertion Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/insertion_sort"
+  }
+}

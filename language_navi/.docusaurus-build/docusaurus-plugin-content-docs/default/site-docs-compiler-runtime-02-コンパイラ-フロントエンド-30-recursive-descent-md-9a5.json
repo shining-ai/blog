@@ -1,0 +1,24 @@
+{
+  "id": "compiler-runtime/コンパイラ_フロントエンド/recursive_descent",
+  "title": "再帰下降パーサの実装",
+  "description": "再帰下降パーサとは",
+  "source": "@site/docs/compiler-runtime/02_コンパイラ_フロントエンド/30_recursive_descent.md",
+  "sourceDirName": "compiler-runtime/02_コンパイラ_フロントエンド",
+  "slug": "/compiler-runtime/コンパイラ_フロントエンド/recursive_descent",
+  "permalink": "/docs/compiler-runtime/コンパイラ_フロントエンド/recursive_descent",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "compilerRuntimeSidebar",
+  "previous": {
+    "title": "構文解析の概要（BNF・EBNF）",
+    "permalink": "/docs/compiler-runtime/コンパイラ_フロントエンド/parser_overview"
+  },
+  "next": {
+    "title": "LR 解析（SLR・LALR・LR(1)）",
+    "permalink": "/docs/compiler-runtime/コンパイラ_フロントエンド/lr_parsing"
+  }
+}

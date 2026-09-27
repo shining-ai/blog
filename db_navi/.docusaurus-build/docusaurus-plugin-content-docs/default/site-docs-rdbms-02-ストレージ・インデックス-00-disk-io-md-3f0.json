@@ -1,0 +1,24 @@
+{
+  "id": "rdbms/ストレージ・インデックス/disk_io",
+  "title": "ディスク I/O とストレージエンジン",
+  "description": "ディスク I/O とストレージエンジンとは",
+  "source": "@site/docs/rdbms/02_ストレージ・インデックス/00_disk_io.md",
+  "sourceDirName": "rdbms/02_ストレージ・インデックス",
+  "slug": "/rdbms/ストレージ・インデックス/disk_io",
+  "permalink": "/docs/rdbms/ストレージ・インデックス/disk_io",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "rdbmsSidebar",
+  "previous": {
+    "title": "インデックス設計の考え方",
+    "permalink": "/docs/rdbms/データベース設計/index_design"
+  },
+  "next": {
+    "title": "B木とB+木インデックス",
+    "permalink": "/docs/rdbms/ストレージ・インデックス/btree_index"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/並列アルゴリズム/parallel_sort",
+  "title": "並列ソート (Parallel Sort)",
+  "description": "並列ソートとは",
+  "source": "@site/docs/algorithm/08_並列アルゴリズム/00_parallel_sort.md",
+  "sourceDirName": "algorithm/08_並列アルゴリズム",
+  "slug": "/algorithm/並列アルゴリズム/parallel_sort",
+  "permalink": "/docs/algorithm/並列アルゴリズム/parallel_sort",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "遺伝的アルゴリズム (Genetic Algorithm)",
+    "permalink": "/docs/algorithm/最適化/genetic_algorithm"
+  },
+  "next": {
+    "title": "MapReduce",
+    "permalink": "/docs/algorithm/並列アルゴリズム/mapreduce"
+  }
+}

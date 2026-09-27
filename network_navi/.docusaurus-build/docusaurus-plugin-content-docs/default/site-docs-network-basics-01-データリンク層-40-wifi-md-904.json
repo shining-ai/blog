@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/データリンク層/wifi",
+  "title": "Wi-Fi（IEEE 802.11）の仕組み",
+  "description": "Wi-Fi とは",
+  "source": "@site/docs/network-basics/01_データリンク層/40_wifi.md",
+  "sourceDirName": "network-basics/01_データリンク層",
+  "slug": "/network-basics/データリンク層/wifi",
+  "permalink": "/docs/network-basics/データリンク層/wifi",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {
+    "title": "Wi-Fi（IEEE 802.11）の仕組み"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "VLAN",
+    "permalink": "/docs/network-basics/データリンク層/vlan"
+  },
+  "next": {
+    "title": "CSMA/CD と CSMA/CA",
+    "permalink": "/docs/network-basics/データリンク層/csma"
+  }
+}

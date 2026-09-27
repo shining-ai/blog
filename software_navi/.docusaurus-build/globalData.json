@@ -1,0 +1,304 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "design-patterns/intro",
+          "docs": [
+            {
+              "id": "architecture-engineering/API設計/api_versioning",
+              "path": "/docs/architecture-engineering/API設計/api_versioning",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/API設計/backward_compatibility",
+              "path": "/docs/architecture-engineering/API設計/backward_compatibility",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/API設計/graphql",
+              "path": "/docs/architecture-engineering/API設計/graphql",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/API設計/grpc",
+              "path": "/docs/architecture-engineering/API設計/grpc",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/API設計/openapi",
+              "path": "/docs/architecture-engineering/API設計/openapi",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/API設計/restful",
+              "path": "/docs/architecture-engineering/API設計/restful",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/intro",
+              "path": "/docs/architecture-engineering/intro",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/ソフトウェアアーキテクチャ/clean_architecture",
+              "path": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/clean_architecture",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/ソフトウェアアーキテクチャ/cqrs_es",
+              "path": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/cqrs_es",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/ソフトウェアアーキテクチャ/ddd",
+              "path": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/ddd",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/ソフトウェアアーキテクチャ/hexagonal",
+              "path": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/hexagonal",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/ソフトウェアアーキテクチャ/layered",
+              "path": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/layered",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/ソフトウェアアーキテクチャ/monolith_vs_microservices",
+              "path": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/monolith_vs_microservices",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/テスト/bdd",
+              "path": "/docs/architecture-engineering/テスト/bdd",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/テスト/coverage",
+              "path": "/docs/architecture-engineering/テスト/coverage",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/テスト/mocks",
+              "path": "/docs/architecture-engineering/テスト/mocks",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/テスト/performance_testing",
+              "path": "/docs/architecture-engineering/テスト/performance_testing",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/テスト/property_testing",
+              "path": "/docs/architecture-engineering/テスト/property_testing",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/テスト/tdd",
+              "path": "/docs/architecture-engineering/テスト/tdd",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/テスト/test_types",
+              "path": "/docs/architecture-engineering/テスト/test_types",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/開発プロセス・チーム開発/adr",
+              "path": "/docs/architecture-engineering/開発プロセス・チーム開発/adr",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/開発プロセス・チーム開発/agile_scrum",
+              "path": "/docs/architecture-engineering/開発プロセス・チーム開発/agile_scrum",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/開発プロセス・チーム開発/branch_strategy",
+              "path": "/docs/architecture-engineering/開発プロセス・チーム開発/branch_strategy",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/開発プロセス・チーム開発/cicd",
+              "path": "/docs/architecture-engineering/開発プロセス・チーム開発/cicd",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/開発プロセス・チーム開発/code_review",
+              "path": "/docs/architecture-engineering/開発プロセス・チーム開発/code_review",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/開発プロセス・チーム開発/git_internals",
+              "path": "/docs/architecture-engineering/開発プロセス・チーム開発/git_internals",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "architecture-engineering/開発プロセス・チーム開発/refactoring",
+              "path": "/docs/architecture-engineering/開発プロセス・チーム開発/refactoring",
+              "sidebar": "architectureEngineeringSidebar"
+            },
+            {
+              "id": "design-patterns/intro",
+              "path": "/docs/design-patterns/intro",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/abstract_factory",
+              "path": "/docs/design-patterns/デザインパターン_GoF/abstract_factory",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/adapter",
+              "path": "/docs/design-patterns/デザインパターン_GoF/adapter",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/bridge",
+              "path": "/docs/design-patterns/デザインパターン_GoF/bridge",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/builder",
+              "path": "/docs/design-patterns/デザインパターン_GoF/builder",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/chain_of_responsibility",
+              "path": "/docs/design-patterns/デザインパターン_GoF/chain_of_responsibility",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/command",
+              "path": "/docs/design-patterns/デザインパターン_GoF/command",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/composite",
+              "path": "/docs/design-patterns/デザインパターン_GoF/composite",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/decorator",
+              "path": "/docs/design-patterns/デザインパターン_GoF/decorator",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/facade",
+              "path": "/docs/design-patterns/デザインパターン_GoF/facade",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/factory_method",
+              "path": "/docs/design-patterns/デザインパターン_GoF/factory_method",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/iterator",
+              "path": "/docs/design-patterns/デザインパターン_GoF/iterator",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/observer",
+              "path": "/docs/design-patterns/デザインパターン_GoF/observer",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/prototype",
+              "path": "/docs/design-patterns/デザインパターン_GoF/prototype",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/proxy",
+              "path": "/docs/design-patterns/デザインパターン_GoF/proxy",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/singleton",
+              "path": "/docs/design-patterns/デザインパターン_GoF/singleton",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/state",
+              "path": "/docs/design-patterns/デザインパターン_GoF/state",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/strategy",
+              "path": "/docs/design-patterns/デザインパターン_GoF/strategy",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/デザインパターン_GoF/template_method",
+              "path": "/docs/design-patterns/デザインパターン_GoF/template_method",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/設計原則/clean_code",
+              "path": "/docs/design-patterns/設計原則/clean_code",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/設計原則/cohesion_coupling",
+              "path": "/docs/design-patterns/設計原則/cohesion_coupling",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/設計原則/dip",
+              "path": "/docs/design-patterns/設計原則/dip",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/設計原則/dry_kiss_yagni",
+              "path": "/docs/design-patterns/設計原則/dry_kiss_yagni",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/設計原則/isp",
+              "path": "/docs/design-patterns/設計原則/isp",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/設計原則/lsp",
+              "path": "/docs/design-patterns/設計原則/lsp",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/設計原則/ocp",
+              "path": "/docs/design-patterns/設計原則/ocp",
+              "sidebar": "designPatternsSidebar"
+            },
+            {
+              "id": "design-patterns/設計原則/srp",
+              "path": "/docs/design-patterns/設計原則/srp",
+              "sidebar": "designPatternsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "designPatternsSidebar": {
+              "link": {
+                "path": "/docs/design-patterns/intro",
+                "label": "設計原則・デザインパターン"
+              }
+            },
+            "architectureEngineeringSidebar": {
+              "link": {
+                "path": "/docs/architecture-engineering/intro",
+                "label": "アーキテクチャ・開発プロセス"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

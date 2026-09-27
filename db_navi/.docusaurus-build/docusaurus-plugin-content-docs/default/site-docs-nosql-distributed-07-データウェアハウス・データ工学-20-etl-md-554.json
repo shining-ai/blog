@@ -1,0 +1,24 @@
+{
+  "id": "nosql-distributed/データウェアハウス・データ工学/etl",
+  "title": "ETL パイプラインの設計",
+  "description": "ETL とは",
+  "source": "@site/docs/nosql-distributed/07_データウェアハウス・データ工学/20_etl.md",
+  "sourceDirName": "nosql-distributed/07_データウェアハウス・データ工学",
+  "slug": "/nosql-distributed/データウェアハウス・データ工学/etl",
+  "permalink": "/docs/nosql-distributed/データウェアハウス・データ工学/etl",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "nosqlDistributedSidebar",
+  "previous": {
+    "title": "スタースキーマとスノーフレークスキーマ",
+    "permalink": "/docs/nosql-distributed/データウェアハウス・データ工学/star_schema"
+  },
+  "next": {
+    "title": "データレイクとデータレイクハウス",
+    "permalink": "/docs/nosql-distributed/データウェアハウス・データ工学/data_lake"
+  }
+}

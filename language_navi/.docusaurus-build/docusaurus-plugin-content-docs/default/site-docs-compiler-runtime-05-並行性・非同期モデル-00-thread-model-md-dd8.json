@@ -1,0 +1,24 @@
+{
+  "id": "compiler-runtime/並行性・非同期モデル/thread_model",
+  "title": "スレッドモデルと共有メモリ",
+  "description": "スレッドモデルとは",
+  "source": "@site/docs/compiler-runtime/05_並行性・非同期モデル/00_thread_model.md",
+  "sourceDirName": "compiler-runtime/05_並行性・非同期モデル",
+  "slug": "/compiler-runtime/並行性・非同期モデル/thread_model",
+  "permalink": "/docs/compiler-runtime/並行性・非同期モデル/thread_model",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "compilerRuntimeSidebar",
+  "previous": {
+    "title": "仮想マシン（JVM・CPython・V8）の概要",
+    "permalink": "/docs/compiler-runtime/ランタイムとメモリ管理/vms"
+  },
+  "next": {
+    "title": "アクターモデル（Erlang・Akka）",
+    "permalink": "/docs/compiler-runtime/並行性・非同期モデル/actor_model"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "distributed-systems/マイクロサービスパターン/service_mesh",
+  "title": "サービスメッシュ（Istio・Envoy）",
+  "description": "サービスメッシュとは",
+  "source": "@site/docs/distributed-systems/04_マイクロサービスパターン/20_service_mesh.md",
+  "sourceDirName": "distributed-systems/04_マイクロサービスパターン",
+  "slug": "/distributed-systems/マイクロサービスパターン/service_mesh",
+  "permalink": "/docs/distributed-systems/マイクロサービスパターン/service_mesh",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "distributedSystemsSidebar",
+  "previous": {
+    "title": "API ゲートウェイ",
+    "permalink": "/docs/distributed-systems/マイクロサービスパターン/api_gateway"
+  },
+  "next": {
+    "title": "サービスディスカバリ",
+    "permalink": "/docs/distributed-systems/マイクロサービスパターン/service_discovery"
+  }
+}

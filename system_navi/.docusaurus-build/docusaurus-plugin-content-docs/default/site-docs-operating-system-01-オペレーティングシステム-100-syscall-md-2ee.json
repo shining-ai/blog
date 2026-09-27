@@ -1,0 +1,27 @@
+{
+  "id": "operating-system/オペレーティングシステム/syscall",
+  "title": "システムコールの仕組み (System Call Mechanism)",
+  "description": "システムコールとは",
+  "source": "@site/docs/operating-system/01_オペレーティングシステム/100_syscall.md",
+  "sourceDirName": "operating-system/01_オペレーティングシステム",
+  "slug": "/operating-system/オペレーティングシステム/syscall",
+  "permalink": "/docs/operating-system/オペレーティングシステム/syscall",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "displayed_sidebar": "operatingSystemSidebar"
+  },
+  "sidebar": "operatingSystemSidebar",
+  "previous": {
+    "title": "I/O サブシステムとデバイスドライバ (I/O Subsystem & Device Drivers)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/io"
+  },
+  "next": {
+    "title": "シグナルと例外処理 (Signals & Exception Handling)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/signal"
+  }
+}

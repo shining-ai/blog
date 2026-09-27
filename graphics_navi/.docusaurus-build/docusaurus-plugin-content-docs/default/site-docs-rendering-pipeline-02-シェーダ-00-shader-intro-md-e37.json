@@ -1,0 +1,24 @@
+{
+  "id": "rendering-pipeline/シェーダ/shader_intro",
+  "title": "シェーダとは・GLSL の基本",
+  "description": "シェーダとは",
+  "source": "@site/docs/rendering-pipeline/02_シェーダ/00_shader_intro.md",
+  "sourceDirName": "rendering-pipeline/02_シェーダ",
+  "slug": "/rendering-pipeline/シェーダ/shader_intro",
+  "permalink": "/docs/rendering-pipeline/シェーダ/shader_intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "アンチエイリアシング",
+    "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/antialiasing"
+  },
+  "next": {
+    "title": "頂点シェーダの実装",
+    "permalink": "/docs/rendering-pipeline/シェーダ/vertex_shader"
+  }
+}

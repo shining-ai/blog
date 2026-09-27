@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/ネットワーク層/ipv4_header",
+  "title": "IPv4 ヘッダの構造",
+  "description": "IPv4 ヘッダとは",
+  "source": "@site/docs/network-basics/02_ネットワーク層/10_ipv4_header.md",
+  "sourceDirName": "network-basics/02_ネットワーク層",
+  "slug": "/network-basics/ネットワーク層/ipv4_header",
+  "permalink": "/docs/network-basics/ネットワーク層/ipv4_header",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "IPv4 ヘッダの構造"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "IP アドレスとサブネットマスク",
+    "permalink": "/docs/network-basics/ネットワーク層/ip_address"
+  },
+  "next": {
+    "title": "IPv6 の概要と移行",
+    "permalink": "/docs/network-basics/ネットワーク層/ipv6"
+  }
+}

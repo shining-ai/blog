@@ -1,0 +1,24 @@
+{
+  "id": "binary-sec-dev/バイナリ・低レイヤセキュリティ/heap_bof",
+  "title": "ヒープオーバーフロー（原理と防御機構）",
+  "description": "ヒープオーバーフローとは",
+  "source": "@site/docs/binary-sec-dev/04_バイナリ・低レイヤセキュリティ/10_heap_bof.md",
+  "sourceDirName": "binary-sec-dev/04_バイナリ・低レイヤセキュリティ",
+  "slug": "/binary-sec-dev/バイナリ・低レイヤセキュリティ/heap_bof",
+  "permalink": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/heap_bof",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "binarySecDevSidebar",
+  "previous": {
+    "title": "スタックバッファオーバーフロー（原理と防御機構の解説）",
+    "permalink": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/stack_bof"
+  },
+  "next": {
+    "title": "Return-Oriented Programming（ROP）の概念と防御",
+    "permalink": "/docs/binary-sec-dev/バイナリ・低レイヤセキュリティ/rop"
+  }
+}

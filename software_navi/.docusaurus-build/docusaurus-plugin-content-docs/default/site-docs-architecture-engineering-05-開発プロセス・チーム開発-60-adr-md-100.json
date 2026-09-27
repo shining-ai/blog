@@ -1,0 +1,20 @@
+{
+  "id": "architecture-engineering/開発プロセス・チーム開発/adr",
+  "title": "ドキュメント駆動開発（ADR）",
+  "description": "ADR とは",
+  "source": "@site/docs/architecture-engineering/05_開発プロセス・チーム開発/60_adr.md",
+  "sourceDirName": "architecture-engineering/05_開発プロセス・チーム開発",
+  "slug": "/architecture-engineering/開発プロセス・チーム開発/adr",
+  "permalink": "/docs/architecture-engineering/開発プロセス・チーム開発/adr",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 60,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "アジャイル・スクラムの実践",
+    "permalink": "/docs/architecture-engineering/開発プロセス・チーム開発/agile_scrum"
+  }
+}

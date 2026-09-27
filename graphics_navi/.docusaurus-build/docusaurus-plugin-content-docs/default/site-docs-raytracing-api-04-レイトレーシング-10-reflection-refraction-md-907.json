@@ -1,0 +1,24 @@
+{
+  "id": "raytracing-api/レイトレーシング/reflection_refraction",
+  "title": "反射・屈折・影の計算",
+  "description": "反射・屈折・影とは",
+  "source": "@site/docs/raytracing-api/04_レイトレーシング/10_reflection_refraction.md",
+  "sourceDirName": "raytracing-api/04_レイトレーシング",
+  "slug": "/raytracing-api/レイトレーシング/reflection_refraction",
+  "permalink": "/docs/raytracing-api/レイトレーシング/reflection_refraction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "rayTracingApiSidebar",
+  "previous": {
+    "title": "レイトレーシングの基礎（レイキャスティング）",
+    "permalink": "/docs/raytracing-api/レイトレーシング/ray_casting"
+  },
+  "next": {
+    "title": "BVH（バウンディングボリューム階層）による高速化",
+    "permalink": "/docs/raytracing-api/レイトレーシング/bvh"
+  }
+}

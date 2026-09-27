@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/プロセッサアーキテクチャ/branch_prediction",
+  "title": "分岐予測 (Branch Prediction)",
+  "description": "分岐予測とは",
+  "source": "@site/docs/computer-architecture/03_プロセッサアーキテクチャ/40_branch_prediction.md",
+  "sourceDirName": "computer-architecture/03_プロセッサアーキテクチャ",
+  "slug": "/computer-architecture/プロセッサアーキテクチャ/branch_prediction",
+  "permalink": "/docs/computer-architecture/プロセッサアーキテクチャ/branch_prediction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "命令実行サイクル (Instruction Cycle)",
+    "permalink": "/docs/computer-architecture/プロセッサアーキテクチャ/instruction_cycle"
+  },
+  "next": {
+    "title": "スーパースカラとアウトオブオーダー実行 (Superscalar & OoO)",
+    "permalink": "/docs/computer-architecture/プロセッサアーキテクチャ/superscalar"
+  }
+}

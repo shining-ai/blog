@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/ソートアルゴリズム/heap_sort",
+  "title": "ヒープソート (Heap Sort)",
+  "description": "ヒープソートとは",
+  "source": "@site/docs/algorithm/01_ソートアルゴリズム/50_heap_sort.md",
+  "sourceDirName": "algorithm/01_ソートアルゴリズム",
+  "slug": "/algorithm/ソートアルゴリズム/heap_sort",
+  "permalink": "/docs/algorithm/ソートアルゴリズム/heap_sort",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "クイックソート (Quick Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/quick_sort"
+  },
+  "next": {
+    "title": "計数ソート (Counting Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/counting_sort"
+  }
+}

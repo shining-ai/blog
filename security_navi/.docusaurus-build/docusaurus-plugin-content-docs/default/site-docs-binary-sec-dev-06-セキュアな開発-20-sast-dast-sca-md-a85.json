@@ -1,0 +1,24 @@
+{
+  "id": "binary-sec-dev/セキュアな開発/sast_dast_sca",
+  "title": "SAST・DAST・SCA ツール",
+  "description": "SAST・DAST・SCA とは",
+  "source": "@site/docs/binary-sec-dev/06_セキュアな開発/20_sast_dast_sca.md",
+  "sourceDirName": "binary-sec-dev/06_セキュアな開発",
+  "slug": "/binary-sec-dev/セキュアな開発/sast_dast_sca",
+  "permalink": "/docs/binary-sec-dev/セキュアな開発/sast_dast_sca",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "binarySecDevSidebar",
+  "previous": {
+    "title": "脅威モデリング（STRIDE）",
+    "permalink": "/docs/binary-sec-dev/セキュアな開発/threat_modeling"
+  },
+  "next": {
+    "title": "依存関係の脆弱性管理（SCA）",
+    "permalink": "/docs/binary-sec-dev/セキュアな開発/dependency_vuln"
+  }
+}

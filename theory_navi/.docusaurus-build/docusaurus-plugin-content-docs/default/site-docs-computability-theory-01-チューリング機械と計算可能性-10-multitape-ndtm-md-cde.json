@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/チューリング機械と計算可能性/multitape_ndtm",
+  "title": "多テープ TM と非決定性 TM",
+  "description": "多テープ TM と非決定性 TM とは",
+  "source": "@site/docs/computability-theory/01_チューリング機械と計算可能性/10_multitape_ndtm.md",
+  "sourceDirName": "computability-theory/01_チューリング機械と計算可能性",
+  "slug": "/computability-theory/チューリング機械と計算可能性/multitape_ndtm",
+  "permalink": "/docs/computability-theory/チューリング機械と計算可能性/multitape_ndtm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "チューリング機械の定義",
+    "permalink": "/docs/computability-theory/チューリング機械と計算可能性/turing_machine"
+  },
+  "next": {
+    "title": "万能チューリング機械",
+    "permalink": "/docs/computability-theory/チューリング機械と計算可能性/universal_tm"
+  }
+}

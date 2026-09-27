@@ -1,0 +1,19 @@
+{
+  "id": "container-cloud/intro",
+  "title": "コンテナ・クラウド基礎",
+  "description": "Docker・Kubernetes・IaC・サーバレスまで、コンテナ技術とクラウド基礎を体系的に解説します。",
+  "source": "@site/docs/container-cloud/intro.md",
+  "sourceDirName": "container-cloud",
+  "slug": "/container-cloud/intro",
+  "permalink": "/docs/container-cloud/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "containerCloudSidebar",
+  "next": {
+    "title": "仮想化の仕組み（ハイパーバイザー・KVM）",
+    "permalink": "/docs/container-cloud/仮想化とコンテナ/virtualization"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/プロセッサアーキテクチャ/riscv",
+  "title": "RISC-V 入門 (RISC-V)",
+  "description": "RISC-V とは",
+  "source": "@site/docs/computer-architecture/03_プロセッサアーキテクチャ/70_riscv.md",
+  "sourceDirName": "computer-architecture/03_プロセッサアーキテクチャ",
+  "slug": "/computer-architecture/プロセッサアーキテクチャ/riscv",
+  "permalink": "/docs/computer-architecture/プロセッサアーキテクチャ/riscv",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "x86-64 アセンブリ入門 (x86-64 Assembly)",
+    "permalink": "/docs/computer-architecture/プロセッサアーキテクチャ/x86_64"
+  },
+  "next": {
+    "title": "メモリ階層 (Memory Hierarchy)",
+    "permalink": "/docs/computer-architecture/メモリ階層/memory_hierarchy"
+  }
+}

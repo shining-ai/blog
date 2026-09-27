@@ -1,0 +1,24 @@
+{
+  "id": "architecture-engineering/API設計/openapi",
+  "title": "OpenAPI / Swagger",
+  "description": "OpenAPIとは",
+  "source": "@site/docs/architecture-engineering/04_API設計/10_openapi.md",
+  "sourceDirName": "architecture-engineering/04_API設計",
+  "slug": "/architecture-engineering/API設計/openapi",
+  "permalink": "/docs/architecture-engineering/API設計/openapi",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "previous": {
+    "title": "RESTful API 設計原則",
+    "permalink": "/docs/architecture-engineering/API設計/restful"
+  },
+  "next": {
+    "title": "GraphQL の設計",
+    "permalink": "/docs/architecture-engineering/API設計/graphql"
+  }
+}

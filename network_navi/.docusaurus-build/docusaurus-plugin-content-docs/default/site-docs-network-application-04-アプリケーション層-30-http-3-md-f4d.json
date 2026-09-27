@@ -1,0 +1,26 @@
+{
+  "id": "network-application/アプリケーション層/http3",
+  "title": "HTTP/3（QUIC ベース）",
+  "description": "HTTP/3 とは",
+  "source": "@site/docs/network-application/04_アプリケーション層/30_http3.md",
+  "sourceDirName": "network-application/04_アプリケーション層",
+  "slug": "/network-application/アプリケーション層/http3",
+  "permalink": "/docs/network-application/アプリケーション層/http3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "title": "HTTP/3（QUIC ベース）"
+  },
+  "sidebar": "networkApplicationSidebar",
+  "previous": {
+    "title": "HTTP/2 の多重化とヘッダ圧縮",
+    "permalink": "/docs/network-application/アプリケーション層/http2"
+  },
+  "next": {
+    "title": "HTTPS と TLS ハンドシェイク",
+    "permalink": "/docs/network-application/アプリケーション層/https_tls"
+  }
+}

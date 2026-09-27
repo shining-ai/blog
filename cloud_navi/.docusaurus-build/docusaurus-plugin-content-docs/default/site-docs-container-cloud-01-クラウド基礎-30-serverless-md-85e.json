@@ -1,0 +1,24 @@
+{
+  "id": "container-cloud/クラウド基礎/serverless",
+  "title": "サーバレス（AWS Lambda・Cloud Functions）",
+  "description": "サーバレスとは",
+  "source": "@site/docs/container-cloud/01_クラウド基礎/30_serverless.md",
+  "sourceDirName": "container-cloud/01_クラウド基礎",
+  "slug": "/container-cloud/クラウド基礎/serverless",
+  "permalink": "/docs/container-cloud/クラウド基礎/serverless",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "containerCloudSidebar",
+  "previous": {
+    "title": "Infrastructure as Code（Terraform 入門）",
+    "permalink": "/docs/container-cloud/クラウド基礎/iac_terraform"
+  },
+  "next": {
+    "title": "オブジェクトストレージ（S3 の仕組み）",
+    "permalink": "/docs/container-cloud/クラウド基礎/object_storage"
+  }
+}

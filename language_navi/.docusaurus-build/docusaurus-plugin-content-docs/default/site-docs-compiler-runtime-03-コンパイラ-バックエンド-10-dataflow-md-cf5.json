@@ -1,0 +1,24 @@
+{
+  "id": "compiler-runtime/コンパイラ_バックエンド/dataflow",
+  "title": "データフロー解析",
+  "description": "データフロー解析とは",
+  "source": "@site/docs/compiler-runtime/03_コンパイラ_バックエンド/10_dataflow.md",
+  "sourceDirName": "compiler-runtime/03_コンパイラ_バックエンド",
+  "slug": "/compiler-runtime/コンパイラ_バックエンド/dataflow",
+  "permalink": "/docs/compiler-runtime/コンパイラ_バックエンド/dataflow",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "compilerRuntimeSidebar",
+  "previous": {
+    "title": "中間表現（IR）— 三番地コード・SSA 形式",
+    "permalink": "/docs/compiler-runtime/コンパイラ_バックエンド/ir"
+  },
+  "next": {
+    "title": "最適化（定数畳み込み・デッドコード除去・インライン展開）",
+    "permalink": "/docs/compiler-runtime/コンパイラ_バックエンド/optimization"
+  }
+}

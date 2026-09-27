@@ -1,0 +1,20 @@
+{
+  "id": "rendering-pipeline/ライティングとシェーディング/global_illumination",
+  "title": "グローバルイルミネーション概要",
+  "description": "グローバルイルミネーションとは",
+  "source": "@site/docs/rendering-pipeline/03_ライティングとシェーディング/50_global_illumination.md",
+  "sourceDirName": "rendering-pipeline/03_ライティングとシェーディング",
+  "slug": "/rendering-pipeline/ライティングとシェーディング/global_illumination",
+  "permalink": "/docs/rendering-pipeline/ライティングとシェーディング/global_illumination",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "アンビエントオクルージョン（SSAO）",
+    "permalink": "/docs/rendering-pipeline/ライティングとシェーディング/ssao"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/チューリング機械と計算可能性/universal_tm",
+  "title": "万能チューリング機械",
+  "description": "万能チューリング機械とは",
+  "source": "@site/docs/computability-theory/01_チューリング機械と計算可能性/20_universal_tm.md",
+  "sourceDirName": "computability-theory/01_チューリング機械と計算可能性",
+  "slug": "/computability-theory/チューリング機械と計算可能性/universal_tm",
+  "permalink": "/docs/computability-theory/チューリング機械と計算可能性/universal_tm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "多テープ TM と非決定性 TM",
+    "permalink": "/docs/computability-theory/チューリング機械と計算可能性/multitape_ndtm"
+  },
+  "next": {
+    "title": "決定可能問題と半決定可能問題",
+    "permalink": "/docs/computability-theory/チューリング機械と計算可能性/decidable_problems"
+  }
+}

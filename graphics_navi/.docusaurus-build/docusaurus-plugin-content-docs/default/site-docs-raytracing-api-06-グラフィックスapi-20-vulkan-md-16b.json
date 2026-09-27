@@ -1,0 +1,24 @@
+{
+  "id": "raytracing-api/グラフィックスAPI/vulkan",
+  "title": "Vulkan の設計思想（明示的制御）",
+  "description": "Vulkan とは",
+  "source": "@site/docs/raytracing-api/06_グラフィックスAPI/20_vulkan.md",
+  "sourceDirName": "raytracing-api/06_グラフィックスAPI",
+  "slug": "/raytracing-api/グラフィックスAPI/vulkan",
+  "permalink": "/docs/raytracing-api/グラフィックスAPI/vulkan",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "rayTracingApiSidebar",
+  "previous": {
+    "title": "WebGL によるブラウザレンダリング",
+    "permalink": "/docs/raytracing-api/グラフィックスAPI/webgl"
+  },
+  "next": {
+    "title": "Metal / DirectX 12 の概要",
+    "permalink": "/docs/raytracing-api/グラフィックスAPI/metal_dx12"
+  }
+}

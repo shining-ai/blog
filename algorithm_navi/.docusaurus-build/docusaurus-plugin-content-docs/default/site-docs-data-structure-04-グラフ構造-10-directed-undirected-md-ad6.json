@@ -1,0 +1,24 @@
+{
+  "id": "data-structure/グラフ構造/directed_undirected",
+  "title": "無向グラフ・有向グラフ",
+  "description": "無向グラフ (Undirected Graph)とは",
+  "source": "@site/docs/data-structure/04_グラフ構造/10_directed_undirected.md",
+  "sourceDirName": "data-structure/04_グラフ構造",
+  "slug": "/data-structure/グラフ構造/directed_undirected",
+  "permalink": "/docs/data-structure/グラフ構造/directed_undirected",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "datastructureSidebar",
+  "previous": {
+    "title": "グラフ (Graph)",
+    "permalink": "/docs/data-structure/グラフ構造/graph"
+  },
+  "next": {
+    "title": "重み付きグラフ",
+    "permalink": "/docs/data-structure/グラフ構造/weighted_graph"
+  }
+}

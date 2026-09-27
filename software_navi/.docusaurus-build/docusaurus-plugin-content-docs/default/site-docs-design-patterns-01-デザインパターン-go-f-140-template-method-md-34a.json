@@ -1,0 +1,24 @@
+{
+  "id": "design-patterns/デザインパターン_GoF/template_method",
+  "title": "Template Method パターン",
+  "description": "Template Method とは",
+  "source": "@site/docs/design-patterns/01_デザインパターン_GoF/140_template_method.md",
+  "sourceDirName": "design-patterns/01_デザインパターン_GoF",
+  "slug": "/design-patterns/デザインパターン_GoF/template_method",
+  "permalink": "/docs/design-patterns/デザインパターン_GoF/template_method",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 140,
+  "frontMatter": {},
+  "sidebar": "designPatternsSidebar",
+  "previous": {
+    "title": "Command パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/command"
+  },
+  "next": {
+    "title": "State パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/state"
+  }
+}

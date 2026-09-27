@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/オートマトン理論/pumping_lemma_regular",
+  "title": "正規言語のポンピング補題",
+  "description": "正規言語のポンピング補題とは",
+  "source": "@site/docs/computability-theory/00_オートマトン理論/50_pumping_lemma_regular.md",
+  "sourceDirName": "computability-theory/00_オートマトン理論",
+  "slug": "/computability-theory/オートマトン理論/pumping_lemma_regular",
+  "permalink": "/docs/computability-theory/オートマトン理論/pumping_lemma_regular",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "DFA の最小化",
+    "permalink": "/docs/computability-theory/オートマトン理論/dfa_minimization"
+  },
+  "next": {
+    "title": "プッシュダウンオートマトン（PDA）",
+    "permalink": "/docs/computability-theory/オートマトン理論/pda"
+  }
+}

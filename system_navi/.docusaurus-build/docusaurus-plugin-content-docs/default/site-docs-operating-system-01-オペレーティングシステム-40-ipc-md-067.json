@@ -1,0 +1,27 @@
+{
+  "id": "operating-system/オペレーティングシステム/ipc",
+  "title": "プロセス間通信 (Inter-Process Communication)",
+  "description": "プロセス間通信とは",
+  "source": "@site/docs/operating-system/01_オペレーティングシステム/40_ipc.md",
+  "sourceDirName": "operating-system/01_オペレーティングシステム",
+  "slug": "/operating-system/オペレーティングシステム/ipc",
+  "permalink": "/docs/operating-system/オペレーティングシステム/ipc",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "displayed_sidebar": "operatingSystemSidebar"
+  },
+  "sidebar": "operatingSystemSidebar",
+  "previous": {
+    "title": "コンテキストスイッチ (Context Switch)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/context_switch"
+  },
+  "next": {
+    "title": "競合状態と排他制御 (Race Condition & Synchronization)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/synchronization"
+  }
+}

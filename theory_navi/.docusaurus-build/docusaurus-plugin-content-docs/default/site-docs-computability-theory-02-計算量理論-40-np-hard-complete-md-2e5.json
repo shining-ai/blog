@@ -1,0 +1,24 @@
+{
+  "id": "computability-theory/計算量理論/np_hard_complete",
+  "title": "NP 困難と NP 完全（帰着による定義）",
+  "description": "NP 困難・NP 完全とは",
+  "source": "@site/docs/computability-theory/02_計算量理論/40_np_hard_complete.md",
+  "sourceDirName": "computability-theory/02_計算量理論",
+  "slug": "/computability-theory/計算量理論/np_hard_complete",
+  "permalink": "/docs/computability-theory/計算量理論/np_hard_complete",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "computabilityTheorySidebar",
+  "previous": {
+    "title": "P = NP 問題（計算機科学の未解決問題）",
+    "permalink": "/docs/computability-theory/計算量理論/p_np_problem"
+  },
+  "next": {
+    "title": "Cook-Levin 定理（SAT の NP 完全性）",
+    "permalink": "/docs/computability-theory/計算量理論/cook_levin"
+  }
+}

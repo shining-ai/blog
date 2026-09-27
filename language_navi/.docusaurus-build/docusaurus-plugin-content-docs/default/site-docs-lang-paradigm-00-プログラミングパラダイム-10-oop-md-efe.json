@@ -1,0 +1,24 @@
+{
+  "id": "lang-paradigm/プログラミングパラダイム/oop",
+  "title": "オブジェクト指向プログラミングの4原則",
+  "description": "オブジェクト指向プログラミングとは",
+  "source": "@site/docs/lang-paradigm/00_プログラミングパラダイム/10_oop.md",
+  "sourceDirName": "lang-paradigm/00_プログラミングパラダイム",
+  "slug": "/lang-paradigm/プログラミングパラダイム/oop",
+  "permalink": "/docs/lang-paradigm/プログラミングパラダイム/oop",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "langParadigmSidebar",
+  "previous": {
+    "title": "命令型プログラミング",
+    "permalink": "/docs/lang-paradigm/プログラミングパラダイム/imperative"
+  },
+  "next": {
+    "title": "関数型プログラミングの核心（純粋関数・副作用）",
+    "permalink": "/docs/lang-paradigm/プログラミングパラダイム/functional_core"
+  }
+}

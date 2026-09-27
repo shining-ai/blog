@@ -1,0 +1,27 @@
+{
+  "id": "operating-system/オペレーティングシステム/memory_management",
+  "title": "メモリ管理 (OS Memory Management)",
+  "description": "OSメモリ管理とは",
+  "source": "@site/docs/operating-system/01_オペレーティングシステム/70_memory_management.md",
+  "sourceDirName": "operating-system/01_オペレーティングシステム",
+  "slug": "/operating-system/オペレーティングシステム/memory_management",
+  "permalink": "/docs/operating-system/オペレーティングシステム/memory_management",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "displayed_sidebar": "operatingSystemSidebar"
+  },
+  "sidebar": "operatingSystemSidebar",
+  "previous": {
+    "title": "デッドロック (Deadlock)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/deadlock"
+  },
+  "next": {
+    "title": "ファイルシステム (File System)",
+    "permalink": "/docs/operating-system/オペレーティングシステム/filesystem"
+  }
+}

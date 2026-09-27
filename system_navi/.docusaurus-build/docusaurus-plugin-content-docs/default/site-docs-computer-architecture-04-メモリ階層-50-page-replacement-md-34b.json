@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/メモリ階層/page_replacement",
+  "title": "ページ置換アルゴリズム (Page Replacement)",
+  "description": "ページ置換とは",
+  "source": "@site/docs/computer-architecture/04_メモリ階層/50_page_replacement.md",
+  "sourceDirName": "computer-architecture/04_メモリ階層",
+  "slug": "/computer-architecture/メモリ階層/page_replacement",
+  "permalink": "/docs/computer-architecture/メモリ階層/page_replacement",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "TLB とアドレス変換 (TLB & Address Translation)",
+    "permalink": "/docs/computer-architecture/メモリ階層/tlb"
+  },
+  "next": {
+    "title": "DRAM の仕組みとメモリ帯域 (DRAM & Memory Bandwidth)",
+    "permalink": "/docs/computer-architecture/メモリ階層/dram"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "books/intro",
+  "title": "書籍一覧",
+  "description": "",
+  "source": "@site/docs/books/intro.md",
+  "sourceDirName": "books",
+  "slug": "/books/intro",
+  "permalink": "/docs/books/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "displayed_sidebar": "booksmSidebar"
+  },
+  "sidebar": "booksmSidebar"
+}

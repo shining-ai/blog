@@ -1,0 +1,23 @@
+{
+  "id": "computer-architecture/データ形式・圧縮/video_codec",
+  "title": "動画コーデックの概要 (Video Codec Overview)",
+  "description": "動画コーデックとは",
+  "source": "@site/docs/computer-architecture/06_データ形式・圧縮/40_video_codec.md",
+  "sourceDirName": "computer-architecture/06_データ形式・圧縮",
+  "slug": "/computer-architecture/データ形式・圧縮/video_codec",
+  "permalink": "/docs/computer-architecture/データ形式・圧縮/video_codec",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "PNG 圧縮 (PNG Compression)",
+    "permalink": "/docs/computer-architecture/データ形式・圧縮/png"
+  }
+}

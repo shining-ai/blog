@@ -1,0 +1,249 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "lang-paradigm/intro",
+          "docs": [
+            {
+              "id": "compiler-runtime/intro",
+              "path": "/docs/compiler-runtime/intro",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_バックエンド/code_generation",
+              "path": "/docs/compiler-runtime/コンパイラ_バックエンド/code_generation",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_バックエンド/dataflow",
+              "path": "/docs/compiler-runtime/コンパイラ_バックエンド/dataflow",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_バックエンド/ir",
+              "path": "/docs/compiler-runtime/コンパイラ_バックエンド/ir",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_バックエンド/llvm",
+              "path": "/docs/compiler-runtime/コンパイラ_バックエンド/llvm",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_バックエンド/optimization",
+              "path": "/docs/compiler-runtime/コンパイラ_バックエンド/optimization",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_バックエンド/register_allocation",
+              "path": "/docs/compiler-runtime/コンパイラ_バックエンド/register_allocation",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_フロントエンド/ast",
+              "path": "/docs/compiler-runtime/コンパイラ_フロントエンド/ast",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_フロントエンド/compiler_overview",
+              "path": "/docs/compiler-runtime/コンパイラ_フロントエンド/compiler_overview",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_フロントエンド/lexer",
+              "path": "/docs/compiler-runtime/コンパイラ_フロントエンド/lexer",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_フロントエンド/lr_parsing",
+              "path": "/docs/compiler-runtime/コンパイラ_フロントエンド/lr_parsing",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_フロントエンド/parser_overview",
+              "path": "/docs/compiler-runtime/コンパイラ_フロントエンド/parser_overview",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_フロントエンド/recursive_descent",
+              "path": "/docs/compiler-runtime/コンパイラ_フロントエンド/recursive_descent",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_フロントエンド/scope_resolution",
+              "path": "/docs/compiler-runtime/コンパイラ_フロントエンド/scope_resolution",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/コンパイラ_フロントエンド/semantic_analysis",
+              "path": "/docs/compiler-runtime/コンパイラ_フロントエンド/semantic_analysis",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/ランタイムとメモリ管理/closures",
+              "path": "/docs/compiler-runtime/ランタイムとメモリ管理/closures",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/ランタイムとメモリ管理/copying_gc",
+              "path": "/docs/compiler-runtime/ランタイムとメモリ管理/copying_gc",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/ランタイムとメモリ管理/jit",
+              "path": "/docs/compiler-runtime/ランタイムとメモリ管理/jit",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/ランタイムとメモリ管理/mark_sweep_gc",
+              "path": "/docs/compiler-runtime/ランタイムとメモリ管理/mark_sweep_gc",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/ランタイムとメモリ管理/ref_counting_gc",
+              "path": "/docs/compiler-runtime/ランタイムとメモリ管理/ref_counting_gc",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/ランタイムとメモリ管理/stack_frame",
+              "path": "/docs/compiler-runtime/ランタイムとメモリ管理/stack_frame",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/ランタイムとメモリ管理/vms",
+              "path": "/docs/compiler-runtime/ランタイムとメモリ管理/vms",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/並行性・非同期モデル/actor_model",
+              "path": "/docs/compiler-runtime/並行性・非同期モデル/actor_model",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/並行性・非同期モデル/async_await",
+              "path": "/docs/compiler-runtime/並行性・非同期モデル/async_await",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/並行性・非同期モデル/csp",
+              "path": "/docs/compiler-runtime/並行性・非同期モデル/csp",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/並行性・非同期モデル/event_loop",
+              "path": "/docs/compiler-runtime/並行性・非同期モデル/event_loop",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/並行性・非同期モデル/stm",
+              "path": "/docs/compiler-runtime/並行性・非同期モデル/stm",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "compiler-runtime/並行性・非同期モデル/thread_model",
+              "path": "/docs/compiler-runtime/並行性・非同期モデル/thread_model",
+              "sidebar": "compilerRuntimeSidebar"
+            },
+            {
+              "id": "lang-paradigm/intro",
+              "path": "/docs/lang-paradigm/intro",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/プログラミングパラダイム/functional_core",
+              "path": "/docs/lang-paradigm/プログラミングパラダイム/functional_core",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/プログラミングパラダイム/higher_order",
+              "path": "/docs/lang-paradigm/プログラミングパラダイム/higher_order",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/プログラミングパラダイム/imperative",
+              "path": "/docs/lang-paradigm/プログラミングパラダイム/imperative",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/プログラミングパラダイム/logic_programming",
+              "path": "/docs/lang-paradigm/プログラミングパラダイム/logic_programming",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/プログラミングパラダイム/monad",
+              "path": "/docs/lang-paradigm/プログラミングパラダイム/monad",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/プログラミングパラダイム/multiparadigm",
+              "path": "/docs/lang-paradigm/プログラミングパラダイム/multiparadigm",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/プログラミングパラダイム/oop",
+              "path": "/docs/lang-paradigm/プログラミングパラダイム/oop",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/型システム/adt",
+              "path": "/docs/lang-paradigm/型システム/adt",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/型システム/dependent_types",
+              "path": "/docs/lang-paradigm/型システム/dependent_types",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/型システム/generics",
+              "path": "/docs/lang-paradigm/型システム/generics",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/型システム/null_safety",
+              "path": "/docs/lang-paradigm/型システム/null_safety",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/型システム/static_dynamic",
+              "path": "/docs/lang-paradigm/型システム/static_dynamic",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/型システム/subtyping",
+              "path": "/docs/lang-paradigm/型システム/subtyping",
+              "sidebar": "langParadigmSidebar"
+            },
+            {
+              "id": "lang-paradigm/型システム/type_inference",
+              "path": "/docs/lang-paradigm/型システム/type_inference",
+              "sidebar": "langParadigmSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "langParadigmSidebar": {
+              "link": {
+                "path": "/docs/lang-paradigm/intro",
+                "label": "パラダイム・型システム"
+              }
+            },
+            "compilerRuntimeSidebar": {
+              "link": {
+                "path": "/docs/compiler-runtime/intro",
+                "label": "コンパイラ・ランタイム"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "design-patterns/デザインパターン_GoF/observer",
+  "title": "Observer パターン",
+  "description": "Observer とは",
+  "source": "@site/docs/design-patterns/01_デザインパターン_GoF/110_observer.md",
+  "sourceDirName": "design-patterns/01_デザインパターン_GoF",
+  "slug": "/design-patterns/デザインパターン_GoF/observer",
+  "permalink": "/docs/design-patterns/デザインパターン_GoF/observer",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 110,
+  "frontMatter": {},
+  "sidebar": "designPatternsSidebar",
+  "previous": {
+    "title": "Proxy パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/proxy"
+  },
+  "next": {
+    "title": "Strategy パターン",
+    "permalink": "/docs/design-patterns/デザインパターン_GoF/strategy"
+  }
+}

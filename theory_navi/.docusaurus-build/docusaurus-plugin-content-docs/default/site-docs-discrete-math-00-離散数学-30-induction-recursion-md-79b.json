@@ -1,0 +1,24 @@
+{
+  "id": "discrete-math/離散数学/induction_recursion",
+  "title": "帰納法と再帰",
+  "description": "帰納法と再帰とは",
+  "source": "@site/docs/discrete-math/00_離散数学/30_induction_recursion.md",
+  "sourceDirName": "discrete-math/00_離散数学",
+  "slug": "/discrete-math/離散数学/induction_recursion",
+  "permalink": "/docs/discrete-math/離散数学/induction_recursion",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "discreteMathSidebar",
+  "previous": {
+    "title": "関係と写像",
+    "permalink": "/docs/discrete-math/離散数学/relations_functions"
+  },
+  "next": {
+    "title": "整数論入門（mod・素数・フェルマーの小定理）",
+    "permalink": "/docs/discrete-math/離散数学/number_theory"
+  }
+}

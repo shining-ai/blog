@@ -1,0 +1,19 @@
+{
+  "id": "architecture-engineering/intro",
+  "title": "アーキテクチャ・開発プロセス",
+  "description": "クリーンアーキテクチャ・DDD・テスト・API設計・CI/CDまで、ソフトウェアアーキテクチャと開発プロセスを体系的に解説します。",
+  "source": "@site/docs/architecture-engineering/intro.md",
+  "sourceDirName": "architecture-engineering",
+  "slug": "/architecture-engineering/intro",
+  "permalink": "/docs/architecture-engineering/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "architectureEngineeringSidebar",
+  "next": {
+    "title": "レイヤードアーキテクチャ",
+    "permalink": "/docs/architecture-engineering/ソフトウェアアーキテクチャ/layered"
+  }
+}

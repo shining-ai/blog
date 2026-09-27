@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/ソートアルゴリズム/quick_sort",
+  "title": "クイックソート (Quick Sort)",
+  "description": "クイックソートとは",
+  "source": "@site/docs/algorithm/01_ソートアルゴリズム/40_quick_sort.md",
+  "sourceDirName": "algorithm/01_ソートアルゴリズム",
+  "slug": "/algorithm/ソートアルゴリズム/quick_sort",
+  "permalink": "/docs/algorithm/ソートアルゴリズム/quick_sort",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "マージソート (Merge Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/merge_sort"
+  },
+  "next": {
+    "title": "ヒープソート (Heap Sort)",
+    "permalink": "/docs/algorithm/ソートアルゴリズム/heap_sort"
+  }
+}

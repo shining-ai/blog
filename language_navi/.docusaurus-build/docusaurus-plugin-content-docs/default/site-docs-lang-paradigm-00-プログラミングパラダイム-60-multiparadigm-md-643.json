@@ -1,0 +1,24 @@
+{
+  "id": "lang-paradigm/プログラミングパラダイム/multiparadigm",
+  "title": "マルチパラダイム言語の比較",
+  "description": "マルチパラダイム言語とは",
+  "source": "@site/docs/lang-paradigm/00_プログラミングパラダイム/60_multiparadigm.md",
+  "sourceDirName": "lang-paradigm/00_プログラミングパラダイム",
+  "slug": "/lang-paradigm/プログラミングパラダイム/multiparadigm",
+  "permalink": "/docs/lang-paradigm/プログラミングパラダイム/multiparadigm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 60,
+  "frontMatter": {},
+  "sidebar": "langParadigmSidebar",
+  "previous": {
+    "title": "論理プログラミング（Prolog）",
+    "permalink": "/docs/lang-paradigm/プログラミングパラダイム/logic_programming"
+  },
+  "next": {
+    "title": "静的型付けと動的型付け",
+    "permalink": "/docs/lang-paradigm/型システム/static_dynamic"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "algorithm-strategy/アルゴリズム戦略/interval_dp",
+  "title": "区間 DP（Interval DP）",
+  "description": "区間 DP とは",
+  "source": "@site/docs/algorithm-strategy/01_アルゴリズム戦略/23_interval_dp.md",
+  "sourceDirName": "algorithm-strategy/01_アルゴリズム戦略",
+  "slug": "/algorithm-strategy/アルゴリズム戦略/interval_dp",
+  "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/interval_dp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 23,
+  "frontMatter": {},
+  "sidebar": "algorithmStrategySidebar",
+  "previous": {
+    "title": "最長共通部分列（LCS）",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/lcs"
+  },
+  "next": {
+    "title": "桁 DP（Digit DP）",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/digit_dp"
+  }
+}

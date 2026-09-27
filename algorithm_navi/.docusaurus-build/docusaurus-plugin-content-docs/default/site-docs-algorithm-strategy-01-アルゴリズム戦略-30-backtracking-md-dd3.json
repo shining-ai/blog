@@ -1,0 +1,24 @@
+{
+  "id": "algorithm-strategy/アルゴリズム戦略/backtracking",
+  "title": "バックトラッキング (Backtracking)",
+  "description": "バックトラッキングとは",
+  "source": "@site/docs/algorithm-strategy/01_アルゴリズム戦略/30_backtracking.md",
+  "sourceDirName": "algorithm-strategy/01_アルゴリズム戦略",
+  "slug": "/algorithm-strategy/アルゴリズム戦略/backtracking",
+  "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/backtracking",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "algorithmStrategySidebar",
+  "previous": {
+    "title": "桁 DP（Digit DP）",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/digit_dp"
+  },
+  "next": {
+    "title": "乱択アルゴリズム (Randomized Algorithm)",
+    "permalink": "/docs/algorithm-strategy/アルゴリズム戦略/randomized"
+  }
+}

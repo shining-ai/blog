@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/グラフアルゴリズム/scc",
+  "title": "強連結成分分解 (SCC)",
+  "description": "SCCとは",
+  "source": "@site/docs/algorithm/04_グラフアルゴリズム/80_scc.md",
+  "sourceDirName": "algorithm/04_グラフアルゴリズム",
+  "slug": "/algorithm/グラフアルゴリズム/scc",
+  "permalink": "/docs/algorithm/グラフアルゴリズム/scc",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 80,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "トポロジカルソート",
+    "permalink": "/docs/algorithm/グラフアルゴリズム/topological_sort"
+  },
+  "next": {
+    "title": "最小共通祖先 (LCA)",
+    "permalink": "/docs/algorithm/グラフアルゴリズム/lca"
+  }
+}

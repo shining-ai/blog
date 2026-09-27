@@ -1,0 +1,23 @@
+{
+  "id": "computer-architecture/intro",
+  "title": "コンピュータアーキテクチャ",
+  "description": "コンピュータアーキテクチャの各トピックを体系的に解説します。",
+  "source": "@site/docs/computer-architecture/intro.md",
+  "sourceDirName": "computer-architecture",
+  "slug": "/computer-architecture/intro",
+  "permalink": "/docs/computer-architecture/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "next": {
+    "title": "2進数と基数変換 (Binary Numbers)",
+    "permalink": "/docs/computer-architecture/データ表現/binary_numbers"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/グラフアルゴリズム/topological_sort",
+  "title": "トポロジカルソート",
+  "description": "トポロジカルソートとは",
+  "source": "@site/docs/algorithm/04_グラフアルゴリズム/70_topological_sort.md",
+  "sourceDirName": "algorithm/04_グラフアルゴリズム",
+  "slug": "/algorithm/グラフアルゴリズム/topological_sort",
+  "permalink": "/docs/algorithm/グラフアルゴリズム/topological_sort",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 70,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "Prim法",
+    "permalink": "/docs/algorithm/グラフアルゴリズム/prim"
+  },
+  "next": {
+    "title": "強連結成分分解 (SCC)",
+    "permalink": "/docs/algorithm/グラフアルゴリズム/scc"
+  }
+}

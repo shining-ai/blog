@@ -1,0 +1,27 @@
+{
+  "id": "computer-architecture/データ形式・圧縮/run_length_lz",
+  "title": "ランレングス符号化と LZ 圧縮 (Run-Length & LZ77)",
+  "description": "ランレングス符号化とは",
+  "source": "@site/docs/computer-architecture/06_データ形式・圧縮/00_run_length_lz.md",
+  "sourceDirName": "computer-architecture/06_データ形式・圧縮",
+  "slug": "/computer-architecture/データ形式・圧縮/run_length_lz",
+  "permalink": "/docs/computer-architecture/データ形式・圧縮/run_length_lz",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "displayed_sidebar": "computerArchitectureSidebar"
+  },
+  "sidebar": "computerArchitectureSidebar",
+  "previous": {
+    "title": "GPGPU と計算加速 (GPGPU & Compute Acceleration)",
+    "permalink": "/docs/computer-architecture/GPU・並列計算/gpgpu"
+  },
+  "next": {
+    "title": "JPEG 圧縮 (JPEG Compression)",
+    "permalink": "/docs/computer-architecture/データ形式・圧縮/jpeg"
+  }
+}

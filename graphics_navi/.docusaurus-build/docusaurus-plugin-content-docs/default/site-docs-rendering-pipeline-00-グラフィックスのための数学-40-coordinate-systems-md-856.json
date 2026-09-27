@@ -1,0 +1,24 @@
+{
+  "id": "rendering-pipeline/グラフィックスのための数学/coordinate_systems",
+  "title": "座標系の変換（モデル→ワールド→カメラ→クリップ）",
+  "description": "座標系の変換とは",
+  "source": "@site/docs/rendering-pipeline/00_グラフィックスのための数学/40_coordinate_systems.md",
+  "sourceDirName": "rendering-pipeline/00_グラフィックスのための数学",
+  "slug": "/rendering-pipeline/グラフィックスのための数学/coordinate_systems",
+  "permalink": "/docs/rendering-pipeline/グラフィックスのための数学/coordinate_systems",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "クォータニオンと回転の補間",
+    "permalink": "/docs/rendering-pipeline/グラフィックスのための数学/quaternion"
+  },
+  "next": {
+    "title": "リアルタイムレンダリングの概要",
+    "permalink": "/docs/rendering-pipeline/レンダリングパイプライン/realtime_rendering"
+  }
+}

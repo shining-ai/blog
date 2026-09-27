@@ -1,0 +1,24 @@
+{
+  "id": "crypto-web-security/暗号理論/ecc",
+  "title": "楕円曲線暗号（ECC）",
+  "description": "ECC とは",
+  "source": "@site/docs/crypto-web-security/00_暗号理論/40_ecc.md",
+  "sourceDirName": "crypto-web-security/00_暗号理論",
+  "slug": "/crypto-web-security/暗号理論/ecc",
+  "permalink": "/docs/crypto-web-security/暗号理論/ecc",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "cryptoWebSecSidebar",
+  "previous": {
+    "title": "公開鍵暗号（RSA の数学的背景）",
+    "permalink": "/docs/crypto-web-security/暗号理論/rsa"
+  },
+  "next": {
+    "title": "Diffie-Hellman 鍵交換",
+    "permalink": "/docs/crypto-web-security/暗号理論/dh_key_exchange"
+  }
+}

@@ -16,16 +16,16 @@ type Section = {
 
 const SECTIONS: Section[] = [
   {
-    title: '古典的機械学習',
-    path: '/docs/classical-ml/intro',
-    description: 'イントロ・数学基礎・データ前処理・モデル評価・教師あり学習・教師なし学習を体系的に解説',
-    categories: ['イントロダクション', '数学的基礎', 'データ前処理', 'モデル評価', '教師あり学習', '教師なし学習'],
+    title: 'コンテナ・クラウド基礎',
+    path: '/docs/container-cloud/intro',
+    description: '仮想化とコンテナ・クラウド基礎を体系的に解説',
+    categories: ['仮想化とコンテナ', 'クラウド基礎'],
   },
   {
-    title: '深層学習・応用',
-    path: '/docs/deep-learning/intro',
-    description: 'ニューラルネット・CNN・Transformer・NLP・強化学習・MLOpsまで深層学習と実践を解説',
-    categories: ['ニューラルネット基礎', 'CNN・画像', 'Transformer・NLP', '強化学習', 'MLOps'],
+    title: '分散システム・信頼性',
+    path: '/docs/distributed-systems/intro',
+    description: '分散システム理論・メッセージング・ストリーミング・マイクロサービスパターン・信頼性・運用を体系的に解説',
+    categories: ['分散システム理論', 'メッセージング・ストリーミング', 'マイクロサービスパターン', '信頼性・運用'],
   },
 ];
 

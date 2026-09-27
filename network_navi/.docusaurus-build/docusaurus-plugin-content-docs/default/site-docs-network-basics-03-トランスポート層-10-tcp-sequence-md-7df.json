@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/トランスポート層/tcp_sequence",
+  "title": "TCP のシーケンス番号と確認応答",
+  "description": "シーケンス番号とは",
+  "source": "@site/docs/network-basics/03_トランスポート層/10_tcp_sequence.md",
+  "sourceDirName": "network-basics/03_トランスポート層",
+  "slug": "/network-basics/トランスポート層/tcp_sequence",
+  "permalink": "/docs/network-basics/トランスポート層/tcp_sequence",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "TCP のシーケンス番号と確認応答"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "TCP の概要と 3 ウェイハンドシェイク",
+    "permalink": "/docs/network-basics/トランスポート層/tcp_handshake"
+  },
+  "next": {
+    "title": "TCP のフロー制御（スライディングウィンドウ）",
+    "permalink": "/docs/network-basics/トランスポート層/tcp_flow_control"
+  }
+}

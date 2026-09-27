@@ -1,0 +1,24 @@
+{
+  "id": "binary-sec-dev/マルウェア・フォレンジクス/memory_forensics",
+  "title": "メモリフォレンジクス（Volatility）",
+  "description": "メモリフォレンジクスとは",
+  "source": "@site/docs/binary-sec-dev/05_マルウェア・フォレンジクス/40_memory_forensics.md",
+  "sourceDirName": "binary-sec-dev/05_マルウェア・フォレンジクス",
+  "slug": "/binary-sec-dev/マルウェア・フォレンジクス/memory_forensics",
+  "permalink": "/docs/binary-sec-dev/マルウェア・フォレンジクス/memory_forensics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "binarySecDevSidebar",
+  "previous": {
+    "title": "デジタルフォレンジクスの基礎",
+    "permalink": "/docs/binary-sec-dev/マルウェア・フォレンジクス/digital_forensics"
+  },
+  "next": {
+    "title": "セキュア SDLC の考え方",
+    "permalink": "/docs/binary-sec-dev/セキュアな開発/secure_sdlc"
+  }
+}

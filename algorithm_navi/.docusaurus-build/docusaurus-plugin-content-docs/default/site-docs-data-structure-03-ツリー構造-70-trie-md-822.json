@@ -1,0 +1,24 @@
+{
+  "id": "data-structure/ツリー構造/trie",
+  "title": "トライ木 (Trie)",
+  "description": "トライ木とは",
+  "source": "@site/docs/data-structure/03_ツリー構造/70_trie.md",
+  "sourceDirName": "data-structure/03_ツリー構造",
+  "slug": "/data-structure/ツリー構造/trie",
+  "permalink": "/docs/data-structure/ツリー構造/trie",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 70,
+  "frontMatter": {},
+  "sidebar": "datastructureSidebar",
+  "previous": {
+    "title": "区間木 (Interval Tree)",
+    "permalink": "/docs/data-structure/ツリー構造/interval_tree"
+  },
+  "next": {
+    "title": "BIT（Binary Indexed Tree / Fenwick Tree）",
+    "permalink": "/docs/data-structure/ツリー構造/bit"
+  }
+}

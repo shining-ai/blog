@@ -1,0 +1,24 @@
+{
+  "id": "container-cloud/クラウド基礎/iac_terraform",
+  "title": "Infrastructure as Code（Terraform 入門）",
+  "description": "IaC とは",
+  "source": "@site/docs/container-cloud/01_クラウド基礎/20_iac_terraform.md",
+  "sourceDirName": "container-cloud/01_クラウド基礎",
+  "slug": "/container-cloud/クラウド基礎/iac_terraform",
+  "permalink": "/docs/container-cloud/クラウド基礎/iac_terraform",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "containerCloudSidebar",
+  "previous": {
+    "title": "クラウドネイティブの考え方（12 Factor App）",
+    "permalink": "/docs/container-cloud/クラウド基礎/cloud_native"
+  },
+  "next": {
+    "title": "サーバレス（AWS Lambda・Cloud Functions）",
+    "permalink": "/docs/container-cloud/クラウド基礎/serverless"
+  }
+}

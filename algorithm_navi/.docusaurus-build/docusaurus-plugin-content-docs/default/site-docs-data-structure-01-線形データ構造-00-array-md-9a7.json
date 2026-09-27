@@ -1,0 +1,26 @@
+{
+  "id": "data-structure/線形データ構造/array",
+  "title": "配列(Array)",
+  "description": "配列 (Array)とは",
+  "source": "@site/docs/data-structure/01_線形データ構造/00_array.md",
+  "sourceDirName": "data-structure/01_線形データ構造",
+  "slug": "/data-structure/線形データ構造/array",
+  "permalink": "/docs/data-structure/線形データ構造/array",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "配列(Array)"
+  },
+  "sidebar": "datastructureSidebar",
+  "previous": {
+    "title": "データ構造",
+    "permalink": "/docs/data-structure/intro"
+  },
+  "next": {
+    "title": "連結リスト（Linked List）",
+    "permalink": "/docs/data-structure/線形データ構造/linked_list"
+  }
+}

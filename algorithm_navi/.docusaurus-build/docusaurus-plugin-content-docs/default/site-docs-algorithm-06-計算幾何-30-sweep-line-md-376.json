@@ -1,0 +1,24 @@
+{
+  "id": "algorithm/計算幾何/sweep_line",
+  "title": "走査線アルゴリズム (Sweep Line)",
+  "description": "走査線アルゴリズムとは",
+  "source": "@site/docs/algorithm/06_計算幾何/30_sweep_line.md",
+  "sourceDirName": "algorithm/06_計算幾何",
+  "slug": "/algorithm/計算幾何/sweep_line",
+  "permalink": "/docs/algorithm/計算幾何/sweep_line",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "最近点対 (Closest Pair of Points)",
+    "permalink": "/docs/algorithm/計算幾何/closest_pair"
+  },
+  "next": {
+    "title": "線形計画法 (Linear Programming)",
+    "permalink": "/docs/algorithm/最適化/linear_programming"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "network-basics/データリンク層/switch_bridge",
+  "title": "スイッチとブリッジ",
+  "description": "スイッチとブリッジとは",
+  "source": "@site/docs/network-basics/01_データリンク層/20_switch_bridge.md",
+  "sourceDirName": "network-basics/01_データリンク層",
+  "slug": "/network-basics/データリンク層/switch_bridge",
+  "permalink": "/docs/network-basics/データリンク層/switch_bridge",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "title": "スイッチとブリッジ"
+  },
+  "sidebar": "networkBasicsSidebar",
+  "previous": {
+    "title": "MAC アドレスと ARP",
+    "permalink": "/docs/network-basics/データリンク層/mac_arp"
+  },
+  "next": {
+    "title": "VLAN",
+    "permalink": "/docs/network-basics/データリンク層/vlan"
+  }
+}

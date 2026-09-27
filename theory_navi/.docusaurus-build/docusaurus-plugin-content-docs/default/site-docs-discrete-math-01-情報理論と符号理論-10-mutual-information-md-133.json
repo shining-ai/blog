@@ -1,0 +1,24 @@
+{
+  "id": "discrete-math/情報理論と符号理論/mutual_information",
+  "title": "相互情報量と条件付きエントロピー",
+  "description": "相互情報量とは",
+  "source": "@site/docs/discrete-math/01_情報理論と符号理論/10_mutual_information.md",
+  "sourceDirName": "discrete-math/01_情報理論と符号理論",
+  "slug": "/discrete-math/情報理論と符号理論/mutual_information",
+  "permalink": "/docs/discrete-math/情報理論と符号理論/mutual_information",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "discreteMathSidebar",
+  "previous": {
+    "title": "シャノンのエントロピー",
+    "permalink": "/docs/discrete-math/情報理論と符号理論/shannon_entropy"
+  },
+  "next": {
+    "title": "ソース符号化定理（シャノンの第1定理）",
+    "permalink": "/docs/discrete-math/情報理論と符号理論/source_coding"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "rendering-pipeline/グラフィックスのための数学/homogeneous",
+  "title": "同次座標とアフィン変換",
+  "description": "同次座標とは",
+  "source": "@site/docs/rendering-pipeline/00_グラフィックスのための数学/20_homogeneous.md",
+  "sourceDirName": "rendering-pipeline/00_グラフィックスのための数学",
+  "slug": "/rendering-pipeline/グラフィックスのための数学/homogeneous",
+  "permalink": "/docs/rendering-pipeline/グラフィックスのための数学/homogeneous",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "renderingPipelineSidebar",
+  "previous": {
+    "title": "行列と変換（スケール・回転・平行移動）",
+    "permalink": "/docs/rendering-pipeline/グラフィックスのための数学/matrix_transform"
+  },
+  "next": {
+    "title": "クォータニオンと回転の補間",
+    "permalink": "/docs/rendering-pipeline/グラフィックスのための数学/quaternion"
+  }
+}
