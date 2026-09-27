@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/教師あり学習/knn",
+  "title": "k最近傍法（k-NN）",
+  "description": "k最近傍法とは",
+  "source": "@site/docs/classical-ml/04_教師あり学習/40_knn.md",
+  "sourceDirName": "classical-ml/04_教師あり学習",
+  "slug": "/classical-ml/教師あり学習/knn",
+  "permalink": "/docs/classical-ml/教師あり学習/knn",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "ロジスティック回帰",
+    "permalink": "/docs/classical-ml/教師あり学習/logistic_regression"
+  },
+  "next": {
+    "title": "決定木",
+    "permalink": "/docs/classical-ml/教師あり学習/decision_tree"
+  }
+}

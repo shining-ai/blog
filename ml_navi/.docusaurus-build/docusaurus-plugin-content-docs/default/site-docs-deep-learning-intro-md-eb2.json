@@ -1,0 +1,19 @@
+{
+  "id": "deep-learning/intro",
+  "title": "深層学習・応用",
+  "description": "ニューラルネットワークの基礎から CNN・Transformer・NLP・強化学習・MLOps まで、深層学習と実践を体系的に解説します。",
+  "source": "@site/docs/deep-learning/intro.md",
+  "sourceDirName": "deep-learning",
+  "slug": "/deep-learning/intro",
+  "permalink": "/docs/deep-learning/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "next": {
+    "title": "パーセプトロン",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/perceptron"
+  }
+}

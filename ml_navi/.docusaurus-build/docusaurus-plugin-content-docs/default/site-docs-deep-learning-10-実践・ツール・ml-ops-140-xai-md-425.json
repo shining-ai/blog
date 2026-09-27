@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/実践・ツール・MLOps/xai",
+  "title": "説明可能なAI（XAI）",
+  "description": "XAI とは",
+  "source": "@site/docs/deep-learning/10_実践・ツール・MLOps/140_xai.md",
+  "sourceDirName": "deep-learning/10_実践・ツール・MLOps",
+  "slug": "/deep-learning/実践・ツール・MLOps/xai",
+  "permalink": "/docs/deep-learning/実践・ツール・MLOps/xai",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 140,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "グラフニューラルネットワーク（GNN）",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/gnn"
+  },
+  "next": {
+    "title": "フェデレーテッドラーニング",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/federated_learning"
+  }
+}

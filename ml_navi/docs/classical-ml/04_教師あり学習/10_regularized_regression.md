@@ -24,8 +24,8 @@ import AffiliateBanner from '@site/src/components/AffiliateBanner';
 | 手法 | 損失関数 | ペナルティ |
 |------|----------|-----------|
 | Ridge | $\text{RSS} + \lambda \sum w_j^2$ | L2ノルム（係数を0に近づける） |
-| Lasso | $\text{RSS} + \lambda \sum |w_j|$ | L1ノルム（係数を正確に0にする） |
-| ElasticNet | $\text{RSS} + \lambda_1 \sum |w_j| + \lambda_2 \sum w_j^2$ | L1+L2の組み合わせ |
+| Lasso | $\text{RSS} + \lambda \sum \lvert w_j \rvert$ | L1ノルム（係数を正確に0にする） |
+| ElasticNet | $\text{RSS} + \lambda_1 \sum \lvert w_j \rvert + \lambda_2 \sum w_j^2$ | L1+L2の組み合わせ |
 
 ### Ridge（L2正則化）
 

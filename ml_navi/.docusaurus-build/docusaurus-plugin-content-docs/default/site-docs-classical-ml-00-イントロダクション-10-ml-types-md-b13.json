@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/イントロダクション/ml_types",
+  "title": "機械学習の種類",
+  "description": "機械学習の種類とは",
+  "source": "@site/docs/classical-ml/00_イントロダクション/10_ml_types.md",
+  "sourceDirName": "classical-ml/00_イントロダクション",
+  "slug": "/classical-ml/イントロダクション/ml_types",
+  "permalink": "/docs/classical-ml/イントロダクション/ml_types",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "機械学習とは",
+    "permalink": "/docs/classical-ml/イントロダクション/ml_overview"
+  },
+  "next": {
+    "title": "機械学習の学習ロードマップ",
+    "permalink": "/docs/classical-ml/イントロダクション/ml_roadmap"
+  }
+}

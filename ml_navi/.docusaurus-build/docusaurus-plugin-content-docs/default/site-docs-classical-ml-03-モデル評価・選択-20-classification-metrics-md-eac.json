@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/モデル評価・選択/classification_metrics",
+  "title": "分類の評価指標",
+  "description": "「精度（Accuracy）が 95% のモデルを作りました」という報告が必ずしも良いニュースとは限らない。不均衡データでは、すべてのサンプルを多数クラスと予測するだけで高い精度が得られてしまう。本記事では、分類モデルの性能を多角的に評価するための指標を解説する。",
+  "source": "@site/docs/classical-ml/03_モデル評価・選択/20_classification_metrics.md",
+  "sourceDirName": "classical-ml/03_モデル評価・選択",
+  "slug": "/classical-ml/モデル評価・選択/classification_metrics",
+  "permalink": "/docs/classical-ml/モデル評価・選択/classification_metrics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "交差検証",
+    "permalink": "/docs/classical-ml/モデル評価・選択/cross_validation"
+  },
+  "next": {
+    "title": "回帰の評価指標",
+    "permalink": "/docs/classical-ml/モデル評価・選択/regression_metrics"
+  }
+}

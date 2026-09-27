@@ -1,0 +1,514 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "classical-ml/intro",
+          "docs": [
+            {
+              "id": "classical-ml/intro",
+              "path": "/docs/classical-ml/intro",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/イントロダクション/ml_overview",
+              "path": "/docs/classical-ml/イントロダクション/ml_overview",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/イントロダクション/ml_roadmap",
+              "path": "/docs/classical-ml/イントロダクション/ml_roadmap",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/イントロダクション/ml_types",
+              "path": "/docs/classical-ml/イントロダクション/ml_types",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/データ準備・前処理/data_split",
+              "path": "/docs/classical-ml/データ準備・前処理/data_split",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/データ準備・前処理/data_types",
+              "path": "/docs/classical-ml/データ準備・前処理/data_types",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/データ準備・前処理/eda",
+              "path": "/docs/classical-ml/データ準備・前処理/eda",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/データ準備・前処理/feature_engineering",
+              "path": "/docs/classical-ml/データ準備・前処理/feature_engineering",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/データ準備・前処理/imbalanced_data",
+              "path": "/docs/classical-ml/データ準備・前処理/imbalanced_data",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/データ準備・前処理/missing_values",
+              "path": "/docs/classical-ml/データ準備・前処理/missing_values",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/モデル評価・選択/classification_metrics",
+              "path": "/docs/classical-ml/モデル評価・選択/classification_metrics",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/モデル評価・選択/cross_validation",
+              "path": "/docs/classical-ml/モデル評価・選択/cross_validation",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/モデル評価・選択/hyperparameter_tuning",
+              "path": "/docs/classical-ml/モデル評価・選択/hyperparameter_tuning",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/モデル評価・選択/model_selection",
+              "path": "/docs/classical-ml/モデル評価・選択/model_selection",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/モデル評価・選択/overfitting_generalization",
+              "path": "/docs/classical-ml/モデル評価・選択/overfitting_generalization",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/モデル評価・選択/regression_metrics",
+              "path": "/docs/classical-ml/モデル評価・選択/regression_metrics",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師あり学習/boosting",
+              "path": "/docs/classical-ml/教師あり学習/boosting",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師あり学習/decision_tree",
+              "path": "/docs/classical-ml/教師あり学習/decision_tree",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師あり学習/knn",
+              "path": "/docs/classical-ml/教師あり学習/knn",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師あり学習/linear_regression",
+              "path": "/docs/classical-ml/教師あり学習/linear_regression",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師あり学習/logistic_regression",
+              "path": "/docs/classical-ml/教師あり学習/logistic_regression",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師あり学習/naive_bayes",
+              "path": "/docs/classical-ml/教師あり学習/naive_bayes",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師あり学習/polynomial_regression",
+              "path": "/docs/classical-ml/教師あり学習/polynomial_regression",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師あり学習/random_forest",
+              "path": "/docs/classical-ml/教師あり学習/random_forest",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師あり学習/regularized_regression",
+              "path": "/docs/classical-ml/教師あり学習/regularized_regression",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師あり学習/stacking",
+              "path": "/docs/classical-ml/教師あり学習/stacking",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師あり学習/svm",
+              "path": "/docs/classical-ml/教師あり学習/svm",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師あり学習/xgboost_lightgbm",
+              "path": "/docs/classical-ml/教師あり学習/xgboost_lightgbm",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師なし学習/anomaly_detection_stats",
+              "path": "/docs/classical-ml/教師なし学習/anomaly_detection_stats",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師なし学習/autoencoder_anomaly",
+              "path": "/docs/classical-ml/教師なし学習/autoencoder_anomaly",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師なし学習/dbscan",
+              "path": "/docs/classical-ml/教師なし学習/dbscan",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師なし学習/gmm",
+              "path": "/docs/classical-ml/教師なし学習/gmm",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師なし学習/hierarchical_clustering",
+              "path": "/docs/classical-ml/教師なし学習/hierarchical_clustering",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師なし学習/isolation_forest",
+              "path": "/docs/classical-ml/教師なし学習/isolation_forest",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師なし学習/kmeans",
+              "path": "/docs/classical-ml/教師なし学習/kmeans",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師なし学習/pca",
+              "path": "/docs/classical-ml/教師なし学習/pca",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師なし学習/tsne",
+              "path": "/docs/classical-ml/教師なし学習/tsne",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/教師なし学習/umap",
+              "path": "/docs/classical-ml/教師なし学習/umap",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/数学的基礎/derivatives_gradients",
+              "path": "/docs/classical-ml/数学的基礎/derivatives_gradients",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/数学的基礎/information_theory",
+              "path": "/docs/classical-ml/数学的基礎/information_theory",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/数学的基礎/matrix_operations",
+              "path": "/docs/classical-ml/数学的基礎/matrix_operations",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/数学的基礎/optimization_basics",
+              "path": "/docs/classical-ml/数学的基礎/optimization_basics",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/数学的基礎/probability_statistics",
+              "path": "/docs/classical-ml/数学的基礎/probability_statistics",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "classical-ml/数学的基礎/vectors_matrices",
+              "path": "/docs/classical-ml/数学的基礎/vectors_matrices",
+              "sidebar": "classicalMlSidebar"
+            },
+            {
+              "id": "deep-learning/intro",
+              "path": "/docs/deep-learning/intro",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/ニューラルネットワーク基礎/activation_functions",
+              "path": "/docs/deep-learning/ニューラルネットワーク基礎/activation_functions",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/ニューラルネットワーク基礎/backpropagation",
+              "path": "/docs/deep-learning/ニューラルネットワーク基礎/backpropagation",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/ニューラルネットワーク基礎/initialization_vanishing",
+              "path": "/docs/deep-learning/ニューラルネットワーク基礎/initialization_vanishing",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/ニューラルネットワーク基礎/loss_functions",
+              "path": "/docs/deep-learning/ニューラルネットワーク基礎/loss_functions",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/ニューラルネットワーク基礎/mlp",
+              "path": "/docs/deep-learning/ニューラルネットワーク基礎/mlp",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/ニューラルネットワーク基礎/optimizers",
+              "path": "/docs/deep-learning/ニューラルネットワーク基礎/optimizers",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/ニューラルネットワーク基礎/perceptron",
+              "path": "/docs/deep-learning/ニューラルネットワーク基礎/perceptron",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/ニューラルネットワーク基礎/regularization",
+              "path": "/docs/deep-learning/ニューラルネットワーク基礎/regularization",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/cicd_ml",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/cicd_ml",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/data_pipeline",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/data_pipeline",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/experiment_management",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/experiment_management",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/federated_learning",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/federated_learning",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/gnn",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/gnn",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/model_deployment",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/model_deployment",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/model_monitoring",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/model_monitoring",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/numpy",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/numpy",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/pandas",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/pandas",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/pytorch_intro",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/pytorch_intro",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/pytorch_practice",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/pytorch_practice",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/recommendation",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/recommendation",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/sklearn",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/sklearn",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/time_series",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/time_series",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/visualization",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/visualization",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/実践・ツール・MLOps/xai",
+              "path": "/docs/deep-learning/実践・ツール・MLOps/xai",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/強化学習/dqn",
+              "path": "/docs/deep-learning/強化学習/dqn",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/強化学習/dynamic_programming",
+              "path": "/docs/deep-learning/強化学習/dynamic_programming",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/強化学習/mdp",
+              "path": "/docs/deep-learning/強化学習/mdp",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/強化学習/monte_carlo_td",
+              "path": "/docs/deep-learning/強化学習/monte_carlo_td",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/強化学習/policy_gradient",
+              "path": "/docs/deep-learning/強化学習/policy_gradient",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/強化学習/q_learning_sarsa",
+              "path": "/docs/deep-learning/強化学習/q_learning_sarsa",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/強化学習/rl_basics",
+              "path": "/docs/deep-learning/強化学習/rl_basics",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/深層学習アーキテクチャ/autoencoder",
+              "path": "/docs/deep-learning/深層学習アーキテクチャ/autoencoder",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/深層学習アーキテクチャ/cnn_architectures",
+              "path": "/docs/deep-learning/深層学習アーキテクチャ/cnn_architectures",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/深層学習アーキテクチャ/cnn_basics",
+              "path": "/docs/deep-learning/深層学習アーキテクチャ/cnn_basics",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/深層学習アーキテクチャ/diffusion",
+              "path": "/docs/deep-learning/深層学習アーキテクチャ/diffusion",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/深層学習アーキテクチャ/gan",
+              "path": "/docs/deep-learning/深層学習アーキテクチャ/gan",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/深層学習アーキテクチャ/lstm_gru",
+              "path": "/docs/deep-learning/深層学習アーキテクチャ/lstm_gru",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/深層学習アーキテクチャ/object_detection",
+              "path": "/docs/deep-learning/深層学習アーキテクチャ/object_detection",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/深層学習アーキテクチャ/rnn",
+              "path": "/docs/deep-learning/深層学習アーキテクチャ/rnn",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/深層学習アーキテクチャ/segmentation",
+              "path": "/docs/deep-learning/深層学習アーキテクチャ/segmentation",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/深層学習アーキテクチャ/seq2seq_attention",
+              "path": "/docs/deep-learning/深層学習アーキテクチャ/seq2seq_attention",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/深層学習アーキテクチャ/transfer_learning",
+              "path": "/docs/deep-learning/深層学習アーキテクチャ/transfer_learning",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/深層学習アーキテクチャ/transformer",
+              "path": "/docs/deep-learning/深層学習アーキテクチャ/transformer",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/深層学習アーキテクチャ/vae",
+              "path": "/docs/deep-learning/深層学習アーキテクチャ/vae",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/自然言語処理/bert",
+              "path": "/docs/deep-learning/自然言語処理/bert",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/自然言語処理/gpt_llm",
+              "path": "/docs/deep-learning/自然言語処理/gpt_llm",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/自然言語処理/prompt_engineering",
+              "path": "/docs/deep-learning/自然言語処理/prompt_engineering",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/自然言語処理/rag",
+              "path": "/docs/deep-learning/自然言語処理/rag",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/自然言語処理/text_preprocessing",
+              "path": "/docs/deep-learning/自然言語処理/text_preprocessing",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/自然言語処理/text_representation",
+              "path": "/docs/deep-learning/自然言語処理/text_representation",
+              "sidebar": "deepLearningSidebar"
+            },
+            {
+              "id": "deep-learning/自然言語処理/word_embeddings",
+              "path": "/docs/deep-learning/自然言語処理/word_embeddings",
+              "sidebar": "deepLearningSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "classicalMlSidebar": {
+              "link": {
+                "path": "/docs/classical-ml/intro",
+                "label": "古典的機械学習"
+              }
+            },
+            "deepLearningSidebar": {
+              "link": {
+                "path": "/docs/deep-learning/intro",
+                "label": "深層学習・応用"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

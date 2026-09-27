@@ -89,7 +89,7 @@ concat:   e_{t,s} = v^T × tanh(W_a × [h_t^dec ; h_s^enc])
 | 比較項目 | Bahdanau Attention | Luong Attention |
 |---|---|---|
 | スコア計算 | 加法的 | 乗法的 |
-| 入力状態 | h_{t-1}^dec | h_t^dec |
+| 入力状態 | h_\{t-1\}^dec | h_t^dec |
 | パラメータ数 | 多い | 少ない |
 | 性能 | 同等〜やや優位 | 同等〜やや優位 |
 

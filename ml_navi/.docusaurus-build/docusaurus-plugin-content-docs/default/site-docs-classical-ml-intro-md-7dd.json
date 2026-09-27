@@ -1,0 +1,19 @@
+{
+  "id": "classical-ml/intro",
+  "title": "古典的機械学習",
+  "description": "数学的基礎からデータ前処理・モデル評価・教師あり学習・教師なし学習まで、機械学習の基礎を体系的に解説します。",
+  "source": "@site/docs/classical-ml/intro.md",
+  "sourceDirName": "classical-ml",
+  "slug": "/classical-ml/intro",
+  "permalink": "/docs/classical-ml/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "next": {
+    "title": "機械学習とは",
+    "permalink": "/docs/classical-ml/イントロダクション/ml_overview"
+  }
+}

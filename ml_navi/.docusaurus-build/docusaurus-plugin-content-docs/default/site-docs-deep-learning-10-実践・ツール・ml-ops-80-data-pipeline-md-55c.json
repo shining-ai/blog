@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/実践・ツール・MLOps/data_pipeline",
+  "title": "データパイプライン",
+  "description": "データパイプラインとは",
+  "source": "@site/docs/deep-learning/10_実践・ツール・MLOps/80_data_pipeline.md",
+  "sourceDirName": "deep-learning/10_実践・ツール・MLOps",
+  "slug": "/deep-learning/実践・ツール・MLOps/data_pipeline",
+  "permalink": "/docs/deep-learning/実践・ツール・MLOps/data_pipeline",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 80,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "モデルのデプロイ",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/model_deployment"
+  },
+  "next": {
+    "title": "モデル監視",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/model_monitoring"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/深層学習アーキテクチャ/diffusion",
+  "title": "拡散モデル（Diffusion Models）",
+  "description": "拡散モデルとは",
+  "source": "@site/docs/deep-learning/07_深層学習アーキテクチャ/120_diffusion.md",
+  "sourceDirName": "deep-learning/07_深層学習アーキテクチャ",
+  "slug": "/deep-learning/深層学習アーキテクチャ/diffusion",
+  "permalink": "/docs/deep-learning/深層学習アーキテクチャ/diffusion",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 120,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "GAN（敵対的生成ネットワーク）",
+    "permalink": "/docs/deep-learning/深層学習アーキテクチャ/gan"
+  },
+  "next": {
+    "title": "テキスト前処理",
+    "permalink": "/docs/deep-learning/自然言語処理/text_preprocessing"
+  }
+}

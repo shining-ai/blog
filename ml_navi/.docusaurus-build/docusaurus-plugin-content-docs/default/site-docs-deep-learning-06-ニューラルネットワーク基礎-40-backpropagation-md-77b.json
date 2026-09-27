@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/ニューラルネットワーク基礎/backpropagation",
+  "title": "バックプロパゲーション",
+  "description": "バックプロパゲーション（誤差逆伝播法）は、ニューラルネットワークの学習を可能にした核心的なアルゴリズムである。1986年に Rumelhart らが発表し、深層学習の実用化に決定的な役割を果たした。損失関数の各パラメータに対する偏微分（勾配）を効率的に計算する手法である。",
+  "source": "@site/docs/deep-learning/06_ニューラルネットワーク基礎/40_backpropagation.md",
+  "sourceDirName": "deep-learning/06_ニューラルネットワーク基礎",
+  "slug": "/deep-learning/ニューラルネットワーク基礎/backpropagation",
+  "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/backpropagation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "損失関数",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/loss_functions"
+  },
+  "next": {
+    "title": "最適化アルゴリズム",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/optimizers"
+  }
+}

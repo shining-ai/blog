@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/データ準備・前処理/data_split",
+  "title": "データ分割",
+  "description": "機械学習モデルの汎化性能を正しく評価するには、データの分割方法が極めて重要である。誤った分割はデータリークを引き起こし、本番環境では使い物にならないモデルを「高精度」に見せてしまう。本記事では、正しいデータ分割の考え方と実装を解説する。",
+  "source": "@site/docs/classical-ml/02_データ準備・前処理/50_data_split.md",
+  "sourceDirName": "classical-ml/02_データ準備・前処理",
+  "slug": "/classical-ml/データ準備・前処理/data_split",
+  "permalink": "/docs/classical-ml/データ準備・前処理/data_split",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "不均衡データへの対処",
+    "permalink": "/docs/classical-ml/データ準備・前処理/imbalanced_data"
+  },
+  "next": {
+    "title": "過学習と汎化",
+    "permalink": "/docs/classical-ml/モデル評価・選択/overfitting_generalization"
+  }
+}

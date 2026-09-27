@@ -211,7 +211,7 @@ plt.show()
 |------|----|------|
 | MSE | $\frac{1}{n}\sum(y_i - \hat{y}_i)^2$ | 外れ値に敏感 |
 | RMSE | $\sqrt{\text{MSE}}$ | 目的変数と同じスケール |
-| MAE | $\frac{1}{n}\sum|y_i - \hat{y}_i|$ | 外れ値に頑健 |
+| MAE | $\frac{1}{n}\sum \lvert y_i - \hat{y}_i \rvert$ | 外れ値に頑健 |
 | $R^2$ | $1 - \frac{\text{RSS}}{\text{TSS}}$ | 1に近いほど良い（0〜1） |
 | Adjusted $R^2$ | $1 - (1-R^2)\frac{n-1}{n-p-1}$ | 特徴量数を補正したR² |
 

@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/強化学習/policy_gradient",
+  "title": "方策勾配法",
+  "description": "方策勾配法とは",
+  "source": "@site/docs/deep-learning/09_強化学習/60_policy_gradient.md",
+  "sourceDirName": "deep-learning/09_強化学習",
+  "slug": "/deep-learning/強化学習/policy_gradient",
+  "permalink": "/docs/deep-learning/強化学習/policy_gradient",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 60,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "深層 Q ネットワーク（DQN）",
+    "permalink": "/docs/deep-learning/強化学習/dqn"
+  },
+  "next": {
+    "title": "NumPy",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/numpy"
+  }
+}

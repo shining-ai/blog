@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/強化学習/q_learning_sarsa",
+  "title": "Q 学習と SARSA",
+  "description": "Q学習・SARSAとは",
+  "source": "@site/docs/deep-learning/09_強化学習/40_q_learning_sarsa.md",
+  "sourceDirName": "deep-learning/09_強化学習",
+  "slug": "/deep-learning/強化学習/q_learning_sarsa",
+  "permalink": "/docs/deep-learning/強化学習/q_learning_sarsa",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "モンテカルロ法と TD 学習",
+    "permalink": "/docs/deep-learning/強化学習/monte_carlo_td"
+  },
+  "next": {
+    "title": "深層 Q ネットワーク（DQN）",
+    "permalink": "/docs/deep-learning/強化学習/dqn"
+  }
+}

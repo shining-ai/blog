@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/数学的基礎/optimization_basics",
+  "title": "最適化の基礎",
+  "description": "最適化とは",
+  "source": "@site/docs/classical-ml/01_数学的基礎/30_optimization_basics.md",
+  "sourceDirName": "classical-ml/01_数学的基礎",
+  "slug": "/classical-ml/数学的基礎/optimization_basics",
+  "permalink": "/docs/classical-ml/数学的基礎/optimization_basics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "微分と勾配",
+    "permalink": "/docs/classical-ml/数学的基礎/derivatives_gradients"
+  },
+  "next": {
+    "title": "確率と統計の基礎",
+    "permalink": "/docs/classical-ml/数学的基礎/probability_statistics"
+  }
+}

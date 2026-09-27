@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/自然言語処理/gpt_llm",
+  "title": "GPT と大規模言語モデル",
+  "description": "GPTと大規模言語モデルとは",
+  "source": "@site/docs/deep-learning/08_自然言語処理/40_gpt_llm.md",
+  "sourceDirName": "deep-learning/08_自然言語処理",
+  "slug": "/deep-learning/自然言語処理/gpt_llm",
+  "permalink": "/docs/deep-learning/自然言語処理/gpt_llm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "BERT",
+    "permalink": "/docs/deep-learning/自然言語処理/bert"
+  },
+  "next": {
+    "title": "プロンプトエンジニアリング",
+    "permalink": "/docs/deep-learning/自然言語処理/prompt_engineering"
+  }
+}

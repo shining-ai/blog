@@ -1,0 +1,20 @@
+{
+  "id": "deep-learning/実践・ツール・MLOps/federated_learning",
+  "title": "フェデレーテッドラーニング",
+  "description": "フェデレーテッドラーニングとは",
+  "source": "@site/docs/deep-learning/10_実践・ツール・MLOps/150_federated_learning.md",
+  "sourceDirName": "deep-learning/10_実践・ツール・MLOps",
+  "slug": "/deep-learning/実践・ツール・MLOps/federated_learning",
+  "permalink": "/docs/deep-learning/実践・ツール・MLOps/federated_learning",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 150,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "説明可能なAI（XAI）",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/xai"
+  }
+}

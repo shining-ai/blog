@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/実践・ツール・MLOps/pytorch_practice",
+  "title": "PyTorch 実践",
+  "description": "PyTorch 実践とは",
+  "source": "@site/docs/deep-learning/10_実践・ツール・MLOps/50_pytorch_practice.md",
+  "sourceDirName": "deep-learning/10_実践・ツール・MLOps",
+  "slug": "/deep-learning/実践・ツール・MLOps/pytorch_practice",
+  "permalink": "/docs/deep-learning/実践・ツール・MLOps/pytorch_practice",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "PyTorch 入門",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/pytorch_intro"
+  },
+  "next": {
+    "title": "実験管理",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/experiment_management"
+  }
+}

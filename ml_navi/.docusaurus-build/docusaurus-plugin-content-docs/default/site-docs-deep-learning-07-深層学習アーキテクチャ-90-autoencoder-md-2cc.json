@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/深層学習アーキテクチャ/autoencoder",
+  "title": "オートエンコーダ",
+  "description": "オートエンコーダとは",
+  "source": "@site/docs/deep-learning/07_深層学習アーキテクチャ/90_autoencoder.md",
+  "sourceDirName": "deep-learning/07_深層学習アーキテクチャ",
+  "slug": "/deep-learning/深層学習アーキテクチャ/autoencoder",
+  "permalink": "/docs/deep-learning/深層学習アーキテクチャ/autoencoder",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 90,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "Transformer",
+    "permalink": "/docs/deep-learning/深層学習アーキテクチャ/transformer"
+  },
+  "next": {
+    "title": "VAE（変分オートエンコーダ）",
+    "permalink": "/docs/deep-learning/深層学習アーキテクチャ/vae"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/ニューラルネットワーク基礎/initialization_vanishing",
+  "title": "初期化と勾配消失問題",
+  "description": "深いニューラルネットワークを訓練する際の大きな課題が「勾配消失・爆発問題」である。初期化戦略と残差接続はこの問題を解決するための重要な手法であり、現代の深層学習の成功を支える基盤技術である。",
+  "source": "@site/docs/deep-learning/06_ニューラルネットワーク基礎/70_initialization_vanishing.md",
+  "sourceDirName": "deep-learning/06_ニューラルネットワーク基礎",
+  "slug": "/deep-learning/ニューラルネットワーク基礎/initialization_vanishing",
+  "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/initialization_vanishing",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 70,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "正則化テクニック",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/regularization"
+  },
+  "next": {
+    "title": "畳み込み層とプーリング層",
+    "permalink": "/docs/deep-learning/深層学習アーキテクチャ/cnn_basics"
+  }
+}

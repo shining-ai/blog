@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/教師なし学習/dbscan",
+  "title": "DBSCAN",
+  "description": "DBSCANとは",
+  "source": "@site/docs/classical-ml/05_教師なし学習/20_dbscan.md",
+  "sourceDirName": "classical-ml/05_教師なし学習",
+  "slug": "/classical-ml/教師なし学習/dbscan",
+  "permalink": "/docs/classical-ml/教師なし学習/dbscan",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "階層的クラスタリング",
+    "permalink": "/docs/classical-ml/教師なし学習/hierarchical_clustering"
+  },
+  "next": {
+    "title": "混合ガウスモデル（GMM）",
+    "permalink": "/docs/classical-ml/教師なし学習/gmm"
+  }
+}

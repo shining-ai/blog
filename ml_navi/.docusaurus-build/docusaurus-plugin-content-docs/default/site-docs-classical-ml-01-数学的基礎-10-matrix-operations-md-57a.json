@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/数学的基礎/matrix_operations",
+  "title": "行列の演算と性質",
+  "description": "行列の演算と性質とは",
+  "source": "@site/docs/classical-ml/01_数学的基礎/10_matrix_operations.md",
+  "sourceDirName": "classical-ml/01_数学的基礎",
+  "slug": "/classical-ml/数学的基礎/matrix_operations",
+  "permalink": "/docs/classical-ml/数学的基礎/matrix_operations",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "ベクトルと行列",
+    "permalink": "/docs/classical-ml/数学的基礎/vectors_matrices"
+  },
+  "next": {
+    "title": "微分と勾配",
+    "permalink": "/docs/classical-ml/数学的基礎/derivatives_gradients"
+  }
+}

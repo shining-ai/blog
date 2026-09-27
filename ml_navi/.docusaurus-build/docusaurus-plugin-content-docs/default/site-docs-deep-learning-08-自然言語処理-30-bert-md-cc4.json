@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/自然言語処理/bert",
+  "title": "BERT",
+  "description": "BERTとは",
+  "source": "@site/docs/deep-learning/08_自然言語処理/30_bert.md",
+  "sourceDirName": "deep-learning/08_自然言語処理",
+  "slug": "/deep-learning/自然言語処理/bert",
+  "permalink": "/docs/deep-learning/自然言語処理/bert",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "単語埋め込み",
+    "permalink": "/docs/deep-learning/自然言語処理/word_embeddings"
+  },
+  "next": {
+    "title": "GPT と大規模言語モデル",
+    "permalink": "/docs/deep-learning/自然言語処理/gpt_llm"
+  }
+}

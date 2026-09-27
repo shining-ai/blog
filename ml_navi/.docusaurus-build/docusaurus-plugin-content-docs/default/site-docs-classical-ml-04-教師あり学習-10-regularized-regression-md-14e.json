@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/教師あり学習/regularized_regression",
+  "title": "正則化回帰",
+  "description": "正則化回帰とは",
+  "source": "@site/docs/classical-ml/04_教師あり学習/10_regularized_regression.md",
+  "sourceDirName": "classical-ml/04_教師あり学習",
+  "slug": "/classical-ml/教師あり学習/regularized_regression",
+  "permalink": "/docs/classical-ml/教師あり学習/regularized_regression",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "線形回帰",
+    "permalink": "/docs/classical-ml/教師あり学習/linear_regression"
+  },
+  "next": {
+    "title": "多項式回帰",
+    "permalink": "/docs/classical-ml/教師あり学習/polynomial_regression"
+  }
+}

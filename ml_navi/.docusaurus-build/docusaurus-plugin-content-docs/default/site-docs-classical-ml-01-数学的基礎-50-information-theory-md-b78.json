@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/数学的基礎/information_theory",
+  "title": "情報理論の基礎",
+  "description": "情報理論の基礎とは",
+  "source": "@site/docs/classical-ml/01_数学的基礎/50_information_theory.md",
+  "sourceDirName": "classical-ml/01_数学的基礎",
+  "slug": "/classical-ml/数学的基礎/information_theory",
+  "permalink": "/docs/classical-ml/数学的基礎/information_theory",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "確率と統計の基礎",
+    "permalink": "/docs/classical-ml/数学的基礎/probability_statistics"
+  },
+  "next": {
+    "title": "データの種類と品質",
+    "permalink": "/docs/classical-ml/データ準備・前処理/data_types"
+  }
+}

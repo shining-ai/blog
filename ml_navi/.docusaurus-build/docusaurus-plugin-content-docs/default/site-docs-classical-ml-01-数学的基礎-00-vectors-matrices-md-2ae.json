@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/数学的基礎/vectors_matrices",
+  "title": "ベクトルと行列",
+  "description": "ベクトルと行列とは",
+  "source": "@site/docs/classical-ml/01_数学的基礎/00_vectors_matrices.md",
+  "sourceDirName": "classical-ml/01_数学的基礎",
+  "slug": "/classical-ml/数学的基礎/vectors_matrices",
+  "permalink": "/docs/classical-ml/数学的基礎/vectors_matrices",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "機械学習の学習ロードマップ",
+    "permalink": "/docs/classical-ml/イントロダクション/ml_roadmap"
+  },
+  "next": {
+    "title": "行列の演算と性質",
+    "permalink": "/docs/classical-ml/数学的基礎/matrix_operations"
+  }
+}

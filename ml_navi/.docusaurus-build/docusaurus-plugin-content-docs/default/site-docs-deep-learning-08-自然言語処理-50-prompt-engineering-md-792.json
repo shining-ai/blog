@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/自然言語処理/prompt_engineering",
+  "title": "プロンプトエンジニアリング",
+  "description": "プロンプトエンジニアリングとは",
+  "source": "@site/docs/deep-learning/08_自然言語処理/50_prompt_engineering.md",
+  "sourceDirName": "deep-learning/08_自然言語処理",
+  "slug": "/deep-learning/自然言語処理/prompt_engineering",
+  "permalink": "/docs/deep-learning/自然言語処理/prompt_engineering",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "GPT と大規模言語モデル",
+    "permalink": "/docs/deep-learning/自然言語処理/gpt_llm"
+  },
+  "next": {
+    "title": "RAG（検索拡張生成）",
+    "permalink": "/docs/deep-learning/自然言語処理/rag"
+  }
+}

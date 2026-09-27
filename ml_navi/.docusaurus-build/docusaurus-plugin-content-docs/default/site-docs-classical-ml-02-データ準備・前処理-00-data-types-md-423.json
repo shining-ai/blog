@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/データ準備・前処理/data_types",
+  "title": "データの種類と品質",
+  "description": "機械学習プロジェクトの成否は、モデルよりもデータの品質に左右されることが多い。どれほど優れたアルゴリズムを使っても、入力データが不良であれば意味のある結果は得られない。本記事では、機械学習で扱うデータの種類と、データ品質の考え方を解説する。",
+  "source": "@site/docs/classical-ml/02_データ準備・前処理/00_data_types.md",
+  "sourceDirName": "classical-ml/02_データ準備・前処理",
+  "slug": "/classical-ml/データ準備・前処理/data_types",
+  "permalink": "/docs/classical-ml/データ準備・前処理/data_types",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "情報理論の基礎",
+    "permalink": "/docs/classical-ml/数学的基礎/information_theory"
+  },
+  "next": {
+    "title": "探索的データ分析（EDA）",
+    "permalink": "/docs/classical-ml/データ準備・前処理/eda"
+  }
+}

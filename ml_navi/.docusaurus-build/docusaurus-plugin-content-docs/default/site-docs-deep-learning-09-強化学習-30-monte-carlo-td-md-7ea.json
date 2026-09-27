@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/強化学習/monte_carlo_td",
+  "title": "モンテカルロ法と TD 学習",
+  "description": "モンテカルロ法・TD学習とは",
+  "source": "@site/docs/deep-learning/09_強化学習/30_monte_carlo_td.md",
+  "sourceDirName": "deep-learning/09_強化学習",
+  "slug": "/deep-learning/強化学習/monte_carlo_td",
+  "permalink": "/docs/deep-learning/強化学習/monte_carlo_td",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "動的計画法（強化学習）",
+    "permalink": "/docs/deep-learning/強化学習/dynamic_programming"
+  },
+  "next": {
+    "title": "Q 学習と SARSA",
+    "permalink": "/docs/deep-learning/強化学習/q_learning_sarsa"
+  }
+}

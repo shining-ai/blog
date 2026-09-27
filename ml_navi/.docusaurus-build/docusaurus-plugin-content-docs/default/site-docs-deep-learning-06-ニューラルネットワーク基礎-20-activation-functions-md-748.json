@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/ニューラルネットワーク基礎/activation_functions",
+  "title": "活性化関数",
+  "description": "ニューラルネットワークに非線形性を与えるのが活性化関数の役割である。活性化関数がなければ、何層積み重ねても結果は線形変換の合成にすぎず、単一の線形変換と等価になってしまう。適切な活性化関数の選択は、学習の安定性と最終的な性能に大きく影響する。",
+  "source": "@site/docs/deep-learning/06_ニューラルネットワーク基礎/20_activation_functions.md",
+  "sourceDirName": "deep-learning/06_ニューラルネットワーク基礎",
+  "slug": "/deep-learning/ニューラルネットワーク基礎/activation_functions",
+  "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/activation_functions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "多層パーセプトロン（MLP）",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/mlp"
+  },
+  "next": {
+    "title": "損失関数",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/loss_functions"
+  }
+}

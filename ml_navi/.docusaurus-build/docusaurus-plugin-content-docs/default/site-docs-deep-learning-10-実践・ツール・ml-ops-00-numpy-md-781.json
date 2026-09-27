@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/実践・ツール・MLOps/numpy",
+  "title": "NumPy",
+  "description": "NumPyとは",
+  "source": "@site/docs/deep-learning/10_実践・ツール・MLOps/00_numpy.md",
+  "sourceDirName": "deep-learning/10_実践・ツール・MLOps",
+  "slug": "/deep-learning/実践・ツール・MLOps/numpy",
+  "permalink": "/docs/deep-learning/実践・ツール・MLOps/numpy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "方策勾配法",
+    "permalink": "/docs/deep-learning/強化学習/policy_gradient"
+  },
+  "next": {
+    "title": "Pandas",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/pandas"
+  }
+}

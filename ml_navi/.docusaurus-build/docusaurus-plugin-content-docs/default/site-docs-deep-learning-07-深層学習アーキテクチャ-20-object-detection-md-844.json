@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/深層学習アーキテクチャ/object_detection",
+  "title": "物体検出",
+  "description": "物体検出とは",
+  "source": "@site/docs/deep-learning/07_深層学習アーキテクチャ/20_object_detection.md",
+  "sourceDirName": "deep-learning/07_深層学習アーキテクチャ",
+  "slug": "/deep-learning/深層学習アーキテクチャ/object_detection",
+  "permalink": "/docs/deep-learning/深層学習アーキテクチャ/object_detection",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "代表的な CNN アーキテクチャ",
+    "permalink": "/docs/deep-learning/深層学習アーキテクチャ/cnn_architectures"
+  },
+  "next": {
+    "title": "セグメンテーション",
+    "permalink": "/docs/deep-learning/深層学習アーキテクチャ/segmentation"
+  }
+}

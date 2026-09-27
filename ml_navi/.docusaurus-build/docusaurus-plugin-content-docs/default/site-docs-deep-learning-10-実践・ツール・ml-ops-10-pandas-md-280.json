@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/実践・ツール・MLOps/pandas",
+  "title": "Pandas",
+  "description": "Pandasとは",
+  "source": "@site/docs/deep-learning/10_実践・ツール・MLOps/10_pandas.md",
+  "sourceDirName": "deep-learning/10_実践・ツール・MLOps",
+  "slug": "/deep-learning/実践・ツール・MLOps/pandas",
+  "permalink": "/docs/deep-learning/実践・ツール・MLOps/pandas",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "NumPy",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/numpy"
+  },
+  "next": {
+    "title": "Matplotlib / Seaborn",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/visualization"
+  }
+}

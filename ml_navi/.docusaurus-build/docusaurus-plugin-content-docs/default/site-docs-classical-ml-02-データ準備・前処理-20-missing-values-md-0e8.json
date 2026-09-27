@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/データ準備・前処理/missing_values",
+  "title": "欠損値処理",
+  "description": "実務のデータには必ず欠損値が含まれる。欠損値をどう扱うかは、モデルの精度と偏りに直結するため、「とりあえず平均補完」で済ませず、欠損のメカニズムを理解した上で適切な手法を選ぶことが重要である。",
+  "source": "@site/docs/classical-ml/02_データ準備・前処理/20_missing_values.md",
+  "sourceDirName": "classical-ml/02_データ準備・前処理",
+  "slug": "/classical-ml/データ準備・前処理/missing_values",
+  "permalink": "/docs/classical-ml/データ準備・前処理/missing_values",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "探索的データ分析（EDA）",
+    "permalink": "/docs/classical-ml/データ準備・前処理/eda"
+  },
+  "next": {
+    "title": "特徴量エンジニアリング",
+    "permalink": "/docs/classical-ml/データ準備・前処理/feature_engineering"
+  }
+}

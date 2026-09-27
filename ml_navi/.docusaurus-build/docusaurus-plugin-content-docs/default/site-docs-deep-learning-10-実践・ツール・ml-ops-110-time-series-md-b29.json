@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/実践・ツール・MLOps/time_series",
+  "title": "時系列予測",
+  "description": "時系列予測とは",
+  "source": "@site/docs/deep-learning/10_実践・ツール・MLOps/110_time_series.md",
+  "sourceDirName": "deep-learning/10_実践・ツール・MLOps",
+  "slug": "/deep-learning/実践・ツール・MLOps/time_series",
+  "permalink": "/docs/deep-learning/実践・ツール・MLOps/time_series",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 110,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "CI/CD for ML",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/cicd_ml"
+  },
+  "next": {
+    "title": "推薦システム",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/recommendation"
+  }
+}

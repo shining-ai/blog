@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/ニューラルネットワーク基礎/loss_functions",
+  "title": "損失関数",
+  "description": "損失関数（Loss Function）は、モデルの予測値と正解値の「ズレ」を定量化する関数である。学習はこの損失を最小化する方向に重みを更新する最適化問題であり、タスクの特性に合った損失関数を選ぶことが重要である。",
+  "source": "@site/docs/deep-learning/06_ニューラルネットワーク基礎/30_loss_functions.md",
+  "sourceDirName": "deep-learning/06_ニューラルネットワーク基礎",
+  "slug": "/deep-learning/ニューラルネットワーク基礎/loss_functions",
+  "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/loss_functions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "活性化関数",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/activation_functions"
+  },
+  "next": {
+    "title": "バックプロパゲーション",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/backpropagation"
+  }
+}

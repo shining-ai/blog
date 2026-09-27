@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/実践・ツール・MLOps/sklearn",
+  "title": "Scikit-learn",
+  "description": "Scikit-learnとは",
+  "source": "@site/docs/deep-learning/10_実践・ツール・MLOps/30_sklearn.md",
+  "sourceDirName": "deep-learning/10_実践・ツール・MLOps",
+  "slug": "/deep-learning/実践・ツール・MLOps/sklearn",
+  "permalink": "/docs/deep-learning/実践・ツール・MLOps/sklearn",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "Matplotlib / Seaborn",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/visualization"
+  },
+  "next": {
+    "title": "PyTorch 入門",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/pytorch_intro"
+  }
+}

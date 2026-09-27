@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/実践・ツール・MLOps/cicd_ml",
+  "title": "CI/CD for ML",
+  "description": "CI/CD for ML とは",
+  "source": "@site/docs/deep-learning/10_実践・ツール・MLOps/100_cicd_ml.md",
+  "sourceDirName": "deep-learning/10_実践・ツール・MLOps",
+  "slug": "/deep-learning/実践・ツール・MLOps/cicd_ml",
+  "permalink": "/docs/deep-learning/実践・ツール・MLOps/cicd_ml",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 100,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "モデル監視",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/model_monitoring"
+  },
+  "next": {
+    "title": "時系列予測",
+    "permalink": "/docs/deep-learning/実践・ツール・MLOps/time_series"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/ニューラルネットワーク基礎/perceptron",
+  "title": "パーセプトロン",
+  "description": "ニューラルネットワークの起源は、1958年にフランク・ローゼンブラットが提案したパーセプトロンにある。生物の神経細胞（ニューロン）の動作を数学的にモデル化したもので、現代の深層学習の礎となった概念である。",
+  "source": "@site/docs/deep-learning/06_ニューラルネットワーク基礎/00_perceptron.md",
+  "sourceDirName": "deep-learning/06_ニューラルネットワーク基礎",
+  "slug": "/deep-learning/ニューラルネットワーク基礎/perceptron",
+  "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/perceptron",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "深層学習・応用",
+    "permalink": "/docs/deep-learning/intro"
+  },
+  "next": {
+    "title": "多層パーセプトロン（MLP）",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/mlp"
+  }
+}

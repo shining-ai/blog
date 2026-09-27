@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/数学的基礎/derivatives_gradients",
+  "title": "微分と勾配",
+  "description": "微分と勾配とは",
+  "source": "@site/docs/classical-ml/01_数学的基礎/20_derivatives_gradients.md",
+  "sourceDirName": "classical-ml/01_数学的基礎",
+  "slug": "/classical-ml/数学的基礎/derivatives_gradients",
+  "permalink": "/docs/classical-ml/数学的基礎/derivatives_gradients",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "行列の演算と性質",
+    "permalink": "/docs/classical-ml/数学的基礎/matrix_operations"
+  },
+  "next": {
+    "title": "最適化の基礎",
+    "permalink": "/docs/classical-ml/数学的基礎/optimization_basics"
+  }
+}

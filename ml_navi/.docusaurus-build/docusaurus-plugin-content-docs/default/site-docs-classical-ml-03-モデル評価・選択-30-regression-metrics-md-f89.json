@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/モデル評価・選択/regression_metrics",
+  "title": "回帰の評価指標",
+  "description": "回帰モデルの評価は分類モデルとは異なり、予測値と実際値の「ずれ」を数値で測る。どの指標を使うかによってモデルの見え方が変わるため、ビジネスの目的に合った指標を選ぶことが重要である。本記事では主要な回帰評価指標と残差分析を体系的に解説する。",
+  "source": "@site/docs/classical-ml/03_モデル評価・選択/30_regression_metrics.md",
+  "sourceDirName": "classical-ml/03_モデル評価・選択",
+  "slug": "/classical-ml/モデル評価・選択/regression_metrics",
+  "permalink": "/docs/classical-ml/モデル評価・選択/regression_metrics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "分類の評価指標",
+    "permalink": "/docs/classical-ml/モデル評価・選択/classification_metrics"
+  },
+  "next": {
+    "title": "ハイパーパラメータチューニング",
+    "permalink": "/docs/classical-ml/モデル評価・選択/hyperparameter_tuning"
+  }
+}

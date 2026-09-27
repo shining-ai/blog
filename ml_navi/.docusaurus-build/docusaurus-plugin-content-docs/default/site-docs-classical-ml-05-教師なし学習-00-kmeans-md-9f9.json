@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/教師なし学習/kmeans",
+  "title": "k-means法",
+  "description": "k-means法とは",
+  "source": "@site/docs/classical-ml/05_教師なし学習/00_kmeans.md",
+  "sourceDirName": "classical-ml/05_教師なし学習",
+  "slug": "/classical-ml/教師なし学習/kmeans",
+  "permalink": "/docs/classical-ml/教師なし学習/kmeans",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "スタッキング",
+    "permalink": "/docs/classical-ml/教師あり学習/stacking"
+  },
+  "next": {
+    "title": "階層的クラスタリング",
+    "permalink": "/docs/classical-ml/教師なし学習/hierarchical_clustering"
+  }
+}

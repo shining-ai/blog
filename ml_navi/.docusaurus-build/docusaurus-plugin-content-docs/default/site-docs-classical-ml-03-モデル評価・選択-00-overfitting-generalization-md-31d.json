@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/モデル評価・選択/overfitting_generalization",
+  "title": "過学習と汎化",
+  "description": "機械学習モデルを構築する際の最大の課題の一つが「過学習」と「汎化性能」のバランスである。訓練データに完璧に当てはまるモデルが、未知のデータに対しては全く機能しないという現象は、機械学習の実務で頻繁に遭遇する。本記事では過学習の本質とその対処法を体系的に解説する。",
+  "source": "@site/docs/classical-ml/03_モデル評価・選択/00_overfitting_generalization.md",
+  "sourceDirName": "classical-ml/03_モデル評価・選択",
+  "slug": "/classical-ml/モデル評価・選択/overfitting_generalization",
+  "permalink": "/docs/classical-ml/モデル評価・選択/overfitting_generalization",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "データ分割",
+    "permalink": "/docs/classical-ml/データ準備・前処理/data_split"
+  },
+  "next": {
+    "title": "交差検証",
+    "permalink": "/docs/classical-ml/モデル評価・選択/cross_validation"
+  }
+}

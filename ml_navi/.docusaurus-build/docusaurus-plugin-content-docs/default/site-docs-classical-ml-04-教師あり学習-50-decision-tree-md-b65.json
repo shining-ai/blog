@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/教師あり学習/decision_tree",
+  "title": "決定木",
+  "description": "決定木とは",
+  "source": "@site/docs/classical-ml/04_教師あり学習/50_decision_tree.md",
+  "sourceDirName": "classical-ml/04_教師あり学習",
+  "slug": "/classical-ml/教師あり学習/decision_tree",
+  "permalink": "/docs/classical-ml/教師あり学習/decision_tree",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "k最近傍法（k-NN）",
+    "permalink": "/docs/classical-ml/教師あり学習/knn"
+  },
+  "next": {
+    "title": "ナイーブベイズ",
+    "permalink": "/docs/classical-ml/教師あり学習/naive_bayes"
+  }
+}

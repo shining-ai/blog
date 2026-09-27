@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/強化学習/dqn",
+  "title": "深層 Q ネットワーク（DQN）",
+  "description": "DQNとは",
+  "source": "@site/docs/deep-learning/09_強化学習/50_dqn.md",
+  "sourceDirName": "deep-learning/09_強化学習",
+  "slug": "/deep-learning/強化学習/dqn",
+  "permalink": "/docs/deep-learning/強化学習/dqn",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "Q 学習と SARSA",
+    "permalink": "/docs/deep-learning/強化学習/q_learning_sarsa"
+  },
+  "next": {
+    "title": "方策勾配法",
+    "permalink": "/docs/deep-learning/強化学習/policy_gradient"
+  }
+}

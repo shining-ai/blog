@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/自然言語処理/word_embeddings",
+  "title": "単語埋め込み",
+  "description": "単語埋め込みとは",
+  "source": "@site/docs/deep-learning/08_自然言語処理/20_word_embeddings.md",
+  "sourceDirName": "deep-learning/08_自然言語処理",
+  "slug": "/deep-learning/自然言語処理/word_embeddings",
+  "permalink": "/docs/deep-learning/自然言語処理/word_embeddings",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "テキストの数値表現",
+    "permalink": "/docs/deep-learning/自然言語処理/text_representation"
+  },
+  "next": {
+    "title": "BERT",
+    "permalink": "/docs/deep-learning/自然言語処理/bert"
+  }
+}

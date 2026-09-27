@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/深層学習アーキテクチャ/cnn_basics",
+  "title": "畳み込み層とプーリング層",
+  "description": "畳み込みニューラルネットワーク（CNN）は、画像認識を中心に革命を起こした深層学習アーキテクチャである。画像の空間的な構造を効率的に処理するために設計された畳み込み層とプーリング層を核とする。",
+  "source": "@site/docs/deep-learning/07_深層学習アーキテクチャ/00_cnn_basics.md",
+  "sourceDirName": "deep-learning/07_深層学習アーキテクチャ",
+  "slug": "/deep-learning/深層学習アーキテクチャ/cnn_basics",
+  "permalink": "/docs/deep-learning/深層学習アーキテクチャ/cnn_basics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "初期化と勾配消失問題",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/initialization_vanishing"
+  },
+  "next": {
+    "title": "代表的な CNN アーキテクチャ",
+    "permalink": "/docs/deep-learning/深層学習アーキテクチャ/cnn_architectures"
+  }
+}

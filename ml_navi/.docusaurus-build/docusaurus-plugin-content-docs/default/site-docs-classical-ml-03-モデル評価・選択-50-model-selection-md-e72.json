@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/モデル評価・選択/model_selection",
+  "title": "モデル選択の考え方",
+  "description": "モデル選択の考え方とは",
+  "source": "@site/docs/classical-ml/03_モデル評価・選択/50_model_selection.md",
+  "sourceDirName": "classical-ml/03_モデル評価・選択",
+  "slug": "/classical-ml/モデル評価・選択/model_selection",
+  "permalink": "/docs/classical-ml/モデル評価・選択/model_selection",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "ハイパーパラメータチューニング",
+    "permalink": "/docs/classical-ml/モデル評価・選択/hyperparameter_tuning"
+  },
+  "next": {
+    "title": "線形回帰",
+    "permalink": "/docs/classical-ml/教師あり学習/linear_regression"
+  }
+}

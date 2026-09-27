@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/データ準備・前処理/feature_engineering",
+  "title": "特徴量エンジニアリング",
+  "description": "機械学習の実務において、「良い特徴量を作る」ことはモデルのアーキテクチャを工夫することと同じかそれ以上の効果を持つ。特徴量エンジニアリングは、ドメイン知識と数学的直感を組み合わせ、生データから有用な信号を引き出すプロセスである。",
+  "source": "@site/docs/classical-ml/02_データ準備・前処理/30_feature_engineering.md",
+  "sourceDirName": "classical-ml/02_データ準備・前処理",
+  "slug": "/classical-ml/データ準備・前処理/feature_engineering",
+  "permalink": "/docs/classical-ml/データ準備・前処理/feature_engineering",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "欠損値処理",
+    "permalink": "/docs/classical-ml/データ準備・前処理/missing_values"
+  },
+  "next": {
+    "title": "不均衡データへの対処",
+    "permalink": "/docs/classical-ml/データ準備・前処理/imbalanced_data"
+  }
+}

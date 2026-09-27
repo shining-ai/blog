@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/数学的基礎/probability_statistics",
+  "title": "確率と統計の基礎",
+  "description": "確率と統計の基礎とは",
+  "source": "@site/docs/classical-ml/01_数学的基礎/40_probability_statistics.md",
+  "sourceDirName": "classical-ml/01_数学的基礎",
+  "slug": "/classical-ml/数学的基礎/probability_statistics",
+  "permalink": "/docs/classical-ml/数学的基礎/probability_statistics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "最適化の基礎",
+    "permalink": "/docs/classical-ml/数学的基礎/optimization_basics"
+  },
+  "next": {
+    "title": "情報理論の基礎",
+    "permalink": "/docs/classical-ml/数学的基礎/information_theory"
+  }
+}

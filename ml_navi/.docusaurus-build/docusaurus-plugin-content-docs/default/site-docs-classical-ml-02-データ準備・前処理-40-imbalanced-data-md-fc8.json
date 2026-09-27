@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/データ準備・前処理/imbalanced_data",
+  "title": "不均衡データへの対処",
+  "description": "詐欺検知・疾患診断・機器故障予測など、実務の分類タスクではクラスが極端に偏っていることが多い。99% が正常・1% が異常というデータに対して「すべて正常」と予測するだけで精度 99% を達成できてしまうが、これは意味のあるモデルではない。本記事では不均衡データの本質と対処法を解説する。",
+  "source": "@site/docs/classical-ml/02_データ準備・前処理/40_imbalanced_data.md",
+  "sourceDirName": "classical-ml/02_データ準備・前処理",
+  "slug": "/classical-ml/データ準備・前処理/imbalanced_data",
+  "permalink": "/docs/classical-ml/データ準備・前処理/imbalanced_data",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "特徴量エンジニアリング",
+    "permalink": "/docs/classical-ml/データ準備・前処理/feature_engineering"
+  },
+  "next": {
+    "title": "データ分割",
+    "permalink": "/docs/classical-ml/データ準備・前処理/data_split"
+  }
+}

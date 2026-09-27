@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/ニューラルネットワーク基礎/regularization",
+  "title": "正則化テクニック",
+  "description": "深層ニューラルネットワークは表現力が高い反面、訓練データに過適合（過学習）しやすい。正則化テクニックはこの過学習を抑制し、未見データへの汎化性能を高めるための手法群である。現代の深層学習では複数の正則化手法を組み合わせて使用するのが標準的である。",
+  "source": "@site/docs/deep-learning/06_ニューラルネットワーク基礎/60_regularization.md",
+  "sourceDirName": "deep-learning/06_ニューラルネットワーク基礎",
+  "slug": "/deep-learning/ニューラルネットワーク基礎/regularization",
+  "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/regularization",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 60,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "最適化アルゴリズム",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/optimizers"
+  },
+  "next": {
+    "title": "初期化と勾配消失問題",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/initialization_vanishing"
+  }
+}

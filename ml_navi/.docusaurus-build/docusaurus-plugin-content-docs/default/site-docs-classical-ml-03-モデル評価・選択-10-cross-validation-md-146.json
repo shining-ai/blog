@@ -1,0 +1,24 @@
+{
+  "id": "classical-ml/モデル評価・選択/cross_validation",
+  "title": "交差検証",
+  "description": "テストセットを一度だけ使う単純なホールドアウト法では、データの分割方法によって評価結果が大きく変動することがある。交差検証はデータをより効率的に使い、より信頼性の高い性能評価を実現する手法である。",
+  "source": "@site/docs/classical-ml/03_モデル評価・選択/10_cross_validation.md",
+  "sourceDirName": "classical-ml/03_モデル評価・選択",
+  "slug": "/classical-ml/モデル評価・選択/cross_validation",
+  "permalink": "/docs/classical-ml/モデル評価・選択/cross_validation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "classicalMlSidebar",
+  "previous": {
+    "title": "過学習と汎化",
+    "permalink": "/docs/classical-ml/モデル評価・選択/overfitting_generalization"
+  },
+  "next": {
+    "title": "分類の評価指標",
+    "permalink": "/docs/classical-ml/モデル評価・選択/classification_metrics"
+  }
+}

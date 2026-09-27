@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/ニューラルネットワーク基礎/optimizers",
+  "title": "最適化アルゴリズム",
+  "description": "ニューラルネットワークの学習は、損失関数を最小化するパラメータを見つける最適化問題である。単純な勾配降下法から始まり、モメンタム・適応学習率など様々な改良が生まれた。最適化アルゴリズムの選択は学習速度・安定性・最終精度に大きく影響する。",
+  "source": "@site/docs/deep-learning/06_ニューラルネットワーク基礎/50_optimizers.md",
+  "sourceDirName": "deep-learning/06_ニューラルネットワーク基礎",
+  "slug": "/deep-learning/ニューラルネットワーク基礎/optimizers",
+  "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/optimizers",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "バックプロパゲーション",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/backpropagation"
+  },
+  "next": {
+    "title": "正則化テクニック",
+    "permalink": "/docs/deep-learning/ニューラルネットワーク基礎/regularization"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/強化学習/rl_basics",
+  "title": "強化学習の基礎",
+  "description": "強化学習とは",
+  "source": "@site/docs/deep-learning/09_強化学習/00_rl_basics.md",
+  "sourceDirName": "deep-learning/09_強化学習",
+  "slug": "/deep-learning/強化学習/rl_basics",
+  "permalink": "/docs/deep-learning/強化学習/rl_basics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "RAG（検索拡張生成）",
+    "permalink": "/docs/deep-learning/自然言語処理/rag"
+  },
+  "next": {
+    "title": "マルコフ決定過程（MDP）",
+    "permalink": "/docs/deep-learning/強化学習/mdp"
+  }
+}

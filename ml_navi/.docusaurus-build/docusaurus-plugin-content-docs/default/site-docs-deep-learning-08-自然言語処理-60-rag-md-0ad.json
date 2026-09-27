@@ -1,0 +1,24 @@
+{
+  "id": "deep-learning/自然言語処理/rag",
+  "title": "RAG（検索拡張生成）",
+  "description": "RAGとは",
+  "source": "@site/docs/deep-learning/08_自然言語処理/60_rag.md",
+  "sourceDirName": "deep-learning/08_自然言語処理",
+  "slug": "/deep-learning/自然言語処理/rag",
+  "permalink": "/docs/deep-learning/自然言語処理/rag",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 60,
+  "frontMatter": {},
+  "sidebar": "deepLearningSidebar",
+  "previous": {
+    "title": "プロンプトエンジニアリング",
+    "permalink": "/docs/deep-learning/自然言語処理/prompt_engineering"
+  },
+  "next": {
+    "title": "強化学習の基礎",
+    "permalink": "/docs/deep-learning/強化学習/rl_basics"
+  }
+}
